@@ -8,6 +8,7 @@ const state = {
   sections: [],
   categoryMax: new Map(),
   categoryRanks: new Map(),
+  seriesRanks: new Map(),
   renderToken: 0
 };
 
@@ -193,6 +194,7 @@ async function loadData() {
   state.sections = [...new Set(articles.map((item) => item.displayPath[0]))];
   state.categoryMax = buildCategoryMax(articles);
   state.categoryRanks = buildCategoryRanks(articles);
+  state.seriesRanks = buildSeriesRanks(articles);
   populateHeaderSectionFilter();
 }
 
@@ -271,12 +273,13 @@ function sortByMode(items, mode) {
 
 function orderLabel(item, parts = publicPathParts(item.displayPath)) {
   if (!item.sourceOrder) return item.kindLabel;
+  const seriesRank = seriesOrderInfo(item);
+  if (seriesRank) return formatOrderNumber(seriesRank.order, seriesRank.max);
   const rankParts = publicPathParts(parts);
   const ranks = state.categoryRanks.get(pathKey(rankParts));
   const displayOrder = ranks?.orders.get(item.id) || item.sourceOrder;
   const max = ranks?.max || state.categoryMax.get(categoryKey(item)) || item.sourceOrder;
-  const width = Math.max(3, String(max).length);
-  return `#${String(displayOrder).padStart(width, "0")}`;
+  return formatOrderNumber(displayOrder, max);
 }
 
 function categoryKey(item) {
@@ -413,6 +416,42 @@ function buildCategoryRanks(items) {
     ranks.set(key, { max: records.length, orders });
   }
   return ranks;
+}
+
+function buildSeriesRanks(items) {
+  const ranks = new Map();
+  const groups = groupBy(items.filter((item) => item.series?.id), seriesRankKey);
+  for (const [key, records] of groups.entries()) {
+    const sorted = [...records].sort((a, b) => {
+      const partA = Number(a.series?.part || 0);
+      const partB = Number(b.series?.part || 0);
+      if (partA && partB && partA !== partB) return partA - partB;
+      if (partA && !partB) return -1;
+      if (!partA && partB) return 1;
+      return Number(a.sourceOrder || 0) - Number(b.sourceOrder || 0);
+    });
+    const orders = new Map(sorted.map((item, index) => [item.id, Number(item.series?.part || 0) || index + 1]));
+    const max = Math.max(sorted.length, ...[...orders.values()]);
+    ranks.set(key, { max, orders });
+  }
+  return ranks;
+}
+
+function seriesRankKey(item) {
+  return `${pathKey(publicPathParts(item.displayPath))}::${item.series?.id || ""}`;
+}
+
+function seriesOrderInfo(item) {
+  if (!item.series?.id) return null;
+  const ranks = state.seriesRanks.get(seriesRankKey(item));
+  const order = ranks?.orders.get(item.id);
+  if (!order) return null;
+  return { order, max: ranks.max };
+}
+
+function formatOrderNumber(order, max) {
+  const width = Math.max(3, String(max).length);
+  return `#${String(order).padStart(width, "0")}`;
 }
 
 function applySettings() {
