@@ -157,17 +157,17 @@ const PATH_LABEL_SLUGS = new Map([
   ["經證．祖傳", "proofs-biographies"]
 ]);
 const PATH_SLUG_LABELS = new Map([...PATH_LABEL_SLUGS.entries()].map(([label, slug]) => [slug, label]));
-const BASE_ARTICLE_BODY_SIZE = 16 * 1.12;
-const MAX_ARTICLE_BODY_SIZE = 40;
-const MIN_FONT_SCALE = 0.9;
-const MAX_FONT_SCALE = Number((MAX_ARTICLE_BODY_SIZE / BASE_ARTICLE_BODY_SIZE).toFixed(2));
+const DEFAULT_CONTENT_FONT_SIZE = 14;
+const MIN_CONTENT_FONT_SIZE = 10;
+const MAX_CONTENT_FONT_SIZE = 40;
+const CONTENT_FONT_STEP = 2;
 const INITIAL_SEARCH_RENDER_SIZE = 20;
 const BACKGROUND_SEARCH_BATCH_SIZE = 20;
 const DIRECTORY_PAGE_SIZE = 120;
 const CACHE_VERSION = new URLSearchParams(location.search).get("v") || "dev";
 const settings = {
   theme: localStorage.getItem("plb-theme") || "light",
-  fontScale: Number(localStorage.getItem("plb-font-scale") || 1)
+  fontSize: Number(localStorage.getItem("plb-content-font-size") || DEFAULT_CONTENT_FONT_SIZE)
 };
 
 applySettings();
@@ -455,16 +455,13 @@ function formatOrderNumber(order, max) {
 }
 
 function applySettings() {
-  settings.fontScale = Math.min(MAX_FONT_SCALE, Math.max(MIN_FONT_SCALE, settings.fontScale));
-  localStorage.setItem("plb-font-scale", String(settings.fontScale));
+  settings.fontSize = clampNumber(settings.fontSize, MIN_CONTENT_FONT_SIZE, MAX_CONTENT_FONT_SIZE);
+  localStorage.setItem("plb-content-font-size", String(settings.fontSize));
+  localStorage.removeItem("plb-font-scale");
   document.documentElement.dataset.theme = settings.theme;
-  document.documentElement.style.setProperty("--reader-scale", String(settings.fontScale));
-  document.documentElement.style.setProperty(
-    "--article-root-size",
-    `${(16 * settings.fontScale).toFixed(2)}px`
-  );
-  document.documentElement.style.fontSize = `${(100 * settings.fontScale).toFixed(2)}%`;
-  document.body.style.fontSize = `${(18 * settings.fontScale).toFixed(2)}px`;
+  document.documentElement.style.setProperty("--reader-scale", String(contentFontScale()));
+  document.documentElement.style.setProperty("--content-root-size", `${settings.fontSize}px`);
+  document.documentElement.style.setProperty("--article-root-size", `${settings.fontSize}px`);
   scaleArticleInlineFontSizes();
   const themeButton = document.querySelector("[data-setting='theme']");
   if (themeButton) themeButton.textContent = settings.theme === "dark" ? "亮" : "深";
@@ -474,15 +471,23 @@ function applySettings() {
 function syncFontButtons() {
   const downButton = document.querySelector("[data-setting='font-down']");
   const upButton = document.querySelector("[data-setting='font-up']");
+  const resetButton = document.querySelector("[data-setting='font-reset']");
   if (!downButton || !upButton) return;
-  downButton.disabled = settings.fontScale <= MIN_FONT_SCALE;
-  upButton.disabled = settings.fontScale >= MAX_FONT_SCALE;
-  downButton.title = downButton.disabled ? "已是最小字級" : "縮小字級";
-  upButton.title = upButton.disabled ? "已是最大字級" : "放大字級";
+  downButton.disabled = settings.fontSize <= MIN_CONTENT_FONT_SIZE;
+  upButton.disabled = settings.fontSize >= MAX_CONTENT_FONT_SIZE;
+  if (resetButton) resetButton.disabled = settings.fontSize === DEFAULT_CONTENT_FONT_SIZE;
+  downButton.title = downButton.disabled ? `已是最小字級 ${MIN_CONTENT_FONT_SIZE}px` : "縮小內容字級";
+  upButton.title = upButton.disabled ? `已是最大字級 ${MAX_CONTENT_FONT_SIZE}px` : "放大內容字級";
+  if (resetButton) resetButton.title = `重置內容字級為 ${DEFAULT_CONTENT_FONT_SIZE}px`;
+}
+
+function contentFontScale() {
+  return settings.fontSize / DEFAULT_CONTENT_FONT_SIZE;
 }
 
 function scaleArticleInlineFontSizes(root = document) {
   const scope = root.querySelector?.(".article-body") || root;
+  const scale = contentFontScale();
   scope.querySelectorAll?.("[style*='font-size']").forEach((element) => {
     const original = element.dataset.originalFontSize || element.style.fontSize;
     if (!original) return;
@@ -491,7 +496,7 @@ function scaleArticleInlineFontSizes(root = document) {
     if (!match) return;
     const value = Number(match[1]);
     const unit = match[2];
-    element.style.fontSize = `${Number((value * settings.fontScale).toFixed(2))}${unit}`;
+    element.style.fontSize = `${Number((value * scale).toFixed(2))}${unit}`;
   });
 }
 
@@ -597,13 +602,18 @@ function wireSettings() {
     applySettings();
   });
   document.querySelector("[data-setting='font-down']").addEventListener("click", () => {
-    settings.fontScale = Math.max(MIN_FONT_SCALE, Number((settings.fontScale - 0.08).toFixed(2)));
-    localStorage.setItem("plb-font-scale", String(settings.fontScale));
+    settings.fontSize = Math.max(MIN_CONTENT_FONT_SIZE, settings.fontSize - CONTENT_FONT_STEP);
+    localStorage.setItem("plb-content-font-size", String(settings.fontSize));
     applySettings();
   });
   document.querySelector("[data-setting='font-up']").addEventListener("click", () => {
-    settings.fontScale = Math.min(MAX_FONT_SCALE, Number((settings.fontScale + 0.08).toFixed(2)));
-    localStorage.setItem("plb-font-scale", String(settings.fontScale));
+    settings.fontSize = Math.min(MAX_CONTENT_FONT_SIZE, settings.fontSize + CONTENT_FONT_STEP);
+    localStorage.setItem("plb-content-font-size", String(settings.fontSize));
+    applySettings();
+  });
+  document.querySelector("[data-setting='font-reset']")?.addEventListener("click", () => {
+    settings.fontSize = DEFAULT_CONTENT_FONT_SIZE;
+    localStorage.setItem("plb-content-font-size", String(settings.fontSize));
     applySettings();
   });
 }
