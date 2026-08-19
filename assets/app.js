@@ -7,6 +7,7 @@ const state = {
   tags: {},
   sections: [],
   categoryMax: new Map(),
+  categoryRanks: new Map(),
   renderToken: 0
 };
 
@@ -191,6 +192,7 @@ async function loadData() {
   state.tags = tags;
   state.sections = [...new Set(articles.map((item) => item.displayPath[0]))];
   state.categoryMax = buildCategoryMax(articles);
+  state.categoryRanks = buildCategoryRanks(articles);
   populateHeaderSectionFilter();
 }
 
@@ -267,11 +269,14 @@ function sortByMode(items, mode) {
   return mode === "oldest" ? sortOldest(items) : sortNewest(items);
 }
 
-function orderLabel(item) {
+function orderLabel(item, parts = publicPathParts(item.displayPath)) {
   if (!item.sourceOrder) return item.kindLabel;
-  const max = state.categoryMax.get(categoryKey(item)) || item.sourceOrder;
+  const rankParts = publicPathParts(parts);
+  const ranks = state.categoryRanks.get(pathKey(rankParts));
+  const displayOrder = ranks?.orders.get(item.id) || item.sourceOrder;
+  const max = ranks?.max || state.categoryMax.get(categoryKey(item)) || item.sourceOrder;
   const width = Math.max(3, String(max).length);
-  return `#${String(item.sourceOrder).padStart(width, "0")}`;
+  return `#${String(displayOrder).padStart(width, "0")}`;
 }
 
 function categoryKey(item) {
@@ -348,6 +353,10 @@ function pathMatches(item, parts) {
   return parts.every((part, index) => item.displayPath[index] === part);
 }
 
+function pathPartsMatch(candidateParts, parts) {
+  return parts.every((part, index) => candidateParts[index] === part);
+}
+
 function parsePathRoute(value = "") {
   return sourcePathParts(decodeURIComponent(value).split("/").filter(Boolean));
 }
@@ -388,6 +397,24 @@ function buildCategoryMax(items) {
   return max;
 }
 
+function buildCategoryRanks(items) {
+  const ranks = new Map();
+  const pathKeys = new Set();
+  for (const item of items) {
+    const publicParts = publicPathParts(item.displayPath);
+    for (let index = 1; index <= publicParts.length; index += 1) {
+      pathKeys.add(pathKey(publicParts.slice(0, index)));
+    }
+  }
+  for (const key of pathKeys) {
+    const parts = key.split("/");
+    const records = sortOldest(items.filter((item) => pathPartsMatch(publicPathParts(item.displayPath), parts)));
+    const orders = new Map(records.map((item, index) => [item.id, index + 1]));
+    ranks.set(key, { max: records.length, orders });
+  }
+  return ranks;
+}
+
 function applySettings() {
   settings.fontScale = Math.min(MAX_FONT_SCALE, Math.max(MIN_FONT_SCALE, settings.fontScale));
   localStorage.setItem("plb-font-scale", String(settings.fontScale));
@@ -397,6 +424,8 @@ function applySettings() {
     "--article-root-size",
     `${(16 * settings.fontScale).toFixed(2)}px`
   );
+  document.documentElement.style.fontSize = `${(100 * settings.fontScale).toFixed(2)}%`;
+  document.body.style.fontSize = `${(18 * settings.fontScale).toFixed(2)}px`;
   scaleArticleInlineFontSizes();
   const themeButton = document.querySelector("[data-setting='theme']");
   if (themeButton) themeButton.textContent = settings.theme === "dark" ? "亮" : "深";
@@ -765,7 +794,7 @@ function renderPathPage(parts) {
   app.innerHTML = `
     ${renderCrumbs(parts)}
     <section class="hero">
-      <h1>${esc(title)}</h1>
+      <h1>${esc(title)} <span class="title-count">共 ${baseList.length} 篇</span></h1>
     </section>
     ${renderDirectoryBar(parts, childGroups, baseList, sort, visibleItems.length)}
     ${renderSeriesPanel(parts, baseList)}
@@ -893,18 +922,16 @@ function compareFixedPathOrder(partsA, partsB) {
 function renderDirectoryBar(parts, childGroups, items, sort, visibleCount) {
   return `
     <section class="panel directory-bar">
-      <span class="meta">共 ${items.length} 篇，顯示 ${Math.min(visibleCount, items.length)} 篇</span>
-      <span class="meta" data-list-progress>目前 1 / ${Math.max(visibleCount, 1)}</span>
       <span class="spacer"></span>
-      ${renderJumpForm(items)}
+      ${renderJumpForm(items, parts)}
     </section>
   `;
 }
 
-function renderJumpForm(items) {
+function renderJumpForm(items, parts) {
   if (!items.some((item) => item.sourceOrder)) return "";
   return `
-    <form class="jump-form" data-jump-number>
+    <form class="jump-form" data-jump-number data-jump-parts="${esc(JSON.stringify(parts))}">
       <label>
         跳到 #
         <input name="order" type="search" inputmode="numeric" pattern="[0-9]*" aria-label="輸入文章編號" />
@@ -917,10 +944,12 @@ function renderJumpForm(items) {
 function wireDirectoryControls(allItems, visibleItems) {
   const jumpForm = app.querySelector("[data-jump-number]");
   if (jumpForm) {
+    const parts = publicPathParts(JSON.parse(jumpForm.dataset.jumpParts || "[]"));
+    const ranks = state.categoryRanks.get(pathKey(parts));
     jumpForm.addEventListener("submit", (event) => {
       event.preventDefault();
       const value = new FormData(jumpForm).get("order");
-      const target = allItems.find((item) => Number(item.sourceOrder) === Number(value));
+      const target = allItems.find((item) => Number(ranks?.orders.get(item.id) || item.sourceOrder) === Number(value));
       if (target) {
         location.hash = `#/article/${target.id}`;
       } else {
@@ -928,24 +957,6 @@ function wireDirectoryControls(allItems, visibleItems) {
       }
     });
   }
-  const progress = app.querySelector("[data-list-progress]");
-  const cards = [...app.querySelectorAll("[data-list-index]")];
-  if (!progress || !cards.length) return;
-  if (!("IntersectionObserver" in window)) {
-    progress.textContent = `目前 1 / ${visibleItems.length}`;
-    return;
-  }
-  const visible = new Set();
-  const observer = new IntersectionObserver((entries) => {
-    for (const entry of entries) {
-      const index = Number(entry.target.dataset.listIndex);
-      if (entry.isIntersecting) visible.add(index);
-      else visible.delete(index);
-    }
-    const current = Math.min(...(visible.size ? [...visible] : [1]));
-    progress.textContent = `目前 ${current} / ${visibleItems.length}`;
-  }, { rootMargin: "-20% 0px -65% 0px", threshold: 0 });
-  cards.forEach((card) => observer.observe(card));
 }
 
 function renderSeriesPanel(parts, items) {
@@ -1406,7 +1417,7 @@ async function renderArticle(id) {
   const articleBodyHtml = prepareArticleBodyHtml(article);
   app.innerHTML = `
     <article class="article-shell article">
-      ${renderCrumbs(article.displayPath, { trailing: article.sourceOrder ? `<span class="path-order">${esc(orderLabel(article))}</span>` : "" })}
+      ${renderCrumbs(article.displayPath, { trailing: article.sourceOrder ? `<span class="path-order">${esc(orderLabel(article, article.displayPath))}</span>` : "" })}
       <div data-article-tools></div>
       <h1>${esc(article.title)}</h1>
       ${article.series ? `<p class="meta">系列：<a href="#/search?q=${encodeURIComponent(article.series.title)}&section=${encodeURIComponent(article.displayPath[0])}">${esc(article.series.title)}</a>${article.series.partLabel ? ` · 第 ${esc(article.series.partLabel)} 篇` : ""}</p>` : ""}
@@ -1456,7 +1467,7 @@ function renderAttachments(article) {
 function renderCard(item, options = {}) {
   const listIndex = typeof options === "object" ? options.listIndex : null;
   const displayPath = options.displayPath || item.displayPath;
-  const order = item.sourceOrder ? `<span class="path-order">${esc(orderLabel(item))}</span>` : "";
+  const order = item.sourceOrder ? `<span class="path-order">${esc(orderLabel(item, displayPath))}</span>` : "";
   return `
     <div class="card article-card"${listIndex ? ` data-list-index="${listIndex}"` : ""}>
       <span class="meta path-links">${renderPathLinks(displayPath)}${order ? ` ${order}` : ""}</span>
@@ -1664,7 +1675,7 @@ function renderDirectoryDrawer(article, siblings) {
   toggle.hidden = false;
   syncStickyHeaderHeight();
   list.innerHTML = sortNewest(siblings)
-    .map((item) => `<li><a class="${item.id === article.id ? "active" : ""}" href="#/article/${item.id}">${item.sourceOrder ? `<span class="mini-order">#${esc(item.sourceOrder)}</span>` : ""}${esc(item.title)}</a></li>`)
+    .map((item) => `<li><a class="${item.id === article.id ? "active" : ""}" href="#/article/${item.id}">${item.sourceOrder ? `<span class="mini-order">${esc(orderLabel(item, article.displayPath))}</span>` : ""}${esc(item.title)}</a></li>`)
     .join("");
 }
 

@@ -189,6 +189,16 @@ main {
   line-height: 1.2;
 }
 
+.title-count {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: var(--muted);
+  font-size: 0.34em;
+  font-weight: 400;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .hero p {
   max-width: 46rem;
   color: var(--muted);
@@ -898,6 +908,10 @@ main {
   margin-top: 0.25rem;
   padding: 0.65rem 0.75rem;
   white-space: nowrap;
+  position: sticky;
+  top: var(--sticky-header-height, 5.2rem);
+  z-index: 8;
+  background: var(--paper);
 }
 
 .jump-form {
