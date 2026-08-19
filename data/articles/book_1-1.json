@@ -1,0 +1,61 @@
+{
+  "id": "book_1-1",
+  "kind": "book",
+  "kindLabel": "書籍頁",
+  "title": "淨土宗叢書",
+  "author": "慧淨法師、淨宗法師",
+  "sourceUrl": "https://plb.tw/tc/book_1_in.aspx?id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&param=pn%3d1",
+  "sourcePath": [
+    "淨土宗叢書",
+    "淨土宗叢書"
+  ],
+  "displayPath": [
+    "書籍下載",
+    "淨土宗叢書"
+  ],
+  "autoTags": [
+    "書籍下載",
+    "淨土宗叢書",
+    "慧淨法師、淨宗法師"
+  ],
+  "manualTags": [],
+  "userTags": [],
+  "sourceOrder": null,
+  "series": null,
+  "related": {
+    "sameSeries": [],
+    "sameAuthor": [],
+    "sameCategory": [
+      "book_1-32"
+    ],
+    "sameTopic": [
+      "book_1-32"
+    ],
+    "relatedBooks": [
+      "book_1-32"
+    ]
+  },
+  "excerpt": "01《淨土宗聖教集》\n作 者：慧淨法師、淨宗法師\n頁數／裝幀：1024頁／精裝\n出版者：淨土宗文教基金會\n地 址：台北市信義路五段150巷22弄41號\n電 話：(02) 2758-0689\n初 版：2013年08月\n再 ",
+  "bodyHtml": "<div> <div><img src=\"https://plb.tw/upload/72/s1_2017061819450845913.jpg\" /></div> <div> <h2>01《淨土宗聖教集》</h2><p>作 者：慧淨法師、淨宗法師 </p><p>頁數／裝幀：1024頁／精裝 </p><p>出版者：淨土宗文教基金會</p><p>地 址：台北市信義路五段150巷22弄41號</p><p>電 話：(02) 2758-0689</p><p>初 版：2013年08月</p><p>再 版：無</p> <p><a href=\"https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=FileName\" target=\"_blank\" title=\"01《淨土宗聖教集》\">全文PDF</a></p> <p><a href=\"https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=ePub\" target=\"_blank\" title=\"01《淨土宗聖教集》\">ePub</a></p> <p><a href=\"https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=WordName\" target=\"_blank\" title=\"01《淨土宗聖教集》\">全文Word</a></p> </div>",
+  "attachments": [
+    {
+      "url": "https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=FileName",
+      "label": "全文PDF"
+    },
+    {
+      "url": "https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=ePub",
+      "label": "ePub"
+    },
+    {
+      "url": "https://plb.tw/tc/includes/GetFile.ashx?mid=72&id=1&chk=ae3662b5-a3ab-43b1-ae4e-9d3efd780b2a&name=WordName",
+      "label": "全文Word"
+    }
+  ],
+  "warnings": [
+    "內文含圖片，已保留圖片來源",
+    "偵測到原站附件下載連結"
+  ],
+  "reserved": true,
+  "prevId": null,
+  "nextId": "book_1-32"
+}

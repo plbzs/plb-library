@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>淨土宗網站</title>
+    <meta
+      name="description"
+      content="plb.tw 內容轉換成 GitHub Pages 靜態閱讀網站。"
+    />
+    <link rel="stylesheet" href="./assets/style.css?v=95" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/">
+        <strong>首頁</strong>
+      </a>
+      <form class="global-search" data-global-search role="search">
+        <input name="q" type="search" placeholder="搜尋" aria-label="搜尋" />
+        <button>搜尋</button>
+      </form>
+      <select class="header-section-filter" data-header-section-filter hidden aria-label="搜尋分類">
+        <option value="all">全部</option>
+      </select>
+      <div class="header-article-nav" data-header-article-nav hidden aria-label="文章導覽"></div>
+      <div class="reader-controls" aria-label="閱讀設定">
+        <button data-directory-toggle hidden aria-expanded="false">目錄</button>
+        <button data-setting="font-up" title="放大字級">大</button>
+        <button data-setting="font-down" title="縮小字級">小</button>
+        <button data-setting="theme" title="切換深色/亮色">深</button>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <section class="loading">
+        <h1>載入資料</h1>
+        <p>正在讀取本地 JSON。</p>
+      </section>
+    </main>
+
+    <template id="article-nav-template">
+      <div class="actions article-nav-actions" aria-label="文章導覽">
+        <button data-action="up">回上一層</button>
+        <button data-action="prev">上一篇</button>
+        <button data-action="next">下一篇</button>
+      </div>
+    </template>
+
+    <template id="article-tools-template">
+      <div class="article-tools" aria-label="複製">
+        <button data-action="copy-text">複製 TXT</button>
+        <button data-action="copy-md">複製 MD</button>
+      </div>
+    </template>
+
+    <aside class="directory-drawer" data-directory-drawer hidden aria-label="文章目錄">
+      <div class="directory-drawer-head">
+        <strong>目錄</strong>
+        <button data-directory-close type="button">收起</button>
+      </div>
+      <ol data-directory-list></ol>
+    </aside>
+
+    <script src="./assets/app.js?v=95" type="module"></script>
+  </body>
+</html>

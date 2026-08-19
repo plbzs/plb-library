@@ -1,0 +1,60 @@
+{
+  "id": "about_1-55",
+  "kind": "page",
+  "kindLabel": "靜態介紹頁",
+  "title": "宗旨",
+  "author": "淨土宗",
+  "sourceUrl": "https://plb.tw/tc/about_1.aspx?cid=55&cchk=3401878e-b414-4bdd-a010-7b474e289a8a",
+  "sourcePath": [
+    "淨土宗",
+    "簡介",
+    "宗旨"
+  ],
+  "displayPath": [
+    "認識淨土宗",
+    "簡介",
+    "宗旨"
+  ],
+  "autoTags": [
+    "認識淨土宗",
+    "簡介",
+    "宗旨",
+    "淨土宗"
+  ],
+  "manualTags": [],
+  "userTags": [],
+  "sourceOrder": null,
+  "series": null,
+  "related": {
+    "sameSeries": [],
+    "sameAuthor": [
+      "about_1-54",
+      "about_1-56",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "sameCategory": [
+      "about_1-54",
+      "about_1-56",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "sameTopic": [
+      "about_1-54",
+      "about_1-56",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "relatedBooks": []
+  },
+  "excerpt": "",
+  "bodyHtml": "<p><img alt=\"\" src=\"https://plb.tw/upload/_userfilesimages/%E5%AE%97%E6%97%A8.png\" /></p>",
+  "attachments": [],
+  "warnings": [
+    "可搜尋文字偏少，可能是圖片頁或附件頁",
+    "內文含圖片，已保留圖片來源"
+  ],
+  "reserved": false,
+  "prevId": "about_1-54",
+  "nextId": "about_1-56"
+}

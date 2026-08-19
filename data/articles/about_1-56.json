@@ -1,0 +1,60 @@
+{
+  "id": "about_1-56",
+  "kind": "page",
+  "kindLabel": "靜態介紹頁",
+  "title": "特色",
+  "author": "淨土宗",
+  "sourceUrl": "https://plb.tw/tc/about_1.aspx?cid=56&cchk=ab87df2c-a6b7-4bf5-ac5d-b81d4e834feb",
+  "sourcePath": [
+    "淨土宗",
+    "簡介",
+    "特色"
+  ],
+  "displayPath": [
+    "認識淨土宗",
+    "簡介",
+    "特色"
+  ],
+  "autoTags": [
+    "認識淨土宗",
+    "簡介",
+    "特色",
+    "淨土宗"
+  ],
+  "manualTags": [],
+  "userTags": [],
+  "sourceOrder": null,
+  "series": null,
+  "related": {
+    "sameSeries": [],
+    "sameAuthor": [
+      "about_1-54",
+      "about_1-55",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "sameCategory": [
+      "about_1-54",
+      "about_1-55",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "sameTopic": [
+      "about_1-54",
+      "about_1-55",
+      "about_1-57",
+      "about_1-58"
+    ],
+    "relatedBooks": []
+  },
+  "excerpt": "",
+  "bodyHtml": "<p><img alt=\"\" src=\"https://plb.tw/upload/_userfilesimages/%E7%89%B9%E8%89%B2.png\" /></p>",
+  "attachments": [],
+  "warnings": [
+    "可搜尋文字偏少，可能是圖片頁或附件頁",
+    "內文含圖片，已保留圖片來源"
+  ],
+  "reserved": false,
+  "prevId": "about_1-55",
+  "nextId": "about_1-57"
+}

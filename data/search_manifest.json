@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-08-19T14:19:08.570Z",
+  "chunkSize": 250,
+  "totalRecords": 4338,
+  "chunks": [
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-01.json",
+      "count": 250,
+      "firstId": "huijing_9-986",
+      "lastId": "huijing_6-413"
+    },
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-02.json",
+      "count": 250,
+      "firstId": "huijing_6-412",
+      "lastId": "huijing_8-130"
+    },
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-03.json",
+      "count": 250,
+      "firstId": "huijing_8-129",
+      "lastId": "huijing_9-438"
+    },
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-04.json",
+      "count": 250,
+      "firstId": "huijing_9-437",
+      "lastId": "jingzong_3-708"
+    },
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-05.json",
+      "count": 250,
+      "firstId": "jingzong_3-705",
+      "lastId": "jingzong_5-682"
+    },
+    {
+      "section": "法師著作",
+      "file": "search_chunks/masters-06.json",
+      "count": 168,
+      "firstId": "jingzong_5-662",
+      "lastId": "jingzong_6-6"
+    },
+    {
+      "section": "書籍下載",
+      "file": "search_chunks/books-01.json",
+      "count": 2,
+      "firstId": "book_1-1",
+      "lastId": "book_1-32"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-01.json",
+      "count": 250,
+      "firstId": "library_4-2178",
+      "lastId": "library_4-1813"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-02.json",
+      "count": 250,
+      "firstId": "library_4-1810",
+      "lastId": "library_4-479"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-03.json",
+      "count": 250,
+      "firstId": "library_4-476",
+      "lastId": "library_7-2174"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-04.json",
+      "count": 250,
+      "firstId": "library_7-2173",
+      "lastId": "library_5-1554"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-05.json",
+      "count": 250,
+      "firstId": "library_5-1451",
+      "lastId": "library_5-1147"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-06.json",
+      "count": 250,
+      "firstId": "library_5-1146",
+      "lastId": "library_5-891"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-07.json",
+      "count": 250,
+      "firstId": "library_5-890",
+      "lastId": "library_6-611"
+    },
+    {
+      "section": "淨土文庫",
+      "file": "search_chunks/library-08.json",
+      "count": 55,
+      "firstId": "library_6-609",
+      "lastId": "library_6-538"
+    },
+    {
+      "section": "感應故事",
+      "file": "search_chunks/stories-01.json",
+      "count": 250,
+      "firstId": "story_1-1591",
+      "lastId": "story_1-667"
+    },
+    {
+      "section": "感應故事",
+      "file": "search_chunks/stories-02.json",
+      "count": 250,
+      "firstId": "story_1-666",
+      "lastId": "story_1-1562"
+    },
+    {
+      "section": "感應故事",
+      "file": "search_chunks/stories-03.json",
+      "count": 250,
+      "firstId": "story_1-1560",
+      "lastId": "story_1-186"
+    },
+    {
+      "section": "感應故事",
+      "file": "search_chunks/stories-04.json",
+      "count": 250,
+      "firstId": "story_1-185",
+      "lastId": "story_2_2_1-1022"
+    },
+    {
+      "section": "感應故事",
+      "file": "search_chunks/stories-05.json",
+      "count": 108,
+      "firstId": "story_2_2_1-1020",
+      "lastId": "story_2_2_1-61"
+    },
+    {
+      "section": "認識淨土宗",
+      "file": "search_chunks/intro-01.json",
+      "count": 5,
+      "firstId": "about_1-54",
+      "lastId": "about_1-58"
+    }
+  ]
+}
