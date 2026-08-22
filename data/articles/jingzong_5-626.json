@@ -111,5 +111,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_5-627",
-  "nextId": "jingzong_5-625"
+  "nextId": "jingzong_5-625",
+  "visualNotes": [
+    {
+      "id": "media-0c8d2a7d8af8e467d5dd49ac",
+      "type": "SVG 圖表",
+      "summary": "淨土宗概論講記提綱圖，依經文段落列出第一點至第十點等層次。",
+      "extractedText": "釋迦本懷\\n彌陀成佛因果\\n眾生往生因果\\n講釋迦佛的慇勤勸喻\\n第一點\\n第二\\n、\\n第三點\\n第四\\n第五\\n第六點\\n第七\\n第八\\n第九\\n第十點",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

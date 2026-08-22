@@ -111,7 +111,14 @@
     ],
     "reserved": false,
     "prevId": "about_1-54",
-    "nextId": "about_1-56"
+    "nextId": "about_1-56",
+    "visualNotes": [
+      {
+        "id": "media-0e8af7517c752f2a72e3d542",
+        "type": "圖片",
+        "summary": "淨土宗宗旨圖，藍色版面搭配佛教人物畫與中英文宗旨文字。"
+      }
+    ]
   },
   {
     "id": "about_1-56",
@@ -170,7 +177,14 @@
     ],
     "reserved": false,
     "prevId": "about_1-55",
-    "nextId": "about_1-57"
+    "nextId": "about_1-57",
+    "visualNotes": [
+      {
+        "id": "media-1022dc048120356295dcc847",
+        "type": "圖片",
+        "summary": "淨土宗特色圖，藍色版面搭配佛教人物畫與中英文特色文字。"
+      }
+    ]
   },
   {
     "id": "about_1-57",
@@ -22327,7 +22341,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-835",
-    "nextId": "huijing_6-694"
+    "nextId": "huijing_6-694",
+    "visualNotes": [
+      {
+        "id": "media-0e7f8714b560277584684c7a",
+        "type": "SVG 圖表",
+        "summary": "淨土宗義略說關係圖，將名號、佛願、本末、機的深信與法的深信以箭線連結。"
+      }
+    ]
   },
   {
     "id": "huijing_6-694",
@@ -53368,6 +53389,11 @@
         "id": "media-00d95bf6849fed15e55f0dc7",
         "type": "圖片",
         "summary": "《觀無量壽經》定善十三觀分類圖：分為依報觀與正報觀，各自再區分假觀、真觀及對應觀次。"
+      },
+      {
+        "id": "media-0c51d493a797f633f2b64191",
+        "type": "SVG 圖表",
+        "summary": "《觀無量壽經》概說圖，以一代諸經、序分、正宗分、流通分的樹狀架構標示經典位置。"
       }
     ]
   },
@@ -59149,7 +59175,19 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-465",
-    "nextId": "huijing_9-438"
+    "nextId": "huijing_9-438",
+    "visualNotes": [
+      {
+        "id": "media-1030d133fd9a5b6018e2cad4",
+        "type": "SVG 圖表",
+        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
+      },
+      {
+        "id": "media-1030d133fd9a5b6018e2cad4",
+        "type": "SVG 圖表",
+        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
+      }
+    ]
   },
   {
     "id": "huijing_9-438",
@@ -69238,7 +69276,19 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-859",
-    "nextId": "huijing_9-857"
+    "nextId": "huijing_9-857",
+    "visualNotes": [
+      {
+        "id": "media-1030d133fd9a5b6018e2cad4",
+        "type": "SVG 圖表",
+        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
+      },
+      {
+        "id": "media-1030d133fd9a5b6018e2cad4",
+        "type": "SVG 圖表",
+        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
+      }
+    ]
   },
   {
     "id": "huijing_9-857",
@@ -78446,7 +78496,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-839",
-    "nextId": "jingzong_3-837"
+    "nextId": "jingzong_3-837",
+    "visualNotes": [
+      {
+        "id": "media-0b40629692d504238ccfa78e",
+        "type": "圖片",
+        "summary": "水墨風短文插圖：室內窗邊有一枝葉與花盆，畫面配有直排題字。"
+      }
+    ]
   },
   {
     "id": "jingzong_3-837",
@@ -79851,7 +79908,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-809",
-    "nextId": "jingzong_3-794"
+    "nextId": "jingzong_3-794",
+    "visualNotes": [
+      {
+        "id": "media-0c25baa076df3bafa09e1206",
+        "type": "圖片",
+        "summary": "水墨風人物插圖：一人坐於樹下讀書，遠處有山與塔，旁有直排題字。"
+      }
+    ]
   },
   {
     "id": "jingzong_3-794",
@@ -97298,7 +97362,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-627",
-    "nextId": "jingzong_5-625"
+    "nextId": "jingzong_5-625",
+    "visualNotes": [
+      {
+        "id": "media-0c8d2a7d8af8e467d5dd49ac",
+        "type": "SVG 圖表",
+        "summary": "淨土宗概論講記提綱圖，依經文段落列出第一點至第十點等層次。"
+      }
+    ]
   },
   {
     "id": "jingzong_5-625",
@@ -115359,7 +115430,14 @@
     ],
     "reserved": false,
     "prevId": "story_1-1457",
-    "nextId": "story_1-1450"
+    "nextId": "story_1-1450",
+    "visualNotes": [
+      {
+        "id": "media-0f5b5ed6256f65c40aba6ee3",
+        "type": "圖片",
+        "summary": "人物活動照片：一位戴口罩者坐在桌前，背景可見室內人群與燈光。"
+      }
+    ]
   },
   {
     "id": "story_1-1450",
@@ -118776,7 +118854,14 @@
     ],
     "reserved": false,
     "prevId": "story_1-1203",
-    "nextId": "story_1-1198"
+    "nextId": "story_1-1198",
+    "visualNotes": [
+      {
+        "id": "media-10e17245980372be53bee13f",
+        "type": "SVG 圖表",
+        "summary": "手繪圖稿照片，可見人物與雲狀線條，細節因原圖解析度有限而不清晰。"
+      }
+    ]
   },
   {
     "id": "story_1-1198",
@@ -221138,7 +221223,14 @@
     ],
     "reserved": false,
     "prevId": "library_7-2087",
-    "nextId": "library_7-2054"
+    "nextId": "library_7-2054",
+    "visualNotes": [
+      {
+        "id": "media-10be6191b477cd07648771df",
+        "type": "圖片",
+        "summary": "紅色春聯題字照片，畫面為直式紅紙上的黑色毛筆書法。"
+      }
+    ]
   },
   {
     "id": "library_7-2054",
@@ -222897,7 +222989,14 @@
     ],
     "reserved": false,
     "prevId": "library_7-1566",
-    "nextId": "library_7-1547"
+    "nextId": "library_7-1547",
+    "visualNotes": [
+      {
+        "id": "media-0b5d0122d1c895b1e0a6b997",
+        "type": "圖片",
+        "summary": "單字書法圖，以黑色毛筆寫出「淨」字。"
+      }
+    ]
   },
   {
     "id": "library_7-1547",
@@ -275839,7 +275938,14 @@
     ],
     "reserved": false,
     "prevId": "library_6-782",
-    "nextId": "library_6-809"
+    "nextId": "library_6-809",
+    "visualNotes": [
+      {
+        "id": "media-0c51d493a797f633f2b64191",
+        "type": "SVG 圖表",
+        "summary": "《觀無量壽經》概說圖，以一代諸經、序分、正宗分、流通分的樹狀架構標示經典位置。"
+      }
+    ]
   },
   {
     "id": "library_6-809",

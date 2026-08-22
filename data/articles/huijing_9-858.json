@@ -121,5 +121,21 @@
   ],
   "reserved": false,
   "prevId": "huijing_9-859",
-  "nextId": "huijing_9-857"
+  "nextId": "huijing_9-857",
+  "visualNotes": [
+    {
+      "id": "media-1030d133fd9a5b6018e2cad4",
+      "type": "SVG 圖表",
+      "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。",
+      "extractedText": "大願\\n彌陀因地五劫思惟四十八願(為我發)\\n大業\\n彌陀因地兆載永劫六度萬行(為我修)\\n大力\\n彌陀果地光明名號度生能力(為我成)\\n大\\n願\\n業\\n力\\n南無阿彌陀佛\\n(他力迴向)",
+      "sourceArchiveVerified": true
+    },
+    {
+      "id": "media-1030d133fd9a5b6018e2cad4",
+      "type": "SVG 圖表",
+      "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。",
+      "extractedText": "大願\\n彌陀因地五劫思惟四十八願(為我發)\\n大業\\n彌陀因地兆載永劫六度萬行(為我修)\\n大力\\n彌陀果地光明名號度生能力(為我成)\\n大\\n願\\n業\\n力\\n南無阿彌陀佛\\n(他力迴向)",
+      "sourceArchiveVerified": true
+    }
+  ]
 }
