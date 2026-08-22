@@ -67,5 +67,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_5-597",
-  "nextId": "jingzong_5-595"
+  "nextId": "jingzong_5-595",
+  "visualNotes": [
+    {
+      "id": "media-08edbd4d1a2d0bdc8531cd2b",
+      "type": "SVG 圖表",
+      "summary": "淨土宗信願特色圖，分別列出信受彌陀救度、專稱彌陀佛名，以及願生淨土、廣度眾生。",
+      "extractedText": "安心\\n起行\\n信受彌陀救度\\n專稱彌陀佛名\\n方法\\n自利\\n利他\\n願生彌陀淨土\\n廣度十方眾生\\n目的",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

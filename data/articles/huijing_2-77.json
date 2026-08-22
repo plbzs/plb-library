@@ -66,5 +66,14 @@
   ],
   "reserved": false,
   "prevId": "huijing_2-171",
-  "nextId": "huijing_2-24"
+  "nextId": "huijing_2-24",
+  "visualNotes": [
+    {
+      "id": "media-09d05a5b924afc700b9c3343",
+      "type": "SVG 圖表",
+      "summary": "《法然上人全集》序的雙欄對照表，並列第十八願與第十九、第二十願的因、行、果等差異。",
+      "extractedText": "第\\n十\\n八\\n願\\n《\\n觀\\n念\\n法\\n門\\n》\\n設\\n我\\n得\\n佛\\n若\\n成\\n方\\n眾\\n生\\n至\\n心\\n信\\n樂\\n國\\n欲\\n稱\\n名\\n字\\n乃\\n下\\n聲\\n乘\\n力\\n不\\n者\\n取\\n正\\n覺\\n往\\n禮\\n讚\\n號",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

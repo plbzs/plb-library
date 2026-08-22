@@ -8706,7 +8706,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-171",
-    "nextId": "huijing_2-24"
+    "nextId": "huijing_2-24",
+    "visualNotes": [
+      {
+        "id": "media-09d05a5b924afc700b9c3343",
+        "type": "SVG 圖表",
+        "summary": "《法然上人全集》序的雙欄對照表，並列第十八願與第十九、第二十願的因、行、果等差異。"
+      }
+    ]
   },
   {
     "id": "huijing_2-24",
@@ -14707,7 +14714,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-181",
-    "nextId": "huijing_5-68"
+    "nextId": "huijing_5-68",
+    "visualNotes": [
+      {
+        "id": "media-06efb2261d765b9ab3ab8320",
+        "type": "SVG 圖表",
+        "summary": "《觀經》眼目關係圖，將淨土門、願生、信願、稱名與定善、散善等內容分層連結。"
+      }
+    ]
   },
   {
     "id": "huijing_5-68",
@@ -19063,7 +19077,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-391",
-    "nextId": "huijing_5-390"
+    "nextId": "huijing_5-390",
+    "visualNotes": [
+      {
+        "id": "media-0b37966ba058f03ad0a118b1",
+        "type": "SVG 圖表",
+        "summary": "淨宗摘要圖，以階梯與括號整理難行道、自力、聖道門及易行道、他力、淨土門的對照。"
+      }
+    ]
   },
   {
     "id": "huijing_5-390",
@@ -21802,7 +21823,19 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-956",
-    "nextId": "huijing_6-917"
+    "nextId": "huijing_6-917",
+    "visualNotes": [
+      {
+        "id": "media-0a9bf04efe3ca9428ad3b315",
+        "type": "SVG 圖表",
+        "summary": "淨土宗創立與流變圖，以橫向分支呈現釋迦、彌陀與淨土門的傳承關係。"
+      },
+      {
+        "id": "media-0b14f1b7bdd2a2227ece6e0a",
+        "type": "SVG 圖表",
+        "summary": "淨土宗創立與流變圖，列出自力、他力、易行與難行等對照支線。"
+      }
+    ]
   },
   {
     "id": "huijing_6-917",
@@ -41532,7 +41565,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-970",
-    "nextId": "huijing_9-952"
+    "nextId": "huijing_9-952",
+    "visualNotes": [
+      {
+        "id": "media-07c2c1defeac5caa9bdf2799",
+        "type": "圖片",
+        "summary": "彌陀願心根源的直向結構圖，以多組佛法概念和箭線說明其關聯。"
+      }
+    ]
   },
   {
     "id": "huijing_9-952",
@@ -45683,7 +45723,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-562",
-    "nextId": "huijing_9-558"
+    "nextId": "huijing_9-558",
+    "visualNotes": [
+      {
+        "id": "media-0a4b3ea7d98111b349db0496",
+        "type": "SVG 圖表",
+        "summary": "彌陀願心根源圖，從「總」與「別」兩層列出安樂、道場、國如泥洹、無等雙等語句。"
+      }
+    ]
   },
   {
     "id": "huijing_9-558",
@@ -64619,7 +64666,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-643",
-    "nextId": "huijing_9-614"
+    "nextId": "huijing_9-614",
+    "visualNotes": [
+      {
+        "id": "media-0acf60b4186db03e1f7a95d7",
+        "type": "SVG 圖表",
+        "summary": "淨土法門核心圖，將智慧、內外緣、利他、稱名等概念以分支關係呈現。"
+      }
+    ]
   },
   {
     "id": "huijing_9-614",
@@ -91044,7 +91098,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-597",
-    "nextId": "jingzong_5-595"
+    "nextId": "jingzong_5-595",
+    "visualNotes": [
+      {
+        "id": "media-08edbd4d1a2d0bdc8531cd2b",
+        "type": "SVG 圖表",
+        "summary": "淨土宗信願特色圖，分別列出信受彌陀救度、專稱彌陀佛名，以及願生淨土、廣度眾生。"
+      }
+    ]
   },
   {
     "id": "jingzong_5-595",
@@ -194564,7 +194625,14 @@
     ],
     "reserved": false,
     "prevId": "library_4-1681",
-    "nextId": "library_4-1676"
+    "nextId": "library_4-1676",
+    "visualNotes": [
+      {
+        "id": "media-097c119d1d4a88a1604240e1",
+        "type": "圖片",
+        "summary": "紅色石碑題字照片，碑上有直排金色文字，置於庭園與石砌背景前。"
+      }
+    ]
   },
   {
     "id": "library_4-1676",
@@ -196618,7 +196686,14 @@
     ],
     "reserved": false,
     "prevId": "library_4-1597",
-    "nextId": "library_4-1592"
+    "nextId": "library_4-1592",
+    "visualNotes": [
+      {
+        "id": "media-07bc77a133c93e99b60a54d5",
+        "type": "圖片",
+        "summary": "暖色線描插畫：一位坐在石上的老者與兩名站立人物相對談話。"
+      }
+    ]
   },
   {
     "id": "library_4-1592",
@@ -220753,6 +220828,11 @@
         "id": "media-007d1d9fb351543bbbc81883",
         "type": "圖片",
         "summary": "佛教人物畫：一位菩薩與一位佛像具光背立於雲上，畫面有直排題字。"
+      },
+      {
+        "id": "media-0af9ea26fff316f7ef748cb4",
+        "type": "圖片",
+        "summary": "佛教人物畫：佛像具光背立於雲上，旁有一名跪坐或合掌人物。"
       }
     ]
   },

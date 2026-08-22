@@ -68,5 +68,21 @@
   ],
   "reserved": false,
   "prevId": "huijing_6-956",
-  "nextId": "huijing_6-917"
+  "nextId": "huijing_6-917",
+  "visualNotes": [
+    {
+      "id": "media-0a9bf04efe3ca9428ad3b315",
+      "type": "SVG 圖表",
+      "summary": "淨土宗創立與流變圖，以橫向分支呈現釋迦、彌陀與淨土門的傳承關係。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
+    },
+    {
+      "id": "media-0b14f1b7bdd2a2227ece6e0a",
+      "type": "SVG 圖表",
+      "summary": "淨土宗創立與流變圖，列出自力、他力、易行與難行等對照支線。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
+    }
+  ]
 }
