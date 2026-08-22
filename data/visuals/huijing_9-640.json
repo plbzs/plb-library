@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "articleId": "huijing_9-640",
+  "title": "《觀無量壽經》概說（二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-a78bc6ab4a2721c3916e9717",
+      "position": 1,
+      "sourceType": "svg",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a78bc6ab4a2721c3916e9717.svg",
+        "sha256": "46eecb76afcafe2448e03522478a219f7570c48f675a5694d6cb44aca59dd20e"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": { "status": "needs-review", "sourceVerified": true }
+    },
+    {
+      "id": "media-0c51d493a797f633f2b64191",
+      "position": 2,
+      "sourceType": "svg",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0c51d493a797f633f2b64191.svg",
+        "sha256": "9305c6e1fbf270cd3c5bf6b2c45bb62b37ef1f445c06e7ca0877a461bafc6cd0"
+      },
+      "semanticDescription": null,
+      "transcript": "聖道門諸經\n《無量壽經》\n《觀無量壽經》\n《阿彌陀經》\n序\n分\n正宗分\n流通分\n一代諸經",
+      "reconstruction": null,
+      "validation": { "status": "needs-structure", "sourceVerified": true }
+    },
+    {
+      "id": "media-00d95bf6849fed15e55f0dc7",
+      "position": 3,
+      "sourceType": "raster",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-00d95bf6849fed15e55f0dc7.png",
+        "sha256": "63e2e462f6037c5f12608a65994739c755aeb52d0f0ce90f4317358ed3d7bdee"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": { "status": "needs-review", "sourceVerified": true }
+    },
+    {
+      "id": "media-899eaaaa44e5177e692eed7d",
+      "position": 4,
+      "sourceType": "svg",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-899eaaaa44e5177e692eed7d.svg",
+        "sha256": "bb8a7478f299c5ebd85be55d46f75e759eda68d510e3af669057d8271c867d94"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": { "status": "needs-review", "sourceVerified": true }
+    }
+  ],
+  "validation": {
+    "status": "incomplete",
+    "coverage": "0/4 approved",
+    "sourceVerification": "4/4 verified"
+  }
+}
