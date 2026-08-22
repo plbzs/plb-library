@@ -68,5 +68,14 @@
   ],
   "reserved": false,
   "prevId": "huijing_9-714",
-  "nextId": "huijing_9-682"
+  "nextId": "huijing_9-682",
+  "visualNotes": [
+    {
+      "id": "media-1460917ef300241a63eebf04",
+      "type": "SVG 圖表",
+      "summary": "淨土宗三法數圖，以三超、因超、果超、願超、行超與名超呈現層次。",
+      "extractedText": "願超\\n行超\\n名超\\n第一首\\n第二首\\n第三首\\n因超\\n果超\\n三超",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

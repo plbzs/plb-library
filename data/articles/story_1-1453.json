@@ -57,5 +57,14 @@
   ],
   "reserved": false,
   "prevId": "story_1-1457",
-  "nextId": "story_1-1450"
+  "nextId": "story_1-1450",
+  "visualNotes": [
+    {
+      "id": "media-0f5b5ed6256f65c40aba6ee3",
+      "type": "圖片",
+      "summary": "人物活動照片：一位戴口罩者坐在桌前，背景可見室內人群與燈光。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

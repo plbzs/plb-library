@@ -69,5 +69,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_3-842",
-  "nextId": "jingzong_3-838"
+  "nextId": "jingzong_3-838",
+  "visualNotes": [
+    {
+      "id": "media-12ed05e48f80b0ca7531d38c",
+      "type": "SVG 圖表",
+      "summary": "水墨山水短文插圖，畫面有遠山、屋舍與直排題字。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

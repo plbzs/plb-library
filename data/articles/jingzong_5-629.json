@@ -111,5 +111,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_5-630",
-  "nextId": "jingzong_5-628"
+  "nextId": "jingzong_5-628",
+  "visualNotes": [
+    {
+      "id": "media-141ce32ed6c3a2e83e0d410d",
+      "type": "SVG 圖表",
+      "summary": "淨土宗概論講記對照表，整理正依、助業、正業、願生與往生等欄位。",
+      "extractedText": "淨土三經\\n無量壽經\\n觀\\n經\\n阿彌陀經\\n地\\n位\\n正依經典\\n同\\n上\\n體\\n備 名 號\\n宗\\n專念彌陀佛名\\n力\\n用\\n凡夫往生報土\\n側\\n重\\n往生原理：\\n乘佛願力\\n往生機類：\\n善惡九品\\n往生方法：\\n專念佛名\\n往生勝益：\\n不退成佛",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

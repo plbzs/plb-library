@@ -57,5 +57,14 @@
   ],
   "reserved": false,
   "prevId": "story_1-1203",
-  "nextId": "story_1-1198"
+  "nextId": "story_1-1198",
+  "visualNotes": [
+    {
+      "id": "media-10e17245980372be53bee13f",
+      "type": "SVG 圖表",
+      "summary": "手繪圖稿照片，可見人物與雲狀線條，細節因原圖解析度有限而不清晰。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
+    }
+  ]
 }

@@ -7792,7 +7792,14 @@
     ],
     "reserved": false,
     "prevId": "library_6-2128",
-    "nextId": "library_6-2099"
+    "nextId": "library_6-2099",
+    "visualNotes": [
+      {
+        "id": "media-119cb7b9233481c6c6ec44cb",
+        "type": "圖片",
+        "summary": "四十八願分類結構圖，將願文依內容分組並以括號標示各願群。"
+      }
+    ]
   },
   {
     "id": "library_6-2099",
@@ -8514,7 +8521,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-188",
-    "nextId": "huijing_2-172"
+    "nextId": "huijing_2-172",
+    "visualNotes": [
+      {
+        "id": "media-185033e4c3a3a1a9c2f21b08",
+        "type": "SVG 圖表",
+        "summary": "佛教名相結構圖，以法然、聖覺、聖光、聖達、觀意、覺如等詞組分層呈現。"
+      }
+    ]
   },
   {
     "id": "huijing_2-172",
@@ -23536,7 +23550,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-593",
-    "nextId": "huijing_6-548"
+    "nextId": "huijing_6-548",
+    "visualNotes": [
+      {
+        "id": "media-12e8cda890e7be994f82a5b4",
+        "type": "SVG 圖表",
+        "summary": "彌陀願心根源圖，將護念、阿彌陀經與願心語句以分支關係呈現。"
+      }
+    ]
   },
   {
     "id": "huijing_6-548",
@@ -25165,7 +25186,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-51",
-    "nextId": "huijing_6-967"
+    "nextId": "huijing_6-967",
+    "visualNotes": [
+      {
+        "id": "media-143e472b41eeae8aeb8a5734",
+        "type": "SVG 圖表",
+        "summary": "命盤與淨土宗信仰關係圖，對照聖道門與淨土門的自力、他力與修行方向。"
+      }
+    ]
   },
   {
     "id": "huijing_6-967",
@@ -41592,6 +41620,11 @@
         "id": "media-07c2c1defeac5caa9bdf2799",
         "type": "圖片",
         "summary": "彌陀願心根源的直向結構圖，以多組佛法概念和箭線說明其關聯。"
+      },
+      {
+        "id": "media-18593aa5e45a5807814869b2",
+        "type": "圖片",
+        "summary": "彌陀願心根源的直向結構圖，以多組經義概念與箭線說明其關聯。"
       }
     ]
   },
@@ -45750,6 +45783,11 @@
         "id": "media-0a4b3ea7d98111b349db0496",
         "type": "SVG 圖表",
         "summary": "彌陀願心根源圖，從「總」與「別」兩層列出安樂、道場、國如泥洹、無等雙等語句。"
+      },
+      {
+        "id": "media-12e8cda890e7be994f82a5b4",
+        "type": "SVG 圖表",
+        "summary": "彌陀願心根源圖，將護念、阿彌陀經與願心語句以分支關係呈現。"
       }
     ]
   },
@@ -52547,7 +52585,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-714",
-    "nextId": "huijing_9-682"
+    "nextId": "huijing_9-682",
+    "visualNotes": [
+      {
+        "id": "media-1460917ef300241a63eebf04",
+        "type": "SVG 圖表",
+        "summary": "淨土宗三法數圖，以三超、因超、果超、願超、行超與名超呈現層次。"
+      }
+    ]
   },
   {
     "id": "huijing_9-682",
@@ -78425,7 +78470,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-842",
-    "nextId": "jingzong_3-838"
+    "nextId": "jingzong_3-838",
+    "visualNotes": [
+      {
+        "id": "media-12ed05e48f80b0ca7531d38c",
+        "type": "SVG 圖表",
+        "summary": "水墨山水短文插圖，畫面有遠山、屋舍與直排題字。"
+      }
+    ]
   },
   {
     "id": "jingzong_3-838",
@@ -97022,7 +97074,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-630",
-    "nextId": "jingzong_5-628"
+    "nextId": "jingzong_5-628",
+    "visualNotes": [
+      {
+        "id": "media-141ce32ed6c3a2e83e0d410d",
+        "type": "SVG 圖表",
+        "summary": "淨土宗概論講記對照表，整理正依、助業、正業、願生與往生等欄位。"
+      }
+    ]
   },
   {
     "id": "jingzong_5-628",
@@ -97819,7 +97878,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-623",
-    "nextId": "jingzong_5-621"
+    "nextId": "jingzong_5-621",
+    "visualNotes": [
+      {
+        "id": "media-11b98d15b969b98bff9c4339",
+        "type": "SVG 圖表",
+        "summary": "佛法二門圖，以小乘、大乘、漸教、頓教、聖道門與淨土門整理修行路徑。"
+      }
+    ]
   },
   {
     "id": "jingzong_5-621",
@@ -124411,7 +124477,14 @@
     ],
     "reserved": false,
     "prevId": "story_1-694",
-    "nextId": "story_1-692"
+    "nextId": "story_1-692",
+    "visualNotes": [
+      {
+        "id": "media-1125aee171574d5ed8128069",
+        "type": "圖片",
+        "summary": "佛堂照片：金色佛像旁有供桌、香爐與紅色引磬或法器。"
+      }
+    ]
   },
   {
     "id": "story_1-692",
@@ -203286,7 +203359,14 @@
     ],
     "reserved": false,
     "prevId": "library_4-714",
-    "nextId": "library_4-610"
+    "nextId": "library_4-610",
+    "visualNotes": [
+      {
+        "id": "media-1393f09d056c08bdffbb919d",
+        "type": "圖片",
+        "summary": "手寫感應紀錄照片，白紙上以藍筆書寫多行文字。"
+      }
+    ]
   },
   {
     "id": "library_4-610",
@@ -222927,7 +223007,14 @@
     ],
     "reserved": false,
     "prevId": "library_7-1570",
-    "nextId": "library_7-1558"
+    "nextId": "library_7-1558",
+    "visualNotes": [
+      {
+        "id": "media-1840c532c6eff6389e10a0cb",
+        "type": "SVG 圖表",
+        "summary": "彩色插圖：人物與牛車在波浪中前行，畫面有雲水與遠方光明。"
+      }
+    ]
   },
   {
     "id": "library_7-1558",

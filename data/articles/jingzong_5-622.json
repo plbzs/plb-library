@@ -110,5 +110,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_5-623",
-  "nextId": "jingzong_5-621"
+  "nextId": "jingzong_5-621",
+  "visualNotes": [
+    {
+      "id": "media-11b98d15b969b98bff9c4339",
+      "type": "SVG 圖表",
+      "summary": "佛法二門圖，以小乘、大乘、漸教、頓教、聖道門與淨土門整理修行路徑。",
+      "extractedText": "漸教\\n頓教\\n小乘\\n大乘\\n佛法\\n聖道門\\n斷惑證理\\n望機成漸\\n淨土門\\n不斷得證\\n頓中之頓",
+      "sourceArchiveVerified": true
+    }
+  ]
 }
