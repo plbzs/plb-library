@@ -59,10 +59,11 @@
   "nextId": null,
   "visualNotes": [
     {
-      "id": "media-3",
+      "id": "media-066ffea9e83e05daacbd696e",
       "type": "SVG 圖表",
-      "summary": "淨土宗宗徽；紅色蓮花圖形，環繞阿彌陀佛與淨土宗文字。",
-      "extractedText": ""
+      "summary": "淨土宗宗徽：紅色蓮花圖形，環繞「南無阿彌陀佛」文字，下方為「淨土宗」。",
+      "extractedText": "",
+      "sourceArchiveVerified": true
     }
   ]
 }

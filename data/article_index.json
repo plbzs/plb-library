@@ -111,14 +111,7 @@
     ],
     "reserved": false,
     "prevId": "about_1-54",
-    "nextId": "about_1-56",
-    "visualNotes": [
-      {
-        "id": "media-1",
-        "type": "圖片",
-        "summary": "淨土宗宗旨的雙語題圖，含佛像／圓形裝飾與說明文字。"
-      }
-    ]
+    "nextId": "about_1-56"
   },
   {
     "id": "about_1-56",
@@ -177,14 +170,7 @@
     ],
     "reserved": false,
     "prevId": "about_1-55",
-    "nextId": "about_1-57",
-    "visualNotes": [
-      {
-        "id": "media-2",
-        "type": "圖片",
-        "summary": "淨土宗特色的雙語題圖，含佛像／圓形裝飾與說明文字。"
-      }
-    ]
+    "nextId": "about_1-57"
   },
   {
     "id": "about_1-57",
@@ -304,9 +290,9 @@
     "nextId": null,
     "visualNotes": [
       {
-        "id": "media-3",
+        "id": "media-066ffea9e83e05daacbd696e",
         "type": "SVG 圖表",
-        "summary": "淨土宗宗徽；紅色蓮花圖形，環繞阿彌陀佛與淨土宗文字。"
+        "summary": "淨土宗宗徽：紅色蓮花圖形，環繞「南無阿彌陀佛」文字，下方為「淨土宗」。"
       }
     ]
   },
@@ -714,14 +700,7 @@
     ],
     "reserved": true,
     "prevId": null,
-    "nextId": "book_1-32",
-    "visualNotes": [
-      {
-        "id": "media-4",
-        "type": "圖片",
-        "summary": "《淨土宗聖教集》書封，直排書名與佛教題材插圖。"
-      }
-    ]
+    "nextId": "book_1-32"
   },
   {
     "id": "huijing_4-989",
@@ -2006,14 +1985,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_7-540",
-    "nextId": "huijing_7-537",
-    "visualNotes": [
-      {
-        "id": "media-5",
-        "type": "SVG 圖表",
-        "summary": "法義關係圖，主題為人身難得，使用分支連線表達層級。"
-      }
-    ]
+    "nextId": "huijing_7-537"
   },
   {
     "id": "huijing_7-537",
@@ -7806,14 +7778,7 @@
     ],
     "reserved": false,
     "prevId": "library_6-2128",
-    "nextId": "library_6-2099",
-    "visualNotes": [
-      {
-        "id": "media-6",
-        "type": "圖片",
-        "summary": "四十八願的分類與結歸關係圖，文字節點與連線構成樹狀圖。"
-      }
-    ]
+    "nextId": "library_6-2099"
   },
   {
     "id": "library_6-2099",
@@ -7990,14 +7955,7 @@
     ],
     "reserved": true,
     "prevId": "book_1-1",
-    "nextId": null,
-    "visualNotes": [
-      {
-        "id": "media-7",
-        "type": "圖片",
-        "summary": "《淨土三經讀本》書封，直排書名與佛教題材插圖。"
-      }
-    ]
+    "nextId": null
   },
   {
     "id": "huijing_2-229",
@@ -8542,14 +8500,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-188",
-    "nextId": "huijing_2-172",
-    "visualNotes": [
-      {
-        "id": "media-8",
-        "type": "SVG 圖表",
-        "summary": "《念佛金言錄》編譯者序的法義關係圖。"
-      }
-    ]
+    "nextId": "huijing_2-172"
   },
   {
     "id": "huijing_2-172",
@@ -8686,14 +8637,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-172",
-    "nextId": "huijing_2-77",
-    "visualNotes": [
-      {
-        "id": "media-9",
-        "type": "SVG 圖表",
-        "summary": "《觀經四帖疏》編序的層級關係圖。"
-      }
-    ]
+    "nextId": "huijing_2-77"
   },
   {
     "id": "huijing_2-77",
@@ -8762,19 +8706,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-171",
-    "nextId": "huijing_2-24",
-    "visualNotes": [
-      {
-        "id": "media-10",
-        "type": "SVG 圖表",
-        "summary": "以本尊、目的、方法三個層次呈現念佛法門要點的關係圖。"
-      },
-      {
-        "id": "media-11",
-        "type": "SVG 圖表",
-        "summary": "善導大師思想脈絡與第十八願內容的關係圖。"
-      }
-    ]
+    "nextId": "huijing_2-24"
   },
   {
     "id": "huijing_2-24",
@@ -8843,14 +8775,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-77",
-    "nextId": "huijing_2-12",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_2-12"
   },
   {
     "id": "huijing_2-12",
@@ -14853,7 +14778,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-81",
-    "nextId": "huijing_5-16"
+    "nextId": "huijing_5-16",
+    "visualNotes": [
+      {
+        "id": "media-06e5cc1a0bedf752944bfd65",
+        "type": "SVG 圖表",
+        "summary": "《觀經》構造圖，將經文的依報、正報、九品、證信、發起、流通等部分以層級關係呈現。"
+      }
+    ]
   },
   {
     "id": "huijing_5-16",
@@ -19708,14 +19640,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-387",
-    "nextId": "huijing_5-386",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_5-386"
   },
   {
     "id": "huijing_5-386",
@@ -23769,14 +23694,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-410",
-    "nextId": "huijing_6-409",
-    "visualNotes": [
-      {
-        "id": "media-5",
-        "type": "SVG 圖表",
-        "summary": "法義關係圖，主題為人身難得，使用分支連線表達層級。"
-      }
-    ]
+    "nextId": "huijing_6-409"
   },
   {
     "id": "huijing_6-409",
@@ -24335,14 +24253,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-50",
-    "nextId": "huijing_6-49",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_6-49"
   },
   {
     "id": "huijing_6-49",
@@ -30198,7 +30109,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_4-553",
-    "nextId": "huijing_4-524"
+    "nextId": "huijing_4-524",
+    "visualNotes": [
+      {
+        "id": "media-0510000deeaf731da2e7d1d1",
+        "type": "SVG 圖表",
+        "summary": "「一心」要義圖，列出專一、無二、一向、無疑、順佛等層次及其念佛說明。"
+      }
+    ]
   },
   {
     "id": "huijing_4-524",
@@ -50478,7 +50396,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-164",
-    "nextId": "huijing_9-832"
+    "nextId": "huijing_9-832",
+    "visualNotes": [
+      {
+        "id": "media-024f7e78aaedbebaa92c58ca",
+        "type": "圖片",
+        "summary": "佛法二門對照圖：聖道門為難行道、自力、勤行精進；淨土門為易行道、他力、信彌陀救度。"
+      }
+    ]
   },
   {
     "id": "huijing_9-832",
@@ -52216,14 +52141,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-754",
-    "nextId": "huijing_9-703",
-    "visualNotes": [
-      {
-        "id": "media-9",
-        "type": "SVG 圖表",
-        "summary": "《觀經四帖疏》編序的層級關係圖。"
-      }
-    ]
+    "nextId": "huijing_9-703"
   },
   {
     "id": "huijing_9-703",
@@ -52490,14 +52408,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-679",
-    "nextId": "huijing_9-704",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_9-704"
   },
   {
     "id": "huijing_9-704",
@@ -53404,7 +53315,14 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-662",
-    "nextId": "huijing_9-632"
+    "nextId": "huijing_9-632",
+    "visualNotes": [
+      {
+        "id": "media-00d95bf6849fed15e55f0dc7",
+        "type": "圖片",
+        "summary": "《觀無量壽經》定善十三觀分類圖：分為依報觀與正報觀，各自再區分假觀、真觀及對應觀次。"
+      }
+    ]
   },
   {
     "id": "huijing_9-632",
@@ -59577,14 +59495,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-435",
-    "nextId": "huijing_9-433",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_9-433"
   },
   {
     "id": "huijing_9-433",
@@ -66195,14 +66106,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-900",
-    "nextId": "huijing_9-896",
-    "visualNotes": [
-      {
-        "id": "media-12",
-        "type": "SVG 圖表",
-        "summary": "報身、報土與自受用身／他受用身的概念關係圖。"
-      }
-    ]
+    "nextId": "huijing_9-896"
   },
   {
     "id": "huijing_9-896",
@@ -99015,7 +98919,14 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-612",
-    "nextId": "jingzong_5-607"
+    "nextId": "jingzong_5-607",
+    "visualNotes": [
+      {
+        "id": "media-02ad7ff83902f7ff7413cfbe",
+        "type": "SVG 圖表",
+        "summary": "「宗的特性」關係圖，以括號列出獨尊性、統攝性、體系性三項。"
+      }
+    ]
   },
   {
     "id": "jingzong_5-607",
@@ -195829,7 +195740,14 @@
     ],
     "reserved": false,
     "prevId": "library_4-1625",
-    "nextId": "library_4-1622"
+    "nextId": "library_4-1622",
+    "visualNotes": [
+      {
+        "id": "media-026ab3ff0bf8bbb062fe060b",
+        "type": "圖片",
+        "summary": "白色蓮花近景照片，背景為荷葉與蓮花花苞。"
+      }
+    ]
   },
   {
     "id": "library_4-1622",
@@ -196072,7 +195990,19 @@
     ],
     "reserved": false,
     "prevId": "library_4-1619",
-    "nextId": "library_4-1616"
+    "nextId": "library_4-1616",
+    "visualNotes": [
+      {
+        "id": "media-01667700568607f5a374fc80",
+        "type": "圖片",
+        "summary": "簡筆插畫：人物倚靠一本淨土相關書籍休息，旁邊有蓮花與花瓣圖案。"
+      },
+      {
+        "id": "media-034ecee3446817796acd29ea",
+        "type": "圖片",
+        "summary": "祈願主題圖：左側列出疫情早日解除、健康平安、世界和平等文字，右側為佛像手印與念佛人物插畫。"
+      }
+    ]
   },
   {
     "id": "library_4-1616",
@@ -213022,7 +212952,14 @@
     ],
     "reserved": false,
     "prevId": "library_4-346",
-    "nextId": "library_4-344"
+    "nextId": "library_4-344",
+    "visualNotes": [
+      {
+        "id": "media-05a8b2de8e15af6c27dfdddb",
+        "type": "圖片",
+        "summary": "佛堂照片：中央為金色佛像，兩側有佛教造像與供桌陳設。"
+      }
+    ]
   },
   {
     "id": "library_4-344",
@@ -220805,7 +220742,19 @@
     ],
     "reserved": false,
     "prevId": "library_7-2163",
-    "nextId": "library_7-2137"
+    "nextId": "library_7-2137",
+    "visualNotes": [
+      {
+        "id": "media-0049601d59e9b6999e7aff28",
+        "type": "圖片",
+        "summary": "佛教人物畫：兩尊具光背的人像立於雲上，前方人物持杖與幡旗。"
+      },
+      {
+        "id": "media-007d1d9fb351543bbbc81883",
+        "type": "圖片",
+        "summary": "佛教人物畫：一位菩薩與一位佛像具光背立於雲上，畫面有直排題字。"
+      }
+    ]
   },
   {
     "id": "library_7-2137",

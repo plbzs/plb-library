@@ -110,5 +110,14 @@
   ],
   "reserved": false,
   "prevId": "jingzong_5-612",
-  "nextId": "jingzong_5-607"
+  "nextId": "jingzong_5-607",
+  "visualNotes": [
+    {
+      "id": "media-02ad7ff83902f7ff7413cfbe",
+      "type": "SVG 圖表",
+      "summary": "「宗的特性」關係圖，以括號列出獨尊性、統攝性、體系性三項。",
+      "extractedText": "獨尊性\\n統攝性\\n體系性\\n宗的特性",
+      "sourceArchiveVerified": true
+    }
+  ]
 }
