@@ -1518,9 +1518,10 @@ function renderAttachments(article) {
 function renderVisualNotes(article) {
   const notes = article.visualNotes || [];
   if (!notes.length) return "";
+  const verified = notes.every((note) => note.sourceArchiveVerified === true);
   return `
     <section class="panel visual-notes">
-      <h2>圖表內容</h2>
+      <h2>圖表內容${verified ? "" : "（初步辨識）"}</h2>
       <ul>
         ${notes.map((note) => `
           <li>
