@@ -56,5 +56,13 @@
   ],
   "reserved": true,
   "prevId": "book_1-1",
-  "nextId": null
+  "nextId": null,
+  "visualNotes": [
+    {
+      "id": "media-7",
+      "type": "圖片",
+      "summary": "《淨土三經讀本》書封，直排書名與佛教題材插圖。",
+      "extractedText": ""
+    }
+  ]
 }

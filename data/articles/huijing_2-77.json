@@ -66,5 +66,19 @@
   ],
   "reserved": false,
   "prevId": "huijing_2-171",
-  "nextId": "huijing_2-24"
+  "nextId": "huijing_2-24",
+  "visualNotes": [
+    {
+      "id": "media-10",
+      "type": "SVG 圖表",
+      "summary": "以本尊、目的、方法三個層次呈現念佛法門要點的關係圖。",
+      "extractedText": "本\\n尊\\n南\\n無\\n阿\\n彌\\n陀\\n佛\\n目\\n的\\n願\\n生\\n極\\n樂\\n世\\n界\\n方\\n法\\n專\\n稱\\n名\\n信而行之"
+    },
+    {
+      "id": "media-11",
+      "type": "SVG 圖表",
+      "summary": "善導大師思想脈絡與第十八願內容的關係圖。",
+      "extractedText": "第\\n十\\n八\\n願\\n《\\n觀\\n念\\n法\\n門\\n》\\n設\\n我\\n得\\n佛\\n若\\n成\\n方\\n眾\\n生\\n至\\n心\\n信\\n樂\\n國\\n欲\\n稱\\n名\\n字\\n乃\\n下\\n聲\\n乘\\n力\\n不\\n者\\n取\\n正\\n覺\\n往\\n禮\\n讚\\n號"
+    }
+  ]
 }

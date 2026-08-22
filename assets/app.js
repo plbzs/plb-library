@@ -1472,6 +1472,7 @@ async function renderArticle(id) {
       ${article.series ? `<p class="meta">系列：<a href="#/search?q=${encodeURIComponent(article.series.title)}&section=${encodeURIComponent(article.displayPath[0])}">${esc(article.series.title)}</a>${article.series.partLabel ? ` · 第 ${esc(article.series.partLabel)} 篇` : ""}</p>` : ""}
       ${article.attachments.length ? renderAttachments(article) : ""}
       <div class="article-body">${articleBodyHtml}</div>
+      ${renderVisualNotes(article)}
       ${renderRelated(article)}
     </article>
   `;
@@ -1509,6 +1510,25 @@ function renderAttachments(article) {
       <div class="actions">
         ${article.attachments.map((file) => `<a href="${esc(file.url)}" target="_blank" rel="noreferrer">${esc(file.label)}</a>`).join("")}
       </div>
+    </section>
+  `;
+}
+
+function renderVisualNotes(article) {
+  const notes = article.visualNotes || [];
+  if (!notes.length) return "";
+  return `
+    <section class="panel visual-notes">
+      <h2>圖表內容</h2>
+      <ul>
+        ${notes.map((note) => `
+          <li>
+            <span class="visual-note-type">${esc(note.type || "圖表")}</span>
+            <span>${esc(note.summary || "")}</span>
+            ${note.extractedText ? `<details><summary>文字內容</summary><div class="visual-note-text">${esc(note.extractedText)}</div></details>` : ""}
+          </li>
+        `).join("")}
+      </ul>
     </section>
   `;
 }
@@ -1583,7 +1603,8 @@ function wireArticleActions(article) {
 function plainTextForCopy(article) {
   const renderedText = app.querySelector(".article-body")?.innerText?.trim() || "";
   const text = renderedText || article.bodyText?.trim() || htmlToPlainText(prepareArticleBodyHtml(article));
-  if (text) return text;
+  const visualText = visualNotesText(article);
+  if (text) return [text, visualText].filter(Boolean).join("\n\n");
   const images = [...String(article.bodyHtml || "").matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/gi)]
     .map((matchResult) => matchResult[1])
     .filter(Boolean);
@@ -1593,7 +1614,8 @@ function plainTextForCopy(article) {
     article.sourceUrl ? `來源：${article.sourceUrl}` : "",
     "",
     "原站此頁主要為圖片或尚無可轉換文字。",
-    ...images.map((src) => `圖片：${src}`)
+    ...images.map((src) => `圖片：${src}`),
+    visualText
   ].filter((line, index) => index < 3 ? Boolean(line) : true).join("\n");
 }
 
@@ -1611,14 +1633,28 @@ function htmlToPlainText(html) {
 
 function markdownForCopy(article) {
   const body = htmlToMarkdown(prepareArticleBodyHtml(article));
+  const visualText = visualNotesText(article);
   return [
     `# ${article.title}`,
     "",
     article.displayPath?.length ? `路徑：${displayPathText(article.displayPath)}` : "",
     article.sourceUrl ? `來源：${article.sourceUrl}` : "",
     "",
-    body || plainTextForCopy(article)
+    body || plainTextForCopy(article),
+    visualText
   ].filter(Boolean).join("\n");
+}
+
+function visualNotesText(article) {
+  const notes = article.visualNotes || [];
+  if (!notes.length) return "";
+  return [
+    "圖表內容：",
+    ...notes.flatMap((note) => [
+      `${note.type || "圖表"}：${note.summary || ""}`,
+      note.extractedText || ""
+    ]).filter(Boolean)
+  ].join("\n");
 }
 
 function prepareArticleBodyHtml(article) {

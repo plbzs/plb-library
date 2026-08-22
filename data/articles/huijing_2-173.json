@@ -66,5 +66,13 @@
   ],
   "reserved": false,
   "prevId": "huijing_2-188",
-  "nextId": "huijing_2-172"
+  "nextId": "huijing_2-172",
+  "visualNotes": [
+    {
+      "id": "media-8",
+      "type": "SVG 圖表",
+      "summary": "《念佛金言錄》編譯者序的法義關係圖。",
+      "extractedText": "聖覺\\n聖光\\n證空\\n親鸞\\n聖達\\n圓空\\n觀鏡\\n一遍\\n顯意\\n彰空\\n覺如\\n存覺\\n法然"
+    }
+  ]
 }

@@ -57,5 +57,13 @@
   ],
   "reserved": false,
   "prevId": "library_6-2128",
-  "nextId": "library_6-2099"
+  "nextId": "library_6-2099",
+  "visualNotes": [
+    {
+      "id": "media-6",
+      "type": "圖片",
+      "summary": "四十八願的分類與結歸關係圖，文字節點與連線構成樹狀圖。",
+      "extractedText": ""
+    }
+  ]
 }

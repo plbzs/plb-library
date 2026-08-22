@@ -84,5 +84,13 @@
   ],
   "reserved": false,
   "prevId": "huijing_7-540",
-  "nextId": "huijing_7-537"
+  "nextId": "huijing_7-537",
+  "visualNotes": [
+    {
+      "id": "media-5",
+      "type": "SVG 圖表",
+      "summary": "法義關係圖，主題為人身難得，使用分支連線表達層級。",
+      "extractedText": "高山垂線穿針\\n盲龜浮木伸頭\\n光壁撒豆難留\\n針尖堆豆不存\\n爪土及大地土\\n天人地獄餓鬼壽長\\n七佛以來猶為蟻子\\n八萬劫後未脫鴿身\\n機緣喻\\n數量喻\\n時間喻\\n人身難得"
+    }
+  ]
 }

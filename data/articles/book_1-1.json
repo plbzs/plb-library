@@ -57,5 +57,13 @@
   ],
   "reserved": true,
   "prevId": null,
-  "nextId": "book_1-32"
+  "nextId": "book_1-32",
+  "visualNotes": [
+    {
+      "id": "media-4",
+      "type": "圖片",
+      "summary": "《淨土宗聖教集》書封，直排書名與佛教題材插圖。",
+      "extractedText": ""
+    }
+  ]
 }

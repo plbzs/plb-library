@@ -96,5 +96,13 @@
   ],
   "reserved": false,
   "prevId": "huijing_9-754",
-  "nextId": "huijing_9-703"
+  "nextId": "huijing_9-703",
+  "visualNotes": [
+    {
+      "id": "media-9",
+      "type": "SVG 圖表",
+      "summary": "《觀經四帖疏》編序的層級關係圖。",
+      "extractedText": "佛法\\n聖道門\\n要門\\n弘願\\n定\\n善\\n：\\n息\\n慮\\n凝\\n心\\n之\\n十\\n三\\n觀\\n散\\n廢\\n惡\\n修\\n福\\n九\\n品\\n大\\n願\\n五\\n劫\\n思\\n惟\\n本\\n(\\n為\\n我\\n發\\n)\\n業\\n兆\\n載\\n永\\n萬\\n行\\n力\\n名\\n號\\n無\\n上\\n功\\n德\\n光\\n明\\n礙\\n攝\\n取\\n成\\n自力迴向\\n他力迴向\\n淨土門\\n觀經\\n定善\\n中\\n下\\n上品\\n中品\\n下品\\n顯(萬行隨一)\\n隱(非定非散)\\n十三定觀\\n方便要門\\n行福\\n世福\\n念佛\\n戒福\\n三福九品\\n真實弘願\\n散善"
+    }
+  ]
 }

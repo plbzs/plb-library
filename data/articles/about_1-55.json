@@ -56,5 +56,13 @@
   ],
   "reserved": false,
   "prevId": "about_1-54",
-  "nextId": "about_1-56"
+  "nextId": "about_1-56",
+  "visualNotes": [
+    {
+      "id": "media-1",
+      "type": "圖片",
+      "summary": "淨土宗宗旨的雙語題圖，含佛像／圓形裝飾與說明文字。",
+      "extractedText": ""
+    }
+  ]
 }
