@@ -129,6 +129,13 @@
                     "children": []
                   },
                   {
+                    "title": "一句佛號，普利冥陽",
+                    "description": "法談開示",
+                    "href": "#/article/huijing_9-990",
+                    "type": "article",
+                    "children": []
+                  },
+                  {
                     "title": "正定業之文六點分析",
                     "description": "法談開示",
                     "href": "#/article/huijing_9-975",
@@ -18200,6 +18207,13 @@
             "children": []
           },
           {
+            "title": "破除修行魔障-淨夫法師",
+            "description": "淨土宗園地",
+            "href": "#/article/library_4-2179",
+            "type": "article",
+            "children": []
+          },
+          {
             "title": "上衍之極致──從淨土宗特色看大乘究竟義(六) -宗助居士",
             "description": "淨土宗園地",
             "href": "#/article/library_4-2177",
@@ -30916,7 +30930,7 @@
         "type": "path",
         "children": [
           {
-            "title": "淨土宗叢書",
+            "title": "01《淨土宗聖教集》",
             "description": "書籍頁",
             "href": "#/article/book_1-1",
             "type": "book",

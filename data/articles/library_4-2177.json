@@ -47,23 +47,23 @@
     ],
     "sameCategory": [
       "library_4-2178",
+      "library_4-2179",
       "library_4-2176",
       "library_4-2175",
       "library_4-2172",
       "library_4-2170",
       "library_4-2169",
-      "library_4-2168",
-      "library_4-2161"
+      "library_4-2168"
     ],
     "sameTopic": [
       "library_4-2178",
+      "library_4-2179",
       "library_4-2176",
       "library_4-2175",
       "library_4-2172",
       "library_4-2170",
       "library_4-2169",
-      "library_4-2168",
-      "library_4-2161"
+      "library_4-2168"
     ],
     "relatedBooks": []
   },
@@ -74,6 +74,6 @@
     "偵測並保留原文閱讀樣式"
   ],
   "reserved": false,
-  "prevId": "library_4-2178",
+  "prevId": "library_4-2179",
   "nextId": "library_4-2176"
 }
