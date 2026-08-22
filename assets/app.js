@@ -1473,7 +1473,6 @@ async function renderArticle(id) {
       ${article.series ? `<p class="meta">系列：<a href="#/search?q=${encodeURIComponent(article.series.title)}&section=${encodeURIComponent(article.displayPath[0])}">${esc(article.series.title)}</a>${article.series.partLabel ? ` · 第 ${esc(article.series.partLabel)} 篇` : ""}</p>` : ""}
       ${article.attachments.length ? renderAttachments(article) : ""}
       <div class="article-body">${articleBodyHtml}</div>
-      ${renderVisualNotes(article)}
       ${renderRelated(article)}
     </article>
   `;
@@ -1605,8 +1604,7 @@ function wireArticleActions(article) {
 function plainTextForCopy(article) {
   const renderedText = app.querySelector(".article-body")?.innerText?.trim() || "";
   const text = renderedText || article.bodyText?.trim() || htmlToPlainText(prepareArticleBodyHtml(article));
-  const visualText = visualNotesText(article);
-  if (text) return [text, visualText].filter(Boolean).join("\n\n");
+  if (text) return text;
   const images = [...String(article.bodyHtml || "").matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/gi)]
     .map((matchResult) => matchResult[1])
     .filter(Boolean);
@@ -1616,8 +1614,7 @@ function plainTextForCopy(article) {
     article.sourceUrl ? `來源：${article.sourceUrl}` : "",
     "",
     "原站此頁主要為圖片或尚無可轉換文字。",
-    ...images.map((src) => `圖片：${src}`),
-    visualText
+    ...images.map((src) => `圖片：${src}`)
   ].filter((line, index) => index < 3 ? Boolean(line) : true).join("\n");
 }
 
@@ -1635,15 +1632,13 @@ function htmlToPlainText(html) {
 
 function markdownForCopy(article) {
   const body = htmlToMarkdown(prepareArticleBodyHtml(article));
-  const visualText = visualNotesText(article);
   return [
     `# ${article.title}`,
     "",
     article.displayPath?.length ? `路徑：${displayPathText(article.displayPath)}` : "",
     article.sourceUrl ? `來源：${article.sourceUrl}` : "",
     "",
-    body || plainTextForCopy(article),
-    visualText
+    body || plainTextForCopy(article)
   ].filter(Boolean).join("\n");
 }
 

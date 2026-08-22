@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
+  "articles": [
+    {
+      "articleId": "huijing_9-640",
+      "path": "data/visuals/huijing_9-640.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "incomplete"
+    }
+  ]
+}

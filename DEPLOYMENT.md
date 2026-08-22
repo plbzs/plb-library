@@ -1,6 +1,6 @@
 # GitHub Pages Deployment
 
-產生時間：2026-08-22T18:13:06.056Z
+產生時間：2026-08-22T18:59:26.532Z
 
 此資料夾是乾淨部署版，只保留網站執行需要的靜態檔案。
 
@@ -15,6 +15,8 @@
 - data/search_manifest.json
 - data/search_chunks
 - data/articles
+- data/visuals_manifest.json
+- data/visuals
 
 總大小：92.3 MB
 
