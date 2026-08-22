@@ -164,7 +164,8 @@ const CONTENT_FONT_STEP = 2;
 const INITIAL_SEARCH_RENDER_SIZE = 20;
 const BACKGROUND_SEARCH_BATCH_SIZE = 20;
 const DIRECTORY_PAGE_SIZE = 120;
-const CACHE_VERSION = new URLSearchParams(location.search).get("v") || "dev";
+const ASSET_VERSION = new URL(import.meta.url).searchParams.get("v") || "dev";
+const CACHE_VERSION = new URLSearchParams(location.search).get("v") || ASSET_VERSION;
 const settings = {
   theme: localStorage.getItem("plb-theme") || "light",
   fontSize: Number(localStorage.getItem("plb-content-font-size") || DEFAULT_CONTENT_FONT_SIZE)
