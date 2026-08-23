@@ -9,17 +9,93 @@
       "id": "media-7fc690afda070a66e9c25663",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-7fc690afda070a66e9c25663.svg",
         "sha256": "8ab90b95ee4ec374c2d38b821c09937ccbf0bf214803c937b93e6b712682ec4e"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教行證三要：教為理論，行為實踐，證為成果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "教、行、證與理論、實踐、成果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "教行證",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "教／理論",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行／實踐",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 100
+            }
+          },
+          {
+            "id": "result",
+            "label": "證／成果",
+            "kind": "result",
+            "position": {
+              "x": 260,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "teaching",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "result",
+            "relation": "divides-into"
+          },
+          {
+            "from": "teaching",
+            "to": "practice",
+            "relation": "guides"
+          },
+          {
+            "from": "practice",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留教行證三分及其理論、實踐、成果對應。"
       }
     },
     {
@@ -306,8 +382,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

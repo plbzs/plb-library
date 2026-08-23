@@ -162,24 +162,104 @@
       "id": "media-8047a7088626204132aed150",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8047a7088626204132aed150.svg",
         "sha256": "906284b835ca4fa9bc7a1a5a9915ed8b9b769c0ac5e44f88eb494d09679adc97"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "實相身：不取正覺之正覺，大智，自利；為物身：若不生者之往生，大悲，利他；名號一體不二。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "實相身與為物身的大智大悲",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "名號一體不二",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "real",
+            "label": "實相身／正覺",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "wisdom",
+            "label": "大智／自利",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "object",
+            "label": "為物身／往生",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 220
+            }
+          },
+          {
+            "id": "compassion",
+            "label": "大悲／利他",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "real",
+            "relation": "expresses"
+          },
+          {
+            "from": "real",
+            "to": "wisdom",
+            "relation": "characterized-by"
+          },
+          {
+            "from": "root",
+            "to": "object",
+            "relation": "expresses"
+          },
+          {
+            "from": "object",
+            "to": "compassion",
+            "relation": "characterized-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "39/39 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留實相身／為物身與大智／大悲、自利／利他對應。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

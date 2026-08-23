@@ -201,17 +201,125 @@
       "id": "media-86413045a487d2173c8c4e8f",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-86413045a487d2173c8c4e8f.svg",
         "sha256": "85fa06b5cea0da18634aae6394ab358684326376e4a513f73183a010612f404c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法菩薩道分難行道與易行道。難行道／聖道門／自力／聖者／修諸行六度／陸道步行／苦／諸久墮／證果不定；易行道／淨土門／他力／凡夫／信念佛救度／水道乘船／樂／一速必／往生決定；另以豎出通途、橫超特別、修三學斷三毒、念彌陀生淨土、事難功漸與事易功頓對照。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "難行道與易行道的多層對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法／菩薩道",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 180
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道／聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "自力／聖者／修諸行六度／豎出通途／修三學斷三毒／事難功漸（權假教）",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-image",
+            "label": "陸道步行／苦／諸、久、墮／證果不定／下墮輪迴",
+            "kind": "detail",
+            "position": {
+              "x": 820,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道／淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 300
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "他力／凡夫／信心信念佛救度／橫超特別／念彌陀生淨土／事易功頓（圓頓教）",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 300
+            }
+          },
+          {
+            "id": "easy-image",
+            "label": "水道乘船／樂／一、速、必／往生決定／往生成佛",
+            "kind": "result",
+            "position": {
+              "x": 820,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "hard-detail",
+            "to": "hard-image",
+            "relation": "compared-by"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "easy-detail",
+            "to": "easy-image",
+            "relation": "compared-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "130/130 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "合併重複文字節點，保留難易二道、聖淨二門、自他力、步行乘船與苦樂的多層對照。"
       }
     },
     {
@@ -380,8 +488,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/5 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/5 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

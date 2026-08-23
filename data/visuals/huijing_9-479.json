@@ -9,24 +9,114 @@
       "id": "media-839c783667ca7f7702e40662",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-839c783667ca7f7702e40662.svg",
         "sha256": "2a2f4a27df08d4fc41aa784470fbb6c70ed61afe3c72a8dad29b4300b82923f9"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三種機法一體：往生正覺、身心功德、生佛三業；彼此相靠、互相容融、不相捨離。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三種機法一體",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "機法一體",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "birth",
+            "label": "往生正覺／機法一體",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 150
+            }
+          },
+          {
+            "id": "body",
+            "label": "身心功德／機法一體",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 150
+            }
+          },
+          {
+            "id": "three",
+            "label": "生佛三業／機法一體",
+            "kind": "scheme",
+            "position": {
+              "x": 600,
+              "y": 150
+            }
+          },
+          {
+            "id": "unity",
+            "label": "彼此相靠／互相容融／不相捨離",
+            "kind": "result",
+            "position": {
+              "x": 300,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "birth",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "includes"
+          },
+          {
+            "from": "birth",
+            "to": "unity",
+            "relation": "explained-by"
+          },
+          {
+            "from": "body",
+            "to": "unity",
+            "relation": "explained-by"
+          },
+          {
+            "from": "three",
+            "to": "unity",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "15/15 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三種機法一體與最後的相靠、容融、不捨離結論。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

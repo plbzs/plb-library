@@ -9,24 +9,146 @@
       "id": "media-85594e8b3272985b93c386a1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-85594e8b3272985b93c386a1.svg",
         "sha256": "d02d0cbd4ef2ce7cd19cc0eab82da00ce225e9e74ec726b9c91188556610a824"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土宗宗名來歷：佛說三經、龍天造論、曇鸞奠基、道綽續承、善導開宗與善導地位；印度無淨土宗，中國開淨土宗；另有略明、廣明諸宗與淨土宗的分別。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗宗名來歷與傳承",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土宗宗名來歷",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "scriptures",
+            "label": "佛說三經",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "treatises",
+            "label": "龍天造論",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 90
+            }
+          },
+          {
+            "id": "tanluan",
+            "label": "曇鸞奠基",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 180
+            }
+          },
+          {
+            "id": "daocho",
+            "label": "道綽續承",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 270
+            }
+          },
+          {
+            "id": "shandao",
+            "label": "善導開宗／善導地位",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 140
+            }
+          },
+          {
+            "id": "india",
+            "label": "印度無淨土宗",
+            "kind": "detail",
+            "position": {
+              "x": 780,
+              "y": 60
+            }
+          },
+          {
+            "id": "china",
+            "label": "中國開淨土宗",
+            "kind": "result",
+            "position": {
+              "x": 780,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "scriptures",
+            "relation": "begins-with"
+          },
+          {
+            "from": "scriptures",
+            "to": "treatises",
+            "relation": "continued-by"
+          },
+          {
+            "from": "treatises",
+            "to": "tanluan",
+            "relation": "continued-by"
+          },
+          {
+            "from": "tanluan",
+            "to": "daocho",
+            "relation": "continued-by"
+          },
+          {
+            "from": "daocho",
+            "to": "shandao",
+            "relation": "culminates-in"
+          },
+          {
+            "from": "root",
+            "to": "india",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "root",
+            "to": "china",
+            "relation": "established-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "19/19 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依宗名來歷與傳承箭頭重建，保留印度／中國的地理對照。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -123,17 +123,97 @@
       "id": "media-7d3ac19b2a3aeddde79ac91a",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-7d3ac19b2a3aeddde79ac91a.svg",
         "sha256": "e7b1dd8ff6d0b84186f507e317677219b3e79e987a963595d2e59e019712bac4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "實相身：不取正覺之正覺，自利；為物身：若不生者之往生，利他；本願、名號一體不二。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "實相身與為物身、本願與名號",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "本願／名號一體不二",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "real",
+            "label": "實相身",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "real-detail",
+            "label": "不取正覺之「正覺」／自利",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "object",
+            "label": "為物身",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 220
+            }
+          },
+          {
+            "id": "object-detail",
+            "label": "若不生者之「往生」／利他",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "real",
+            "relation": "divides-into"
+          },
+          {
+            "from": "real",
+            "to": "real-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "object",
+            "relation": "divides-into"
+          },
+          {
+            "from": "object",
+            "to": "object-detail",
+            "relation": "defined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "37/37 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留實相身／為物身、自利／利他與一體不二的結構。"
       }
     },
     {
@@ -236,8 +316,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

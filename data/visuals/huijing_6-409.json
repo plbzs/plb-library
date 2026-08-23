@@ -9,24 +9,123 @@
       "id": "media-806b0f7f33a5f11d54abe534",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-806b0f7f33a5f11d54abe534.svg",
         "sha256": "87b142342cf407c071907677dc2824e80be3421ecb60dacee528e47c3b43cfcf"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "見佛分淨土與穢土；淨土證悟佛法、體悟佛心，穢土以念佛三昧、佛力加被；時分臨終與平生；方法依觀念、憶念、稱念；結果有眼見、心見，歸於見佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "平生與臨終見佛的淨土、穢土與念佛方法",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "見佛",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 160
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土：證悟佛法／體悟佛心",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "defiled",
+            "label": "穢土：念佛三昧／佛力加被",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 220
+            }
+          },
+          {
+            "id": "time",
+            "label": "臨終／平生",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 120
+            }
+          },
+          {
+            "id": "methods",
+            "label": "觀念／憶念／稱念",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 260
+            }
+          },
+          {
+            "id": "eyes",
+            "label": "眼見／心見",
+            "kind": "result",
+            "position": {
+              "x": 800,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "considered-in"
+          },
+          {
+            "from": "root",
+            "to": "defiled",
+            "relation": "considered-in"
+          },
+          {
+            "from": "pure",
+            "to": "time",
+            "relation": "applies-across"
+          },
+          {
+            "from": "defiled",
+            "to": "methods",
+            "relation": "supported-by"
+          },
+          {
+            "from": "time",
+            "to": "eyes",
+            "relation": "leads-to"
+          },
+          {
+            "from": "methods",
+            "to": "eyes",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "21/21 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "以見佛為總結，保留淨土／穢土、平生／臨終、方法與眼見／心見分支。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

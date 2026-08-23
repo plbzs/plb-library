@@ -9,24 +9,123 @@
       "id": "media-8627c51db6fd5a2c185f1e0e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8627c51db6fd5a2c185f1e0e.svg",
         "sha256": "e2123013ceb40f1ce0841f42ee880af92a5bbab896ebc5a1fcd8fad63bec614d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "此土遇本願，得往生益；彼土見彌陀，得成佛益；觀佛本願力，遇無空過者，能令速滿足功德大寶海。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "此土遇本願與彼土見彌陀的兩重利益",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "觀佛本願力",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "this",
+            "label": "此土遇本願",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "birth",
+            "label": "得往生益",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "other",
+            "label": "彼土見彌陀",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 200
+            }
+          },
+          {
+            "id": "buddha",
+            "label": "得成佛益",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 200
+            }
+          },
+          {
+            "id": "ocean",
+            "label": "遇無空過者／速滿足功德大寶海",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "this",
+            "relation": "applies-in"
+          },
+          {
+            "from": "this",
+            "to": "birth",
+            "relation": "results-in"
+          },
+          {
+            "from": "root",
+            "to": "other",
+            "relation": "applies-in"
+          },
+          {
+            "from": "other",
+            "to": "buddha",
+            "relation": "results-in"
+          },
+          {
+            "from": "birth",
+            "to": "ocean",
+            "relation": "leads-to"
+          },
+          {
+            "from": "buddha",
+            "to": "ocean",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重建此土／彼土、往生益／成佛益與功德大寶海的流程。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
