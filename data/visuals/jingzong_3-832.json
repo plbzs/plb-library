@@ -9,24 +9,27 @@
       "id": "media-5cf05036f90c20f244aa60a8",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-5cf05036f90c20f244aa60a8.jpg",
         "sha256": "3da2a0b4e75dda7f3f068b2c0a58f585a0dbc74729d030423cd5c3858147c8b7"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "水墨山水畫：一位長者牽著孩童沿山路行走，遠方有山峰與飛鳥，左側有直排書法題字。文章標題所指的詩句是「青山不識我姓氏，我亦不識青山名」。屬於風景與人物插畫，不是結構化圖表。",
+      "transcript": "青山不識我姓氏，我亦不識青山名",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "文章標題文字；畫面題字細節不足以可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留山水、長者、孩童、山路與詩句主題，不猜測書法題字的完整內容。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

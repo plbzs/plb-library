@@ -9,17 +9,177 @@
       "id": "media-565fbaac3a1038a9d7c7323f",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-565fbaac3a1038a9d7c7323f.png",
         "sha256": "0a9878487b06b1c614e77b4ec2cacb5ec6e6c59a7e589515f44fdd3712c5135c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "偈語核心精神\n淨土宗根本與核心\n增長信心關鍵\n念佛人應銘記在心\n濃縮四十八願核心\n深廣願心完全展現\n阿彌陀佛大慈大悲\n法藏菩薩根本願心\n發起四十八願基礎\n甚深廣大無盡無邊",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "偈語核心精神的三條根本脈絡",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "偈語核心精神",
+            "kind": "root",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "pure-land-root",
+            "label": "淨土宗根本與核心",
+            "kind": "branch",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "vow-core",
+            "label": "濃縮四十八願核心",
+            "kind": "branch",
+            "position": {
+              "x": 480,
+              "y": 180
+            }
+          },
+          {
+            "id": "dharmakara-root",
+            "label": "法藏菩薩根本願心",
+            "kind": "branch",
+            "position": {
+              "x": 960,
+              "y": 180
+            }
+          },
+          {
+            "id": "faith",
+            "label": "增長信心關鍵",
+            "kind": "detail",
+            "position": {
+              "x": -80,
+              "y": 390
+            }
+          },
+          {
+            "id": "remember",
+            "label": "念佛人應銘記在心",
+            "kind": "detail",
+            "position": {
+              "x": 120,
+              "y": 390
+            }
+          },
+          {
+            "id": "vast-vow",
+            "label": "深廣願心完全展現",
+            "kind": "detail",
+            "position": {
+              "x": 400,
+              "y": 390
+            }
+          },
+          {
+            "id": "great-compassion",
+            "label": "阿彌陀佛大慈大悲",
+            "kind": "detail",
+            "position": {
+              "x": 640,
+              "y": 390
+            }
+          },
+          {
+            "id": "forty-eight",
+            "label": "發起四十八願基礎",
+            "kind": "detail",
+            "position": {
+              "x": 880,
+              "y": 390
+            }
+          },
+          {
+            "id": "boundless",
+            "label": "甚深廣大無盡無邊",
+            "kind": "detail",
+            "position": {
+              "x": 1120,
+              "y": 390
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pure-land-root",
+            "relation": "branches"
+          },
+          {
+            "from": "root",
+            "to": "vow-core",
+            "relation": "branches"
+          },
+          {
+            "from": "root",
+            "to": "dharmakara-root",
+            "relation": "branches"
+          },
+          {
+            "from": "pure-land-root",
+            "to": "faith",
+            "relation": "explains"
+          },
+          {
+            "from": "pure-land-root",
+            "to": "remember",
+            "relation": "explains"
+          },
+          {
+            "from": "vow-core",
+            "to": "vast-vow",
+            "relation": "explains"
+          },
+          {
+            "from": "vow-core",
+            "to": "great-compassion",
+            "relation": "explains"
+          },
+          {
+            "from": "dharmakara-root",
+            "to": "forty-eight",
+            "relation": "explains"
+          },
+          {
+            "from": "dharmakara-root",
+            "to": "boundless",
+            "relation": "explains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-roots",
+            "label": "三條根本脈絡",
+            "members": [
+              "pure-land-root",
+              "vow-core",
+              "dharmakara-root"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10標籤與三層樹狀關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底樹狀圖經白底核對，完整轉錄總標題、三個分支與六個末端說明。"
       }
     },
     {
@@ -480,8 +640,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

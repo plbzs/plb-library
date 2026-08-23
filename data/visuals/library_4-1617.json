@@ -28,17 +28,20 @@
       "id": "media-558f3fe4eb903c2474cf188d",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-558f3fe4eb903c2474cf188d.jpg",
         "sha256": "1dfff49e109e7beb96020c7fea1d2f35200fee734a92591e53631e189bd41987"
       },
-      "semanticDescription": null,
+      "semanticDescription": "白底線描佛像插圖：一尊有圓形光輪、坐在粉紅蓮花上的佛像，雙手在胸前結印。屬於人物插圖，沒有可重建的分類或流程結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物插圖無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛像、光輪、蓮花與結印等視覺語意，不把人物畫誤轉成圖表。"
       }
     },
     {
@@ -98,8 +101,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/5 approved-or-semantic",
+    "coverage": "3/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

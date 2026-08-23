@@ -46,17 +46,20 @@
       "id": "media-5ed9a8ffb16ec7d372305f45",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-5ed9a8ffb16ec7d372305f45.jpg",
         "sha256": "542a3b9f0a6d46293c65e8d4d199ab594d2f19917953bd89d3adec5664365aad"
       },
-      "semanticDescription": null,
+      "semanticDescription": "直幅傳統佛教畫：兩位持法器、立於雲氣上的菩薩或天人，周圍有帶流蘇的法器或寶物與光點，畫面四角有直排題字。屬於人物畫，不是可重建的清單或關係圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物畫題字不足以形成結構清單",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留雙人物、法器、雲氣、流蘇與題字位置，不臆測二十五位菩薩清單或人物身份。"
       }
     },
     {
@@ -279,8 +282,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "6/15 approved-or-semantic",
+    "coverage": "7/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 6
+    "semanticOnlyCount": 7
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-5b272c0881b309cbe8bd8708",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-5b272c0881b309cbe8bd8708.jpg",
         "sha256": "4559c564ee98c2f32527435494aa122e47fe38670db6c7ebd7279f741e3f9929"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "火箭升空的概念合成圖：火箭從雲層與夕照天空中升起，右側直排文字為「南無阿彌陀佛」。屬於象徵性插圖，不是流程或分類圖。",
+      "transcript": "南無阿彌陀佛",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1可辨識文字；象徵性插圖無結構關係",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留火箭、雲層、升空方向與佛號文字，不將象徵圖硬轉成結構模型。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

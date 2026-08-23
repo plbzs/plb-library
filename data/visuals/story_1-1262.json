@@ -26,24 +26,27 @@
       "id": "media-5eddc3539e5a1459483f6b7d",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-5eddc3539e5a1459483f6b7d.jpg",
         "sha256": "1abda6b899f100958ad8eb81ef6af3941d80e262f854df430d3ce652859abe21"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "故事宣傳海報：上方大字為「葷肉中毒臨死境，決意念佛得復生」，畫面結合佛像、醫院急救、病床、魚與人物照片，底部有新加坡與馬來西亞淨土宗英文說明。屬於敘事海報，不是結構化圖表。",
+      "transcript": "葷肉中毒臨死境\n決意念佛得復生\n淨夫法師走上淨土宗出家路之因緣\nSingapore & Malaysia Pure Land Buddhism",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "主要標題與英文組織說明可辨識；海報無結構關係",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留中毒、臨死、念佛、復生、醫療與佛像等故事語意，不將海報拼貼誤轉成流程圖。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
