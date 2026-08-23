@@ -9,17 +9,88 @@
       "id": "media-e3e20aa3123e9cbe400f3080",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e3e20aa3123e9cbe400f3080.svg",
         "sha256": "26931d59f91b10a145fa0f44c5560c6f08d97740100e79f54fbb6cfb62d5d0d9"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "本尊：南無阿彌陀佛；目的：願生極樂世界；方法：專稱彌陀佛名；信而行之。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "本尊、目的、方法",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "本尊：南無阿彌陀佛",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "目的：願生極樂世界",
+            "kind": "purpose",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "method",
+            "label": "方法：專稱彌陀佛名",
+            "kind": "method",
+            "position": {
+              "x": 320,
+              "y": 360
+            }
+          },
+          {
+            "id": "summary",
+            "label": "信而行之",
+            "kind": "summary",
+            "position": {
+              "x": 700,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "purpose",
+            "relation": "aims-at"
+          },
+          {
+            "from": "root",
+            "to": "method",
+            "relation": "uses"
+          },
+          {
+            "from": "purpose",
+            "to": "summary",
+            "relation": "completed-by"
+          },
+          {
+            "from": "method",
+            "to": "summary",
+            "relation": "completed-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "本尊、目的、方法與總結全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留本尊、願生極樂、專稱名號三欄與信而行之的總結。"
       }
     },
     {
@@ -177,9 +248,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

@@ -9,17 +9,88 @@
       "id": "media-dbec2a768bc276d2943f0fa9",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-dbec2a768bc276d2943f0fa9.svg",
         "sha256": "ad73f08d9a4cddd92a689968c767f3d2e50c7092f6e0108751f0eb986fbbc589"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "安樂世界；安：清淨無染、不變動之安；樂：微妙難思、如涅槃之樂；總義：安穩快樂。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "安樂世界的安與樂",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "安樂世界",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "peace",
+            "label": "安：清淨無染／不變動之安",
+            "kind": "meaning",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "joy",
+            "label": "樂：微妙難思／如涅槃之樂",
+            "kind": "meaning",
+            "position": {
+              "x": 320,
+              "y": 360
+            }
+          },
+          {
+            "id": "summary",
+            "label": "安穩快樂",
+            "kind": "summary",
+            "position": {
+              "x": 720,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "peace",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "joy",
+            "relation": "explains"
+          },
+          {
+            "from": "peace",
+            "to": "summary",
+            "relation": "synthesizes"
+          },
+          {
+            "from": "joy",
+            "to": "summary",
+            "relation": "synthesizes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "安、樂兩義與安穩快樂總結全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留安與樂的兩條定義分支及安穩快樂總義。"
       }
     },
     {
@@ -149,9 +220,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

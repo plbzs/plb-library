@@ -176,34 +176,260 @@
       "id": "media-d971de378a0f615040f4ae17",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d971de378a0f615040f4ae17.svg",
         "sha256": "b669a5b5a70036abce38a0a2770ba3d8184fa06052065388421870d8f6152732"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第十八願；機：十方眾生；至心、誠心、信樂、深心、三心；欲生我國、迴向發願心；行：乃至十念；因：行願具足；果：若不生者不取正覺、即得往生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八願的機、心、行、因、果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "第十八願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "machine",
+            "label": "機：十方眾生",
+            "kind": "machine",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "mind",
+            "label": "至心／誠心／信樂／深心／三心",
+            "kind": "mind",
+            "position": {
+              "x": 280,
+              "y": 220
+            }
+          },
+          {
+            "id": "vow",
+            "label": "欲生我國／迴向發願心",
+            "kind": "vow",
+            "position": {
+              "x": 280,
+              "y": 440
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行：乃至十念",
+            "kind": "practice",
+            "position": {
+              "x": 600,
+              "y": 300
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因：行願具足",
+            "kind": "cause",
+            "position": {
+              "x": 900,
+              "y": 300
+            }
+          },
+          {
+            "id": "result",
+            "label": "果：若不生者不取正覺／即得往生",
+            "kind": "result",
+            "position": {
+              "x": 1220,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "machine",
+            "relation": "addresses"
+          },
+          {
+            "from": "root",
+            "to": "mind",
+            "relation": "requires"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "requires"
+          },
+          {
+            "from": "machine",
+            "to": "practice",
+            "relation": "receives"
+          },
+          {
+            "from": "mind",
+            "to": "practice",
+            "relation": "supports"
+          },
+          {
+            "from": "vow",
+            "to": "practice",
+            "relation": "supports"
+          },
+          {
+            "from": "practice",
+            "to": "cause",
+            "relation": "completes"
+          },
+          {
+            "from": "cause",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "機、三心、願、行、因、果全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "把第十八願中的機、心、願、行、因、果整理為由左至右的因果架構。"
       }
     },
     {
       "id": "media-d7463847e7e0dbb834996764",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d7463847e7e0dbb834996764.svg",
         "sha256": "67a8bac7041f663efa952d5fb0e4ccf24954f12bedd47a460b249d1f89df8892"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "報身與報土；自受用身、自受用土；他受用身、他受用土。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "報身與報土的自他受用",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "報身／報土",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "body",
+            "label": "報身",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "land",
+            "label": "報土",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 420
+            }
+          },
+          {
+            "id": "self-body",
+            "label": "自受用身",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 0
+            }
+          },
+          {
+            "id": "other-body",
+            "label": "他受用身",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 180
+            }
+          },
+          {
+            "id": "self-land",
+            "label": "自受用土",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 420
+            }
+          },
+          {
+            "id": "other-land",
+            "label": "他受用土",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 600
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "self-body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "other-body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "land",
+            "to": "self-land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "land",
+            "to": "other-land",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "報身、報土及四個自他受用節點全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留報身／報土兩個上位分類及自受用、他受用的平行分支。"
       }
     },
     {
@@ -305,9 +531,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

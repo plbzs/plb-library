@@ -9,17 +9,125 @@
       "id": "media-d7463847e7e0dbb834996764",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d7463847e7e0dbb834996764.svg",
         "sha256": "67a8bac7041f663efa952d5fb0e4ccf24954f12bedd47a460b249d1f89df8892"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "報身與報土；自受用身、自受用土；他受用身、他受用土。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "報身與報土的自他受用",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "報身／報土",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "body",
+            "label": "報身",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "land",
+            "label": "報土",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 420
+            }
+          },
+          {
+            "id": "self-body",
+            "label": "自受用身",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 0
+            }
+          },
+          {
+            "id": "other-body",
+            "label": "他受用身",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 180
+            }
+          },
+          {
+            "id": "self-land",
+            "label": "自受用土",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 420
+            }
+          },
+          {
+            "id": "other-land",
+            "label": "他受用土",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 600
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "self-body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "other-body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "land",
+            "to": "self-land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "land",
+            "to": "other-land",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "報身、報土及四個自他受用節點全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留報身／報土兩個上位分類及自受用、他受用的平行分支。"
       }
     },
     {
@@ -121,9 +229,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

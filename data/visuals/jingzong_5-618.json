@@ -9,24 +9,132 @@
       "id": "media-e27dbada2aa0827935b35cbe",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e27dbada2aa0827935b35cbe.svg",
         "sha256": "b67a0ff03775c07ac8507e789d243b28709be49d38573ab26a1fa4db56700007"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "自德化他；教理、行法、證悟、儀規、方便、感化。教理：集龍樹、天親、曇鸞、道綽諸祖教義，以五部九卷確定教門和行門，楷定古今，開宗立教。行法：集諸經行法而大成，系統組織化；正定業、助業、雜行、一切行。證悟：觀佛、念佛兩三昧；念佛出光。儀規：儀式規則、佛凡交感、契理契機、造境借境轉心。方便：梵唄唱讚、上下唱和、主客互動、散花、燒香旋繞、禮拜、懺悔、發願、念佛、迴向。感化：神蹟、證三昧、日經卷、日念數萬佛號、滿城斷肉、家家彌陀佛、傳布世界、彌陀化身。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善導大師自德化他的六面向",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "自德化他",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "doctrine",
+            "label": "教理：祖師教義大成／五部九卷／確定教門行門／楷定古今／開宗立教",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行法：正定業／助業／雜行／一切行；系統組織化",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 180
+            }
+          },
+          {
+            "id": "realization",
+            "label": "證悟：觀佛、念佛兩三昧／念佛出光",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 360
+            }
+          },
+          {
+            "id": "ritual",
+            "label": "儀規：儀式規則／佛凡交感／契理契機／造境借境轉心",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 540
+            }
+          },
+          {
+            "id": "skillful",
+            "label": "方便：梵唄唱讚、散花、燒香、禮拜、懺悔、發願、念佛、迴向",
+            "kind": "aspect",
+            "position": {
+              "x": 760,
+              "y": 240
+            }
+          },
+          {
+            "id": "influence",
+            "label": "感化：證三昧、日經卷、日念數萬佛號、斷肉、傳布世界、彌陀化身",
+            "kind": "aspect",
+            "position": {
+              "x": 760,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "doctrine",
+            "relation": "develops"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "develops"
+          },
+          {
+            "from": "root",
+            "to": "realization",
+            "relation": "develops"
+          },
+          {
+            "from": "root",
+            "to": "ritual",
+            "relation": "develops"
+          },
+          {
+            "from": "root",
+            "to": "skillful",
+            "relation": "develops"
+          },
+          {
+            "from": "root",
+            "to": "influence",
+            "relation": "develops"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "六面向與主要內容全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將超長 SVG 文字依原圖的六個面向分組，保留各面向的內容而不讓全文退化為單一段落。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -481,17 +481,97 @@
       "id": "media-d8abf46995958ae03717e01e",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d8abf46995958ae03717e01e.svg",
         "sha256": "5d9b5ac2a5fb52ac2b709b79b57e03fd4b16b51e57cc24839a36d5d273e8bd86"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "二行得失；正行五得：與彌陀親、近、無間、不用迴向、純；雜行五失：與彌陀疏、遠、有間、必用迴向、雜。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正行五得與雜行五失",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "二行得失",
+            "kind": "root",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "right",
+            "label": "正行五得",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行五失",
+            "kind": "scheme",
+            "position": {
+              "x": 700,
+              "y": 220
+            }
+          },
+          {
+            "id": "right-values",
+            "label": "與彌陀親／近／無間／不用迴向／純",
+            "kind": "result",
+            "position": {
+              "x": 0,
+              "y": 440
+            }
+          },
+          {
+            "id": "mixed-values",
+            "label": "與彌陀疏／遠／有間／必用迴向／雜",
+            "kind": "result",
+            "position": {
+              "x": 700,
+              "y": 440
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "right",
+            "relation": "compares"
+          },
+          {
+            "from": "root",
+            "to": "mixed",
+            "relation": "compares"
+          },
+          {
+            "from": "right",
+            "to": "right-values",
+            "relation": "has-results"
+          },
+          {
+            "from": "mixed",
+            "to": "mixed-values",
+            "relation": "has-results"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "正行五得、雜行五失的對照詞全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將正行與雜行的五組相對結果保持為兩條平行分支，避免混淆得失對應。"
       }
     },
     {
@@ -682,9 +762,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "5/6 approved-or-semantic",
-    "approvedReconstructionCount": 5,
+    "status": "approved",
+    "coverage": "6/6 approved-or-semantic",
+    "approvedReconstructionCount": 6,
     "semanticOnlyCount": 0
   }
 }

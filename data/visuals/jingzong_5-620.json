@@ -366,24 +366,123 @@
       "id": "media-d722e1b5fd1ff8e33bff3e3b",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d722e1b5fd1ff8e33bff3e3b.svg",
         "sha256": "09bbb5fc4a1832c8b2aa76b4a62f2ff757925a8c2730e837c8c24922e46b7e23"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土宗教相判釋；通說、別說；第一節教相判釋之意義；第二節三師判教；鋪墊主體。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗教相判釋的通說與別說",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土宗教相判釋",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "general",
+            "label": "通說",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "specific",
+            "label": "別說",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 360
+            }
+          },
+          {
+            "id": "section-one",
+            "label": "第一節：教相判釋之意義",
+            "kind": "section",
+            "position": {
+              "x": 640,
+              "y": 0
+            }
+          },
+          {
+            "id": "section-two",
+            "label": "第二節：三師判教",
+            "kind": "section",
+            "position": {
+              "x": 640,
+              "y": 220
+            }
+          },
+          {
+            "id": "bridge",
+            "label": "鋪墊主體",
+            "kind": "summary",
+            "position": {
+              "x": 960,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "specific",
+            "relation": "divides-into"
+          },
+          {
+            "from": "general",
+            "to": "section-one",
+            "relation": "includes"
+          },
+          {
+            "from": "specific",
+            "to": "section-two",
+            "relation": "includes"
+          },
+          {
+            "from": "section-one",
+            "to": "bridge",
+            "relation": "prepares"
+          },
+          {
+            "from": "section-two",
+            "to": "bridge",
+            "relation": "prepares"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "通說、別說、兩節與鋪墊主體全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將教相判釋的通說／別說和兩節內容整理為可搜尋的章節架構。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

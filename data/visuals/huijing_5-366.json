@@ -509,17 +509,154 @@
       "id": "media-df82b4ab92d0dae6be190f12",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-df82b4ab92d0dae6be190f12.svg",
         "sha256": "c2fbaa00153b943eccb406e5c34cac8f253b90ed5d959abc8abe28d50f3c08e5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "如何之彌陀乎？法：發十念之悲願，攝取十方之眾生；稱六字名號，得遂三輩之往生。機：永劫之修行是為誰，功德讓未來之眾生；超世之悲願又何意，志賜末法之我等。機法一體；行願皆為眾；我等若不往生者，佛豈成正覺；佛若已成正覺者，我等豈不生；我等之往生依佛之正覺，佛之正覺依我等之往生；若不往生者之誓可知；不取正覺之言無限。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "如何之彌陀與機法一體",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "如何之彌陀乎？",
+            "kind": "root",
+            "position": {
+              "x": 600,
+              "y": 0
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法：發十念之悲願、攝取十方眾生；稱六字名號、得遂三輩往生",
+            "kind": "dharma",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "machine",
+            "label": "機：永劫修行為誰；功德讓未來眾生；超世悲願志賜末法我等",
+            "kind": "machine",
+            "position": {
+              "x": 760,
+              "y": 220
+            }
+          },
+          {
+            "id": "unity",
+            "label": "機法一體／行願皆為眾",
+            "kind": "summary",
+            "position": {
+              "x": 500,
+              "y": 500
+            }
+          },
+          {
+            "id": "question-one",
+            "label": "我等若不往生，佛豈成正覺？",
+            "kind": "question",
+            "position": {
+              "x": 0,
+              "y": 760
+            }
+          },
+          {
+            "id": "question-two",
+            "label": "佛若已成正覺，我等豈不生？",
+            "kind": "question",
+            "position": {
+              "x": 500,
+              "y": 760
+            }
+          },
+          {
+            "id": "reciprocal",
+            "label": "我等往生依佛正覺；佛之正覺依我等往生",
+            "kind": "relationship",
+            "position": {
+              "x": 1000,
+              "y": 760
+            }
+          },
+          {
+            "id": "vow",
+            "label": "若不往生者之誓；不取正覺之言無限",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 1000
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "dharma",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "machine",
+            "relation": "explains"
+          },
+          {
+            "from": "dharma",
+            "to": "unity",
+            "relation": "unites-with"
+          },
+          {
+            "from": "machine",
+            "to": "unity",
+            "relation": "unites-with"
+          },
+          {
+            "from": "unity",
+            "to": "question-one",
+            "relation": "examines"
+          },
+          {
+            "from": "unity",
+            "to": "question-two",
+            "relation": "examines"
+          },
+          {
+            "from": "unity",
+            "to": "reciprocal",
+            "relation": "states"
+          },
+          {
+            "from": "question-one",
+            "to": "vow",
+            "relation": "supports"
+          },
+          {
+            "from": "question-two",
+            "to": "vow",
+            "relation": "supports"
+          },
+          {
+            "from": "reciprocal",
+            "to": "vow",
+            "relation": "supports"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "法、機、機法一體與雙向問答全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將原圖的法／機對照、機法一體、雙向問答與誓願總結分層，保留其論證方向。"
       }
     },
     {
@@ -966,8 +1103,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "6/8 approved-or-semantic",
-    "approvedReconstructionCount": 6,
+    "coverage": "7/8 approved-or-semantic",
+    "approvedReconstructionCount": 7,
     "semanticOnlyCount": 0
   }
 }
