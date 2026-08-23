@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_7-1558",
+  "title": "你有多大膽，才敢懷疑佛的話！",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-0b5d0122d1c895b1e0a6b997",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0b5d0122d1c895b1e0a6b997.jpg",
+        "sha256": "405806a32314856b9725acc86023a10db153dad79b79e13f51a966d0e03d3208"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-552",
+  "title": "彌陀願心的根源——《無量壽經》「讚佛偈」",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-12e8cda890e7be994f82a5b4",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-12e8cda890e7be994f82a5b4.svg",
+        "sha256": "a20d4fac47c36e038c9c4fe351315883bc1a96db7cfa89aa99b7d0595e92af32"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

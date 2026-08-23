@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-1472",
+  "title": "媽媽，阿彌陀佛一定會來的",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-bdcbfc8fd35f0e753dc3e3ae",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bdcbfc8fd35f0e753dc3e3ae.jpg",
+        "sha256": "09838aac21798952fad12afaf8647236715d0a5b231dc0b31729db160eab6f71"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-fc03acd588b94769f029685e",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fc03acd588b94769f029685e.jpg",
+        "sha256": "a518575304f752558493d4b35069ee6f5e0825dfaad4bfe7cb306eceb869edf7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-2044",
+  "title": "何為「菩薩藏」，何為「頓教」-慧淵法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-741efba5d6090fa1f27d3ac5",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-741efba5d6090fa1f27d3ac5.jpg",
+        "sha256": "39145df94336e215c4ce171a8ad2c9e61cc2c5891977f17ffef4ab9905880977"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

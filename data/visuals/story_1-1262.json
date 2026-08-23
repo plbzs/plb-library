@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-1262",
+  "title": "葷肉中毒臨死境 決意念佛得復生",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-b1206a5e425ed6404a05f561",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b1206a5e425ed6404a05f561.jpg",
+        "sha256": "4cbb4dfcadbed0e1f2939bb14c9d7c6bd5e84548f799dbfeb965332cc02fa227"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-5eddc3539e5a1459483f6b7d",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5eddc3539e5a1459483f6b7d.jpg",
+        "sha256": "1abda6b899f100958ad8eb81ef6af3941d80e262f854df430d3ce652859abe21"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

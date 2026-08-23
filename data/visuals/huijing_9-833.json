@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-833",
+  "title": "阿彌陀佛依名號來救度眾生（三）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-e630dbcf2bfc2b400be9097b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e630dbcf2bfc2b400be9097b.svg",
+        "sha256": "e95072ed02aceb69518c73cc715a653fcd31f655a1299f594d79a5bfc84675d0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

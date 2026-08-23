@@ -1,0 +1,102 @@
+{
+  "version": 4,
+  "articleId": "library_4-1617",
+  "title": "這個無常的世界，只有念佛才安心-笑笑居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 5,
+  "visuals": [
+    {
+      "id": "media-01667700568607f5a374fc80",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "semantic-image",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-01667700568607f5a374fc80.jpg",
+        "sha256": "fa41948dc8d18bd92ea479f43903b1e047c2e0de5c54983f3a2f36a6e062ed6e"
+      },
+      "semanticDescription": "手繪插圖：一名人物躺臥於床上，周圍以蓮花與花朵裝飾，旁有放置書冊的畫面。",
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "visualReview": "approved",
+        "reviewNote": "手繪情境插圖沒有可驗證的表格、流程或分類關係，不強行結構重建。"
+      }
+    },
+    {
+      "id": "media-558f3fe4eb903c2474cf188d",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-558f3fe4eb903c2474cf188d.jpg",
+        "sha256": "1dfff49e109e7beb96020c7fea1d2f35200fee734a92591e53631e189bd41987"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d7a4122e24efc65355a7bd49",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d7a4122e24efc65355a7bd49.jpg",
+        "sha256": "d7b3b764c3ca4c567fe3561a733742df7d7e58b5d444c84440ab48f3f95ac7fd"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-034ecee3446817796acd29ea",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-034ecee3446817796acd29ea.jpg",
+        "sha256": "4ee0bf2968a29b76ca6eeecf8d4a37dd2c0c6587cccc4217557f8628aef4aa4b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-6c5b5f181de4684d44ae464d",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6c5b5f181de4684d44ae464d.jpg",
+        "sha256": "b4f61c90af833d7e63bfa5a7f054e0422f5053f625b631d5c2d76522a94b80e0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/5 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 1
+  }
+}

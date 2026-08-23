@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-428",
+  "title": "曇鸞大師《往生論註》－不虛作住持功德（四）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-c5eb90c52aa4939be6f20caf",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c5eb90c52aa4939be6f20caf.svg",
+        "sha256": "061690c6373581d78abf2ec3194445bc05768e10f8b9c312fd279bf20b4c2aba"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-c7399ff1b97bbad0297e6383",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c7399ff1b97bbad0297e6383.svg",
+        "sha256": "e387bc66af04fb189e82dab8bc32a49c71075a871a895d2bd3dd016050355f0d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

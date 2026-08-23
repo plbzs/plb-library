@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_2-265",
+  "title": "《佛說阿彌陀經》講義（十三）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-72c1213bfd37298a947bee6a",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-72c1213bfd37298a947bee6a.svg",
+        "sha256": "76dc10c551507450a6e27365d1b15ef2d3fb5af2083b6af99ad8f1920cca3eeb"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

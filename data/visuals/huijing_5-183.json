@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-183",
+  "title": "《阿彌陀經》大意",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-623683c9ee039ab33ab776fa",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-623683c9ee039ab33ab776fa.svg",
+        "sha256": "109ab85a3b15f560c7200f7adbcb2ddeb4b00fb90e54b342b4583a4e0c8716ee"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

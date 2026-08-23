@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-679",
+  "title": "鳥兒「小彌」的往生",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-eaab29f3e212f3b73b9f745b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-eaab29f3e212f3b73b9f745b.jpg",
+        "sha256": "8d9db8512c61e14a9c596c9daf066b504ac9194b93e808ed9fa958e673bba817"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-c033c14772f874c66ac06944",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c033c14772f874c66ac06944.jpg",
+        "sha256": "361da0a021c7ff77c3c8a954f1395e6ff3a1b69fef54b7405da28ee9f17cc69b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

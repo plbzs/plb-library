@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-548",
+  "title": "四十八願分類",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-293ce2ed7d7b1035a3e584fc",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-293ce2ed7d7b1035a3e584fc.svg",
+        "sha256": "abefe391aadc51fef7b13f12491add296442209a13f7c9f4f347e58905334160"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

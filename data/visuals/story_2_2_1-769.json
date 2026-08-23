@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_2_2_1-769",
+  "title": "老婦託夢 助警破案",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-6ae4f8df8bafcfb1d8ddc87d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6ae4f8df8bafcfb1d8ddc87d.jpg",
+        "sha256": "8fb1435782c3ac5e2d8482f244e6cc82968d94bfe1368db9463b5b8b3b7458bf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_2-114",
+  "title": "慧遠與善導之念佛",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-8c6201ac5519e18e8f796d8b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8c6201ac5519e18e8f796d8b.jpg",
+        "sha256": "2e0a976b1e79082910fd574f1b67cf005ac63ec91c5c0f0cfb18c482523d366e"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

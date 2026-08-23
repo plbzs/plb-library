@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-855",
+  "title": "荷花嬌欲語",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-bf6f064ba22394769f781fe9",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bf6f064ba22394769f781fe9.jpg",
+        "sha256": "c13fc24a70e8d1d820632db934c931669da1e91d7b6f4fda2b9f5da55d2251ae"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-89c8a2578d6a1c0ea3942d73",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-89c8a2578d6a1c0ea3942d73.jpg",
+        "sha256": "d5629bf30b7c888e9e5f6313bf88d6354e4249b7d68bb47078a9ae30b9252ea7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

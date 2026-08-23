@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-601",
+  "title": "《淨土宗概論講記》（五）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-ec87b57abe23fabedb30cdb2",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ec87b57abe23fabedb30cdb2.svg",
+        "sha256": "a3ac91e8b9e275d1b2861b45faa1c01404b30acad4874e88df7689bf90d21af9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-4c30b7eb2faf7eb622b9b562",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4c30b7eb2faf7eb622b9b562.svg",
+        "sha256": "84ebcc3a234d85419df88909d042c3f2057057207e6f0547ba1da777305097dd"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-e7b74f2faac9bd57b28759cb",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e7b74f2faac9bd57b28759cb.svg",
+        "sha256": "64d156ea2f55ef5b5ef4aa8ba05cdac6b2c7d71022aef747489962da5e51e03d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-f8846bf4fb58c0b2642f3bee",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f8846bf4fb58c0b2642f3bee.svg",
+        "sha256": "bea4934924c903ed50156862702fe193d4765e8b73b51ed72ef1515a428305b2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

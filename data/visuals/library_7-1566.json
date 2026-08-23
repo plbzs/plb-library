@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_7-1566",
+  "title": "宇宙第一犟——萬牛莫挽的念佛人",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-1840c532c6eff6389e10a0cb",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1840c532c6eff6389e10a0cb.svg",
+        "sha256": "af9f08a745dca1f418f5c6472412156baafa21258fa78217196657562b817a9f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

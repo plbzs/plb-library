@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-382",
+  "title": "淨宗指要",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-0b37966ba058f03ad0a118b1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0b37966ba058f03ad0a118b1.svg",
+        "sha256": "8b0e70985c09506c97b6fcea3e11a95562e1e1c42309fe07b71bb4d4c622ab80"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1664",
+  "title": "一念往生當下解脫-淨厚居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-c9e5fead9554d13162fc804d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c9e5fead9554d13162fc804d.jpg",
+        "sha256": "3cd57d56091838b4b22837b06402809b60a02651c7d6648a170c3dffd24e10ee"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

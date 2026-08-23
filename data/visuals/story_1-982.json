@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-982",
+  "title": "小狗念佛兩週 往生轉變金色身",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-b627525a8c3e0757f432a58e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b627525a8c3e0757f432a58e.jpg",
+        "sha256": "aedd7f479cb1c77a341143c85141d920a207b85da28dca0da0cfd2c02eca41fb"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-6acac5f1cdf736836f361645",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6acac5f1cdf736836f361645.jpg",
+        "sha256": "f139b135b84cf14d1b854ad826414f5ab9dfd155cdac50f560f2846a6ebd7bf6"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

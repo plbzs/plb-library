@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-614",
+  "title": "淨土法門的核心（九）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-dbec2a768bc276d2943f0fa9",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-dbec2a768bc276d2943f0fa9.svg",
+        "sha256": "ad73f08d9a4cddd92a689968c767f3d2e50c7092f6e0108751f0eb986fbbc589"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-1bd7113d82f1844d300d6450",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1bd7113d82f1844d300d6450.svg",
+        "sha256": "32776ec381ce1bbbf828c14ef73d5417333737a730375746f04a8595d3c78928"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

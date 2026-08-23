@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1447",
+  "title": "菩薩執金台，十劫為你來-佛欣法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-f9c04ff5b4d9017f015eb5e7",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f9c04ff5b4d9017f015eb5e7.svg",
+        "sha256": "680c49030a00343eb920d78097c93d0315f32bdab7f937cb49649b93ad907203"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

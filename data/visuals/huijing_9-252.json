@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-252",
+  "title": "本願稱名 凡夫入報",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-4f0ff4235ee658704995d4e6",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4f0ff4235ee658704995d4e6.svg",
+        "sha256": "cd4c1258f4237551a4a4bb6e551e694f4648872cdcb23e164ec5c4e2a48c3554"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-1bd7113d82f1844d300d6450",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1bd7113d82f1844d300d6450.svg",
+        "sha256": "32776ec381ce1bbbf828c14ef73d5417333737a730375746f04a8595d3c78928"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

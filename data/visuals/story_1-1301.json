@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_1-1301",
+  "title": "老人往生極樂，黑白蝴蝶表法",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-373683fcbd9062fa8824f682",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-373683fcbd9062fa8824f682.jpg",
+        "sha256": "cca614a69d9a591898b9d614205ca4ebf18efcf8ba8846ab33b0a5a24740d53a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

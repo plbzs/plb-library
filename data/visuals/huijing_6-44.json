@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-44",
+  "title": "彌陀．本願．淨土",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-525ef83395cd4eb139efe0de",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-525ef83395cd4eb139efe0de.svg",
+        "sha256": "6eba51525c9e75eea23386c7a8b0b1dffd4bd31d790a5cc8dc57ecf05ea7dd44"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d971de378a0f615040f4ae17",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d971de378a0f615040f4ae17.svg",
+        "sha256": "b669a5b5a70036abce38a0a2770ba3d8184fa06052065388421870d8f6152732"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d7463847e7e0dbb834996764",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d7463847e7e0dbb834996764.svg",
+        "sha256": "67a8bac7041f663efa952d5fb0e4ccf24954f12bedd47a460b249d1f89df8892"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2da9b35d316ce4d4ba2d27e5",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2da9b35d316ce4d4ba2d27e5.svg",
+        "sha256": "f0a351021426880eaf9a45470835e0184b6a5e57f2b7f4d9aec569cb53c328c4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

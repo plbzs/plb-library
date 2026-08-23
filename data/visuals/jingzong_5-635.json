@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-635",
+  "title": "《淨土宗概論講記》（三十五）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-3c6060fb691342ad0afbd5b0",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-3c6060fb691342ad0afbd5b0.svg",
+        "sha256": "01ca13d5651af591c87aaa8dce980f3a25378729f1e9a1462b191048c5af3cdc"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-fcd83c88e542ceea15f6f0a0",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fcd83c88e542ceea15f6f0a0.svg",
+        "sha256": "9fb535c2e793c58af9ffca901a573385f2ecc3a3f6fbcf379a84d86e88845669"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

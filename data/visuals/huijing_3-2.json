@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_3-2",
+  "title": "念佛之義",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-8bb56b8ec1423c7286723201",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8bb56b8ec1423c7286723201.svg",
+        "sha256": "607a91c55a8140100e1c342798c2f8014253c11534b3b6af989b287fb125033b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a0d5828d6b0a8382cc575e41",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a0d5828d6b0a8382cc575e41.svg",
+        "sha256": "c72845ab86db63a10da8ca4edb3ac01561b1ec5a49d3d116089af2bab7107668"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-388",
+  "title": "淨土詩六首 -周瞻照居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-ee8368a252fffb677386c7c2",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ee8368a252fffb677386c7c2.jpg",
+        "sha256": "2e45c5c282ac2945d3f36448373608bf1797dcdc925d5360b6f3bd1fa9fee454"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

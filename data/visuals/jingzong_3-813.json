@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-813",
+  "title": "山澗清且淺",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-df3ea1d503e3826ee737c845",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-df3ea1d503e3826ee737c845.jpg",
+        "sha256": "c9fe9807d4e360fcba099e2ca6ee43e28fb503ddbd6ec3cc9a2356eeb0f7193a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

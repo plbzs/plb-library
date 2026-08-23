@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-369",
+  "title": "第十八願之白話文、成就文、流通文及圖表",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-2dcf10fc9c8e175bb9e6df16",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2dcf10fc9c8e175bb9e6df16.svg",
+        "sha256": "782041b2ed90ed153f53c8ebac58390663f3922a4a17d0b56432fe18eee5d677"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

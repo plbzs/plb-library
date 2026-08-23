@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-545",
+  "title": "佛教的核心教理與往生淨土",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-9d6b4a574d1b9eee1ba1c1fd",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9d6b4a574d1b9eee1ba1c1fd.svg",
+        "sha256": "d5b933d971968c30a2f621e65e62610d3475ace5257654a6292aa885bca552bd"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-fa7128022c347c737adc8843",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fa7128022c347c737adc8843.svg",
+        "sha256": "d5c462f3ec5d390d5ddf6521a6ab50b9ea50b5326e6bbc65922c92005e1f46d4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

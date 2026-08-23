@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-901",
+  "title": "因緣成事",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-19b5612ca4f133eb58b60654",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-19b5612ca4f133eb58b60654.jpg",
+        "sha256": "c060458ef67b5ac44a9ec4b0409891c28cd42e15abf827c43841b8aa7157ea5e"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

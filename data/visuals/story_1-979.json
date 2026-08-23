@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_1-979",
+  "title": "「新生」之念佛感應記事",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-866a4a10b18774b63787ce1a",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-866a4a10b18774b63787ce1a.jpg",
+        "sha256": "d95808b1f7b73f465981b420475809ec591b318f15e26a421d1c99d359d87577"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-165",
+  "title": "龍樹菩薩《易行品》－ 稱名、易行疾至、不退轉（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-f0f3dc8749a559773610ab5d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f0f3dc8749a559773610ab5d.svg",
+        "sha256": "ffa8cbe5767585b36cb0bd047817c5b89115c47f4f069c2da8f2738826799f6c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-436",
+  "title": "善導大師－本願稱名 凡夫入報（四）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-2da9b35d316ce4d4ba2d27e5",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2da9b35d316ce4d4ba2d27e5.svg",
+        "sha256": "f0a351021426880eaf9a45470835e0184b6a5e57f2b7f4d9aec569cb53c328c4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-af2692a99406a4c566d35493",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-af2692a99406a4c566d35493.svg",
+        "sha256": "b38cdbce32babd52845213ff2d6fcc4dd10a6396be275e4b9929a8178850f41f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

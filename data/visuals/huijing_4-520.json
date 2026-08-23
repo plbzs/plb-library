@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_4-520",
+  "title": "一心不亂",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-0510000deeaf731da2e7d1d1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0510000deeaf731da2e7d1d1.svg",
+        "sha256": "8e29173b21b16931b26063e7b574af803a0900c4cca52ac94a43c5497a07a6d9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

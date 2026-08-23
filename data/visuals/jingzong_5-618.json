@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-618",
+  "title": "《淨土宗概論講記》（十九）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-e27dbada2aa0827935b35cbe",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e27dbada2aa0827935b35cbe.svg",
+        "sha256": "b67a0ff03775c07ac8507e789d243b28709be49d38573ab26a1fa4db56700007"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-945",
+  "title": "淨土宗三理論三內涵",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 5,
+  "visuals": [
+    {
+      "id": "media-024f7e78aaedbebaa92c58ca",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-024f7e78aaedbebaa92c58ca.png",
+        "sha256": "a8c60fa718d4f25f273dd98ff412c0fa64f37cb906b66024918d2443806bbd83"
+      },
+      "semanticDescription": null,
+      "transcript": "佛法\n聖道門\n難行道\n自力\n靠自己修行\n勤行精進\n如陸道步行\n苦\n諸、久、險\n證果不定\n淨土門\n易行道\n他力\n信彌陀救度\n易行疾至\n如水道乘船\n樂\n一、速、必\n往生決定",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法的聖道門與淨土門對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "buddha-dharma",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 28,
+              "y": 136
+            }
+          },
+          {
+            "id": "holy-path",
+            "label": "聖道門",
+            "kind": "path",
+            "position": {
+              "x": 185,
+              "y": 48
+            }
+          },
+          {
+            "id": "pure-land",
+            "label": "淨土門",
+            "kind": "path",
+            "position": {
+              "x": 185,
+              "y": 222
+            }
+          },
+          {
+            "id": "hard-way",
+            "label": "難行道",
+            "kind": "method",
+            "position": {
+              "x": 345,
+              "y": 18
+            }
+          },
+          {
+            "id": "self-power",
+            "label": "自力\n靠自己修行",
+            "kind": "power",
+            "position": {
+              "x": 345,
+              "y": 74
+            }
+          },
+          {
+            "id": "diligent",
+            "label": "勤行精進\n如陸道步行",
+            "kind": "practice",
+            "position": {
+              "x": 345,
+              "y": 146
+            }
+          },
+          {
+            "id": "hard-result",
+            "label": "苦\n諸、久、險\n證果不定",
+            "kind": "outcome",
+            "position": {
+              "x": 525,
+              "y": 76
+            }
+          },
+          {
+            "id": "easy-way",
+            "label": "易行道",
+            "kind": "method",
+            "position": {
+              "x": 345,
+              "y": 206
+            }
+          },
+          {
+            "id": "other-power",
+            "label": "他力\n信彌陀救度",
+            "kind": "power",
+            "position": {
+              "x": 345,
+              "y": 260
+            }
+          },
+          {
+            "id": "easy-practice",
+            "label": "易行疾至\n如水道乘船",
+            "kind": "practice",
+            "position": {
+              "x": 345,
+              "y": 332
+            }
+          },
+          {
+            "id": "easy-result",
+            "label": "樂\n一、速、必\n往生決定",
+            "kind": "outcome",
+            "position": {
+              "x": 525,
+              "y": 270
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "buddha-dharma",
+            "to": "holy-path",
+            "relation": "contains"
+          },
+          {
+            "from": "buddha-dharma",
+            "to": "pure-land",
+            "relation": "contains"
+          },
+          {
+            "from": "holy-path",
+            "to": "hard-way",
+            "relation": "is-described-as"
+          },
+          {
+            "from": "holy-path",
+            "to": "self-power",
+            "relation": "relies-on"
+          },
+          {
+            "from": "holy-path",
+            "to": "diligent",
+            "relation": "requires"
+          },
+          {
+            "from": "holy-path",
+            "to": "hard-result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "pure-land",
+            "to": "easy-way",
+            "relation": "is-described-as"
+          },
+          {
+            "from": "pure-land",
+            "to": "other-power",
+            "relation": "relies-on"
+          },
+          {
+            "from": "pure-land",
+            "to": "easy-practice",
+            "relation": "requires"
+          },
+          {
+            "from": "pure-land",
+            "to": "easy-result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "holy-comparison",
+            "label": "聖道門",
+            "members": [
+              "hard-way",
+              "self-power",
+              "diligent",
+              "hard-result"
+            ]
+          },
+          {
+            "id": "pure-land-comparison",
+            "label": "淨土門",
+            "members": [
+              "easy-way",
+              "other-power",
+              "easy-practice",
+              "easy-result"
+            ]
+          }
+        ]
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "19/19",
+        "visualReview": "approved",
+        "reviewNote": "原圖以左右兩欄對照聖道門與淨土門。重建保留兩條門徑、各自的行道、所依之力、修行譬喻與結果關係。"
+      }
+    },
+    {
+      "id": "media-6f1438d1b6cdd1d6d9a58c9f",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6f1438d1b6cdd1d6d9a58c9f.png",
+        "sha256": "b5f2e70eb334505c0c72463ab3fd65dffa40e240d57affef048599bf6b586470"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-f06732545c7d5b79702891e9",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f06732545c7d5b79702891e9.png",
+        "sha256": "5c0b727dad794b0fb05469a2053bc3b6ef32c2ee15055fdaf7f7b10c055a3328"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-4af61a5a7c2ab4eb3e9a9ff5",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4af61a5a7c2ab4eb3e9a9ff5.png",
+        "sha256": "482a635aa01c65b5d45b4a452703165b1cbf54d4b3bba3dd7a157e1bf14d8850"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-9d4654ebff78482493907889",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9d4654ebff78482493907889.png",
+        "sha256": "b8be169b1b61b9538d0ec0170c68d85178f34ed02632a94d9c2530c034ec1402"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/5 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_7-1624",
+  "title": "這個世界的真實名字叫「娑婆」",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-92f00fc127a4a16208f643ea",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-92f00fc127a4a16208f643ea.jpg",
+        "sha256": "03583533e201de0da1916663b099c42710243dafcb2d5c1b2f8c4a9de645afa2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

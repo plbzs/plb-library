@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_6-2113",
+  "title": "四十八願的分類與結歸",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-119cb7b9233481c6c6ec44cb",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-119cb7b9233481c6c6ec44cb.png",
+        "sha256": "7517e653cf12cc50e7d7213f3973dc26d1351670eb1c492bd78909548861bb8e"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

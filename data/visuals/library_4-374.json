@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "library_4-374",
+  "title": "印象大佛 -淨開法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-1f8b08d32a9f4ada4eb7b371",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1f8b08d32a9f4ada4eb7b371.jpg",
+        "sha256": "77c96b01976716b6219d685c22eab9d49cd55901a84d78f481426085047615e4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-ddbcc9345530fc202cb76d78",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ddbcc9345530fc202cb76d78.jpg",
+        "sha256": "3e92a1791cb8fa73a0eb37ba72d9a295983dd90da9d0297fedac79d7e5663dae"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

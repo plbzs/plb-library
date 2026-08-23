@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-1136",
+  "title": "佛滿法師往生紀實",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-1df1fa8bfe42e30e3395d5f6",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1df1fa8bfe42e30e3395d5f6.jpg",
+        "sha256": "b4498ddfacdd8c952ed94f696217892596996b4d28a9c35c1e71b9aa28f123a0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-de3601903c504e02bf3b6bb8",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-de3601903c504e02bf3b6bb8.jpg",
+        "sha256": "cd1ed0eb90ed6b286705fc8778f9e896c1b415901977fde9dc0ec22cee2ba7d4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

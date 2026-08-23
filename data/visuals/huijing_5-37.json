@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-37",
+  "title": "專念彌陀之根據（經文、祖語）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-2cd1f6e2227c0b81b2892f9c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2cd1f6e2227c0b81b2892f9c.svg",
+        "sha256": "9e67320b15971a67425c00df887ad22beaa9f5d7cfe7f8b796e282c5f6e45b08"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8047a7088626204132aed150",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8047a7088626204132aed150.svg",
+        "sha256": "906284b835ca4fa9bc7a1a5a9915ed8b9b769c0ac5e44f88eb494d09679adc97"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

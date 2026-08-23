@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_2-173",
+  "title": "《念佛金言錄》編譯者序",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-185033e4c3a3a1a9c2f21b08",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-185033e4c3a3a1a9c2f21b08.svg",
+        "sha256": "82f4e56de7d308dcb09445ecc600584482b1ec9f18231af12932af63dee01e25"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

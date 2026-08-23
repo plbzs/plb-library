@@ -1,0 +1,100 @@
+{
+  "version": 4,
+  "articleId": "story_1-693",
+  "title": "佛號攝化 蜻蜓往生",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 5,
+  "visuals": [
+    {
+      "id": "media-fa8ddb527ce62f6f616c41d3",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fa8ddb527ce62f6f616c41d3.jpg",
+        "sha256": "2f7771d1af22b4c136561059ffd764de71d6cda4bcb2ce8fa2f8b1c515b31818"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-1125aee171574d5ed8128069",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1125aee171574d5ed8128069.jpg",
+        "sha256": "cc03d32d2ba6811ddaa03304149b72a5a9f01766e8c5d2da5fd5eb9260994eee"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-7208a419db0b06a8765a4ce0",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-7208a419db0b06a8765a4ce0.jpg",
+        "sha256": "79c649b7085cd7cb15f3bd5040e9d4513aa04e7e639920e228cc03c71d48f67a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-cc4d3a4797c6faf3e9ec0921",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-cc4d3a4797c6faf3e9ec0921.jpg",
+        "sha256": "0bbce4ba9ebeb931d7d2f12d6c49af23ed4928f78c9abc00405ae1baf3c116b5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-3a52359393f8e1d2bceb4c8a",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-3a52359393f8e1d2bceb4c8a.jpg",
+        "sha256": "c697384592c1ce24aa39cbf7d57d2a7a88d25019190c733e6a163afdcd902ed2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/5 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

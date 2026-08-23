@@ -1,0 +1,34 @@
+{
+  "version": 4,
+  "articleId": "library_4-1623",
+  "title": "過人之處，唯念阿彌陀佛，餘皆不值一提-妙悟法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-026ab3ff0bf8bbb062fe060b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "semantic-image",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-026ab3ff0bf8bbb062fe060b.jpg",
+        "sha256": "d22b15a6883ed91a74f983d791bb807b5350982d2d93d7626fedd9c3b7811a0a"
+      },
+      "semanticDescription": "照片：白色蓮花在深色水面與荷葉之間盛開。",
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "visualReview": "approved",
+        "reviewNote": "自然攝影不含可驗證的結構性文字資訊；僅保留簡短語意描述。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 1
+  }
+}

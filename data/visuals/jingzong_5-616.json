@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-616",
+  "title": "《淨土宗概論講記》（十七）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-85594e8b3272985b93c386a1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-85594e8b3272985b93c386a1.svg",
+        "sha256": "d02d0cbd4ef2ce7cd19cc0eab82da00ce225e9e74ec726b9c91188556610a824"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

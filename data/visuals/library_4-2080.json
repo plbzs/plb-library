@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "library_4-2080",
+  "title": "慧淨法師2025年蛇年春聯解讀-佛欣法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-cda02fe6bcb91738b0adda0c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-cda02fe6bcb91738b0adda0c.jpg",
+        "sha256": "4ac737638eeeabc1418d1016b38c1976d901f6f8be1a0466a7ed0d10f55053a8"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8f682b612c493599dc341a43",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8f682b612c493599dc341a43.jpg",
+        "sha256": "3cb1f343e13dae5787d068295387579475bdcd037b66e887c196dfe986f1cb6c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

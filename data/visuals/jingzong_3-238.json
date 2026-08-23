@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-238",
+  "title": "淨土宗行人怎樣安心",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-4c94fd772ff83063a555289e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4c94fd772ff83063a555289e.svg",
+        "sha256": "f741fa0d65a8672473626a07620c24bc8625b0219205daeb3fff9a099222c279"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

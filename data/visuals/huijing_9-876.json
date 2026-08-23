@@ -1,0 +1,134 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-876",
+  "title": "阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」：（三十三）阿彌陀佛，是一尊機法一體的佛",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 7,
+  "visuals": [
+    {
+      "id": "media-34e3a9820dd3e31b7138403d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-34e3a9820dd3e31b7138403d.png",
+        "sha256": "d725d74f4bc21a42a319dddb7668b6303c190c4ac3dd486327402bc794dde89b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a29cbe429f4314f778fab0d8",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a29cbe429f4314f778fab0d8.png",
+        "sha256": "bb9ebb9d73c753c8bb0e67ee979e819ad70505e22e8ed3c8cbc91815f72f2943"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d788e30e44aa198de18afa5a",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d788e30e44aa198de18afa5a.png",
+        "sha256": "8d87253441f83e032ff1106c05503d13806d749a16706004543b0f5b7719c4b5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-77b3960add9ab3c860a34210",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-77b3960add9ab3c860a34210.png",
+        "sha256": "802702198f47ee730052d6cd2549b15301fab1a324523fe5813302be7de7a177"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-e1e63b2be4e72b5f9065f3e3",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e1e63b2be4e72b5f9065f3e3.png",
+        "sha256": "b6c3f6cb2db24177765ea6c149aafff74b4587c17b2c96a7f59ffa2767e67142"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a506ce10f885d5ca019faf07",
+      "position": 6,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a506ce10f885d5ca019faf07.png",
+        "sha256": "fd42cb0c1eea0b47ab08583e355d5bcb10e5b698099f3a2e40179737101698ae"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d0d2dcec29dcf1029222cd9a",
+      "position": 7,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d0d2dcec29dcf1029222cd9a.png",
+        "sha256": "72ad7de97cb414d4e32d5099fd8961cb3dfda8b928eb7939fedf30e8ca695012"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/7 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

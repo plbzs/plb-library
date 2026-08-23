@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "about_1-58",
+  "title": "宗徽",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-066ffea9e83e05daacbd696e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-066ffea9e83e05daacbd696e.svg",
+        "sha256": "5369aae5b16dda710feb3169d5b56609dab1919a04cef8ebc791c8677a115e02"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

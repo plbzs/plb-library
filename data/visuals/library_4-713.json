@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "library_4-713",
+  "title": "當記生死苦 一心念彌陀-溫綺玲居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-e75507be4dd759fa65470055",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e75507be4dd759fa65470055.jpg",
+        "sha256": "46541f665008c118a54ffc59b5720b018305cb24a9eb26c9b9f93910d60ae5cf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-1393f09d056c08bdffbb919d",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1393f09d056c08bdffbb919d.jpg",
+        "sha256": "717f03ccfdacb824edafe4b5f47f845ef3517656f8653f0d0bd072124b426cb0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8c3d70d825e2dc9c227f4cc4",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8c3d70d825e2dc9c227f4cc4.jpg",
+        "sha256": "7def41ee6dafbc611e71b7348e7548d2a527aa2de5f83c4678759e115054d321"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

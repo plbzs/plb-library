@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-749",
+  "title": "《觀無量壽經》概說（七）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-c07a432a57bc23be5f647cf7",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c07a432a57bc23be5f647cf7.svg",
+        "sha256": "6332c6fee8928f4ba62240fbc0b61e7c504bd675c27ab1259e8325a6ec29e5ea"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

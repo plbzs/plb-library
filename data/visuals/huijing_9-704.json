@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-704",
+  "title": "淨土宗帶三法數",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-3266f44b76113037392db1c9",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-3266f44b76113037392db1c9.svg",
+        "sha256": "ae337634e44413a34d3f84e6b4e922908b026f42dd8bff5eb6b263d22d5b28ff"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-1460917ef300241a63eebf04",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1460917ef300241a63eebf04.svg",
+        "sha256": "fb05f66a32bb50032cd0af78fc4f89741c05d3bf7c35cb2a71da0324e7bb2a9a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-beb6c7c8374f4eea2cce1502",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-beb6c7c8374f4eea2cce1502.svg",
+        "sha256": "bdfe042b24b9b4fdf642abb28d0f3945e4198aa97345b5c3686867940b13f415"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

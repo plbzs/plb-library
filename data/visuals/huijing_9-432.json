@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-432",
+  "title": "曇鸞大師《往生論註》－緣佛願力速成佛（四）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-9303fb71530144cb7fa690e2",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9303fb71530144cb7fa690e2.svg",
+        "sha256": "0f20983586b3dab05f5d75bf4d45f463ef8c8b8f4e952fc9248e94d8e034f220"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

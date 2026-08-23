@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-25",
+  "title": "曇鸞大師《往生論註》－不虛作住持功德（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-8627c51db6fd5a2c185f1e0e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8627c51db6fd5a2c185f1e0e.svg",
+        "sha256": "e2123013ceb40f1ce0841f42ee880af92a5bbab896ebc5a1fcd8fad63bec614d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

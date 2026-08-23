@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_2-77",
+  "title": "《法然上人全集》序",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-e3e20aa3123e9cbe400f3080",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e3e20aa3123e9cbe400f3080.svg",
+        "sha256": "26931d59f91b10a145fa0f44c5560c6f08d97740100e79f54fbb6cfb62d5d0d9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-09d05a5b924afc700b9c3343",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-09d05a5b924afc700b9c3343.svg",
+        "sha256": "a2656eb9ed23fd6bf30efe1548a7406a80e8c21b9bfab5ad96a7c084fadc63d3"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

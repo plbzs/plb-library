@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_5-1910",
+  "title": "火箭升空喻",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-5b272c0881b309cbe8bd8708",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5b272c0881b309cbe8bd8708.jpg",
+        "sha256": "4559c564ee98c2f32527435494aa122e47fe38670db6c7ebd7279f741e3f9929"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

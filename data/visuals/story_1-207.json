@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_1-207",
+  "title": "就念那個，癌症都能好？",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-b323ded69010ffa3ac428f59",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b323ded69010ffa3ac428f59.jpg",
+        "sha256": "c0e323e51a4821f959a815c7c53585efdd68cff838cdc104d817caf5e6db6185"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

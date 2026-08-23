@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-804",
+  "title": "既耕亦已種，時還讀我書",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-0c25baa076df3bafa09e1206",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0c25baa076df3bafa09e1206.jpg",
+        "sha256": "694eeeb2ba31f8564a854a2fb323d31db4d6d5c40689d962a89a80baee31971f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

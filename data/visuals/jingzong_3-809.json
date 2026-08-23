@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-809",
+  "title": "停船暫借問，或恐是同鄉",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-29072d12678385877d1ee6d2",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-29072d12678385877d1ee6d2.svg",
+        "sha256": "e7286e82f161eca7e424eab3a6e2e238fc061e09cde95078e4550d54772f4864"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-66",
+  "title": "龍樹菩薩《易行品》－易行品本願釋略解(三)",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-7ab75f0384297a92dfad4581",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-7ab75f0384297a92dfad4581.svg",
+        "sha256": "d156e9349e75e44d3a2929792bccd7edb3fc53ba147272c199357cc2fae032e2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

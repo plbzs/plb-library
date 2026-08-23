@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-832",
+  "title": "青山不識我姓氏，我亦不識青山名",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-5cf05036f90c20f244aa60a8",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5cf05036f90c20f244aa60a8.jpg",
+        "sha256": "3da2a0b4e75dda7f3f068b2c0a58f585a0dbc74729d030423cd5c3858147c8b7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

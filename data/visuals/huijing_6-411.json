@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-411",
+  "title": "「念」之義",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-5bf5458650168db5a3299d8e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5bf5458650168db5a3299d8e.svg",
+        "sha256": "49ada363c8ad281e7596133399280563efcc94570dd0edcc6c5a3aec7236aab7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

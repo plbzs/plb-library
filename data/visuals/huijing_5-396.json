@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-396",
+  "title": "念佛與佛 機法一體",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-839c783667ca7f7702e40662",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-839c783667ca7f7702e40662.svg",
+        "sha256": "2a2f4a27df08d4fc41aa784470fbb6c70ed61afe3c72a8dad29b4300b82923f9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

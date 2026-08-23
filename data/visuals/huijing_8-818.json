@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_8-818",
+  "title": "人生是什麼──攀藤食蜜喻",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-78720c265ceef60889665ded",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-78720c265ceef60889665ded.jpg",
+        "sha256": "dba635e3cddfbd21dba60cbfe1fd7988f961c2bcb1318b8bc9894fd6ef05cdc8"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

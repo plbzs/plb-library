@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-416",
+  "title": "莫名的感動 -朋平方居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-acf7d04945803fa5800a2e29",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-acf7d04945803fa5800a2e29.jpg",
+        "sha256": "fca6d5d7e7dd6dae32a4b598eead486a59673cbd5f6c4b81b9ce97a4ec7ff403"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

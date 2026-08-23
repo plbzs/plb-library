@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-192",
+  "title": "《阿彌陀經》之目標與方法",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-7406afb8cb46ac1469f84f5c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-7406afb8cb46ac1469f84f5c.svg",
+        "sha256": "0cd6533ade748d165dac0ef499a26ae73e3b6fe2216ca036d6ee71139429bd09"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-ca1a6218cb93e1e41086ef0b",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ca1a6218cb93e1e41086ef0b.svg",
+        "sha256": "4e9576d1fb4fc1d4bcf8db28809fc71e1e84691598e7d208c615aafa83b05a99"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

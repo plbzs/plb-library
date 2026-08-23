@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1582",
+  "title": "此地真是魔鄉嗎？-佛迎居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-a0942e3569777f9955770fad",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a0942e3569777f9955770fad.svg",
+        "sha256": "2f126dd8b2e2b5e25496016efb945ac0266b1c79d96c4975c81d12170638e0de"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

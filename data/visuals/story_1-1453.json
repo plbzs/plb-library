@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "story_1-1453",
+  "title": "乘金色大願法船 氣韻高雅生西方",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-24112a7316daa7c176a9d91a",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-24112a7316daa7c176a9d91a.jpg",
+        "sha256": "da90d7c1339e7208d703252ed05f74f61d8406ed7a3a0e540de8b2e059e8a31d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-0f5b5ed6256f65c40aba6ee3",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0f5b5ed6256f65c40aba6ee3.jpg",
+        "sha256": "f53ab9f44807241837f0a9ba7260b63e6d8486de6270097cdf40feb4e3105056"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-47b4d0409e03f21744d96c9c",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-47b4d0409e03f21744d96c9c.jpg",
+        "sha256": "cdd8fe29d4806cba3e054dbb6984492b0ca1030487a05c31ebaf1bca50307425"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

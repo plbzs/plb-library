@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-968",
+  "title": "我的命盤──復興淨土宗與鐵版神數的奇驗(九)",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-143e472b41eeae8aeb8a5734",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-143e472b41eeae8aeb8a5734.svg",
+        "sha256": "9a6c5b33447c9b049153e7782f87a0702508de76503c9c40f22763c392953fb6"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-f020656df93d380d13218491",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f020656df93d380d13218491.svg",
+        "sha256": "634dc6050e12b4af216ebe6a5c8892cb3f07096781a002d2966fa2f968ad6c59"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a239e0dbd6a835976346e004",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a239e0dbd6a835976346e004.svg",
+        "sha256": "48c56d8a05e3536c9cf4b4f7f4b7b15d24a025b7ebb944148234eac249867036"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-33991777689c87cefb28ffe1",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-33991777689c87cefb28ffe1.svg",
+        "sha256": "9a8033dd3e09bb75fbfc5289c0475ace26d1e3c5d7e9a885d4a1facfd9830a61"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

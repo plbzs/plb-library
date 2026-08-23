@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-817",
+  "title": "蜻蜓倒掛蜂兒窘，催喚山童為解圍",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-5f4edb85192d96d56c7c0575",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5f4edb85192d96d56c7c0575.jpg",
+        "sha256": "3e4a2a2451444c1b3d8de76e143930d9d68788b7b13eb0d89a2c48f38acc527d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

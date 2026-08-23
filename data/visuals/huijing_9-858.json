@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-858",
+  "title": "阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」：（二十）阿彌陀佛，是一尊為大施主的佛",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-1030d133fd9a5b6018e2cad4",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1030d133fd9a5b6018e2cad4.svg",
+        "sha256": "2c4de6515ba7531133c038948d1e0258b0a299f68fd5de80857d38693c48f166"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-6d65c6804e4e9a6c0f654c77",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6d65c6804e4e9a6c0f654c77.svg",
+        "sha256": "92ba00f0fb3caa3b26563131683eba31ae1dc08be070fd00974963869f491f62"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

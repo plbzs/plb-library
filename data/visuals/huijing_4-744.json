@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_4-744",
+  "title": "2021 新年講話",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-ccb451e7baf093ffb6178a1d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ccb451e7baf093ffb6178a1d.jpg",
+        "sha256": "08cdf73ac21939af925118ad209ed4f18882a08ae162995e77252b80b30a1871"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

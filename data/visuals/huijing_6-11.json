@@ -1,0 +1,117 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-11",
+  "title": "本願之念佛",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 6,
+  "visuals": [
+    {
+      "id": "media-1950a85cec800f7fb3fa295e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1950a85cec800f7fb3fa295e.svg",
+        "sha256": "b9adc2e4db127dbb2ab5988fe493dfef9170ce5562cd51c583844c91aa91d784"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-bfa3c015e9cb500a3e693ab3",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bfa3c015e9cb500a3e693ab3.svg",
+        "sha256": "9e11057a1591731c4f1af3409f25c43cdcabb8be3e04d17ee279c54b84e526bf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a4aa535c727527dc865cd689",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a4aa535c727527dc865cd689.svg",
+        "sha256": "e4d0e32d2477af1bdd265baad44ec54aae74d51e09f6b6eb74e98236b39804d2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2a3d11aa27e0028b6e875f16",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2a3d11aa27e0028b6e875f16.svg",
+        "sha256": "b8b5d023554b91ef79f5beccddd9220265bbc41bc23b997e137de5894bdc674c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-fbf579826d9f2362e541f774",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fbf579826d9f2362e541f774.svg",
+        "sha256": "cc621d1d345100a40d595d1d58b23ab1f6e3ecae5008c6f5af40101d23117585"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-5ef4be7363fc02f43b9738f2",
+      "position": 6,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5ef4be7363fc02f43b9738f2.svg",
+        "sha256": "5bfda8db88771424c21f3e6c9aabaecc62997d1a11112bc357bada6c6d49421d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/6 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

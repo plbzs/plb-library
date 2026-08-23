@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_6-1720",
+  "title": "往生成佛因果三願",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-7d1040e4ef6ea2ec96f12cb7",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-7d1040e4ef6ea2ec96f12cb7.jpg",
+        "sha256": "2f4b7e24076c0d2e07e41acaa86545b92110ede7a5c3ec044c43abab7e790e92"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

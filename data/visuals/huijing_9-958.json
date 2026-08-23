@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-958",
+  "title": "輪迴諸趣眾生類——彌陀願心的根源",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-565fbaac3a1038a9d7c7323f",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-565fbaac3a1038a9d7c7323f.png",
+        "sha256": "0a9878487b06b1c614e77b4ec2cacb5ec6e6c59a7e589515f44fdd3712c5135c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-dac206fe9a87e7546d5af8ed",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-dac206fe9a87e7546d5af8ed.jpg",
+        "sha256": "2ef32420d48e4b5df70d9a567d2a708da44575bbdf494b3c24ea3b0c5966e245"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-07c2c1defeac5caa9bdf2799",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-07c2c1defeac5caa9bdf2799.jpg",
+        "sha256": "f3cef73b48f977e8611beaf05a8b8b559c9d7701af93ba58817b9cc613d3c0ba"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-18593aa5e45a5807814869b2",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-18593aa5e45a5807814869b2.jpg",
+        "sha256": "9f3a7c0eab515dcb7643fb941d83e030fe650a6fd4f5f47ec513eac2bccc7afd"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

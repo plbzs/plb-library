@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-487",
+  "title": "彌陀誕辰念彌陀（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-4cd2f368d4799a49c1e915af",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4cd2f368d4799a49c1e915af.svg",
+        "sha256": "4dee93d208550861f8e8c179024a20ed9be2a2201718f8176adb3695e4d966b0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

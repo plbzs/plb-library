@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_7-538",
+  "title": "淨土短文（八）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-fa7128022c347c737adc8843",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fa7128022c347c737adc8843.svg",
+        "sha256": "d5c462f3ec5d390d5ddf6521a6ab50b9ea50b5326e6bbc65922c92005e1f46d4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

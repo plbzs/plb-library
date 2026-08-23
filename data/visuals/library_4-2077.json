@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "library_4-2077",
+  "title": "念佛生智慧：慧淨法師蛇年春聯解讀-黃打鐵",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-5dcca0ed21e78093f954f395",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5dcca0ed21e78093f954f395.jpg",
+        "sha256": "5e929d6f910d491dc900b99f8f24d8319af276ed75018aa0eda38f8529ad8a89"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-b16f8de37b60148010e2a0cf",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b16f8de37b60148010e2a0cf.jpg",
+        "sha256": "9597e4c2993cacbacf9598c305238516eef4447a14d953499c5d4e38e9c906c9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

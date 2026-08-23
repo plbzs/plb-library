@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "library_7-1974",
+  "title": "蛇入竹筒自然直",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-2b6911023dfa6bfa91822cdf",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2b6911023dfa6bfa91822cdf.jpg",
+        "sha256": "48ecf88f5fd39b090541670b12989c690e9aff30a71982d718fb0fae727b9a6a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a1499596e50b7601f18c8848",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a1499596e50b7601f18c8848.jpg",
+        "sha256": "a3b0a726cd460248bbe847334f2d0fa9c10c31b8fc70d431650c488b91976591"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-20c4ae18c32ba038e488a9ec",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-20c4ae18c32ba038e488a9ec.jpg",
+        "sha256": "ad03666f5d88cf37692b5c38e03687b4702ee971b082ac5aed6e64c7eea5f4f8"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d71f2279a5782979f68d804c",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d71f2279a5782979f68d804c.jpg",
+        "sha256": "28b07740fcaa26171e2452f5026455175e7fbdc8cef40be7d4e9d3bd550e95c5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

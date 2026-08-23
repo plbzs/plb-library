@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "library_4-1593",
+  "title": "鬼外婆送我紅包，我回贈她以佛號-笑笑居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-07bc77a133c93e99b60a54d5",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-07bc77a133c93e99b60a54d5.jpg",
+        "sha256": "6a1848f0dba4ebe506b0bc9335a0c707654a4a2c70f7e9af829437f59a20e1b4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8c384208a6a686cc2bef7b38",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8c384208a6a686cc2bef7b38.jpg",
+        "sha256": "7cfab8fdc0c77e815fcb36f3093d69b956adf787611e62635a35b5c4b6e0e9b9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a9b30511b278608617e63b2c",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a9b30511b278608617e63b2c.jpg",
+        "sha256": "d7d9abef646764b0ee315dda3a008fc9ecf7ccaa892ca1e118f72040f9fec904"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

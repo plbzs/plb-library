@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1630",
+  "title": "極樂遙相見，知是故人來-黃打鐵",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-adc728e711e15225a4409c91",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-adc728e711e15225a4409c91.jpg",
+        "sha256": "c3c6dddf4c1ab20c180330c8af594d46c779b00c0682b23faacfa0904dc99643"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

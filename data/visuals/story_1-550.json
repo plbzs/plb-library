@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_1-550",
+  "title": "哥哥往生極樂 常常回來探望",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-74f9f1a0f52aac2c64bd07dc",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-74f9f1a0f52aac2c64bd07dc.jpg",
+        "sha256": "9f877250c0eea0397d5e5c6d30e01f3c6207e8b00ec5c0a671d47280fccf8c7b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

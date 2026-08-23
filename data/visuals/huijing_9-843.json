@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-843",
+  "title": "阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」（七）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-a2480eef9cd6ef83cfed4896",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a2480eef9cd6ef83cfed4896.svg",
+        "sha256": "41fa3238b4640a8dbc9a7a125a19974a064731b360b12ca2dce3020131e1c656"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-67ed79899c71cde1a8e013e4",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-67ed79899c71cde1a8e013e4.svg",
+        "sha256": "c87c9f2072aaeadeda083b6a38ba257e0256394f7cbdc094d3360be2d57c3f1f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

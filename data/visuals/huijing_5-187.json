@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-187",
+  "title": "龍樹菩薩難易二道判",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-891f109c1b665484a3e06157",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-891f109c1b665484a3e06157.svg",
+        "sha256": "7565404be3d3fb11e04aff26567af88cd2f6446782e2621b2b9a277c0be962c0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

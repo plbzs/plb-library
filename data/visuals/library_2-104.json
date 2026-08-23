@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_2-104",
+  "title": "淨土宗的域外淵源與長安立宗及其後世傳承",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-67614e68c612577e789716a6",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-67614e68c612577e789716a6.svg",
+        "sha256": "99b4fcfd7002ac503e71c8abf52b2eba08317f18a4510a7aa5a099a6295becef"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

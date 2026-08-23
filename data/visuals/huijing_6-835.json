@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-835",
+  "title": "曇鸞大師之彌陀佛身觀",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-a2480eef9cd6ef83cfed4896",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a2480eef9cd6ef83cfed4896.svg",
+        "sha256": "41fa3238b4640a8dbc9a7a125a19974a064731b360b12ca2dce3020131e1c656"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-67ed79899c71cde1a8e013e4",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-67ed79899c71cde1a8e013e4.svg",
+        "sha256": "c87c9f2072aaeadeda083b6a38ba257e0256394f7cbdc094d3360be2d57c3f1f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-292575b53507f01b737039aa",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-292575b53507f01b737039aa.svg",
+        "sha256": "c75561207e9878719b9a9ebfc2f924d1fa2a25a89c7611f0e464ef6bd09d1607"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

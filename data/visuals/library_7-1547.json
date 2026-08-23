@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_7-1547",
+  "title": "心中種下牛頭檀，香氣普熏三千界",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-a3f0fc4fc495a742dd4d6168",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a3f0fc4fc495a742dd4d6168.jpg",
+        "sha256": "8680975615170905ec39843c4e71a45b674e0c5d74b5c399f364b249ae1fa5d5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

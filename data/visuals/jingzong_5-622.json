@@ -1,0 +1,253 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-622",
+  "title": "《淨土宗概論講記》（二十三）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 14,
+  "visuals": [
+    {
+      "id": "media-6e40749252c71d87883d4855",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6e40749252c71d87883d4855.svg",
+        "sha256": "f8faa9b8cb4e3de636c701863ea93f2314233cc9daac5513aa4610834354d059"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-39661569902c5595278eff62",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-39661569902c5595278eff62.svg",
+        "sha256": "f9c85e0725d68b695f120251782df1f934dac064f04e523f98f8743c1e2eb24b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-5d89e1d1ef2ee8aabca8d09d",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5d89e1d1ef2ee8aabca8d09d.svg",
+        "sha256": "76fe8aa28085a2c0699585dfc681d40a6bdd830ac9e793d11385f6c3eb8c638b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a341d2c2894dbd99d2e5f9d9",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a341d2c2894dbd99d2e5f9d9.svg",
+        "sha256": "7fabff50d24a619b705986d07e48de333a98e94c90bc8347a619892574b96b12"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8a25bd1e1b83d225079e8574",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8a25bd1e1b83d225079e8574.svg",
+        "sha256": "157b7c94753fafc65564b25244b4944d38fe302f98be7592ac84914dc2978d8d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-f28cfc7644ef0f8db7626837",
+      "position": 6,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f28cfc7644ef0f8db7626837.svg",
+        "sha256": "6515d5bf4d9647c354517b3b9e38227796f73695cbb96b4b75303c8d631c42f5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-b75b63819cdfe3af3a0b0f76",
+      "position": 7,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b75b63819cdfe3af3a0b0f76.svg",
+        "sha256": "8686e9bbdf7e2f670b7b5d9d1a833a7fe4c7344bf4f4a34d1da27656be2166af"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-387035dadfc195037efda3bc",
+      "position": 8,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-387035dadfc195037efda3bc.svg",
+        "sha256": "14853044a81c23d171598c4d14eb5cfce9498aff53fbaaa4bc3ddf8156d5aa52"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8b9cd98f33871bca72972706",
+      "position": 9,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8b9cd98f33871bca72972706.svg",
+        "sha256": "70dbc93443b0d3f5cd227dd76a492f8d68527317f5b543a9978e6f9cafcbdf73"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-e63e9b1acfcfa1a862728a2e",
+      "position": 10,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e63e9b1acfcfa1a862728a2e.svg",
+        "sha256": "2ed3307aa03c808cebb9799702fec037f05c905d7cfd7b9b4c5d13d3043a1f97"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-11b98d15b969b98bff9c4339",
+      "position": 11,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-11b98d15b969b98bff9c4339.svg",
+        "sha256": "6683eadd8146fb9ecb0f706d32c79dcc7079fcbda7576cde6cd28897eed7f19d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-784036e07653fe6b094612e3",
+      "position": 12,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-784036e07653fe6b094612e3.svg",
+        "sha256": "fd853f224a8e7ccc6007d1640e0e9620bc2fa1fdf195febc0c9b8f35def6f8e5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-56dc15b148fe3ad9d0927ea3",
+      "position": 13,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-56dc15b148fe3ad9d0927ea3.svg",
+        "sha256": "08b81a9bb373c9d9613a17f276870a3f6e90aae54fe3281254c9700c0b955b67"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-38179d746289889834ce9396",
+      "position": 14,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-38179d746289889834ce9396.svg",
+        "sha256": "85f3b818174abce548730c275b30523f000e35c878ee668d2fd9a9855f73d3a7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/14 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

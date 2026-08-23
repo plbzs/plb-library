@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-489",
+  "title": "不問罪福 念佛皆生",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-d429336dc5b5aa593fed930a",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d429336dc5b5aa593fed930a.svg",
+        "sha256": "8ad84972ac66e652da3a926b6e66e7ffc41cc6a77bf22d8c1924bb4c6a00d9d5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

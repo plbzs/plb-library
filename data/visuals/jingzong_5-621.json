@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-621",
+  "title": "《淨土宗概論講記》（二十二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-d3806e320b1044df616da46d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d3806e320b1044df616da46d.svg",
+        "sha256": "7a012f3790d544a6ed7796be4a87a669e99549c2b8d5128b84032982b830cd47"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

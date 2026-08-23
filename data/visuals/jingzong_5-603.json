@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-603",
+  "title": "《淨土宗概論講記》（七）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-22ba2f56c4afc5830473f43c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-22ba2f56c4afc5830473f43c.svg",
+        "sha256": "d8f5b2560b8f052320f1d7702b59cfde53dc9464bb29124916605dd6073fe8ee"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "story_1-1021",
+  "title": "新加坡蓮友的念佛感應",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-fd457b14547f41eca3e7c849",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-fd457b14547f41eca3e7c849.jpg",
+        "sha256": "c9fcf2d119b7bd3a1fe16001ffbd0cfb0dfb5d9abc917c4c54946a5ba6e322e9"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

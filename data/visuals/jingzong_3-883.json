@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-883",
+  "title": "彌陀如何為我，我便如何為人",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-b0976af9c4d7688f677ebdd1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b0976af9c4d7688f677ebdd1.svg",
+        "sha256": "7be38501b9915412a856f1d5698dc60d1da4879a20a33128046fbc283e3be49c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

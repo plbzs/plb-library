@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-635",
+  "title": "南無阿彌陀佛之簡釋",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-938c865aae5fb78b1b5d6320",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-938c865aae5fb78b1b5d6320.svg",
+        "sha256": "cd63bf0dbaad79752bdb343bcd848ebe5d93ec0f26870a4543f2c039c095d0ef"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a90edcffd89e4226f55d8cd4",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a90edcffd89e4226f55d8cd4.svg",
+        "sha256": "88c151626a912a3895e7f984afbf24746a3286bc754fa5b86c5997c43990885c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d5ebbcce53f3819ebb37c6fb",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d5ebbcce53f3819ebb37c6fb.svg",
+        "sha256": "0daa590036b1bc4a46ae7a6eef2312300563b3f273f3a9bc085ddeeeb8b3c189"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2cd1f6e2227c0b81b2892f9c",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2cd1f6e2227c0b81b2892f9c.svg",
+        "sha256": "9e67320b15971a67425c00df887ad22beaa9f5d7cfe7f8b796e282c5f6e45b08"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

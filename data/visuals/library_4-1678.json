@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1678",
+  "title": "慧淨法師牛年春聯解讀：有飯吃，有佛念，千足萬足！-佛欣法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-097c119d1d4a88a1604240e1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-097c119d1d4a88a1604240e1.jpg",
+        "sha256": "ba81b99ec849803832677850e3b50deafc756ef9ae051100a1fc8fe6c79943d2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

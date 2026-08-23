@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1412",
+  "title": "安心就好-佛持居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-b13642bf7641a266a830ab00",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b13642bf7641a266a830ab00.jpg",
+        "sha256": "c0e7df699de386f83b759a95dcb81d74c747a83c76ca7ff66c27fd54c45ece62"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

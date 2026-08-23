@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-852",
+  "title": "人散後，一鉤新月天如水",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-1949c7041bcf3ae4379e48c1",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1949c7041bcf3ae4379e48c1.jpg",
+        "sha256": "fbd99fad0c54edb200e2c4a10b0722457dc29fc07011eee0526179b1693e9e8b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

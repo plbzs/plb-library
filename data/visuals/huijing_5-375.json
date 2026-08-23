@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-375",
+  "title": "增上緣（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-c5eb90c52aa4939be6f20caf",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c5eb90c52aa4939be6f20caf.svg",
+        "sha256": "061690c6373581d78abf2ec3194445bc05768e10f8b9c312fd279bf20b4c2aba"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

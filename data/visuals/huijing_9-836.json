@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-836",
+  "title": "阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-a79b0fdbe97547ba59aa541a",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a79b0fdbe97547ba59aa541a.svg",
+        "sha256": "e4a23a96ff18c8bc3d4e04c796231d816c16d301edfa12a9a0f05228a6dad27d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

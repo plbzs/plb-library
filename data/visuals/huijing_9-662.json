@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-662",
+  "title": "《觀無量壽經》概說（三）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-f1fe31ef9b621cc6738289b0",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f1fe31ef9b621cc6738289b0.svg",
+        "sha256": "a48d3a2d8337d8d9af65983186766f0a75ca9bf7f44eeb5a625cee8a5b360c72"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-abef8a45cb56160650805ebd",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-abef8a45cb56160650805ebd.svg",
+        "sha256": "5659037da07e8f3ddb461a80b593d2461bf5af54e446cd912818bb781ed8124f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2539d1ac8ae12dde91ba1efd",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2539d1ac8ae12dde91ba1efd.svg",
+        "sha256": "1088fa1594d11bb9fb9f300933513a512e6e89c43b36010bf1f9f09133e63dd6"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

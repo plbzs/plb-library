@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-1396",
+  "title": "貓咪泡泡往生記",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-e85f614d6c94d7e981cc4947",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-e85f614d6c94d7e981cc4947.svg",
+        "sha256": "6fa003b74ee0b4bdc6ae7335f3052ad54fd65248dbdcf28921a8d663356b11e2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-f832f2cc8c49db8bed921e06",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f832f2cc8c49db8bed921e06.svg",
+        "sha256": "7502ba3afbd5e371800de978e5560f3abadf14fe3cc6f2dd02220355e55fed33"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

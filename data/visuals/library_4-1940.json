@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1940",
+  "title": "佛凡一體 如水乳合-淨懷法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-354f0fe554b602fb3a11920c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-354f0fe554b602fb3a11920c.png",
+        "sha256": "0e3743df41d1684ba2017f71c1ae1b3e52e3289de6819bb7abff406e61f867a5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

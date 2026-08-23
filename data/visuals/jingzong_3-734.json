@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-734",
+  "title": "「楷定古今」的善導大師，到底楷定的是哪些人？",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-ec303f8a85dedecbf37b487e",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ec303f8a85dedecbf37b487e.svg",
+        "sha256": "8fc90e6dfc9a427d40bf7c3e1203cd5bbec1d475d3fc4b2133a52c11fb3524b1"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

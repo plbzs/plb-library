@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_3-816",
+  "title": "今宵不忍圓",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-9a9b4284a005049e3ce399f9",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9a9b4284a005049e3ce399f9.jpg",
+        "sha256": "6210a74952291f78aafcf6c7453596e7d4d7b4f5eaa85f318eecff3ea03b54dc"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

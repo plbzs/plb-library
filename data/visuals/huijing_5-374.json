@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-374",
+  "title": "三重選擇 淨宗口訣",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-5ef4be7363fc02f43b9738f2",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5ef4be7363fc02f43b9738f2.svg",
+        "sha256": "5bfda8db88771424c21f3e6c9aabaecc62997d1a11112bc357bada6c6d49421d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

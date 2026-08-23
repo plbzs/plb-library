@@ -1,0 +1,151 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-366",
+  "title": "第十八願之義（三）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 8,
+  "visuals": [
+    {
+      "id": "media-2621e48c826bc6e20e9f0052",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2621e48c826bc6e20e9f0052.svg",
+        "sha256": "2925a0ddcd8c520010b0a34e0dda011c16801aa2d39e56ed1066d96a675452a0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-ae947479a70779e9b4946719",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ae947479a70779e9b4946719.png",
+        "sha256": "2fc82c384e5a665e99e7f5acb3dff6f2c606b83f6227d6555df994ab3d5ee335"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-57499a0191b5529fbc3936c1",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-57499a0191b5529fbc3936c1.svg",
+        "sha256": "10426ee74288f2dce28f05767b7aab928cb8986978e432a7364184b9abe441ab"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-6cae81b3d0602b7d8f7d3294",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6cae81b3d0602b7d8f7d3294.svg",
+        "sha256": "20e66b2120de2e22900f7b699c8db8ca06991902cfa19aba3b937f708abf2ca7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-df82b4ab92d0dae6be190f12",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-df82b4ab92d0dae6be190f12.svg",
+        "sha256": "c2fbaa00153b943eccb406e5c34cac8f253b90ed5d959abc8abe28d50f3c08e5"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-897f1b984d58cc772e49217e",
+      "position": 6,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-897f1b984d58cc772e49217e.svg",
+        "sha256": "52517c4c4b899c1165f1727bcde91ae34cb059cce8eabe81b005e5d047973186"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-be21a55879fa1c41f4a24534",
+      "position": 7,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-be21a55879fa1c41f4a24534.svg",
+        "sha256": "071b401598ef8f3e1f5e8d4d673124f57ac897091b7ea2a536ed12bf94a77029"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2dcf10fc9c8e175bb9e6df16",
+      "position": 8,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2dcf10fc9c8e175bb9e6df16.svg",
+        "sha256": "782041b2ed90ed153f53c8ebac58390663f3922a4a17d0b56432fe18eee5d677"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/8 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

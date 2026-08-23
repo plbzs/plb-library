@@ -1,0 +1,117 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-47",
+  "title": "正行與雜行",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 6,
+  "visuals": [
+    {
+      "id": "media-bfa3c015e9cb500a3e693ab3",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bfa3c015e9cb500a3e693ab3.svg",
+        "sha256": "9e11057a1591731c4f1af3409f25c43cdcabb8be3e04d17ee279c54b84e526bf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a4aa535c727527dc865cd689",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a4aa535c727527dc865cd689.svg",
+        "sha256": "e4d0e32d2477af1bdd265baad44ec54aae74d51e09f6b6eb74e98236b39804d2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-2a3d11aa27e0028b6e875f16",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2a3d11aa27e0028b6e875f16.svg",
+        "sha256": "b8b5d023554b91ef79f5beccddd9220265bbc41bc23b997e137de5894bdc674c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-a76e7830886f5c6089d14df8",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-a76e7830886f5c6089d14df8.svg",
+        "sha256": "86c7ee9335757ee0fa0afa181a15d3feba82c614e0e2ddc2790134ba685e15a4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-d8abf46995958ae03717e01e",
+      "position": 5,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d8abf46995958ae03717e01e.svg",
+        "sha256": "5d9b5ac2a5fb52ac2b709b79b57e03fd4b16b51e57cc24839a36d5d273e8bd86"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-5ef4be7363fc02f43b9738f2",
+      "position": 6,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-5ef4be7363fc02f43b9738f2.svg",
+        "sha256": "5bfda8db88771424c21f3e6c9aabaecc62997d1a11112bc357bada6c6d49421d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/6 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

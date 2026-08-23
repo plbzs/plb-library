@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-345",
+  "title": "不可思議的善導大師 -佛至",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-05a8b2de8e15af6c27dfdddb",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-05a8b2de8e15af6c27dfdddb.jpg",
+        "sha256": "908632593fe000f0f8b389c31a46dad8a24f358f3a56ee083df8de429898cb42"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

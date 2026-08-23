@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "story_1-1067",
+  "title": "蟑螂往生，香灰開蓮花",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-4661f2950d5ca08d33e6e65b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-4661f2950d5ca08d33e6e65b.jpg",
+        "sha256": "e6e4acdf4895e3f74f11b3fe4a1293454941d96cdebcecf02200267536717eff"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-70a7e117dda6e8a015c30ac5",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-70a7e117dda6e8a015c30ac5.jpg",
+        "sha256": "1a6e9caa2ecc380291d24ddd6ed8f431fc24eaaed7ec3cd910dd488433f3a921"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-2052",
+  "title": "以法為鏡，自照其機-淨慶居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-bb3ff70de970016ee39cbd48",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bb3ff70de970016ee39cbd48.png",
+        "sha256": "6d60233942aeddf2b113fc942a8d909f45df7f94cc8050a809dce67cf8df9c98"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

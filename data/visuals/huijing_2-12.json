@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_2-12",
+  "title": "《安樂集》編序",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-2407053eb43a592c2a5e74cf",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-2407053eb43a592c2a5e74cf.svg",
+        "sha256": "1f9f151590c2d69c784648c48fe7ad34200a191cdc8fc47e1b2e8b80909289b0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

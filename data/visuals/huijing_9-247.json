@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-247",
+  "title": "淨土法門 理事互含",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-c460157900287ed417622928",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c460157900287ed417622928.jpg",
+        "sha256": "9d50628c57213876372c716a24f992ff8b4e41ea3a9ba9b9b4e89f83acb9964b"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

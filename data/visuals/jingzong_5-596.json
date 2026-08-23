@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-596",
+  "title": "淨土宗宗旨與特色",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-08edbd4d1a2d0bdc8531cd2b",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-08edbd4d1a2d0bdc8531cd2b.svg",
+        "sha256": "4812770fd0b42844c0820d513d3f082a94a908bc73eaabc874cf560f0ce03fde"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-6b54c08e61c112100fafb905",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6b54c08e61c112100fafb905.svg",
+        "sha256": "76b48e8c35de5e1276b9d8c2877d65654dd6adb23c87e1a89f4186f07f8e585c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

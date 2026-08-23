@@ -1,0 +1,83 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-376",
+  "title": "增上緣（二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 4,
+  "visuals": [
+    {
+      "id": "media-c5eb90c52aa4939be6f20caf",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c5eb90c52aa4939be6f20caf.svg",
+        "sha256": "061690c6373581d78abf2ec3194445bc05768e10f8b9c312fd279bf20b4c2aba"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-46e33c68ab2ceb99b0a84ff6",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-46e33c68ab2ceb99b0a84ff6.svg",
+        "sha256": "4252ceb66ea30eb011a811cd0864421663e0414820921bc299cecc7d43fe5200"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-9cdd4d2c194a586bbbfae49a",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9cdd4d2c194a586bbbfae49a.svg",
+        "sha256": "b7e86887a66e9632451b8ce522b42c339c70ccceffdefe1468207e95ef4788e8"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-c7399ff1b97bbad0297e6383",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c7399ff1b97bbad0297e6383.svg",
+        "sha256": "e387bc66af04fb189e82dab8bc32a49c71075a871a895d2bd3dd016050355f0d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/4 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

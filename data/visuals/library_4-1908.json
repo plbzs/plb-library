@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_4-1908",
+  "title": "平等攝取與公平不捨-淨夫法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-739bd40ccb203ef5071a3eb0",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-739bd40ccb203ef5071a3eb0.svg",
+        "sha256": "a51f706b6ba9c5f69cc2a808b1c232a463ea94db4ec5d4517a82052ccf0bb4f7"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

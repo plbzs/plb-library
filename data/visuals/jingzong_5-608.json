@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-608",
+  "title": "《淨土宗概論講記》（十二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-02ad7ff83902f7ff7413cfbe",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-02ad7ff83902f7ff7413cfbe.svg",
+        "sha256": "bf458239de5d085a8159f200536abea0e2a9e6085c49406cd648cff38528ae6f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-9a0146f422b63e5fa50f4edd",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9a0146f422b63e5fa50f4edd.svg",
+        "sha256": "80f0a5ddf16d35f2aee4cbe96d4daa754ec4e66ce314d841f45c6bb551d480da"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-429",
+  "title": "曇鸞大師《往生論註》－緣佛願力速成佛（一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-68f60411c56bed0c5e5aacb4",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-68f60411c56bed0c5e5aacb4.svg",
+        "sha256": "b0df0b2ca7e4b211abf23cff88fdd0ce4461278ebe6722024109e9d7b347b8b6"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-bc194b761387c1af3447dcd2",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-bc194b761387c1af3447dcd2.svg",
+        "sha256": "ff19ab2f7034afea12cdcc41a5aaf1ee752600fb7e3e6a0e3e92dea52785f3e0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

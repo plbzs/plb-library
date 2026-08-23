@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "huijing_3-550",
+  "title": "《無量壽經》的精神",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-f97a5a1e8e2e343997fa9807",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f97a5a1e8e2e343997fa9807.svg",
+        "sha256": "170882b435369452d283c71e14ea1d764e77e995e80e54008098f689e17fa999"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

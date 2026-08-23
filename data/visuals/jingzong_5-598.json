@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-598",
+  "title": "《淨土宗概論講記》（二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-280479757a61f3da26e1e5fd",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-280479757a61f3da26e1e5fd.svg",
+        "sha256": "abecc05d9b312c213b79ac9a306bafdefaeb10a4920a4e83190d8abec74a513f"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

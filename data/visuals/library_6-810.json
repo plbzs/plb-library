@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "library_6-810",
+  "title": "一代結經",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-0c51d493a797f633f2b64191",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-0c51d493a797f633f2b64191.svg",
+        "sha256": "9305c6e1fbf270cd3c5bf6b2c45bb62b37ef1f445c06e7ca0877a461bafc6cd0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

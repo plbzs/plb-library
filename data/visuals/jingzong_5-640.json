@@ -1,0 +1,32 @@
+{
+  "version": 4,
+  "articleId": "jingzong_5-640",
+  "title": "《觀經疏四重判》講記(三)",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "media-53cdf222e6b0685c310a862d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-53cdf222e6b0685c310a862d.svg",
+        "sha256": "a06d46ce9a58c408f3878bc861442e04258f041108069c995f6e96ffe1bd5aaf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/1 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

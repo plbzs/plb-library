@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "articleId": "huijing_7-523",
+  "title": "淨土短文（二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-b839746ed6392da759a2f0ad",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-b839746ed6392da759a2f0ad.svg",
+        "sha256": "b41d16e8ca2e7064d1fb23dd7ff968b5a917f70b06c78d2638ca5634194c435d"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-57499a0191b5529fbc3936c1",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-57499a0191b5529fbc3936c1.svg",
+        "sha256": "10426ee74288f2dce28f05767b7aab928cb8986978e432a7364184b9abe441ab"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/2 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

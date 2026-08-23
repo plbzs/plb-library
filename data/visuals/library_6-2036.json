@@ -1,0 +1,66 @@
+{
+  "version": 4,
+  "articleId": "library_6-2036",
+  "title": "五種難",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-ec0ffafddba9119c91ce7f13",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-ec0ffafddba9119c91ce7f13.png",
+        "sha256": "2064b11d15e77f6cc741dd82f0cd09fdc76db469023140f66dfcc4b6b6814b84"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-3d482a2c4a6d32ff61cff9d8",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-3d482a2c4a6d32ff61cff9d8.png",
+        "sha256": "c6c0e93bc7cd0eec934615cb4ba174d0cc72cf37ec08273448e01022731b6d5e"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8b5fa36aabe77301c3419596",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8b5fa36aabe77301c3419596.png",
+        "sha256": "c07161a2b54a721d82db2cf942e2a9b179ea64b556dcf9e5113114dfa6e81ddf"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "0/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 0
+  }
+}

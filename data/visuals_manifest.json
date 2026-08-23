@@ -4,16 +4,96 @@
   "progress": {
     "totalReviewItems": 343,
     "approvedReconstruction": 23,
-    "semanticOnly": 2,
-    "needsReview": 318,
+    "semanticOnly": 6,
+    "needsReview": 314,
     "sourceMissing": 1
   },
   "articles": [
+    {
+      "articleId": "about_1-55",
+      "path": "data/visuals/about_1-55.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "about_1-56",
+      "path": "data/visuals/about_1-56.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "about_1-58",
+      "path": "data/visuals/about_1-58.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
     {
       "articleId": "huijing_2-1",
       "path": "data/visuals/huijing_2-1.json",
       "expectedVisualCount": 2,
       "approvedReconstructionCount": 1,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_2-12",
+      "path": "data/visuals/huijing_2-12.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_2-171",
+      "path": "data/visuals/huijing_2-171.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_2-173",
+      "path": "data/visuals/huijing_2-173.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_2-24",
+      "path": "data/visuals/huijing_2-24.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_2-77",
+      "path": "data/visuals/huijing_2-77.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_3-2",
+      "path": "data/visuals/huijing_3-2.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_3-550",
+      "path": "data/visuals/huijing_3-550.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -26,10 +106,178 @@
       "status": "approved"
     },
     {
+      "articleId": "huijing_4-520",
+      "path": "data/visuals/huijing_4-520.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_4-71",
+      "path": "data/visuals/huijing_4-71.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_4-744",
+      "path": "data/visuals/huijing_4-744.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_4-928",
+      "path": "data/visuals/huijing_4-928.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-183",
+      "path": "data/visuals/huijing_5-183.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-184",
+      "path": "data/visuals/huijing_5-184.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-187",
+      "path": "data/visuals/huijing_5-187.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-192",
+      "path": "data/visuals/huijing_5-192.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-196",
+      "path": "data/visuals/huijing_5-196.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-29",
+      "path": "data/visuals/huijing_5-29.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-356",
+      "path": "data/visuals/huijing_5-356.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "huijing_5-357",
       "path": "data/visuals/huijing_5-357.json",
       "expectedVisualCount": 2,
       "approvedReconstructionCount": 1,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-361",
+      "path": "data/visuals/huijing_5-361.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-366",
+      "path": "data/visuals/huijing_5-366.json",
+      "expectedVisualCount": 8,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-369",
+      "path": "data/visuals/huijing_5-369.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-37",
+      "path": "data/visuals/huijing_5-37.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-371",
+      "path": "data/visuals/huijing_5-371.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-374",
+      "path": "data/visuals/huijing_5-374.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-375",
+      "path": "data/visuals/huijing_5-375.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-376",
+      "path": "data/visuals/huijing_5-376.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-378",
+      "path": "data/visuals/huijing_5-378.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-382",
+      "path": "data/visuals/huijing_5-382.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -42,6 +290,134 @@
       "status": "approved"
     },
     {
+      "articleId": "huijing_5-387",
+      "path": "data/visuals/huijing_5-387.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-390",
+      "path": "data/visuals/huijing_5-390.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-396",
+      "path": "data/visuals/huijing_5-396.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-47",
+      "path": "data/visuals/huijing_5-47.json",
+      "expectedVisualCount": 6,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-68",
+      "path": "data/visuals/huijing_5-68.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_5-81",
+      "path": "data/visuals/huijing_5-81.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-11",
+      "path": "data/visuals/huijing_6-11.json",
+      "expectedVisualCount": 6,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-409",
+      "path": "data/visuals/huijing_6-409.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-411",
+      "path": "data/visuals/huijing_6-411.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-416",
+      "path": "data/visuals/huijing_6-416.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-44",
+      "path": "data/visuals/huijing_6-44.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-545",
+      "path": "data/visuals/huijing_6-545.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-548",
+      "path": "data/visuals/huijing_6-548.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-552",
+      "path": "data/visuals/huijing_6-552.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-593",
+      "path": "data/visuals/huijing_6-593.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-635",
+      "path": "data/visuals/huijing_6-635.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "huijing_6-637",
       "path": "data/visuals/huijing_6-637.json",
       "expectedVisualCount": 3,
@@ -50,10 +426,250 @@
       "status": "in-review"
     },
     {
+      "articleId": "huijing_6-725",
+      "path": "data/visuals/huijing_6-725.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-835",
+      "path": "data/visuals/huijing_6-835.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-955",
+      "path": "data/visuals/huijing_6-955.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-968",
+      "path": "data/visuals/huijing_6-968.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_6-985",
+      "path": "data/visuals/huijing_6-985.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_7-523",
+      "path": "data/visuals/huijing_7-523.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_7-538",
+      "path": "data/visuals/huijing_7-538.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_8-321",
+      "path": "data/visuals/huijing_8-321.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_8-818",
+      "path": "data/visuals/huijing_8-818.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_8-969",
+      "path": "data/visuals/huijing_8-969.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-165",
+      "path": "data/visuals/huijing_9-165.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-247",
+      "path": "data/visuals/huijing_9-247.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-25",
+      "path": "data/visuals/huijing_9-25.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-252",
+      "path": "data/visuals/huijing_9-252.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "huijing_9-420",
       "path": "data/visuals/huijing_9-420.json",
       "expectedVisualCount": 5,
       "approvedReconstructionCount": 1,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-428",
+      "path": "data/visuals/huijing_9-428.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-429",
+      "path": "data/visuals/huijing_9-429.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-430",
+      "path": "data/visuals/huijing_9-430.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-431",
+      "path": "data/visuals/huijing_9-431.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-432",
+      "path": "data/visuals/huijing_9-432.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-434",
+      "path": "data/visuals/huijing_9-434.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-435",
+      "path": "data/visuals/huijing_9-435.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-436",
+      "path": "data/visuals/huijing_9-436.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-440",
+      "path": "data/visuals/huijing_9-440.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-443",
+      "path": "data/visuals/huijing_9-443.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-464",
+      "path": "data/visuals/huijing_9-464.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-479",
+      "path": "data/visuals/huijing_9-479.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-487",
+      "path": "data/visuals/huijing_9-487.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-489",
+      "path": "data/visuals/huijing_9-489.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-559",
+      "path": "data/visuals/huijing_9-559.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-563",
+      "path": "data/visuals/huijing_9-563.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -66,6 +682,22 @@
       "status": "in-review"
     },
     {
+      "articleId": "huijing_9-614",
+      "path": "data/visuals/huijing_9-614.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-615",
+      "path": "data/visuals/huijing_9-615.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "huijing_9-640",
       "path": "data/visuals/huijing_9-640.json",
       "expectedVisualCount": 4,
@@ -74,12 +706,316 @@
       "status": "approved"
     },
     {
+      "articleId": "huijing_9-66",
+      "path": "data/visuals/huijing_9-66.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-662",
+      "path": "data/visuals/huijing_9-662.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-704",
+      "path": "data/visuals/huijing_9-704.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-714",
+      "path": "data/visuals/huijing_9-714.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-749",
+      "path": "data/visuals/huijing_9-749.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-795",
+      "path": "data/visuals/huijing_9-795.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-811",
+      "path": "data/visuals/huijing_9-811.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-833",
+      "path": "data/visuals/huijing_9-833.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-836",
+      "path": "data/visuals/huijing_9-836.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-843",
+      "path": "data/visuals/huijing_9-843.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-850",
+      "path": "data/visuals/huijing_9-850.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-858",
+      "path": "data/visuals/huijing_9-858.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-876",
+      "path": "data/visuals/huijing_9-876.json",
+      "expectedVisualCount": 7,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-894",
+      "path": "data/visuals/huijing_9-894.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-898",
+      "path": "data/visuals/huijing_9-898.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-945",
+      "path": "data/visuals/huijing_9-945.json",
+      "expectedVisualCount": 5,
+      "approvedReconstructionCount": 1,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "huijing_9-958",
+      "path": "data/visuals/huijing_9-958.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_2-265",
+      "path": "data/visuals/jingzong_2-265.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "jingzong_2-288",
       "path": "data/visuals/jingzong_2-288.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "approved"
+    },
+    {
+      "articleId": "jingzong_3-238",
+      "path": "data/visuals/jingzong_3-238.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-734",
+      "path": "data/visuals/jingzong_3-734.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-804",
+      "path": "data/visuals/jingzong_3-804.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-809",
+      "path": "data/visuals/jingzong_3-809.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-813",
+      "path": "data/visuals/jingzong_3-813.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-816",
+      "path": "data/visuals/jingzong_3-816.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-817",
+      "path": "data/visuals/jingzong_3-817.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-818",
+      "path": "data/visuals/jingzong_3-818.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-819",
+      "path": "data/visuals/jingzong_3-819.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-824",
+      "path": "data/visuals/jingzong_3-824.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-829",
+      "path": "data/visuals/jingzong_3-829.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-831",
+      "path": "data/visuals/jingzong_3-831.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-832",
+      "path": "data/visuals/jingzong_3-832.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-838",
+      "path": "data/visuals/jingzong_3-838.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-839",
+      "path": "data/visuals/jingzong_3-839.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-852",
+      "path": "data/visuals/jingzong_3-852.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-855",
+      "path": "data/visuals/jingzong_3-855.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-856",
+      "path": "data/visuals/jingzong_3-856.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-883",
+      "path": "data/visuals/jingzong_3-883.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_3-901",
+      "path": "data/visuals/jingzong_3-901.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
     },
     {
       "articleId": "jingzong_4-20",
@@ -98,10 +1034,130 @@
       "status": "in-review"
     },
     {
+      "articleId": "jingzong_5-596",
+      "path": "data/visuals/jingzong_5-596.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-598",
+      "path": "data/visuals/jingzong_5-598.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-601",
+      "path": "data/visuals/jingzong_5-601.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "jingzong_5-602",
       "path": "data/visuals/jingzong_5-602.json",
       "expectedVisualCount": 2,
       "approvedReconstructionCount": 1,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-603",
+      "path": "data/visuals/jingzong_5-603.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-604",
+      "path": "data/visuals/jingzong_5-604.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-608",
+      "path": "data/visuals/jingzong_5-608.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-616",
+      "path": "data/visuals/jingzong_5-616.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-618",
+      "path": "data/visuals/jingzong_5-618.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-620",
+      "path": "data/visuals/jingzong_5-620.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-621",
+      "path": "data/visuals/jingzong_5-621.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-622",
+      "path": "data/visuals/jingzong_5-622.json",
+      "expectedVisualCount": 14,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-623",
+      "path": "data/visuals/jingzong_5-623.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-625",
+      "path": "data/visuals/jingzong_5-625.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-626",
+      "path": "data/visuals/jingzong_5-626.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-629",
+      "path": "data/visuals/jingzong_5-629.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -114,12 +1170,260 @@
       "status": "in-review"
     },
     {
+      "articleId": "jingzong_5-635",
+      "path": "data/visuals/jingzong_5-635.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-637",
+      "path": "data/visuals/jingzong_5-637.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-638",
+      "path": "data/visuals/jingzong_5-638.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-640",
+      "path": "data/visuals/jingzong_5-640.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-643",
+      "path": "data/visuals/jingzong_5-643.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-644",
+      "path": "data/visuals/jingzong_5-644.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "jingzong_5-650",
+      "path": "data/visuals/jingzong_5-650.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "jingzong_6-666",
       "path": "data/visuals/jingzong_6-666.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "approved"
+    },
+    {
+      "articleId": "jingzong_6-791",
+      "path": "data/visuals/jingzong_6-791.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_2-104",
+      "path": "data/visuals/library_2-104.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_2-114",
+      "path": "data/visuals/library_2-114.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_2-124",
+      "path": "data/visuals/library_2-124.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_2-27",
+      "path": "data/visuals/library_2-27.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_3-742",
+      "path": "data/visuals/library_3-742.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1412",
+      "path": "data/visuals/library_4-1412.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1447",
+      "path": "data/visuals/library_4-1447.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1582",
+      "path": "data/visuals/library_4-1582.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1583",
+      "path": "data/visuals/library_4-1583.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1593",
+      "path": "data/visuals/library_4-1593.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1617",
+      "path": "data/visuals/library_4-1617.json",
+      "expectedVisualCount": 5,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 1,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1623",
+      "path": "data/visuals/library_4-1623.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 1,
+      "status": "approved"
+    },
+    {
+      "articleId": "library_4-1630",
+      "path": "data/visuals/library_4-1630.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1664",
+      "path": "data/visuals/library_4-1664.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1678",
+      "path": "data/visuals/library_4-1678.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1681",
+      "path": "data/visuals/library_4-1681.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1690",
+      "path": "data/visuals/library_4-1690.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1908",
+      "path": "data/visuals/library_4-1908.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-1940",
+      "path": "data/visuals/library_4-1940.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-2044",
+      "path": "data/visuals/library_4-2044.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-2052",
+      "path": "data/visuals/library_4-2052.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-2077",
+      "path": "data/visuals/library_4-2077.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-2080",
+      "path": "data/visuals/library_4-2080.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
     },
     {
       "articleId": "library_4-2111",
@@ -138,6 +1442,38 @@
       "status": "approved"
     },
     {
+      "articleId": "library_4-345",
+      "path": "data/visuals/library_4-345.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-374",
+      "path": "data/visuals/library_4-374.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-388",
+      "path": "data/visuals/library_4-388.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_4-416",
+      "path": "data/visuals/library_4-416.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "library_4-426",
       "path": "data/visuals/library_4-426.json",
       "expectedVisualCount": 1,
@@ -146,12 +1482,244 @@
       "status": "approved"
     },
     {
+      "articleId": "library_4-713",
+      "path": "data/visuals/library_4-713.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_5-1389",
+      "path": "data/visuals/library_5-1389.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_5-1910",
+      "path": "data/visuals/library_5-1910.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_6-1720",
+      "path": "data/visuals/library_6-1720.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_6-2036",
+      "path": "data/visuals/library_6-2036.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_6-2113",
+      "path": "data/visuals/library_6-2113.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_6-810",
+      "path": "data/visuals/library_6-810.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1547",
+      "path": "data/visuals/library_7-1547.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1558",
+      "path": "data/visuals/library_7-1558.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1566",
+      "path": "data/visuals/library_7-1566.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1624",
+      "path": "data/visuals/library_7-1624.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1635",
+      "path": "data/visuals/library_7-1635.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-1974",
+      "path": "data/visuals/library_7-1974.json",
+      "expectedVisualCount": 4,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-2018",
+      "path": "data/visuals/library_7-2018.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-2079",
+      "path": "data/visuals/library_7-2079.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "library_7-2162",
+      "path": "data/visuals/library_7-2162.json",
+      "expectedVisualCount": 15,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 2,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1021",
+      "path": "data/visuals/story_1-1021.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1067",
+      "path": "data/visuals/story_1-1067.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1136",
+      "path": "data/visuals/story_1-1136.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1194",
+      "path": "data/visuals/story_1-1194.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1199",
+      "path": "data/visuals/story_1-1199.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1250",
+      "path": "data/visuals/story_1-1250.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1262",
+      "path": "data/visuals/story_1-1262.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1301",
+      "path": "data/visuals/story_1-1301.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1316",
+      "path": "data/visuals/story_1-1316.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1396",
+      "path": "data/visuals/story_1-1396.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1453",
+      "path": "data/visuals/story_1-1453.json",
+      "expectedVisualCount": 3,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-1472",
+      "path": "data/visuals/story_1-1472.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
       "articleId": "story_1-161",
       "path": "data/visuals/story_1-161.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "approved"
+    },
+    {
+      "articleId": "story_1-207",
+      "path": "data/visuals/story_1-207.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
     },
     {
       "articleId": "story_1-208",
@@ -168,6 +1736,54 @@
       "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "approved"
+    },
+    {
+      "articleId": "story_1-550",
+      "path": "data/visuals/story_1-550.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-679",
+      "path": "data/visuals/story_1-679.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-693",
+      "path": "data/visuals/story_1-693.json",
+      "expectedVisualCount": 5,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-979",
+      "path": "data/visuals/story_1-979.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_1-982",
+      "path": "data/visuals/story_1-982.json",
+      "expectedVisualCount": 2,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
+    },
+    {
+      "articleId": "story_2_2_1-769",
+      "path": "data/visuals/story_2_2_1-769.json",
+      "expectedVisualCount": 1,
+      "approvedReconstructionCount": 0,
+      "semanticOnlyCount": 0,
+      "status": "in-review"
     }
   ]
 }
