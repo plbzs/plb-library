@@ -9,24 +9,27 @@
       "id": "media-8c870d467bee2563cff5d706",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8c870d467bee2563cff5d706.svg",
         "sha256": "b684548217df6e6c2d63d3f68a4593768ff59080a79ee257cdde3d90a5bc331c"
       },
-      "semanticDescription": null,
+      "semanticDescription": "黑白手繪插圖：河面上有一艘載人的小船，遠處是岸邊與山形雲景，右上有直排題字，整體像以乘船渡水作譬喻的佛教插畫。它是手繪意象而非可可靠反向重建的表格或流程圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "hand-drawn illustration; no reliable structural data",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "已解開內嵌 PNG 確認為行舟渡水手繪插圖，依原則不強行轉為 graph-v1。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

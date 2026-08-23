@@ -9,17 +9,139 @@
       "id": "media-8bb56b8ec1423c7286723201",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8bb56b8ec1423c7286723201.svg",
         "sha256": "607a91c55a8140100e1c342798c2f8014253c11534b3b6af989b287fb125033b"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "定善凡夫對應《觀經》十三觀；散善凡夫對應九品中前六品；十惡眾生對應下品上生；破戒眾生對應下品中生；五逆眾生對應下品下生；善二、惡三、南無（十方眾生）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "十方眾生與定善散善、九品往生",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "南無／十方眾生",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 160
+            }
+          },
+          {
+            "id": "fixed",
+            "label": "定善凡夫",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "fixed-detail",
+            "label": "《觀經》十三觀",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善凡夫",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 140
+            }
+          },
+          {
+            "id": "scattered-detail",
+            "label": "九品中前六品",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 140
+            }
+          },
+          {
+            "id": "evil",
+            "label": "十惡／破戒／五逆眾生",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 280
+            }
+          },
+          {
+            "id": "evil-detail",
+            "label": "下品上生／下品中生／下品下生",
+            "kind": "result",
+            "position": {
+              "x": 560,
+              "y": 280
+            }
+          },
+          {
+            "id": "summary",
+            "label": "善二／惡三",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 160
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "fixed",
+            "relation": "includes"
+          },
+          {
+            "from": "fixed",
+            "to": "fixed-detail",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "root",
+            "to": "scattered",
+            "relation": "includes"
+          },
+          {
+            "from": "scattered",
+            "to": "scattered-detail",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "root",
+            "to": "evil",
+            "relation": "includes"
+          },
+          {
+            "from": "evil",
+            "to": "evil-detail",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "root",
+            "to": "summary",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留定善、散善、三類惡眾生與九品生處對照。"
       }
     },
     {
@@ -42,8 +164,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,104 @@
       "id": "media-891f109c1b665484a3e06157",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-891f109c1b665484a3e06157.svg",
         "sha256": "7565404be3d3fb11e04aff26567af88cd2f6446782e2621b2b9a277c0be962c0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "難行道：勤行精進、諸久墮、陸道步行、苦；易行道：易行疾至、一速必、水道乘船、樂；佛法菩薩道又分聖道門自力聖者修行諸行六度、淨土門他力凡夫信念佛救度，分別為證果不定與往生決定。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "龍樹菩薩難易二道判",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法／菩薩道",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 170
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道／聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "自力／聖者／修行諸行六度／陸道步行／苦／證果不定／諸、久、墮",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道／淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "他力／凡夫／信念佛救度／水道乘船／樂／往生決定／一、速、必",
+            "kind": "result",
+            "position": {
+              "x": 540,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "139/139 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重建難易二道兩欄與聖道／淨土、自力／他力、聖者／凡夫等對照。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

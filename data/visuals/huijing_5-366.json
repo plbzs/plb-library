@@ -526,17 +526,111 @@
       "id": "media-897f1b984d58cc772e49217e",
       "position": 6,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-897f1b984d58cc772e49217e.svg",
         "sha256": "52517c4c4b899c1165f1727bcde91ae34cb059cce8eabe81b005e5d047973186"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "成佛度眾的三項結果：無三界六道輪迴之事、無痛苦境界；無起惑造業受苦之事、無痛苦身心；得永恆自在安樂之命，成佛度眾。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "往生後的離苦、安樂與成佛度眾",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "成佛度眾",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "cycle",
+            "label": "一、無三界六道輪迴之事",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "cycle-detail",
+            "label": "無痛苦境界",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "suffering",
+            "label": "二、無起惑造業受苦之事",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 160
+            }
+          },
+          {
+            "id": "body",
+            "label": "無痛苦身心",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 160
+            }
+          },
+          {
+            "id": "joy",
+            "label": "三、得永恆自在安樂之命",
+            "kind": "result",
+            "position": {
+              "x": 280,
+              "y": 320
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cycle",
+            "relation": "includes"
+          },
+          {
+            "from": "cycle",
+            "to": "cycle-detail",
+            "relation": "results-in"
+          },
+          {
+            "from": "root",
+            "to": "suffering",
+            "relation": "includes"
+          },
+          {
+            "from": "suffering",
+            "to": "body",
+            "relation": "results-in"
+          },
+          {
+            "from": "root",
+            "to": "joy",
+            "relation": "includes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "59/59 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三項利益與各自的離輪迴、離苦、安樂結果。"
       }
     },
     {
@@ -726,8 +820,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "4/8 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "coverage": "5/8 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

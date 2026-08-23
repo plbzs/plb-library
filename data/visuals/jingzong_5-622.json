@@ -345,17 +345,97 @@
       "id": "media-8a25bd1e1b83d225079e8574",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8a25bd1e1b83d225079e8574.svg",
         "sha256": "157b7c94753fafc65564b25244b4944d38fe302f98be7592ac84914dc2978d8d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法分聖道門與淨土門：聖道門是自力修行之教，生生世世於六道中不失人身，修六度萬行以證果，聖者方能，故難；淨土門是他力救度之教，今生專稱佛名，往生極樂淨土以證果，凡夫所堪，故易。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "聖道門與淨土門的難易判",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 140
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy-detail",
+            "label": "自力修行／六道中不失人身／六度萬行以證果／聖者方能／故難",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 260
+            }
+          },
+          {
+            "id": "pure-detail",
+            "label": "他力救度／今生專稱佛名／往生極樂淨土以證果／凡夫所堪／故易",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "holy-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "pure-detail",
+            "relation": "defined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "27/27 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖兩欄教法、行法、根機與難易結論重建。"
       }
     },
     {
@@ -619,17 +699,144 @@
       "id": "media-8b9cd98f33871bca72972706",
       "position": 9,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8b9cd98f33871bca72972706.svg",
         "sha256": "70dbc93443b0d3f5cd227dd76a492f8d68527317f5b543a9978e6f9cafcbdf73"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教判分層：通擇機、通自力、通難行、通因地、通相對；直述、引釋、對判；明諸宗通意、明淨土別意、釋頓漸義、判淨土頓；依行者根機、依法門利益；天親、曇鸞、善導；諸宗、淨土、般舟讚一、般舟讚二；望機成漸、頓中之頓。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土教判的機、行、益與判教方法",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土教判",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 180
+            }
+          },
+          {
+            "id": "general",
+            "label": "通判：擇機／自力／難行／因地／相對",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "methods",
+            "label": "判釋方法：直述／引釋／對判",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 160
+            }
+          },
+          {
+            "id": "special",
+            "label": "別明：諸宗通意／淨土別意／頓漸義／淨土頓",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 320
+            }
+          },
+          {
+            "id": "basis",
+            "label": "機、行、益：行者根機／法門利益",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "teachers",
+            "label": "天親／曇鸞／善導",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 160
+            }
+          },
+          {
+            "id": "texts",
+            "label": "諸宗／淨土／般舟讚一／般舟讚二",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 320
+            }
+          },
+          {
+            "id": "conclusion",
+            "label": "望機成漸／頓中之頓",
+            "kind": "result",
+            "position": {
+              "x": 860,
+              "y": 170
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "has-layer"
+          },
+          {
+            "from": "root",
+            "to": "methods",
+            "relation": "has-layer"
+          },
+          {
+            "from": "root",
+            "to": "special",
+            "relation": "has-layer"
+          },
+          {
+            "from": "general",
+            "to": "basis",
+            "relation": "analyzed-by"
+          },
+          {
+            "from": "methods",
+            "to": "teachers",
+            "relation": "supported-by"
+          },
+          {
+            "from": "special",
+            "to": "texts",
+            "relation": "illustrated-by"
+          },
+          {
+            "from": "basis",
+            "to": "conclusion",
+            "relation": "leads-to"
+          },
+          {
+            "from": "teachers",
+            "to": "conclusion",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "42/42 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將原圖判教層次與機行益、三師、諸宗淨土文獻關係整理成可查詢圖。"
       }
     },
     {
@@ -1181,8 +1388,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "8/14 approved-or-semantic",
-    "approvedReconstructionCount": 8,
+    "coverage": "10/14 approved-or-semantic",
+    "approvedReconstructionCount": 10,
     "semanticOnlyCount": 0
   }
 }

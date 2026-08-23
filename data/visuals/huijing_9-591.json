@@ -9,17 +9,97 @@
       "id": "media-86c8408bc20f4ed1acef9dec",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-86c8408bc20f4ed1acef9dec.svg",
         "sha256": "8de863058ee89f93e8337f1f596433635b27d8ac74ebfd91d0933cfeb0482ed0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "難行道：勤行精進、諸久墮、陸道步行、苦；易行道：易行疾至、一速必、水道乘船、樂；聖道門難行道自力豎出通途，淨土門易行道他力橫超特別。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "難行道與易行道的自力他力對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法／菩薩道",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道／聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "自力／豎出通途／勤行精進／陸道步行／苦／諸、久、墮",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道／淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 260
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "他力／橫超特別／易行疾至／水道乘船／樂／一、速、必",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "325/325 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依圖中上下兩道與陸道／水道譬喻重建，重複單字節點合併。"
       }
     },
     {
@@ -199,9 +279,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

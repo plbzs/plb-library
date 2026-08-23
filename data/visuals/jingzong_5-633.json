@@ -9,17 +9,139 @@
       "id": "media-876466b8a53d3bceecccfb53",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-876466b8a53d3bceecccfb53.svg",
         "sha256": "0c263bfa7dcde93cc06ed462aa9a96cff0fed8fa24ef76d0c1be453716e43bcb"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "生彼淨土；彼菩薩人天所起諸行，凡是五念門；五果門前四與後一；第十八願為往生因，第十一願為往生果，第二十二願為還相；往相、本願力、他力。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五念門、五果門與三願因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "生彼淨土",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "practice",
+            "label": "彼菩薩人天所起諸行",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "five",
+            "label": "五念門",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "第十八願／往生因",
+            "kind": "scheme",
+            "position": {
+              "x": 740,
+              "y": 0
+            }
+          },
+          {
+            "id": "result",
+            "label": "第十一願／往生果",
+            "kind": "result",
+            "position": {
+              "x": 980,
+              "y": 0
+            }
+          },
+          {
+            "id": "fruits",
+            "label": "五果門：前四／後一",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 200
+            }
+          },
+          {
+            "id": "return",
+            "label": "第二十二願／還相",
+            "kind": "result",
+            "position": {
+              "x": 740,
+              "y": 260
+            }
+          },
+          {
+            "id": "power",
+            "label": "往相／本願力／他力",
+            "kind": "detail",
+            "position": {
+              "x": 980,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "explained-by"
+          },
+          {
+            "from": "practice",
+            "to": "five",
+            "relation": "organized-as"
+          },
+          {
+            "from": "five",
+            "to": "cause",
+            "relation": "leads-to"
+          },
+          {
+            "from": "cause",
+            "to": "result",
+            "relation": "causes"
+          },
+          {
+            "from": "root",
+            "to": "fruits",
+            "relation": "explained-by"
+          },
+          {
+            "from": "fruits",
+            "to": "return",
+            "relation": "leads-to"
+          },
+          {
+            "from": "return",
+            "to": "power",
+            "relation": "grounded-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "38/38 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留五念門、五果門、十八願／十一願／二十二願及往相他力關係。"
       }
     },
     {
@@ -167,9 +289,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }
