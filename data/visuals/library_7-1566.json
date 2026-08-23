@@ -9,24 +9,27 @@
       "id": "media-1840c532c6eff6389e10a0cb",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1840c532c6eff6389e10a0cb.svg",
         "sha256": "af9f08a745dca1f418f5c6472412156baafa21258fa78217196657562b817a9f"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張大型直幅 SVG 視覺檔，尺寸約 1028×670；原始檔沒有可讀文字節點，位於感應故事文章中，可能是圖片或插畫型內容。保留原始 SVG，不臆造不可驗證的文字與圖表關係。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; visual-only source",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔沒有可讀文字，無法可靠建立反向結構；保留原圖與語意級資訊。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

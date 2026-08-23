@@ -9,24 +9,184 @@
       "id": "media-141ce32ed6c3a2e83e0d410d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-141ce32ed6c3a2e83e0d410d.svg",
         "sha256": "ab04b20cd87cff2b8d134a8a19f09f64ebda8750e48dff02438259da2e43a76e"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土三經：無量壽經、觀經、阿彌陀經；欄位：地位、經體、經宗、力用、側重。共同內容：正依經典同上、同上；經體：名號；經宗：專念彌陀佛名；力用：凡夫往生報土；側重：往生原理乘佛願力、往生機類善惡九品、往生方法專念佛名、往生勝益不退成佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土三經的地位、經體、經宗與力用",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土三經",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "larger",
+            "label": "無量壽經",
+            "kind": "scripture",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "contemplation",
+            "label": "觀經",
+            "kind": "scripture",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "amida",
+            "label": "阿彌陀經",
+            "kind": "scripture",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "status",
+            "label": "地位：正依經典",
+            "kind": "column",
+            "position": {
+              "x": 450,
+              "y": 0
+            }
+          },
+          {
+            "id": "body",
+            "label": "經體：名號",
+            "kind": "column",
+            "position": {
+              "x": 450,
+              "y": 60
+            }
+          },
+          {
+            "id": "宗",
+            "label": "經宗：專念彌陀佛名",
+            "kind": "column",
+            "position": {
+              "x": 450,
+              "y": 120
+            }
+          },
+          {
+            "id": "power",
+            "label": "力用：凡夫往生報土",
+            "kind": "column",
+            "position": {
+              "x": 450,
+              "y": 180
+            }
+          },
+          {
+            "id": "focus",
+            "label": "側重：原理／機類／方法／勝益",
+            "kind": "column",
+            "position": {
+              "x": 700,
+              "y": 100
+            }
+          },
+          {
+            "id": "details",
+            "label": "乘佛願力／善惡九品／專念佛名／不退成佛",
+            "kind": "detail",
+            "position": {
+              "x": 930,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "larger",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "contemplation",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "amida",
+            "relation": "contains"
+          },
+          {
+            "from": "larger",
+            "to": "status",
+            "relation": "has-column-value"
+          },
+          {
+            "from": "contemplation",
+            "to": "status",
+            "relation": "has-column-value"
+          },
+          {
+            "from": "amida",
+            "to": "status",
+            "relation": "has-column-value"
+          },
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "shared-property"
+          },
+          {
+            "from": "root",
+            "to": "宗",
+            "relation": "shared-property"
+          },
+          {
+            "from": "root",
+            "to": "power",
+            "relation": "shared-property"
+          },
+          {
+            "from": "root",
+            "to": "focus",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "focus",
+            "to": "details",
+            "relation": "expanded-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 semantic groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原 SVG 是橫向五欄比較表；保留三部經、地位、經體、經宗、力用與側重內容。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

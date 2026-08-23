@@ -26,24 +26,132 @@
       "id": "media-1bd7113d82f1844d300d6450",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-1bd7113d82f1844d300d6450.svg",
         "sha256": "32776ec381ce1bbbf828c14ef73d5417333737a730375746f04a8595d3c78928"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "彌陀淨土；真空：第一義諦，空有不二之空，謂之真空，故稱第一；妙有：妙境界相，空有不二之有，謂之妙有，故說妙境。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀淨土的真空與妙有",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "彌陀淨土",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 70
+            }
+          },
+          {
+            "id": "true-empty",
+            "label": "真空",
+            "kind": "scheme",
+            "position": {
+              "x": 180,
+              "y": 0
+            }
+          },
+          {
+            "id": "wonderful-being",
+            "label": "妙有",
+            "kind": "scheme",
+            "position": {
+              "x": 180,
+              "y": 120
+            }
+          },
+          {
+            "id": "first-truth",
+            "label": "第一義諦",
+            "kind": "detail",
+            "position": {
+              "x": 390,
+              "y": 0
+            }
+          },
+          {
+            "id": "empty",
+            "label": "空有不二之空／謂之真空／故稱第一",
+            "kind": "detail",
+            "position": {
+              "x": 620,
+              "y": 0
+            }
+          },
+          {
+            "id": "realm",
+            "label": "妙境界相",
+            "kind": "detail",
+            "position": {
+              "x": 390,
+              "y": 120
+            }
+          },
+          {
+            "id": "being",
+            "label": "空有不二之有／謂之妙有／故說妙境",
+            "kind": "detail",
+            "position": {
+              "x": 620,
+              "y": 120
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "true-empty",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "wonderful-being",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "true-empty",
+            "to": "first-truth",
+            "relation": "explained-by"
+          },
+          {
+            "from": "first-truth",
+            "to": "empty",
+            "relation": "defined-as"
+          },
+          {
+            "from": "wonderful-being",
+            "to": "realm",
+            "relation": "explained-by"
+          },
+          {
+            "from": "realm",
+            "to": "being",
+            "relation": "defined-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 的兩列真空／妙有對照，保留第一義諦、妙境界相及空有不二說明。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

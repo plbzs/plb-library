@@ -9,24 +9,104 @@
       "id": "media-185033e4c3a3a1a9c2f21b08",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-185033e4c3a3a1a9c2f21b08.svg",
         "sha256": "82f4e56de7d308dcb09445ecc600584482b1ec9f18231af12932af63dee01e25"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "法然；聖覺、聖光、證空、親鸞；聖達、圓空、觀鏡；一遍、顯意、彰空；覺如、存覺。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "法然門下與傳承人物排列",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "法然",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "line-a",
+            "label": "聖覺／聖光／證空／親鸞",
+            "kind": "lineage",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "line-b",
+            "label": "聖達／圓空／觀鏡",
+            "kind": "lineage",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "line-c",
+            "label": "一遍／顯意／彰空",
+            "kind": "lineage",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "line-d",
+            "label": "覺如／存覺",
+            "kind": "lineage",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "line-a",
+            "relation": "associated-with"
+          },
+          {
+            "from": "root",
+            "to": "line-b",
+            "relation": "associated-with"
+          },
+          {
+            "from": "root",
+            "to": "line-c",
+            "relation": "associated-with"
+          },
+          {
+            "from": "root",
+            "to": "line-d",
+            "relation": "associated-with"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 以法然為左端、人物分列為右側的排列重建；不臆測原圖未明示的師承箭頭。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

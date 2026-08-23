@@ -26,17 +26,125 @@
       "id": "media-1460917ef300241a63eebf04",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-1460917ef300241a63eebf04.svg",
         "sha256": "fb05f66a32bb50032cd0af78fc4f89741c05d3bf7c35cb2a71da0324e7bb2a9a"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三超；因超、果超；願超、行超、名超；第一首、第二首、第三首。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗帶三法數的三超",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三超",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因超",
+            "kind": "scheme",
+            "position": {
+              "x": 160,
+              "y": 100
+            }
+          },
+          {
+            "id": "result",
+            "label": "果超",
+            "kind": "scheme",
+            "position": {
+              "x": 440,
+              "y": 100
+            }
+          },
+          {
+            "id": "vow",
+            "label": "願超",
+            "kind": "detail",
+            "position": {
+              "x": 20,
+              "y": 200
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行超",
+            "kind": "detail",
+            "position": {
+              "x": 180,
+              "y": 200
+            }
+          },
+          {
+            "id": "name",
+            "label": "名超",
+            "kind": "detail",
+            "position": {
+              "x": 340,
+              "y": 200
+            }
+          },
+          {
+            "id": "heads",
+            "label": "第一首／第二首／第三首",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "result",
+            "relation": "divides-into"
+          },
+          {
+            "from": "cause",
+            "to": "vow",
+            "relation": "includes"
+          },
+          {
+            "from": "cause",
+            "to": "practice",
+            "relation": "includes"
+          },
+          {
+            "from": "result",
+            "to": "name",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "heads",
+            "relation": "organized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 的三超、因果二分、願行名三項與三首標示重建。"
       }
     },
     {
@@ -59,8 +167,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

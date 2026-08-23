@@ -9,24 +9,174 @@
       "id": "media-1aa974bd6f02e90fc2374a43",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-1aa974bd6f02e90fc2374a43.svg",
         "sha256": "57d9ef39733dcb565fc671c31583f51ab89b86c82c7049e56e0ab8a207a32016"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "聞思修；雜行（眾水）；讀誦觀察、禮拜、稱名、讚供；正行；所觀之境、所念之名；南無阿彌陀佛（巨洋）；正定業。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "雜行、正行與正定業",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "聞思修",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行（眾水）",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "read",
+            "label": "讀誦觀察",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 0
+            }
+          },
+          {
+            "id": "bow",
+            "label": "禮拜",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 50
+            }
+          },
+          {
+            "id": "name",
+            "label": "稱名",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 100
+            }
+          },
+          {
+            "id": "praise",
+            "label": "讚供",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 150
+            }
+          },
+          {
+            "id": "right",
+            "label": "正行",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 220
+            }
+          },
+          {
+            "id": "object",
+            "label": "所觀之境／所念之名",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 220
+            }
+          },
+          {
+            "id": "buddha-name",
+            "label": "南無阿彌陀佛（巨洋）",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 220
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "正定業",
+            "kind": "result",
+            "position": {
+              "x": 850,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "mixed",
+            "relation": "develops-as"
+          },
+          {
+            "from": "mixed",
+            "to": "read",
+            "relation": "includes"
+          },
+          {
+            "from": "mixed",
+            "to": "bow",
+            "relation": "includes"
+          },
+          {
+            "from": "mixed",
+            "to": "name",
+            "relation": "includes"
+          },
+          {
+            "from": "mixed",
+            "to": "praise",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "right",
+            "relation": "develops-as"
+          },
+          {
+            "from": "right",
+            "to": "object",
+            "relation": "has-focus"
+          },
+          {
+            "from": "right",
+            "to": "buddha-name",
+            "relation": "centered-on"
+          },
+          {
+            "from": "buddha-name",
+            "to": "dedicated",
+            "relation": "is"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 的雜行／正行分欄、四種雜行、所觀所念及正定業鏈重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

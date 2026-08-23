@@ -9,17 +9,200 @@
       "id": "media-143e472b41eeae8aeb8a5734",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-143e472b41eeae8aeb8a5734.svg",
         "sha256": "9a6c5b33447c9b049153e7782f87a0702508de76503c9c40f22763c392953fb6"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法；聖道門：難行道、自力、聖者修行（修諸行）、六度；如陸道步行、苦、諸久墮、證果不定；淨土門：易行道、他力、凡夫信心（信念佛）、救度；如水道乘船、樂、一速必、往生決定；下層：小乘四聖諦方便、大乘六度萬行真實、要門諸行迴向方便、弘願念佛往生真實；自力難行漸教、他力易行頓教。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法的聖道門與淨土門對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 140
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 200,
+              "y": 30
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 200,
+              "y": 250
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道／自力／聖者修行",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-way",
+            "label": "如陸道步行／苦／諸久墮／證果不定",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道／他力／凡夫信心",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 240
+            }
+          },
+          {
+            "id": "easy-way",
+            "label": "如水道乘船／樂／一速必／往生決定",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 240
+            }
+          },
+          {
+            "id": "small",
+            "label": "小乘四聖諦／方便",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 80
+            }
+          },
+          {
+            "id": "large",
+            "label": "大乘六度萬行／真實",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 130
+            }
+          },
+          {
+            "id": "gate",
+            "label": "要門諸行迴向／方便",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 300
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願念佛往生／真實",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 350
+            }
+          },
+          {
+            "id": "teachings",
+            "label": "自力難行＝漸教；他力易行＝頓教",
+            "kind": "summary",
+            "position": {
+              "x": 650,
+              "y": 130
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "hard",
+            "relation": "characterized-by"
+          },
+          {
+            "from": "hard",
+            "to": "hard-way",
+            "relation": "explained-by"
+          },
+          {
+            "from": "holy",
+            "to": "small",
+            "relation": "includes"
+          },
+          {
+            "from": "holy",
+            "to": "large",
+            "relation": "includes"
+          },
+          {
+            "from": "pure",
+            "to": "easy",
+            "relation": "characterized-by"
+          },
+          {
+            "from": "easy",
+            "to": "easy-way",
+            "relation": "explained-by"
+          },
+          {
+            "from": "pure",
+            "to": "gate",
+            "relation": "includes"
+          },
+          {
+            "from": "pure",
+            "to": "vow",
+            "relation": "includes"
+          },
+          {
+            "from": "holy",
+            "to": "teachings",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "pure",
+            "to": "teachings",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "25/25 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 上下兩組對照與下層四項教法重建聖道／淨土的難易、自他、漸頓與結果差異。"
       }
     },
     {
@@ -76,8 +259,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
