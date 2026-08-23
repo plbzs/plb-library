@@ -319,17 +319,153 @@
       "id": "media-9303fb71530144cb7fa690e2",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9303fb71530144cb7fa690e2.svg",
         "sha256": "0f20983586b3dab05f5d75bf4d45f463ef8c8b8f4e952fc9248e94d8e034f220"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第十八願、十念念佛、五念門、行、當生正定聚、近門／大會眾門；第十一願、信心滅度、宅門／屋門、五功德門、證；第二十二願、還來度人、園林遊戲地門；他力可乘。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "他力可乘：三願與五念門",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "他力可乘",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "v18",
+            "label": "第十八願",
+            "kind": "vow",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "v11",
+            "label": "第十一願",
+            "kind": "vow",
+            "position": {
+              "x": 220,
+              "y": 250
+            }
+          },
+          {
+            "id": "v22",
+            "label": "第二十二願",
+            "kind": "vow",
+            "position": {
+              "x": 220,
+              "y": 500
+            }
+          },
+          {
+            "id": "practice",
+            "label": "十念念佛 → 五念門 → 行",
+            "kind": "practice",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "birth",
+            "label": "當生正定聚 → 近門／大會眾門",
+            "kind": "result",
+            "position": {
+              "x": 820,
+              "y": 0
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信心滅度 → 宅門／屋門 → 五功德門",
+            "kind": "practice",
+            "position": {
+              "x": 500,
+              "y": 250
+            }
+          },
+          {
+            "id": "proof",
+            "label": "證",
+            "kind": "result",
+            "position": {
+              "x": 820,
+              "y": 250
+            }
+          },
+          {
+            "id": "return",
+            "label": "還來度人 → 園林遊戲地門",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 500
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "v18",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "root",
+            "to": "v11",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "root",
+            "to": "v22",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "v18",
+            "to": "practice",
+            "relation": "opens"
+          },
+          {
+            "from": "practice",
+            "to": "birth",
+            "relation": "results-in"
+          },
+          {
+            "from": "v11",
+            "to": "faith",
+            "relation": "opens"
+          },
+          {
+            "from": "faith",
+            "to": "proof",
+            "relation": "results-in"
+          },
+          {
+            "from": "v22",
+            "to": "return",
+            "relation": "opens"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "58/58 source glyphs grouped into semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留第十八、十一、二十二願的三路徑，以及十念念佛、五念門、正定聚、信心滅度、還來度人的結果關係。"
       }
     }
   ],

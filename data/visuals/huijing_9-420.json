@@ -26,17 +26,125 @@
       "id": "media-8ca3cb931ae52f38bb532ac1",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8ca3cb931ae52f38bb532ac1.svg",
         "sha256": "8bb318723a814ecb0562ff8f80be158d025c8c85388282865a516780b47c73b4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《易行品》科判；一、舉難請易；二、呵問許說；三、總判二道；四、別明易行；十方十佛章、十方諸佛章、西方一佛章（彌陀章）、過未八佛章、東方八佛章、三世諸佛章、諸大菩薩章；初、序說；次、正說。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《易行品》科判",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "《易行品》科判",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "section-1",
+            "label": "一、舉難請易",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 150
+            }
+          },
+          {
+            "id": "section-2",
+            "label": "二、呵問許說",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 150
+            }
+          },
+          {
+            "id": "section-3",
+            "label": "三、總判二道",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 150
+            }
+          },
+          {
+            "id": "section-4",
+            "label": "四、別明易行",
+            "kind": "scheme",
+            "position": {
+              "x": 780,
+              "y": 150
+            }
+          },
+          {
+            "id": "chapters",
+            "label": "七章：十方十佛、十方諸佛、西方一佛、過未八佛、東方八佛、三世諸佛、諸大菩薩",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 310
+            }
+          },
+          {
+            "id": "exposition",
+            "label": "初、序說；次、正說",
+            "kind": "detail",
+            "position": {
+              "x": 680,
+              "y": 310
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "section-1",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-2",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-3",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-4",
+            "relation": "divides-into"
+          },
+          {
+            "from": "section-3",
+            "to": "chapters",
+            "relation": "classified-by"
+          },
+          {
+            "from": "section-4",
+            "to": "exposition",
+            "relation": "organized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "4/4 semantic groups plus 7 chapter labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "合併 SVG 中分散的文字節點，保留四段科判、七章名稱及序說／正說的層級關係。"
       }
     },
     {

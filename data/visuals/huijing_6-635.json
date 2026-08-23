@@ -9,17 +9,83 @@
       "id": "media-938c865aae5fb78b1b5d6320",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-938c865aae5fb78b1b5d6320.svg",
         "sha256": "cd63bf0dbaad79752bdb343bcd848ebe5d93ec0f26870a4543f2c039c095d0ef"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "南無的三義：1. 歸命歸順、服從佛之命令；2. 敬禮，以身業禮拜佛；3. 救我，向佛祈請救度我。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "南無的三義",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "南無",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "一、歸命歸順、服從佛之命令",
+            "kind": "meaning",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "respect",
+            "label": "二、敬禮：以身業禮拜佛",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "rescue",
+            "label": "三、救我：向佛祈請救度我",
+            "kind": "meaning",
+            "position": {
+              "x": 600,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "refuge",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "respect",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "rescue",
+            "relation": "means"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "3/3 meanings",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將分散的數字、標點與 tspan 合併為南無的三項解釋。"
       }
     },
     {

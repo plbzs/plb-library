@@ -9,17 +9,20 @@
       "id": "media-93f608f929aa8ca3ba618d02",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-93f608f929aa8ca3ba618d02.svg",
         "sha256": "99006e9547d0490fc021289fa817c1bdce5632b58d494d19f01d0a7995d7dfd7"
       },
-      "semanticDescription": null,
+      "semanticDescription": "文章〈方遠齊四歲遊極樂〉中的內嵌 PNG 插圖，出現在四歲孩子描述阿彌陀佛帶他遊極樂世界、看見祖母坐在蓮花中的段落附近。SVG 只包覆點陣圖，沒有可讀文字層，因此保留為圖像語意索引，不臆造圖內文字或圖表結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "no SVG text layer; semantic description retained",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "內嵌 PNG 無可提取的 SVG 文字或表格結構；依文章上下文建立保守語意描述，避免把不可驗證的視覺細節當成事實。"
       }
     }
   ],

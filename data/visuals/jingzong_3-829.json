@@ -9,17 +9,153 @@
       "id": "media-8f9e18092d12acf760d31bbb",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8f9e18092d12acf760d31bbb.svg",
         "sha256": "06b3dc1cf71c65da40c42544ef4a921fbd0c214b819e9feef22ff5bfe766943a"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "恆河七人：一、入水則沉，羸無勢力，不習浮故；二、雖沒還出，出已復沒，身力大故出，不習浮復沒；三、沒已即出，出更不沒，身重故沒，力大故出，習浮；四、入已便沒，沒已還出，住觀四方，不知出處故觀方；五、觀已即去，為怖畏故；六、入已即去，淺處則住，觀賊遠近；七、既至彼岸登上大山，無復恐怖，遠離怨賊，恆常大樂。闡提、人天、內凡、四果、緣覺、菩薩、佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "恆河七人修行階段",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "恆河七人",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "p1",
+            "label": "一、入水則沉：不習浮",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "p2",
+            "label": "二、沒還出而復沒",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "p3",
+            "label": "三、沒已即出，出更不沒",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "p4",
+            "label": "四、入沒還出，住觀四方",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "p5",
+            "label": "五、觀已即去，怖畏故",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 400
+            }
+          },
+          {
+            "id": "p6",
+            "label": "六、入已即去，淺處則住",
+            "kind": "stage",
+            "position": {
+              "x": 220,
+              "y": 500
+            }
+          },
+          {
+            "id": "p7",
+            "label": "七、至彼岸登山，恆常大樂",
+            "kind": "result",
+            "position": {
+              "x": 620,
+              "y": 250
+            }
+          },
+          {
+            "id": "spectrum",
+            "label": "闡提／人天／內凡／四果／緣覺／菩薩／佛",
+            "kind": "spectrum",
+            "position": {
+              "x": 620,
+              "y": 430
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "p1",
+            "relation": "progression"
+          },
+          {
+            "from": "p1",
+            "to": "p2",
+            "relation": "progression"
+          },
+          {
+            "from": "p2",
+            "to": "p3",
+            "relation": "progression"
+          },
+          {
+            "from": "p3",
+            "to": "p4",
+            "relation": "progression"
+          },
+          {
+            "from": "p4",
+            "to": "p5",
+            "relation": "progression"
+          },
+          {
+            "from": "p5",
+            "to": "p6",
+            "relation": "progression"
+          },
+          {
+            "from": "p6",
+            "to": "p7",
+            "relation": "progression"
+          },
+          {
+            "from": "p7",
+            "to": "spectrum",
+            "relation": "maps-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 stage descriptions plus 7-level spectrum",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將恆河七人的七個階段整理為由入水到彼岸的流程，保留原圖旁列的根機／果位序列。"
       }
     }
   ],

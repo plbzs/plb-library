@@ -9,17 +9,149 @@
       "id": "media-8e3cd3536a727b054f61556f",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8e3cd3536a727b054f61556f.svg",
         "sha256": "711bd0279506a233a6ca02833a74bf9cd8aa06739c74f4aae449d2e0e054667d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第十八願〈玄義分〉；《觀念法門》；《往生禮讚》；設我得佛、若我得佛、若我成佛；十方眾生；至心信樂、欲生我國、願生我國；稱我名號、稱我名字；下至十聲、乃至十念；乘我願力；若不生者；不取正覺。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八願三種願文對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "第十八願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "source-1",
+            "label": "〈玄義分〉",
+            "kind": "source",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "source-2",
+            "label": "《觀念法門》",
+            "kind": "source",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "source-3",
+            "label": "《往生禮讚》",
+            "kind": "source",
+            "position": {
+              "x": 240,
+              "y": 360
+            }
+          },
+          {
+            "id": "condition",
+            "label": "至心信樂／欲生我國／願生我國",
+            "kind": "condition",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "稱我名號／稱我名字；下至十聲／乃至十念",
+            "kind": "practice",
+            "position": {
+              "x": 540,
+              "y": 220
+            }
+          },
+          {
+            "id": "power",
+            "label": "乘我願力",
+            "kind": "ground",
+            "position": {
+              "x": 540,
+              "y": 440
+            }
+          },
+          {
+            "id": "result",
+            "label": "若不生者，不取正覺",
+            "kind": "result",
+            "position": {
+              "x": 880,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "source-1",
+            "relation": "appears-in"
+          },
+          {
+            "from": "root",
+            "to": "source-2",
+            "relation": "appears-in"
+          },
+          {
+            "from": "root",
+            "to": "source-3",
+            "relation": "appears-in"
+          },
+          {
+            "from": "source-1",
+            "to": "condition",
+            "relation": "states"
+          },
+          {
+            "from": "source-2",
+            "to": "practice",
+            "relation": "states"
+          },
+          {
+            "from": "source-3",
+            "to": "practice",
+            "relation": "states"
+          },
+          {
+            "from": "condition",
+            "to": "result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "practice",
+            "to": "result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "power",
+            "to": "result",
+            "relation": "guarantees"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "133/133 source glyphs grouped into semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留原圖以三個出處及願文條件、行持、願力、結果的對照結構；分散單字已重組為可讀詞組。"
       }
     }
   ],

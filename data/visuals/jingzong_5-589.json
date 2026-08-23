@@ -309,34 +309,250 @@
       "id": "media-96c63c2f3027849baccc552b",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-96c63c2f3027849baccc552b.svg",
         "sha256": "fd1fcf7ebde4535563dea7c3b3c107b1a4754de3b3124daa459fba47895a3b1f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "不具三心，雜毒虛假，不乘佛願，不得往生；具足三心，一心歸佛，乘佛願力，即得往生。修定散二行欲斷惑證真；迴定散二行求願往生；迴轉趨向；聖道；要門；弘願。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "定散二行迴轉趨向與三心",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "迴轉趨向",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 220
+            }
+          },
+          {
+            "id": "self",
+            "label": "修定散二行，欲斷惑證真",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "return",
+            "label": "迴定散二行，求願往生",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "gate",
+            "label": "要門",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願",
+            "kind": "result",
+            "position": {
+              "x": 780,
+              "y": 300
+            }
+          },
+          {
+            "id": "bad",
+            "label": "不具三心／雜毒虛假／不得往生",
+            "kind": "warning",
+            "position": {
+              "x": 520,
+              "y": 520
+            }
+          },
+          {
+            "id": "good",
+            "label": "具足三心／一心歸佛／即得往生",
+            "kind": "result",
+            "position": {
+              "x": 800,
+              "y": 120
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "self",
+            "to": "holy",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "return",
+            "to": "gate",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "turns-toward"
+          },
+          {
+            "from": "gate",
+            "to": "vow",
+            "relation": "turns-toward"
+          },
+          {
+            "from": "vow",
+            "to": "good",
+            "relation": "results-in"
+          },
+          {
+            "from": "gate",
+            "to": "bad",
+            "relation": "contrasted-with"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留聖道、要門、弘願三分及不具三心／具足三心的反向結果。"
       }
     },
     {
       "id": "media-993fe8c2da8b1a9a3d6d3d26",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-993fe8c2da8b1a9a3d6d3d26.svg",
         "sha256": "e093999c39e1b2c1199514cac4b61e4c1bf65688ac834e9570bf07f9d55cfc09"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "聖道（諸經）、要門、觀經、弘願（大經）；下方列示一至九的序列標記。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "聖道、要門、觀經與弘願的教判位置",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "教判位置",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道（諸經）",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "gate",
+            "label": "要門",
+            "kind": "scheme",
+            "position": {
+              "x": 280,
+              "y": 180
+            }
+          },
+          {
+            "id": "kan",
+            "label": "觀經",
+            "kind": "source",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願（大經）",
+            "kind": "scheme",
+            "position": {
+              "x": 800,
+              "y": 180
+            }
+          },
+          {
+            "id": "sequence",
+            "label": "一至九序列標記",
+            "kind": "detail",
+            "position": {
+              "x": 420,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "gate",
+            "relation": "divides-into"
+          },
+          {
+            "from": "gate",
+            "to": "kan",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "kan",
+            "to": "sequence",
+            "relation": "indexed-by"
+          },
+          {
+            "from": "vow",
+            "to": "sequence",
+            "relation": "indexed-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "17/17 source glyph groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將重複的弘願標記與分散數字整理為教判節點及一至九的序列資訊。"
       }
     },
     {
