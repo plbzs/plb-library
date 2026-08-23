@@ -9,24 +9,27 @@
       "id": "media-74f9f1a0f52aac2c64bd07dc",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-74f9f1a0f52aac2c64bd07dc.jpg",
         "sha256": "9f877250c0eea0397d5e5c6d30e01f3c6207e8b00ec5c0a671d47280fccf8c7b"
       },
-      "semanticDescription": null,
+      "semanticDescription": "家庭合照：數人坐在戶外或簡陋室內空間，一張男性證件照以半透明方式疊在畫面右側，可能用於往生或追思故事。屬於人物紀錄照片，不是結構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物合照無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留家庭合照與疊加肖像的紀錄性質，不辨識人物姓名或推測故事身份。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

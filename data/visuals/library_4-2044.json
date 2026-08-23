@@ -9,24 +9,241 @@
       "id": "media-741efba5d6090fa1f27d3ac5",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-741efba5d6090fa1f27d3ac5.jpg",
         "sha256": "39145df94336e215c4ce171a8ad2c9e61cc2c5891977f17ffef4ab9905880977"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n聖道門—難行道—自力—豎出—漸教—通途法門\n淨土門—易行道—他力—橫超—頓教—特別法門",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法中的聖道門與淨土門對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "buddha-dharma",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "sacred-path",
+            "label": "聖道門",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 60
+            }
+          },
+          {
+            "id": "difficult-path",
+            "label": "難行道",
+            "kind": "concept",
+            "position": {
+              "x": 500,
+              "y": 60
+            }
+          },
+          {
+            "id": "self-power",
+            "label": "自力",
+            "kind": "concept",
+            "position": {
+              "x": 700,
+              "y": 60
+            }
+          },
+          {
+            "id": "vertical-exit",
+            "label": "豎出",
+            "kind": "concept",
+            "position": {
+              "x": 880,
+              "y": 60
+            }
+          },
+          {
+            "id": "gradual-teaching",
+            "label": "漸教",
+            "kind": "concept",
+            "position": {
+              "x": 1050,
+              "y": 60
+            }
+          },
+          {
+            "id": "general-dharma",
+            "label": "通途法門",
+            "kind": "result",
+            "position": {
+              "x": 1230,
+              "y": 60
+            }
+          },
+          {
+            "id": "pure-land-path",
+            "label": "淨土門",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "easy-path",
+            "label": "易行道",
+            "kind": "concept",
+            "position": {
+              "x": 500,
+              "y": 300
+            }
+          },
+          {
+            "id": "other-power",
+            "label": "他力",
+            "kind": "concept",
+            "position": {
+              "x": 700,
+              "y": 300
+            }
+          },
+          {
+            "id": "horizontal-transcendence",
+            "label": "橫超",
+            "kind": "concept",
+            "position": {
+              "x": 880,
+              "y": 300
+            }
+          },
+          {
+            "id": "sudden-teaching",
+            "label": "頓教",
+            "kind": "concept",
+            "position": {
+              "x": 1050,
+              "y": 300
+            }
+          },
+          {
+            "id": "special-dharma",
+            "label": "特別法門",
+            "kind": "result",
+            "position": {
+              "x": 1230,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "buddha-dharma",
+            "to": "sacred-path",
+            "relation": "contains"
+          },
+          {
+            "from": "sacred-path",
+            "to": "difficult-path",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "difficult-path",
+            "to": "self-power",
+            "relation": "uses"
+          },
+          {
+            "from": "self-power",
+            "to": "vertical-exit",
+            "relation": "leads-to"
+          },
+          {
+            "from": "vertical-exit",
+            "to": "gradual-teaching",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "gradual-teaching",
+            "to": "general-dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "buddha-dharma",
+            "to": "pure-land-path",
+            "relation": "contains"
+          },
+          {
+            "from": "pure-land-path",
+            "to": "easy-path",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "easy-path",
+            "to": "other-power",
+            "relation": "uses"
+          },
+          {
+            "from": "other-power",
+            "to": "horizontal-transcendence",
+            "relation": "leads-to"
+          },
+          {
+            "from": "horizontal-transcendence",
+            "to": "sudden-teaching",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "sudden-teaching",
+            "to": "special-dharma",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "sacred-route",
+            "label": "聖道門路徑",
+            "members": [
+              "sacred-path",
+              "difficult-path",
+              "self-power",
+              "vertical-exit",
+              "gradual-teaching",
+              "general-dharma"
+            ]
+          },
+          {
+            "id": "pure-land-route",
+            "label": "淨土門路徑",
+            "members": [
+              "pure-land-path",
+              "easy-path",
+              "other-power",
+              "horizontal-transcendence",
+              "sudden-teaching",
+              "special-dharma"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13標籤與兩條對照鏈",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "按原圖左右兩條鏈完整重建佛法、聖道門與淨土門的對照關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

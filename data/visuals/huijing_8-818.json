@@ -9,24 +9,27 @@
       "id": "media-78720c265ceef60889665ded",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-78720c265ceef60889665ded.jpg",
         "sha256": "dba635e3cddfbd21dba60cbfe1fd7988f961c2bcb1318b8bc9894fd6ef05cdc8"
       },
-      "semanticDescription": null,
+      "semanticDescription": "彩色寓言式插畫：山崖上的老虎向下伸爪，一名人物抓住樹藤懸在半空，水面有三條龍或龍形水中生物，呈現危險與求生場景。屬於敘事插畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：敘事插畫無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "此媒體與另一篇文章使用相同原圖，保留同一套老虎、樹藤、人物與水中生物語意。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

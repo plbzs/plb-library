@@ -122,17 +122,20 @@
       "id": "media-7fc3740280f4ac224bad9848",
       "position": 7,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-7fc3740280f4ac224bad9848.jpg",
         "sha256": "82e6b627a1016cb0c78b73fa6e745575605bc10348f2138c393d5bdb97ec9872"
       },
-      "semanticDescription": null,
+      "semanticDescription": "直幅傳統佛教畫：兩位持法器、立於雲氣上的菩薩或天人，人物有圓形光輪，四角可見直排題字。屬於人物畫，不是可重建的菩薩名單或關係圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物畫題字不足以形成結構清單",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留雙人物、法器、光輪、雲氣與題字位置，不臆測人物身份。"
       }
     },
     {
@@ -156,17 +159,20 @@
       "id": "media-72701133f8b97841b7f6f976",
       "position": 9,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-72701133f8b97841b7f6f976.jpg",
         "sha256": "9451204e3170163e8bb518b525ff1ebde00fd3a314e9bd236e48ee389d0c116f"
       },
-      "semanticDescription": null,
+      "semanticDescription": "直幅傳統佛教畫：兩位身穿華麗天衣、立於雲氣上的菩薩或天人，其中一位彈奏弦樂器，另一位持法器，均有圓形光輪，四角可見直排題字。屬於人物畫，不是可重建的菩薩清單或關係圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物畫題字不足以形成結構清單",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留雙人物、弦樂器、法器、光輪、雲氣與題字位置，不臆測人物身份。"
       }
     },
     {
@@ -282,8 +288,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "7/15 approved-or-semantic",
+    "coverage": "9/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 7
+    "semanticOnlyCount": 9
   }
 }

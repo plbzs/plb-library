@@ -9,24 +9,27 @@
       "id": "media-866a4a10b18774b63787ce1a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-866a4a10b18774b63787ce1a.jpg",
         "sha256": "d95808b1f7b73f465981b420475809ec591b318f15e26a421d1c99d359d87577"
       },
-      "semanticDescription": null,
+      "semanticDescription": "生活照片：一隻手從紅色拉鍊袋內取出一條黑色掛繩，掛繩連接白色長方形吊牌與毛球配件，背景有床面與其他物品。屬於物品或故事照片，不是結構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：物品照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留紅色袋子、掛繩、白色吊牌、毛球與手部動作語意，不猜測吊牌內容。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

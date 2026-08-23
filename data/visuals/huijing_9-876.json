@@ -244,17 +244,111 @@
       "id": "media-77b3960add9ab3c860a34210",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-77b3960add9ab3c860a34210.png",
         "sha256": "802702198f47ee730052d6cd2549b15301fab1a324523fe5813302be7de7a177"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "發願迴向—機法\n法—彌陀發願迴向名號與眾生\n機—眾生發願迴向往生於極樂\n機法一體",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "發願迴向中的機法一體",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "dedication",
+            "label": "發願迴向",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "machine-dharma",
+            "label": "機法",
+            "kind": "concept",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法：彌陀發願迴向名號與眾生",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 60
+            }
+          },
+          {
+            "id": "machine",
+            "label": "機：眾生發願迴向往生於極樂",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 300
+            }
+          },
+          {
+            "id": "unity",
+            "label": "機法一體",
+            "kind": "result",
+            "position": {
+              "x": 1050,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "dedication",
+            "to": "machine-dharma",
+            "relation": "concerns"
+          },
+          {
+            "from": "machine-dharma",
+            "to": "dharma",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "machine-dharma",
+            "to": "machine",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "dharma",
+            "to": "unity",
+            "relation": "forms"
+          },
+          {
+            "from": "machine",
+            "to": "unity",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "machine-dharma-aspects",
+            "label": "機與法兩面",
+            "members": [
+              "dharma",
+              "machine"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5/5主要標籤與機／法匯合關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖核對後，完整重建發願迴向、機法兩面與機法一體的匯合關係。"
       }
     },
     {
@@ -311,8 +405,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/7 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/7 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

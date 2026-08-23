@@ -9,24 +9,291 @@
       "id": "media-7d1040e4ef6ea2ec96f12cb7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-7d1040e4ef6ea2ec96f12cb7.jpg",
         "sha256": "2f4b7e24076c0d2e07e41acaa86545b92110ede7a5c3ec044c43abab7e790e92"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "念佛成佛\n因：第十八願—念佛往生願—欲生我國，乃至十念—往相\n果：體—第十一願—必至滅度願—成等正覺，證大涅槃\n果：用—第二十二願—一生補處願—供養諸佛，開化眾生—還相",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "念佛成佛的因果與三願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "chant-buddhahood",
+            "label": "念佛成佛",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "branch",
+            "position": {
+              "x": 240,
+              "y": 80
+            }
+          },
+          {
+            "id": "eighteenth-vow",
+            "label": "第十八願",
+            "kind": "vow",
+            "position": {
+              "x": 470,
+              "y": 80
+            }
+          },
+          {
+            "id": "birth-vow",
+            "label": "念佛往生願",
+            "kind": "vow",
+            "position": {
+              "x": 700,
+              "y": 80
+            }
+          },
+          {
+            "id": "ten-recitation",
+            "label": "欲生我國，乃至十念",
+            "kind": "practice",
+            "position": {
+              "x": 930,
+              "y": 80
+            }
+          },
+          {
+            "id": "going-phase",
+            "label": "往相",
+            "kind": "result",
+            "position": {
+              "x": 1210,
+              "y": 80
+            }
+          },
+          {
+            "id": "fruit",
+            "label": "果",
+            "kind": "branch",
+            "position": {
+              "x": 240,
+              "y": 440
+            }
+          },
+          {
+            "id": "embodiment",
+            "label": "體",
+            "kind": "aspect",
+            "position": {
+              "x": 470,
+              "y": 340
+            }
+          },
+          {
+            "id": "eleventh-vow",
+            "label": "第十一願",
+            "kind": "vow",
+            "position": {
+              "x": 700,
+              "y": 340
+            }
+          },
+          {
+            "id": "nirvana-vow",
+            "label": "必至滅度願",
+            "kind": "vow",
+            "position": {
+              "x": 930,
+              "y": 340
+            }
+          },
+          {
+            "id": "perfect-awakening",
+            "label": "成等正覺，證大涅槃",
+            "kind": "result",
+            "position": {
+              "x": 1210,
+              "y": 340
+            }
+          },
+          {
+            "id": "function",
+            "label": "用",
+            "kind": "aspect",
+            "position": {
+              "x": 470,
+              "y": 560
+            }
+          },
+          {
+            "id": "twenty-second-vow",
+            "label": "第二十二願",
+            "kind": "vow",
+            "position": {
+              "x": 700,
+              "y": 560
+            }
+          },
+          {
+            "id": "one-birth-vow",
+            "label": "一生補處願",
+            "kind": "vow",
+            "position": {
+              "x": 930,
+              "y": 560
+            }
+          },
+          {
+            "id": "teach-beings",
+            "label": "供養諸佛，開化眾生",
+            "kind": "practice",
+            "position": {
+              "x": 1170,
+              "y": 560
+            }
+          },
+          {
+            "id": "returning-phase",
+            "label": "還相",
+            "kind": "result",
+            "position": {
+              "x": 1420,
+              "y": 560
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "chant-buddhahood",
+            "to": "cause",
+            "relation": "has-cause"
+          },
+          {
+            "from": "cause",
+            "to": "eighteenth-vow",
+            "relation": "expressed-by"
+          },
+          {
+            "from": "eighteenth-vow",
+            "to": "birth-vow",
+            "relation": "means"
+          },
+          {
+            "from": "birth-vow",
+            "to": "ten-recitation",
+            "relation": "fulfilled-by"
+          },
+          {
+            "from": "ten-recitation",
+            "to": "going-phase",
+            "relation": "leads-to"
+          },
+          {
+            "from": "chant-buddhahood",
+            "to": "fruit",
+            "relation": "has-fruit"
+          },
+          {
+            "from": "fruit",
+            "to": "embodiment",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "embodiment",
+            "to": "eleventh-vow",
+            "relation": "expressed-by"
+          },
+          {
+            "from": "eleventh-vow",
+            "to": "nirvana-vow",
+            "relation": "means"
+          },
+          {
+            "from": "nirvana-vow",
+            "to": "perfect-awakening",
+            "relation": "leads-to"
+          },
+          {
+            "from": "fruit",
+            "to": "function",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "function",
+            "to": "twenty-second-vow",
+            "relation": "expressed-by"
+          },
+          {
+            "from": "twenty-second-vow",
+            "to": "one-birth-vow",
+            "relation": "means"
+          },
+          {
+            "from": "one-birth-vow",
+            "to": "teach-beings",
+            "relation": "fulfilled-by"
+          },
+          {
+            "from": "teach-beings",
+            "to": "returning-phase",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "cause-line",
+            "label": "因與往相",
+            "members": [
+              "cause",
+              "eighteenth-vow",
+              "birth-vow",
+              "ten-recitation",
+              "going-phase"
+            ]
+          },
+          {
+            "id": "fruit-body",
+            "label": "果之體",
+            "members": [
+              "embodiment",
+              "eleventh-vow",
+              "nirvana-vow",
+              "perfect-awakening"
+            ]
+          },
+          {
+            "id": "fruit-function",
+            "label": "果之用",
+            "members": [
+              "function",
+              "twenty-second-vow",
+              "one-birth-vow",
+              "teach-beings",
+              "returning-phase"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "16/16主要標籤與因／果／體／用分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "按原圖因果、體用與往相／還相關係完整重建三條願行鏈。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
