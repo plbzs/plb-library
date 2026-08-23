@@ -1,6 +1,7 @@
 const state = {
   articles: [],
   articleCache: new Map(),
+  visualCache: new Map(),
   searchManifest: undefined,
   searchChunks: new Map(),
   tree: [],
@@ -206,6 +207,19 @@ async function loadArticle(id) {
   const article = await response.json();
   state.articleCache.set(id, article);
   return article;
+}
+
+async function loadVisuals(id) {
+  if (state.visualCache.has(id)) return state.visualCache.get(id);
+  try {
+    const response = await fetch(dataUrl(`./data/visuals/${encodeURIComponent(id)}.json`));
+    const visuals = response.ok ? await response.json() : null;
+    state.visualCache.set(id, visuals);
+    return visuals;
+  } catch {
+    state.visualCache.set(id, null);
+    return null;
+  }
 }
 
 async function loadSearchManifest() {
@@ -1153,7 +1167,7 @@ function renderSearchPage({ q, pathScope, results, pending, emptySearch = false 
     </section>
   `;
   if (emptySearch) return;
-  renderSearchResultsInBackground(results, visibleResults.length);
+  renderSearchResultsInBackground(results, visibleResults.length, q);
 }
 
 function searchHref({ q, section, pathScope = [], limit }) {
@@ -1211,6 +1225,7 @@ function searchRecords(q, section, pathScope = [], records = []) {
       displayPathText(record.displayPath),
       (item.tags || []).join(" "),
       item.excerpt,
+      item.visualText,
       item.text
     ]
       .join(" ")
@@ -1231,7 +1246,8 @@ function quickSearch(q, section, pathScope = []) {
       item.displayPath.join(" "),
       displayPathText(item.displayPath),
       (item.tags || []).join(" "),
-      item.excerpt
+      item.excerpt,
+      (item.visualNotes || []).map((note) => note.summary).join(" ")
     ]
       .join(" ")
       .toLocaleLowerCase();
@@ -1239,7 +1255,7 @@ function quickSearch(q, section, pathScope = []) {
   }));
 }
 
-function renderSearchResultsInBackground(items, startIndex) {
+function renderSearchResultsInBackground(items, startIndex, q = "") {
   const container = app.querySelector("[data-progressive-results]");
   if (!container || startIndex >= items.length) return;
   const token = state.renderToken;
@@ -1253,7 +1269,7 @@ function renderSearchResultsInBackground(items, startIndex) {
       count < BACKGROUND_SEARCH_BATCH_SIZE &&
       (!deadline?.timeRemaining || deadline.timeRemaining() > 4 || count < 4)
     ) {
-      html += renderCard(items[index]);
+      html += renderCard(items[index], { visualMatch: visualTextMatches(items[index], q) });
       index += 1;
       count += 1;
     }
@@ -1461,6 +1477,7 @@ async function renderArticle(id) {
     app.innerHTML = `<div class="empty">找不到文章。</div>`;
     return;
   }
+  const visuals = await loadVisuals(id);
   const siblings = state.articles.filter(
     (item) => item.displayPath.slice(0, -1).join("/") === article.displayPath.slice(0, -1).join("/")
   );
@@ -1473,6 +1490,7 @@ async function renderArticle(id) {
       ${article.series ? `<p class="meta">系列：<a href="#/search?q=${encodeURIComponent(article.series.title)}&section=${encodeURIComponent(article.displayPath[0])}">${esc(article.series.title)}</a>${article.series.partLabel ? ` · 第 ${esc(article.series.partLabel)} 篇` : ""}</p>` : ""}
       ${article.attachments.length ? renderAttachments(article) : ""}
       <div class="article-body">${articleBodyHtml}</div>
+      ${renderVisualKnowledge(visuals)}
       ${renderRelated(article)}
     </article>
   `;
@@ -1534,10 +1552,32 @@ function renderVisualNotes(article) {
   `;
 }
 
+function renderVisualKnowledge(file) {
+  const visuals = (file?.visuals || []).filter((visual) => ["approved", "semantic-only"].includes(visual.validation?.status));
+  if (!visuals.length) return "";
+  const knowledge = visuals.map((visual) => {
+    const reconstruction = visual.reconstruction || {};
+    const labels = [
+      visual.type,
+      visual.classification,
+      visual.semanticDescription,
+      visual.transcript,
+      reconstruction.title,
+      ...(reconstruction.nodes || []).map((node) => `${node.label}（${node.kind || "節點"}）`),
+      ...(reconstruction.groups || []).map((group) => `${group.label}：${(group.members || []).join("、")}`),
+      ...(reconstruction.edges || []).map((edge) => `${edge.from} ${edge.relation} ${edge.to}`),
+      visual.validation?.reviewNote
+    ].filter(Boolean).join("\n").replace(/\\n/g, "\n");
+    return `<div data-visual-id="${esc(visual.id)}" data-visual-status="${esc(visual.validation?.status || "")}">${esc(knowledge)}</div>`;
+  }).join("");
+  return `<section class="visual-knowledge" data-visual-knowledge aria-label="圖表文字資料">${knowledge}</section>`;
+}
+
 function renderCard(item, options = {}) {
   const listIndex = typeof options === "object" ? options.listIndex : null;
   const displayPath = options.displayPath || item.displayPath;
   const order = item.sourceOrder ? `<span class="path-order">${esc(orderLabel(item, displayPath))}</span>` : "";
+  const visualMatch = options.visualMatch ? `<span class="meta visual-match">圖表資料相符</span>` : "";
   return `
     <div class="card article-card"${listIndex ? ` data-list-index="${listIndex}"` : ""}>
       <span class="meta path-links">${renderPathLinks(displayPath)}${order ? ` ${order}` : ""}</span>
@@ -1545,10 +1585,17 @@ function renderCard(item, options = {}) {
         <strong class="selectable-title">${esc(item.title)}</strong>
       </span>
       ${item.series ? `<span class="meta">系列：<a href="#/search?q=${encodeURIComponent(item.series.title)}&section=${encodeURIComponent(item.displayPath[0])}">${esc(item.series.title)}</a></span>` : ""}
+      ${visualMatch}
       <span>${esc(item.excerpt)}</span>
       <span class="card-actions"><a href="#/article/${item.id}">閱讀</a></span>
     </div>
   `;
+}
+
+function visualTextMatches(item, q = "") {
+  const visualText = String(item.visualText || "").toLocaleLowerCase();
+  if (!visualText) return false;
+  return q.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean).every((term) => visualText.includes(term));
 }
 
 function renderPathLinks(parts) {

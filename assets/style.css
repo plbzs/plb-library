@@ -1122,6 +1122,22 @@ main {
   margin-top: 1.5rem;
 }
 
+.visual-knowledge {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: pre-wrap;
+  border: 0;
+}
+
+.visual-match {
+  color: var(--accent-2);
+}
+
 .visual-notes h2 {
   margin: 0 0 0.65rem;
   font-size: 1.25em;
