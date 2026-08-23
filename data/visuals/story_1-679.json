@@ -9,17 +9,20 @@
       "id": "media-eaab29f3e212f3b73b9f745b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-eaab29f3e212f3b73b9f745b.jpg",
         "sha256": "8d9db8512c61e14a9c596c9daf066b504ac9194b93e808ed9fa958e673bba817"
       },
-      "semanticDescription": null,
+      "semanticDescription": "鳥類照片：一隻白灰色小鳥停在室內枝條或支架上，外圍有藍色蝴蝶結與菱格裝飾框。屬於動物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留鳥類、裝飾框與拍攝場景，不由照片推定鳥的品種或故事背景。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

@@ -9,17 +9,199 @@
       "id": "media-ec0ffafddba9119c91ce7f13",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ec0ffafddba9119c91ce7f13.png",
         "sha256": "2064b11d15e77f6cc741dd82f0cd09fdc76db469023140f66dfcc4b6b6814b84"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "一、外道相善，亂菩薩法\n二、聲聞自利，障大慈悲\n三、無報惡人，破他勝德\n四、顛倒善果，能壞梵行\n五、唯是自力，無他力持\n見濁\n煩惱濁\n無佛時\n五濁世",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五種難與五濁世",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "difficulties",
+            "label": "五種難",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "outside-path",
+            "label": "一、外道相善，亂菩薩法",
+            "kind": "item",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "self-benefit",
+            "label": "二、聲聞自利，障大慈悲",
+            "kind": "item",
+            "position": {
+              "x": 300,
+              "y": 120
+            }
+          },
+          {
+            "id": "harm-virtue",
+            "label": "三、無報惡人，破他勝德",
+            "kind": "item",
+            "position": {
+              "x": 300,
+              "y": 240
+            }
+          },
+          {
+            "id": "wrong-good",
+            "label": "四、顛倒善果，能壞梵行",
+            "kind": "item",
+            "position": {
+              "x": 300,
+              "y": 360
+            }
+          },
+          {
+            "id": "self-power",
+            "label": "五、唯是自力，無他力持",
+            "kind": "item",
+            "position": {
+              "x": 300,
+              "y": 480
+            }
+          },
+          {
+            "id": "view-pollution",
+            "label": "見濁",
+            "kind": "category",
+            "position": {
+              "x": 760,
+              "y": 100
+            }
+          },
+          {
+            "id": "affliction-pollution",
+            "label": "煩惱濁",
+            "kind": "category",
+            "position": {
+              "x": 760,
+              "y": 360
+            }
+          },
+          {
+            "id": "no-buddha-time",
+            "label": "無佛時",
+            "kind": "category",
+            "position": {
+              "x": 760,
+              "y": 520
+            }
+          },
+          {
+            "id": "five-pollutions",
+            "label": "五濁世",
+            "kind": "result",
+            "position": {
+              "x": 1080,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "difficulties",
+            "to": "outside-path",
+            "relation": "lists"
+          },
+          {
+            "from": "difficulties",
+            "to": "self-benefit",
+            "relation": "lists"
+          },
+          {
+            "from": "difficulties",
+            "to": "harm-virtue",
+            "relation": "lists"
+          },
+          {
+            "from": "difficulties",
+            "to": "wrong-good",
+            "relation": "lists"
+          },
+          {
+            "from": "difficulties",
+            "to": "self-power",
+            "relation": "lists"
+          },
+          {
+            "from": "outside-path",
+            "to": "view-pollution",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "self-benefit",
+            "to": "view-pollution",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "harm-virtue",
+            "to": "view-pollution",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "wrong-good",
+            "to": "affliction-pollution",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "self-power",
+            "to": "no-buddha-time",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "view-pollution",
+            "to": "five-pollutions",
+            "relation": "forms"
+          },
+          {
+            "from": "affliction-pollution",
+            "to": "five-pollutions",
+            "relation": "forms"
+          },
+          {
+            "from": "no-buddha-time",
+            "to": "five-pollutions",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "five-items",
+            "label": "五種難",
+            "members": [
+              "outside-path",
+              "self-benefit",
+              "harm-virtue",
+              "wrong-good",
+              "self-power"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9主要標籤與五項分組關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明圖白底核對後，保留五項文字、見濁、煩惱濁、無佛時與五濁世的分組；文字以原圖可讀內容為準。"
       }
     },
     {
@@ -316,9 +498,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

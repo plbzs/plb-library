@@ -9,17 +9,20 @@
       "id": "media-e75507be4dd759fa65470055",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-e75507be4dd759fa65470055.jpg",
         "sha256": "46541f665008c118a54ffc59b5720b018305cb24a9eb26c9b9f93910d60ae5cf"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "手寫文字照片：橫線紙上以藍色筆寫有數行勸勉或偈語，上方可辨識「人生自古誰無死，留取丹心照汗青」，下方另有「老僧」等字樣與一段難辨識手寫內容；圖片下方標示「長老給作者的開示」。不是結構化圖表。",
+      "transcript": "長老給作者的開示\n人生自古誰無死，留取丹心照汗青",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "2/2可可靠辨識的文字區塊；其餘手寫不確定",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留清楚可讀的標題與偈語，不把模糊手寫補成完整引文。"
       }
     },
     {
@@ -64,9 +67,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

@@ -457,17 +457,233 @@
       "id": "media-f06732545c7d5b79702891e9",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f06732545c7d5b79702891e9.png",
         "sha256": "5c0b727dad794b0fb05469a2053bc3b6ef32c2ee15055fdaf7f7b10c055a3328"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "觀經\n一定善\n十三定觀\n散善\n上三品—行福\n中三品—戒福\n下三品—念佛\n三福九品\n方便要門\n真實弘願\n顯（萬行隨一）\n隱（非定非散）",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "觀經的十三定觀、三福九品與方便要門",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "guanjing",
+            "label": "觀經",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "fixed-good",
+            "label": "一定善",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 80
+            }
+          },
+          {
+            "id": "thirteen-contemplations",
+            "label": "十三定觀",
+            "kind": "result",
+            "position": {
+              "x": 600,
+              "y": 80
+            }
+          },
+          {
+            "id": "scattered-good",
+            "label": "散善",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 420
+            }
+          },
+          {
+            "id": "upper-three",
+            "label": "上三品—行福",
+            "kind": "item",
+            "position": {
+              "x": 560,
+              "y": 300
+            }
+          },
+          {
+            "id": "middle-three",
+            "label": "中三品—戒福",
+            "kind": "item",
+            "position": {
+              "x": 560,
+              "y": 420
+            }
+          },
+          {
+            "id": "lower-three",
+            "label": "下三品—念佛",
+            "kind": "item",
+            "position": {
+              "x": 560,
+              "y": 540
+            }
+          },
+          {
+            "id": "nine-grades",
+            "label": "三福九品",
+            "kind": "result",
+            "position": {
+              "x": 880,
+              "y": 420
+            }
+          },
+          {
+            "id": "convenient-gate",
+            "label": "方便要門",
+            "kind": "result",
+            "position": {
+              "x": 1160,
+              "y": 260
+            }
+          },
+          {
+            "id": "manifest",
+            "label": "顯（萬行隨一）",
+            "kind": "aspect",
+            "position": {
+              "x": 1380,
+              "y": 160
+            }
+          },
+          {
+            "id": "hidden",
+            "label": "隱（非定非散）",
+            "kind": "aspect",
+            "position": {
+              "x": 1380,
+              "y": 360
+            }
+          },
+          {
+            "id": "true-vow",
+            "label": "真實弘願",
+            "kind": "result",
+            "position": {
+              "x": 1680,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "guanjing",
+            "to": "fixed-good",
+            "relation": "divides-into"
+          },
+          {
+            "from": "guanjing",
+            "to": "scattered-good",
+            "relation": "divides-into"
+          },
+          {
+            "from": "fixed-good",
+            "to": "thirteen-contemplations",
+            "relation": "contains"
+          },
+          {
+            "from": "scattered-good",
+            "to": "upper-three",
+            "relation": "contains"
+          },
+          {
+            "from": "scattered-good",
+            "to": "middle-three",
+            "relation": "contains"
+          },
+          {
+            "from": "scattered-good",
+            "to": "lower-three",
+            "relation": "contains"
+          },
+          {
+            "from": "upper-three",
+            "to": "nine-grades",
+            "relation": "forms"
+          },
+          {
+            "from": "middle-three",
+            "to": "nine-grades",
+            "relation": "forms"
+          },
+          {
+            "from": "lower-three",
+            "to": "nine-grades",
+            "relation": "forms"
+          },
+          {
+            "from": "thirteen-contemplations",
+            "to": "convenient-gate",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "nine-grades",
+            "to": "convenient-gate",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "convenient-gate",
+            "to": "manifest",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "convenient-gate",
+            "to": "hidden",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "manifest",
+            "to": "true-vow",
+            "relation": "points-to"
+          },
+          {
+            "from": "hidden",
+            "to": "true-vow",
+            "relation": "points-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "fixed-and-scattered",
+            "label": "定善／散善",
+            "members": [
+              "fixed-good",
+              "scattered-good"
+            ]
+          },
+          {
+            "id": "three-grades",
+            "label": "三福九品",
+            "members": [
+              "upper-three",
+              "middle-three",
+              "lower-three"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12主要標籤與定善／散善、三福九品關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "白底核對透明圖後，保留觀經、十三定觀、散善三品、三福九品、方便要門及顯／隱兩面通往真實弘願的架構。"
       }
     },
     {
@@ -752,9 +968,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "4/5 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "status": "approved",
+    "coverage": "5/5 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

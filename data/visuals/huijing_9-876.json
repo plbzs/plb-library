@@ -673,17 +673,159 @@
       "id": "media-e1e63b2be4e72b5f9065f3e3",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e1e63b2be4e72b5f9065f3e3.png",
         "sha256": "b6c3f6cb2db24177765ea6c149aafff74b4587c17b2c96a7f59ffa2767e67142"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六字全法\n南\n無\n歸命—彌陀對眾生招喚之救命\n發願迴向—彌陀對眾生迴向之願心\n阿彌陀佛—即是其行—彌陀對眾生迴向之名號\n攝機之法",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六字全法與攝機之法",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "six-whole-dharma",
+            "label": "六字全法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "namo",
+            "label": "南",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 120
+            }
+          },
+          {
+            "id": "amita",
+            "label": "阿彌陀佛",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 440
+            }
+          },
+          {
+            "id": "no",
+            "label": "無",
+            "kind": "branch",
+            "position": {
+              "x": 500,
+              "y": 120
+            }
+          },
+          {
+            "id": "refuge-call",
+            "label": "歸命—彌陀對眾生招喚之救命",
+            "kind": "meaning",
+            "position": {
+              "x": 760,
+              "y": 40
+            }
+          },
+          {
+            "id": "dedication-vow",
+            "label": "發願迴向—彌陀對眾生迴向之願心",
+            "kind": "meaning",
+            "position": {
+              "x": 760,
+              "y": 220
+            }
+          },
+          {
+            "id": "practice-name",
+            "label": "即是其行—彌陀對眾生迴向之名號",
+            "kind": "meaning",
+            "position": {
+              "x": 760,
+              "y": 440
+            }
+          },
+          {
+            "id": "capture-dharma",
+            "label": "攝機之法",
+            "kind": "result",
+            "position": {
+              "x": 1320,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "six-whole-dharma",
+            "to": "namo",
+            "relation": "contains"
+          },
+          {
+            "from": "six-whole-dharma",
+            "to": "amita",
+            "relation": "contains"
+          },
+          {
+            "from": "namo",
+            "to": "no",
+            "relation": "completes"
+          },
+          {
+            "from": "no",
+            "to": "refuge-call",
+            "relation": "explains"
+          },
+          {
+            "from": "no",
+            "to": "dedication-vow",
+            "relation": "explains"
+          },
+          {
+            "from": "amita",
+            "to": "practice-name",
+            "relation": "explains"
+          },
+          {
+            "from": "refuge-call",
+            "to": "capture-dharma",
+            "relation": "forms"
+          },
+          {
+            "from": "dedication-vow",
+            "to": "capture-dharma",
+            "relation": "forms"
+          },
+          {
+            "from": "practice-name",
+            "to": "capture-dharma",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-explanations",
+            "label": "六字義理的三條說明",
+            "members": [
+              "refuge-call",
+              "dedication-vow",
+              "practice-name"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8主要標籤與三條說明分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "白底核對透明圖後，保留六字全法、南無、阿彌陀佛、三條對眾生說明與攝機之法的收束關係。"
       }
     },
     {
@@ -1221,9 +1363,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "6/7 approved-or-semantic",
-    "approvedReconstructionCount": 6,
+    "status": "approved",
+    "coverage": "7/7 approved-or-semantic",
+    "approvedReconstructionCount": 7,
     "semanticOnlyCount": 0
   }
 }

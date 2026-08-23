@@ -9,24 +9,27 @@
       "id": "media-e8e33b3e425cf2e753dff942",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-e8e33b3e425cf2e753dff942.jpg",
         "sha256": "e360a6b8df3e5171e0a18f5564114f4fd733a08dc9f857329bbf02055a600a1a"
       },
-      "semanticDescription": null,
+      "semanticDescription": "水墨風格古畫或故事插畫：一名老人帶著兩名兒童在溪邊或船邊活動，背景有松樹、房舍、柳樹與水面，左側有直排題字。屬於敘事畫面，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "直排題字過小，無可靠完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、兒童、老人、溪流、船、松樹與水墨構圖，不把人物互動誤轉成組織關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

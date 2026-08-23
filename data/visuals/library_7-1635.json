@@ -9,17 +9,20 @@
       "id": "media-e5fbc0c852d74fe2b1f69ca7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-e5fbc0c852d74fe2b1f69ca7.jpg",
         "sha256": "dba635e3cddfbd21dba60cbfe1fd7988f961c2bcb1318b8bc9894fd6ef05cdc8"
       },
-      "semanticDescription": null,
+      "semanticDescription": "彩色寓言或古畫風插圖：一名人物懸掛在樹枝或藤蔓上，下面是水面與三條龍形生物，左側有老虎靠近，樹上另有小型動物；未見可靠文字標籤。屬於敘事畫面，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：無可靠圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、樹枝、老虎、水面與龍形生物的寓言畫面，不推定故事的象徵對應。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-ee8368a252fffb677386c7c2",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-ee8368a252fffb677386c7c2.jpg",
         "sha256": "2e45c5c282ac2945d3f36448373608bf1797dcdc925d5360b6f3bd1fa9fee454"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "手寫信件照片：活頁紙上寫給「慧淨法師」的中文書信，正文談到淨土行者、淨土法門、感謝與分享，末尾有署名與日期；字跡部分可讀但不適合在沒有人工校對下逐字重建。",
+      "transcript": "慧淨法師",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "僅轉錄收信人；正文手寫全文未可靠校對",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留信件、收信人、淨土主題與署名日期的語意，不把不確定手寫內容當成精確全文。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
