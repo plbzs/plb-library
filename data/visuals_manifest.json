@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 58,
-    "semanticOnly": 15,
-    "needsReview": 270,
+    "approvedReconstruction": 65,
+    "semanticOnly": 16,
+    "needsReview": 262,
     "sourceMissing": 1
   },
   "articles": [
@@ -453,7 +453,7 @@
       "articleId": "huijing_6-968",
       "path": "data/visuals/huijing_6-968.json",
       "expectedVisualCount": 4,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -725,7 +725,7 @@
       "articleId": "huijing_9-704",
       "path": "data/visuals/huijing_9-704.json",
       "expectedVisualCount": 3,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -790,8 +790,8 @@
       "path": "data/visuals/huijing_9-850.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "huijing_9-858",
@@ -1109,7 +1109,7 @@
       "articleId": "jingzong_5-620",
       "path": "data/visuals/jingzong_5-620.json",
       "expectedVisualCount": 4,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1125,7 +1125,7 @@
       "articleId": "jingzong_5-622",
       "path": "data/visuals/jingzong_5-622.json",
       "expectedVisualCount": 14,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 4,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1221,9 +1221,9 @@
       "articleId": "jingzong_5-650",
       "path": "data/visuals/jingzong_5-650.json",
       "expectedVisualCount": 1,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_6-666",

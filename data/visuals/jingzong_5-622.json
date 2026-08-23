@@ -26,17 +26,97 @@
       "id": "media-39661569902c5595278eff62",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-39661569902c5595278eff62.svg",
         "sha256": "f9c85e0725d68b695f120251782df1f934dac064f04e523f98f8743c1e2eb24b"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法、菩薩道；難行道—勤行精進、諸久墮、陸道步行、苦；易行道—易行疾至、一速必、水道乘船、樂。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法菩薩道的難行道與易行道",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法／菩薩道",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "勤行精進／諸、久、墮／陸道步行／苦",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "易行疾至／一、速、必／水道乘船／樂",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "14/14 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖左右對照的難行道／易行道、步行／乘船與苦／樂等對應重建。"
       }
     },
     {
@@ -128,17 +208,223 @@
       "id": "media-387035dadfc195037efda3bc",
       "position": 8,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-387035dadfc195037efda3bc.svg",
         "sha256": "14853044a81c23d171598c4d14eb5cfce9498aff53fbaaa4bc3ddf8156d5aa52"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "引文釋義；釋二藏二教、明取判意圖；明二藏、明二教、明諸宗通用、總明、別明；判淨土大乘菩薩藏、判淨土頓教、明言通意別、約菩薩藏、約頓教；通擇機、通自力、通難行、通因地、通相對、直述引釋；明諸宗通意、明淨土別意、釋頓漸義、判淨土頓；依行者根機、依法門利益；機行益結論、天親、曇鸞、善導；直判、對判、引釋；諸宗、淨土、般舟讚一、般舟讚二；望機成漸、頓中之頓。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "引文釋義與淨土頓教判釋流程",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "引文釋義",
+            "kind": "root",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "two",
+            "label": "釋二藏二教／明取判意圖",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 80
+            }
+          },
+          {
+            "id": "two-detail",
+            "label": "明二藏／明二教／明諸宗通用／總明／別明",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 80
+            }
+          },
+          {
+            "id": "pure",
+            "label": "判淨土大乘菩薩藏／判淨土頓教",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 180
+            }
+          },
+          {
+            "id": "pure-detail",
+            "label": "明言通意別／約菩薩藏／約頓教",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 180
+            }
+          },
+          {
+            "id": "common",
+            "label": "通擇機／通自力／通難行／通因地／通相對",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 280
+            }
+          },
+          {
+            "id": "citation",
+            "label": "直述引釋",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 280
+            }
+          },
+          {
+            "id": "meaning",
+            "label": "明諸宗通意／明淨土別意／釋頓漸義／判淨土頓",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 380
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "依行者根機／依法門利益",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 380
+            }
+          },
+          {
+            "id": "conclusion",
+            "label": "機行益結論",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 480
+            }
+          },
+          {
+            "id": "masters",
+            "label": "天親／曇鸞／善導",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 480
+            }
+          },
+          {
+            "id": "method",
+            "label": "直判／對判／引釋",
+            "kind": "section",
+            "position": {
+              "x": 500,
+              "y": 580
+            }
+          },
+          {
+            "id": "examples",
+            "label": "諸宗／淨土／般舟讚一／般舟讚二",
+            "kind": "detail",
+            "position": {
+              "x": 850,
+              "y": 580
+            }
+          },
+          {
+            "id": "result",
+            "label": "望機成漸／頓中之頓",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 680
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "two",
+            "relation": "organized-as"
+          },
+          {
+            "from": "two",
+            "to": "two-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "two",
+            "to": "pure",
+            "relation": "leads-to"
+          },
+          {
+            "from": "pure",
+            "to": "pure-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "pure",
+            "to": "common",
+            "relation": "leads-to"
+          },
+          {
+            "from": "common",
+            "to": "citation",
+            "relation": "uses"
+          },
+          {
+            "from": "common",
+            "to": "meaning",
+            "relation": "leads-to"
+          },
+          {
+            "from": "meaning",
+            "to": "benefit",
+            "relation": "explained-by"
+          },
+          {
+            "from": "meaning",
+            "to": "conclusion",
+            "relation": "leads-to"
+          },
+          {
+            "from": "conclusion",
+            "to": "masters",
+            "relation": "supported-by"
+          },
+          {
+            "from": "conclusion",
+            "to": "method",
+            "relation": "uses"
+          },
+          {
+            "from": "method",
+            "to": "examples",
+            "relation": "applied-to"
+          },
+          {
+            "from": "method",
+            "to": "result",
+            "relation": "concludes-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖由上而下的多階段流程與引用例證重建；將直排單字合併為可讀節點，保留所有主要術語。"
       }
     },
     {
@@ -338,24 +624,160 @@
       "id": "media-38179d746289889834ce9396",
       "position": 14,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-38179d746289889834ce9396.svg",
         "sha256": "85f3b818174abce548730c275b30523f000e35c878ee668d2fd9a9855f73d3a7"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三師教判總結；曇鸞大師約行、道綽大師約證、善導大師約教、聖淨二門判；各自特點、綜合的功效、正用教相；淨土成為獨立宗派。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三師教判與淨土宗成立",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三師教判總結",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "tanluan",
+            "label": "曇鸞大師：約行",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "daocho",
+            "label": "道綽大師：約證",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 70
+            }
+          },
+          {
+            "id": "shandao",
+            "label": "善導大師：約教",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 140
+            }
+          },
+          {
+            "id": "holy-pure",
+            "label": "聖淨二門判",
+            "kind": "detail",
+            "position": {
+              "x": 240,
+              "y": 210
+            }
+          },
+          {
+            "id": "features",
+            "label": "各自特點",
+            "kind": "section",
+            "position": {
+              "x": 500,
+              "y": 30
+            }
+          },
+          {
+            "id": "effect",
+            "label": "綜合的功效",
+            "kind": "section",
+            "position": {
+              "x": 500,
+              "y": 100
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "正用教相",
+            "kind": "section",
+            "position": {
+              "x": 500,
+              "y": 170
+            }
+          },
+          {
+            "id": "result",
+            "label": "淨土成為獨立宗派",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "tanluan",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "daocho",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "shandao",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "holy-pure",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "features",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "root",
+            "to": "effect",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "root",
+            "to": "teaching",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "teaching",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "11/11 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依三位祖師、聖淨二門與結論節點重建教判總結。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/14 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "4/14 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

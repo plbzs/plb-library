@@ -9,24 +9,258 @@
       "id": "media-321fad96a7a438b33e1e96e1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-321fad96a7a438b33e1e96e1.svg",
         "sha256": "c489c0085870322a30d4233f7e43ff76db59ee86508edfb3b408044e034f7720"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四重判：要弘二教判—要門、弘願；念觀二宗判—觀佛為宗、念佛為宗；正雜二行判—雜行、正行；見國見佛判—見國願生、見佛悟忍。教宗行益；方便（權）、真實（實）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《觀經疏四重判》的四組判釋",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "四重判",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 140
+            }
+          },
+          {
+            "id": "doctrine",
+            "label": "要弘二教判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "doctrine-1",
+            "label": "要門",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 0
+            }
+          },
+          {
+            "id": "doctrine-2",
+            "label": "弘願",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 45
+            }
+          },
+          {
+            "id": "宗",
+            "label": "念觀二宗判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "宗-1",
+            "label": "觀佛為宗",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 100
+            }
+          },
+          {
+            "id": "宗-2",
+            "label": "念佛為宗",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 145
+            }
+          },
+          {
+            "id": "practice",
+            "label": "正雜二行判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "practice-1",
+            "label": "雜行",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 200
+            }
+          },
+          {
+            "id": "practice-2",
+            "label": "正行",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 245
+            }
+          },
+          {
+            "id": "view",
+            "label": "見國見佛判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "view-1",
+            "label": "見國願生",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 300
+            }
+          },
+          {
+            "id": "view-2",
+            "label": "見佛悟忍",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 345
+            }
+          },
+          {
+            "id": "summary",
+            "label": "教宗行益",
+            "kind": "section",
+            "position": {
+              "x": 700,
+              "y": 150
+            }
+          },
+          {
+            "id": "expedient",
+            "label": "方便（權）",
+            "kind": "detail",
+            "position": {
+              "x": 900,
+              "y": 120
+            }
+          },
+          {
+            "id": "real",
+            "label": "真實（實）",
+            "kind": "detail",
+            "position": {
+              "x": 900,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "doctrine",
+            "relation": "contains"
+          },
+          {
+            "from": "doctrine",
+            "to": "doctrine-1",
+            "relation": "contrasts"
+          },
+          {
+            "from": "doctrine",
+            "to": "doctrine-2",
+            "relation": "contrasts"
+          },
+          {
+            "from": "root",
+            "to": "宗",
+            "relation": "contains"
+          },
+          {
+            "from": "宗",
+            "to": "宗-1",
+            "relation": "contrasts"
+          },
+          {
+            "from": "宗",
+            "to": "宗-2",
+            "relation": "contrasts"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "contains"
+          },
+          {
+            "from": "practice",
+            "to": "practice-1",
+            "relation": "contrasts"
+          },
+          {
+            "from": "practice",
+            "to": "practice-2",
+            "relation": "contrasts"
+          },
+          {
+            "from": "root",
+            "to": "view",
+            "relation": "contains"
+          },
+          {
+            "from": "view",
+            "to": "view-1",
+            "relation": "contrasts"
+          },
+          {
+            "from": "view",
+            "to": "view-2",
+            "relation": "contrasts"
+          },
+          {
+            "from": "root",
+            "to": "summary",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "summary",
+            "to": "expedient",
+            "relation": "contrasts"
+          },
+          {
+            "from": "summary",
+            "to": "real",
+            "relation": "contrasts"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖四個判釋分組與教宗行益、方便真實的下方總結重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -26,17 +26,139 @@
       "id": "media-3b3d722acc1391600b490c1a",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-3b3d722acc1391600b490c1a.svg",
         "sha256": "4df53e1583d9b5f9b3e83745c873f1a30d532797be4f3c82dbe668432e4822ff"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "立宗；宗因、宗果；教、行、證；能立、所立。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "立宗的宗因宗果與教行證",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "立宗",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 80
+            }
+          },
+          {
+            "id": "cause",
+            "label": "宗因",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "effect",
+            "label": "宗果",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 120
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "教",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 45
+            }
+          },
+          {
+            "id": "realization",
+            "label": "證",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 120
+            }
+          },
+          {
+            "id": "establish",
+            "label": "能立",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "established",
+            "label": "所立",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 120
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "has"
+          },
+          {
+            "from": "root",
+            "to": "effect",
+            "relation": "has"
+          },
+          {
+            "from": "cause",
+            "to": "teaching",
+            "relation": "explained-by"
+          },
+          {
+            "from": "cause",
+            "to": "practice",
+            "relation": "explained-by"
+          },
+          {
+            "from": "effect",
+            "to": "realization",
+            "relation": "explained-by"
+          },
+          {
+            "from": "teaching",
+            "to": "establish",
+            "relation": "is"
+          },
+          {
+            "from": "realization",
+            "to": "established",
+            "relation": "is"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "11/11 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖立宗中心、宗因／宗果、教行證及能立／所立關係重建。"
       }
     },
     {
@@ -76,8 +198,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

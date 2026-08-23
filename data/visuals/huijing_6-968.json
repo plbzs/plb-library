@@ -243,24 +243,188 @@
       "id": "media-33991777689c87cefb28ffe1",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-33991777689c87cefb28ffe1.svg",
         "sha256": "9a8033dd3e09bb75fbfc5289c0475ace26d1e3c5d7e9a885d4a1facfd9830a61"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "現當二益；現益（此土）：平生業障消除、福慧增長（滅罪）、彌陀光攝、諸佛護念、菩薩相隨、天神守衛（護念）；臨終佛與聖眾、蓮臺來迎（見佛）、蒙佛加祐、正念往生（攝生）；當益（彼土）：速成佛道，廣度眾生，成佛與彌陀同證無量光壽。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "念佛的現益與當益",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "現當二益",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "present",
+            "label": "現益（此土）",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 40
+            }
+          },
+          {
+            "id": "life",
+            "label": "平生",
+            "kind": "section",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "remove",
+            "label": "業障消除／福慧增長（滅罪）",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "protection",
+            "label": "彌陀光攝／諸佛護念／菩薩相隨／天神守衛（護念）",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 65
+            }
+          },
+          {
+            "id": "end",
+            "label": "臨終",
+            "kind": "section",
+            "position": {
+              "x": 460,
+              "y": 130
+            }
+          },
+          {
+            "id": "welcome",
+            "label": "佛與聖眾／蓮臺來迎（見佛）",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 130
+            }
+          },
+          {
+            "id": "support",
+            "label": "蒙佛加祐／正念往生（攝生）",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 195
+            }
+          },
+          {
+            "id": "future",
+            "label": "當益（彼土）",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 310
+            }
+          },
+          {
+            "id": "buddhahood",
+            "label": "速成佛道，廣度眾生",
+            "kind": "result",
+            "position": {
+              "x": 460,
+              "y": 310
+            }
+          },
+          {
+            "id": "same-light",
+            "label": "成佛與彌陀同證無量光壽",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 310
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "present",
+            "relation": "divides-into"
+          },
+          {
+            "from": "present",
+            "to": "life",
+            "relation": "contains"
+          },
+          {
+            "from": "life",
+            "to": "remove",
+            "relation": "contains"
+          },
+          {
+            "from": "life",
+            "to": "protection",
+            "relation": "contains"
+          },
+          {
+            "from": "present",
+            "to": "end",
+            "relation": "contains"
+          },
+          {
+            "from": "end",
+            "to": "welcome",
+            "relation": "contains"
+          },
+          {
+            "from": "end",
+            "to": "support",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "future",
+            "relation": "divides-into"
+          },
+          {
+            "from": "future",
+            "to": "buddhahood",
+            "relation": "leads-to"
+          },
+          {
+            "from": "buddhahood",
+            "to": "same-light",
+            "relation": "described-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖現益與當益兩欄，並保留平生、臨終及其細項。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }
