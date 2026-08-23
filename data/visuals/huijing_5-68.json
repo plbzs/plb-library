@@ -9,24 +9,244 @@
       "id": "media-06e5cc1a0bedf752944bfd65",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-06e5cc1a0bedf752944bfd65.svg",
         "sha256": "03a334f49982c197c0362c076264ab256a0837c30a1b651fa96af3d8c47afe16"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《觀經》構造：念觀兩宗、念觀廢立；序分：證信序、發起序、化前序；正宗分：定善門、散善門；定善示觀緣：第一觀至第十三觀；散善顯行緣：上品上生至下品下生；二序七緣、三序六緣；依報、正報；王宮會、耆闍會；流通分。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《觀經》構造：序分、正宗分、流通分與觀次",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "《觀經》",
+            "kind": "root",
+            "position": {
+              "x": 360,
+              "y": 20
+            }
+          },
+          {
+            "id": "preface",
+            "label": "序分",
+            "kind": "section",
+            "position": {
+              "x": 80,
+              "y": 110
+            }
+          },
+          {
+            "id": "main",
+            "label": "正宗分",
+            "kind": "section",
+            "position": {
+              "x": 360,
+              "y": 110
+            }
+          },
+          {
+            "id": "circulation",
+            "label": "流通分",
+            "kind": "section",
+            "position": {
+              "x": 640,
+              "y": 110
+            }
+          },
+          {
+            "id": "faith",
+            "label": "證信序",
+            "kind": "preface",
+            "position": {
+              "x": 20,
+              "y": 200
+            }
+          },
+          {
+            "id": "arising",
+            "label": "發起序",
+            "kind": "preface",
+            "position": {
+              "x": 150,
+              "y": 200
+            }
+          },
+          {
+            "id": "before",
+            "label": "化前序",
+            "kind": "preface",
+            "position": {
+              "x": 280,
+              "y": 200
+            }
+          },
+          {
+            "id": "meditation",
+            "label": "定善門／十三觀",
+            "kind": "scheme",
+            "position": {
+              "x": 350,
+              "y": 200
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善門／九品",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 200
+            }
+          },
+          {
+            "id": "two-seven",
+            "label": "二序七緣",
+            "kind": "scheme",
+            "position": {
+              "x": 60,
+              "y": 300
+            }
+          },
+          {
+            "id": "three-six",
+            "label": "三序六緣",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "views",
+            "label": "一觀、二觀、三觀、四觀、五觀、六觀、七觀、八觀、九觀、十觀、十一觀、十二觀、十三觀",
+            "kind": "detail",
+            "position": {
+              "x": 350,
+              "y": 300
+            }
+          },
+          {
+            "id": "grades",
+            "label": "上品上生、上品中生、上品下生、中品上生、中品中生、中品下生、下品上生、下品中生、下品下生",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 300
+            }
+          },
+          {
+            "id": "reliance",
+            "label": "依報／正報",
+            "kind": "scheme",
+            "position": {
+              "x": 350,
+              "y": 400
+            }
+          },
+          {
+            "id": "assemblies",
+            "label": "王宮會／耆闍會",
+            "kind": "scheme",
+            "position": {
+              "x": 640,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "preface",
+            "relation": "has-section"
+          },
+          {
+            "from": "root",
+            "to": "main",
+            "relation": "has-section"
+          },
+          {
+            "from": "root",
+            "to": "circulation",
+            "relation": "has-section"
+          },
+          {
+            "from": "preface",
+            "to": "faith",
+            "relation": "contains"
+          },
+          {
+            "from": "preface",
+            "to": "arising",
+            "relation": "contains"
+          },
+          {
+            "from": "preface",
+            "to": "before",
+            "relation": "contains"
+          },
+          {
+            "from": "preface",
+            "to": "two-seven",
+            "relation": "counted-as"
+          },
+          {
+            "from": "preface",
+            "to": "three-six",
+            "relation": "counted-as"
+          },
+          {
+            "from": "main",
+            "to": "meditation",
+            "relation": "contains"
+          },
+          {
+            "from": "main",
+            "to": "scattered",
+            "relation": "contains"
+          },
+          {
+            "from": "meditation",
+            "to": "views",
+            "relation": "contains"
+          },
+          {
+            "from": "scattered",
+            "to": "grades",
+            "relation": "contains"
+          },
+          {
+            "from": "meditation",
+            "to": "reliance",
+            "relation": "classifies"
+          },
+          {
+            "from": "circulation",
+            "to": "assemblies",
+            "relation": "associated-with"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "53 semantic labels from 361 SVG text nodes",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原 SVG 以單字文字節點及垂直連線表達構造；已依座標分組為序分、正宗分、流通分、十三觀、九品與依正二報。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

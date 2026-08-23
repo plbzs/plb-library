@@ -9,24 +9,188 @@
       "id": "media-0510000deeaf731da2e7d1d1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0510000deeaf731da2e7d1d1.svg",
         "sha256": "8e29173b21b16931b26063e7b574af803a0900c4cca52ac94a43c5497a07a6d9"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "一心\n專一之心｜專念彌陀無間相續\n無二之心｜不念諸佛菩薩咒語\n一向之心｜至臨終任何皆不變\n無疑之心｜信心不亂不雜不二\n順佛之心｜本願三心機受一心",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "一心不亂的五種心行",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "一心不亂",
+            "kind": "root",
+            "position": {
+              "x": 30,
+              "y": 150
+            }
+          },
+          {
+            "id": "single",
+            "label": "專一之心",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 20
+            }
+          },
+          {
+            "id": "single-detail",
+            "label": "專念彌陀無間相續",
+            "kind": "detail",
+            "position": {
+              "x": 470,
+              "y": 20
+            }
+          },
+          {
+            "id": "nondual",
+            "label": "無二之心",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 90
+            }
+          },
+          {
+            "id": "nondual-detail",
+            "label": "不念諸佛菩薩咒語",
+            "kind": "detail",
+            "position": {
+              "x": 470,
+              "y": 90
+            }
+          },
+          {
+            "id": "one-direction",
+            "label": "一向之心",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 160
+            }
+          },
+          {
+            "id": "one-direction-detail",
+            "label": "至臨終任何皆不變",
+            "kind": "detail",
+            "position": {
+              "x": 470,
+              "y": 160
+            }
+          },
+          {
+            "id": "no-doubt",
+            "label": "無疑之心",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 230
+            }
+          },
+          {
+            "id": "no-doubt-detail",
+            "label": "信心不亂不雜不二",
+            "kind": "detail",
+            "position": {
+              "x": 470,
+              "y": 230
+            }
+          },
+          {
+            "id": "buddha-aligned",
+            "label": "順佛之心",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 300
+            }
+          },
+          {
+            "id": "buddha-aligned-detail",
+            "label": "本願三心機受一心",
+            "kind": "detail",
+            "position": {
+              "x": 470,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "single",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "nondual",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "one-direction",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "no-doubt",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "buddha-aligned",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "single",
+            "to": "single-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "nondual",
+            "to": "nondual-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "one-direction",
+            "to": "one-direction-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "no-doubt",
+            "to": "no-doubt-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "buddha-aligned",
+            "to": "buddha-aligned-detail",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "11/11 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原始 SVG 的五列文字行、座標與連線關係重建；保留一心、五種心行及各自說明。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

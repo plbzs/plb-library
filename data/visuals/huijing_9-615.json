@@ -9,24 +9,132 @@
       "id": "media-0acf60b4186db03e1f7a95d7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0acf60b4186db03e1f7a95d7.svg",
         "sha256": "2408ff05f9a161e06159baf34ec7025c40cab28cb9bd2a471a5c72d53c048bdb"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土聖眾：內證外用；內德相同：亦以大悲心，利益諸群品同一無異；外相相同：如佛金色身，妙相悉圓滿；智慧神通。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土聖眾的內證外用",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土聖眾",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "inner",
+            "label": "內證外用",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 30
+            }
+          },
+          {
+            "id": "wisdom",
+            "label": "智慧神通",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 0
+            }
+          },
+          {
+            "id": "inner-merit",
+            "label": "內德相同",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 60
+            }
+          },
+          {
+            "id": "compassion",
+            "label": "亦以大悲心，利益諸群品同一無異",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 60
+            }
+          },
+          {
+            "id": "outer",
+            "label": "外相相同",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 140
+            }
+          },
+          {
+            "id": "appearance",
+            "label": "如佛金色身，妙相悉圓滿",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "inner",
+            "relation": "described-by"
+          },
+          {
+            "from": "inner",
+            "to": "wisdom",
+            "relation": "has-quality"
+          },
+          {
+            "from": "inner",
+            "to": "inner-merit",
+            "relation": "has-quality"
+          },
+          {
+            "from": "inner-merit",
+            "to": "compassion",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "outer",
+            "relation": "described-by"
+          },
+          {
+            "from": "outer",
+            "to": "appearance",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依兩列文字與水平位置重建內證、外用、內德、外相及其說明。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

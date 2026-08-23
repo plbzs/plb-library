@@ -26,17 +26,125 @@
       "id": "media-0a4b3ea7d98111b349db0496",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0a4b3ea7d98111b349db0496.svg",
         "sha256": "41c528cce9fbff11e611df98d60c1b8502e7023b8156e6fa00ff882e6325497f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "總別：令我作佛，國土第一；其眾奇妙（聖眾第一）；道場超絕（成佛第一）；國如泥洹（快樂第一）；而無等雙（國土第一）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "令我作佛願文的總別四義",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "令我作佛",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "total",
+            "label": "總別",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "land",
+            "label": "國土第一",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 0
+            }
+          },
+          {
+            "id": "assembly",
+            "label": "其眾奇妙／聖眾第一",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 60
+            }
+          },
+          {
+            "id": "buddhahood",
+            "label": "道場超絕／成佛第一",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 120
+            }
+          },
+          {
+            "id": "joy",
+            "label": "國如泥洹／快樂第一",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 180
+            }
+          },
+          {
+            "id": "peerless",
+            "label": "而無等雙／國土第一",
+            "kind": "detail",
+            "position": {
+              "x": 430,
+              "y": 240
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "total",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "total",
+            "to": "land",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "assembly",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "buddhahood",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "joy",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "peerless",
+            "relation": "has-meaning"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "6/6 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原 SVG 文字節點只有兩個，但內容以同一文字列呈現；已按括號中的四項義理拆為可搜尋節點。"
       }
     },
     {
@@ -59,8 +167,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

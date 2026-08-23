@@ -9,41 +9,47 @@
       "id": "media-0a9bf04efe3ca9428ad3b315",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0a9bf04efe3ca9428ad3b315.svg",
         "sha256": "dd499db9c3b266656e3196844adb50ab094e4e8e9f623305b0c8587ae99ab4e0"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張橫向 SVG 視覺圖，尺寸約 794×216；圖形由路徑與幾何線條組成，沒有可讀的 SVG text 節點，主題與文章《淨土宗的創立與流變》相關，保留原始 SVG 供視覺閱讀。因文字已轉成路徑，未建立不可驗證的結構轉錄。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; path-only artwork",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔沒有文字節點，無法從封存資料可靠反向還原標籤；依原文章題名提供語意描述並保留原圖。"
       }
     },
     {
       "id": "media-0b14f1b7bdd2a2227ece6e0a",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0b14f1b7bdd2a2227ece6e0a.svg",
         "sha256": "a2a84831d58968b52d598a819762289242eff9ab334c974b85103b7d14f7acc1"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張橫向 SVG 視覺圖，尺寸約 810×199；原始 SVG 沒有可讀文字節點，主要由路徑與線條組成，與文章《淨土宗的創立與流變》同頁的視覺資料相關。保留原始 SVG，不從不可讀路徑臆測圖表節點。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; path-only artwork",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔沒有文字節點，無法可靠建立反向結構；保留原圖並提供語意級描述。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 2
   }
 }
