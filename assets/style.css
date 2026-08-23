@@ -1249,7 +1249,7 @@ main {
 
   .site-header {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.45rem;
     padding: 0.55rem 0.75rem;
