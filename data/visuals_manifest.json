@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 23,
-    "semanticOnly": 6,
-    "needsReview": 314,
+    "approvedReconstruction": 25,
+    "semanticOnly": 7,
+    "needsReview": 311,
     "sourceMissing": 1
   },
   "articles": [
@@ -30,8 +30,8 @@
       "path": "data/visuals/about_1-58.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "huijing_2-1",
@@ -1037,7 +1037,7 @@
       "articleId": "jingzong_5-596",
       "path": "data/visuals/jingzong_5-596.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1085,7 +1085,7 @@
       "articleId": "jingzong_5-608",
       "path": "data/visuals/jingzong_5-608.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },

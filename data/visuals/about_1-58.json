@@ -9,24 +9,26 @@
       "id": "media-066ffea9e83e05daacbd696e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-image",
       "sourceArchive": {
         "path": "media-archive/originals/media-066ffea9e83e05daacbd696e.svg",
         "sha256": "5369aae5b16dda710feb3169d5b56609dab1919a04cef8ebc791c8677a115e02"
       },
-      "semanticDescription": null,
+      "semanticDescription": "淨土宗宗徽的 SVG 圖像，用於文章〈宗徽〉的識別標誌展示。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "visualReview": "approved",
+        "reviewNote": "識別標誌不含可驗證的流程、表格或分類文字，保留語意描述而不臆造結構。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

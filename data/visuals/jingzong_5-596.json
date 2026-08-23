@@ -9,17 +9,134 @@
       "id": "media-08edbd4d1a2d0bdc8531cd2b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-08edbd4d1a2d0bdc8531cd2b.svg",
         "sha256": "4812770fd0b42844c0820d513d3f082a94a908bc73eaabc874cf560f0ce03fde"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "方法\n安心起行\n信受彌陀救度\n專稱彌陀佛名\n目的\n自利利他\n願生彌陀淨土\n廣度十方眾生",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗的方法與目的",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "method",
+            "label": "方法",
+            "kind": "root",
+            "position": {
+              "x": 25,
+              "y": 60
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "目的",
+            "kind": "root",
+            "position": {
+              "x": 25,
+              "y": 220
+            }
+          },
+          {
+            "id": "practice",
+            "label": "安心起行",
+            "kind": "group",
+            "position": {
+              "x": 205,
+              "y": 60
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信受彌陀救度",
+            "kind": "leaf",
+            "position": {
+              "x": 405,
+              "y": 28
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "專稱彌陀佛名",
+            "kind": "leaf",
+            "position": {
+              "x": 405,
+              "y": 96
+            }
+          },
+          {
+            "id": "self-other",
+            "label": "自利利他",
+            "kind": "group",
+            "position": {
+              "x": 205,
+              "y": 220
+            }
+          },
+          {
+            "id": "aspiration",
+            "label": "願生彌陀淨土",
+            "kind": "leaf",
+            "position": {
+              "x": 405,
+              "y": 188
+            }
+          },
+          {
+            "id": "liberation",
+            "label": "廣度十方眾生",
+            "kind": "leaf",
+            "position": {
+              "x": 405,
+              "y": 256
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "method",
+            "to": "practice",
+            "relation": "is-realized-by"
+          },
+          {
+            "from": "practice",
+            "to": "faith",
+            "relation": "includes"
+          },
+          {
+            "from": "practice",
+            "to": "recitation",
+            "relation": "includes"
+          },
+          {
+            "from": "purpose",
+            "to": "self-other",
+            "relation": "is-expressed-as"
+          },
+          {
+            "from": "self-other",
+            "to": "aspiration",
+            "relation": "includes"
+          },
+          {
+            "from": "self-other",
+            "to": "liberation",
+            "relation": "includes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8",
+        "visualReview": "approved",
+        "reviewNote": "原始 SVG 分為方法與目的兩組，各由一個中間概念連到兩個子項；重建保留完整層次與全部文字。"
       }
     },
     {
@@ -42,8 +159,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

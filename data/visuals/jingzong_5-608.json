@@ -9,17 +9,83 @@
       "id": "media-02ad7ff83902f7ff7413cfbe",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-02ad7ff83902f7ff7413cfbe.svg",
         "sha256": "bf458239de5d085a8159f200536abea0e2a9e6085c49406cd648cff38528ae6f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "宗的特性\n獨尊性\n統攝性\n體系性",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "宗的三項特性",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "宗的特性",
+            "kind": "root",
+            "position": {
+              "x": 35,
+              "y": 106
+            }
+          },
+          {
+            "id": "exclusive",
+            "label": "獨尊性",
+            "kind": "attribute",
+            "position": {
+              "x": 255,
+              "y": 28
+            }
+          },
+          {
+            "id": "integrative",
+            "label": "統攝性",
+            "kind": "attribute",
+            "position": {
+              "x": 255,
+              "y": 106
+            }
+          },
+          {
+            "id": "systematic",
+            "label": "體系性",
+            "kind": "attribute",
+            "position": {
+              "x": 255,
+              "y": 184
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "exclusive",
+            "relation": "has-attribute"
+          },
+          {
+            "from": "root",
+            "to": "integrative",
+            "relation": "has-attribute"
+          },
+          {
+            "from": "root",
+            "to": "systematic",
+            "relation": "has-attribute"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "4/4",
+        "visualReview": "approved",
+        "reviewNote": "原始 SVG 以括線列出「宗的特性」及三項並列屬性；重建為可讀取的三分支關係圖。"
       }
     },
     {
@@ -42,8 +108,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
