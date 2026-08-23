@@ -49,24 +49,27 @@
       "id": "media-a9b30511b278608617e63b2c",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a9b30511b278608617e63b2c.jpg",
         "sha256": "d7d9abef646764b0ee315dda3a008fc9ecf7ccaa892ca1e118f72040f9fec904"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "手繪故事插畫：一名成年人牽著或陪伴小孩站在欄杆旁，遠處有飛鳥、樹木與水景，左側直排文字為「清明想念」。屬於追思或家庭場景插畫，不是結構圖。",
+      "transcript": "清明想念",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1可辨識題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留清明、想念、親子人物、欄杆、飛鳥與水景語意，不對人物身份作推定。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

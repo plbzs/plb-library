@@ -9,24 +9,27 @@
       "id": "media-a3f0fc4fc495a742dd4d6168",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a3f0fc4fc495a742dd4d6168.jpg",
         "sha256": "8680975615170905ec39843c4e71a45b674e0c5d74b5c399f364b249ae1fa5d5"
       },
-      "semanticDescription": null,
+      "semanticDescription": "抽象彩色插畫：黑色枝幹或樹叢向兩側延伸，中央一棵橙色樹形或光芒向上生長，背景為藍綠、橙色與白色點狀筆觸。屬於象徵性插畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：抽象插畫無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留中央橙色樹形、黑色枝幹與藍綠背景等視覺語意，不把象徵圖猜成組織架構。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

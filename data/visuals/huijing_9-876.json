@@ -210,17 +210,187 @@
       "id": "media-a29cbe429f4314f778fab0d8",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a29cbe429f4314f778fab0d8.png",
         "sha256": "bb9ebb9d73c753c8bb0e67ee979e819ad70505e22e8ed3c8cbc91815f72f2943"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六字三義\n南無\n歸命\n發願迴向\n信\n願\n阿彌陀佛\n即是其行\n行\n往生淨土三資糧",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六字三義與往生淨土三資糧",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "six-characters",
+            "label": "六字三義",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "namo",
+            "label": "南無",
+            "kind": "branch",
+            "position": {
+              "x": 280,
+              "y": 80
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedication",
+            "label": "發願迴向",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 140
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信",
+            "kind": "resource",
+            "position": {
+              "x": 820,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow",
+            "label": "願",
+            "kind": "resource",
+            "position": {
+              "x": 820,
+              "y": 140
+            }
+          },
+          {
+            "id": "amita",
+            "label": "阿彌陀佛",
+            "kind": "branch",
+            "position": {
+              "x": 280,
+              "y": 380
+            }
+          },
+          {
+            "id": "practice",
+            "label": "即是其行",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 380
+            }
+          },
+          {
+            "id": "practice-resource",
+            "label": "行",
+            "kind": "resource",
+            "position": {
+              "x": 820,
+              "y": 380
+            }
+          },
+          {
+            "id": "three-resources",
+            "label": "往生淨土三資糧",
+            "kind": "result",
+            "position": {
+              "x": 1160,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "six-characters",
+            "to": "namo",
+            "relation": "contains"
+          },
+          {
+            "from": "namo",
+            "to": "refuge",
+            "relation": "explains"
+          },
+          {
+            "from": "namo",
+            "to": "dedication",
+            "relation": "explains"
+          },
+          {
+            "from": "refuge",
+            "to": "faith",
+            "relation": "gives-rise-to"
+          },
+          {
+            "from": "dedication",
+            "to": "vow",
+            "relation": "gives-rise-to"
+          },
+          {
+            "from": "six-characters",
+            "to": "amita",
+            "relation": "contains"
+          },
+          {
+            "from": "amita",
+            "to": "practice",
+            "relation": "explains"
+          },
+          {
+            "from": "practice",
+            "to": "practice-resource",
+            "relation": "gives-rise-to"
+          },
+          {
+            "from": "faith",
+            "to": "three-resources",
+            "relation": "forms"
+          },
+          {
+            "from": "vow",
+            "to": "three-resources",
+            "relation": "forms"
+          },
+          {
+            "from": "practice-resource",
+            "to": "three-resources",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-meanings",
+            "label": "信願行三資糧",
+            "members": [
+              "faith",
+              "vow",
+              "practice-resource"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10主要標籤與信願行匯合關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖經白底核對，保留南無與阿彌陀佛兩條解釋鏈，並將信、願、行匯合至往生淨土三資糧。"
       }
     },
     {
@@ -372,17 +542,229 @@
       "id": "media-a506ce10f885d5ca019faf07",
       "position": 6,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a506ce10f885d5ca019faf07.png",
         "sha256": "fd42cb0c1eea0b47ab08583e355d5bcb10e5b698099f3a2e40179737101698ae"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六字全機\n南無\n歸命\n眾生之歸命\n信\n發願迴向\n眾生之願生\n願\n阿彌陀佛\n即是其行\n眾生之稱名\n行\n受法之機",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六字全機與受法之機",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "six-character-whole",
+            "label": "六字全機",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "namo",
+            "label": "南無",
+            "kind": "branch",
+            "position": {
+              "x": 280,
+              "y": 100
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "beings-refuge",
+            "label": "眾生之歸命",
+            "kind": "meaning-result",
+            "position": {
+              "x": 800,
+              "y": 0
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信",
+            "kind": "resource",
+            "position": {
+              "x": 1070,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedication",
+            "label": "發願迴向",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 140
+            }
+          },
+          {
+            "id": "beings-vow",
+            "label": "眾生之願生",
+            "kind": "meaning-result",
+            "position": {
+              "x": 800,
+              "y": 140
+            }
+          },
+          {
+            "id": "vow",
+            "label": "願",
+            "kind": "resource",
+            "position": {
+              "x": 1070,
+              "y": 140
+            }
+          },
+          {
+            "id": "amita",
+            "label": "阿彌陀佛",
+            "kind": "branch",
+            "position": {
+              "x": 280,
+              "y": 420
+            }
+          },
+          {
+            "id": "practice",
+            "label": "即是其行",
+            "kind": "meaning",
+            "position": {
+              "x": 540,
+              "y": 420
+            }
+          },
+          {
+            "id": "beings-recitation",
+            "label": "眾生之稱名",
+            "kind": "meaning-result",
+            "position": {
+              "x": 800,
+              "y": 420
+            }
+          },
+          {
+            "id": "practice-resource",
+            "label": "行",
+            "kind": "resource",
+            "position": {
+              "x": 1070,
+              "y": 420
+            }
+          },
+          {
+            "id": "receiving-dharma",
+            "label": "受法之機",
+            "kind": "result",
+            "position": {
+              "x": 1370,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "six-character-whole",
+            "to": "namo",
+            "relation": "contains"
+          },
+          {
+            "from": "namo",
+            "to": "refuge",
+            "relation": "explains"
+          },
+          {
+            "from": "refuge",
+            "to": "beings-refuge",
+            "relation": "becomes"
+          },
+          {
+            "from": "beings-refuge",
+            "to": "faith",
+            "relation": "forms"
+          },
+          {
+            "from": "namo",
+            "to": "dedication",
+            "relation": "explains"
+          },
+          {
+            "from": "dedication",
+            "to": "beings-vow",
+            "relation": "becomes"
+          },
+          {
+            "from": "beings-vow",
+            "to": "vow",
+            "relation": "forms"
+          },
+          {
+            "from": "six-character-whole",
+            "to": "amita",
+            "relation": "contains"
+          },
+          {
+            "from": "amita",
+            "to": "practice",
+            "relation": "explains"
+          },
+          {
+            "from": "practice",
+            "to": "beings-recitation",
+            "relation": "becomes"
+          },
+          {
+            "from": "beings-recitation",
+            "to": "practice-resource",
+            "relation": "forms"
+          },
+          {
+            "from": "faith",
+            "to": "receiving-dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "vow",
+            "to": "receiving-dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "practice-resource",
+            "to": "receiving-dharma",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "faith-vow-practice",
+            "label": "信願行",
+            "members": [
+              "faith",
+              "vow",
+              "practice-resource"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13主要標籤與受法之機匯合關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖經白底核對，完整保留六字、南無、阿彌陀佛、眾生之歸命／願生／稱名及信願行匯合關係。"
       }
     },
     {
@@ -405,8 +787,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/7 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "4/7 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

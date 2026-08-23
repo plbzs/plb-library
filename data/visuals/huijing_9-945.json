@@ -597,24 +597,164 @@
       "id": "media-9d4654ebff78482493907889",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9d4654ebff78482493907889.png",
         "sha256": "b8be169b1b61b9538d0ec0170c68d85178f34ed02632a94d9c2530c034ec1402"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五番相對\n二行得失\n親近對\n疏遠對\n無間有間對\n不迴向迴向對\n純雜對",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "二行得失的五番相對",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "two-practices",
+            "label": "二行得失",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "near",
+            "label": "親近對",
+            "kind": "comparison",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "far",
+            "label": "疏遠對",
+            "kind": "comparison",
+            "position": {
+              "x": 360,
+              "y": 100
+            }
+          },
+          {
+            "id": "uninterrupted-interrupted",
+            "label": "無間有間對",
+            "kind": "comparison",
+            "position": {
+              "x": 360,
+              "y": 200
+            }
+          },
+          {
+            "id": "non-dedication-dedication",
+            "label": "不迴向迴向對",
+            "kind": "comparison",
+            "position": {
+              "x": 360,
+              "y": 300
+            }
+          },
+          {
+            "id": "pure-mixed",
+            "label": "純雜對",
+            "kind": "comparison",
+            "position": {
+              "x": 360,
+              "y": 400
+            }
+          },
+          {
+            "id": "five-comparisons",
+            "label": "五番相對",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "two-practices",
+            "to": "near",
+            "relation": "compares"
+          },
+          {
+            "from": "two-practices",
+            "to": "far",
+            "relation": "compares"
+          },
+          {
+            "from": "two-practices",
+            "to": "uninterrupted-interrupted",
+            "relation": "compares"
+          },
+          {
+            "from": "two-practices",
+            "to": "non-dedication-dedication",
+            "relation": "compares"
+          },
+          {
+            "from": "two-practices",
+            "to": "pure-mixed",
+            "relation": "compares"
+          },
+          {
+            "from": "near",
+            "to": "five-comparisons",
+            "relation": "forms"
+          },
+          {
+            "from": "far",
+            "to": "five-comparisons",
+            "relation": "forms"
+          },
+          {
+            "from": "uninterrupted-interrupted",
+            "to": "five-comparisons",
+            "relation": "forms"
+          },
+          {
+            "from": "non-dedication-dedication",
+            "to": "five-comparisons",
+            "relation": "forms"
+          },
+          {
+            "from": "pure-mixed",
+            "to": "five-comparisons",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "five-comparison-set",
+            "label": "五番相對",
+            "members": [
+              "near",
+              "far",
+              "uninterrupted-interrupted",
+              "non-dedication-dedication",
+              "pure-mixed"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "6/6主要標籤；圖中文字以五組相對關係呈現",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖經白底核對，將五番相對與二行得失的四組列示關係完整轉成圖模型；「親近對」與「疏遠對」保留為同一比較節點。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/5 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "coverage": "4/5 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

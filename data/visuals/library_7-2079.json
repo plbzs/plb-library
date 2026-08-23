@@ -9,17 +9,20 @@
       "id": "media-a4144adce8df80f044c4f45f",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a4144adce8df80f044c4f45f.jpg",
         "sha256": "4ebb9789c683aa2960baa30130acb7cce0108f16bb59f4bd1f7d8320af32c21e"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "紅色春聯或書法海報：中央以黑色直排毛筆字書寫「靈蛇生慧」，上下有金色青海波紋裝飾。屬於書法文字圖，不是結構化圖表。",
+      "transcript": "靈蛇生慧",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "4/4主題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留書法文字與紅色春聯裝飾，不把書法排版誤判為圖表。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

@@ -29,17 +29,20 @@
       "id": "media-a1499596e50b7601f18c8848",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a1499596e50b7601f18c8848.jpg",
         "sha256": "a3b0a726cd460248bbe847334f2d0fa9c10c31b8fc70d431650c488b91976591"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "彩色寓言小圖：橘色圓形物體與一條綠色蛇或蜥蜴在沙地上相遇，上方旁白為「蜈走剛定，突然看到一個大橘子」。屬於單格敘事插畫，不是結構化圖表。",
+      "transcript": "蜈走剛定，突然看到一個大橘子。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1旁白文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留橘色物體、綠色生物、沙地與旁白語意，不將寓言插畫誤轉成流程圖。"
       }
     },
     {
@@ -82,8 +85,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
+    "coverage": "3/4 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }
