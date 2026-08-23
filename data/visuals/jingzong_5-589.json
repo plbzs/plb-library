@@ -9,17 +9,116 @@
       "id": "media-4de2f61f2d3e384a9500ece3",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4de2f61f2d3e384a9500ece3.svg",
         "sha256": "0216a5338d96600e6efaa2457da911539a4b980d19e55c98518b2bbb425e53d6"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "定門、散門、要門；迴定善行求願往生、迴散善行求願往生、諸行迴願往生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "觀經定門、散門與要門",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "要門",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "定門",
+            "label": "定門",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "散門",
+            "label": "散門",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 160
+            }
+          },
+          {
+            "id": "定行",
+            "label": "迴定善行，求願往生",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "散行",
+            "label": "迴散善行，求願往生",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 160
+            }
+          },
+          {
+            "id": "all-practice",
+            "label": "諸行迴願往生",
+            "kind": "result",
+            "position": {
+              "x": 720,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "定門",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "散門",
+            "relation": "divides-into"
+          },
+          {
+            "from": "定門",
+            "to": "定行",
+            "relation": "explained-by"
+          },
+          {
+            "from": "散門",
+            "to": "散行",
+            "relation": "explained-by"
+          },
+          {
+            "from": "定行",
+            "to": "all-practice",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "散行",
+            "to": "all-practice",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依定門、散門兩欄與三個迴向往生文字重建。"
       }
     },
     {
@@ -556,8 +655,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/6 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/6 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

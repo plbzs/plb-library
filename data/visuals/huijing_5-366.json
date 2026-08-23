@@ -161,17 +161,97 @@
       "id": "media-57499a0191b5529fbc3936c1",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-57499a0191b5529fbc3936c1.svg",
         "sha256": "10426ee74288f2dce28f05767b7aab928cb8986978e432a7364184b9abe441ab"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "涅槃分；1. 一分（一部分）—現益—入正定聚；2. 分齊（等位）—當益—往生成佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "涅槃的一分與分齊、現益與當益",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "涅槃分",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "part",
+            "label": "1. 一分（一部分）",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "present",
+            "label": "現益：入正定聚",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "rank",
+            "label": "2. 分齊（等位）",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "future",
+            "label": "當益：往生成佛",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "part",
+            "relation": "divides-into"
+          },
+          {
+            "from": "part",
+            "to": "present",
+            "relation": "leads-to"
+          },
+          {
+            "from": "root",
+            "to": "rank",
+            "relation": "divides-into"
+          },
+          {
+            "from": "rank",
+            "to": "future",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "30/30 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖編號、一分／分齊、現益／當益的兩列對照重建。"
       }
     },
     {
@@ -412,8 +492,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/8 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/8 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

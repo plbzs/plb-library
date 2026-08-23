@@ -607,17 +607,125 @@
       "id": "media-56dc15b148fe3ad9d0927ea3",
       "position": 13,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-56dc15b148fe3ad9d0927ea3.svg",
         "sha256": "08b81a9bb373c9d9613a17f276870a3f6e90aae54fe3281254c9700c0b955b67"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三師教判；二藏二教判、難易二道判、聖淨二門判；約教教相、約行教相、約證教相；能詮所詮、能證所證、因果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三師教判的教、行、證三層",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三師教判",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 130
+            }
+          },
+          {
+            "id": "store",
+            "label": "二藏二教判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-easy",
+            "label": "難易二道判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "holy-pure",
+            "label": "聖淨二門判",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "約教教相／能詮所詮",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "約行教相／因果",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 100
+            }
+          },
+          {
+            "id": "realize",
+            "label": "約證教相／能證所證",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "store",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "hard-easy",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "holy-pure",
+            "relation": "contains"
+          },
+          {
+            "from": "store",
+            "to": "teaching",
+            "relation": "classified-as"
+          },
+          {
+            "from": "hard-easy",
+            "to": "practice",
+            "relation": "classified-as"
+          },
+          {
+            "from": "holy-pure",
+            "to": "realize",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依三種教判與約教、約行、約證及能所因果的對應重建。"
       }
     },
     {
@@ -776,8 +884,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "4/14 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "coverage": "5/14 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

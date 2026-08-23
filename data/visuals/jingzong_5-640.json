@@ -9,24 +9,118 @@
       "id": "media-53cdf222e6b0685c310a862d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-53cdf222e6b0685c310a862d.svg",
         "sha256": "a06d46ce9a58c408f3878bc861442e04258f041108069c995f6e96ffe1bd5aaf"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教宗行益；綱目；能詮、所詮；因果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "教宗行益的綱目",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "教宗行益",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "outline",
+            "label": "綱目",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "expressor",
+            "label": "能詮",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 20
+            }
+          },
+          {
+            "id": "expressed",
+            "label": "所詮",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 80
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 140
+            }
+          },
+          {
+            "id": "effect",
+            "label": "果",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "outline",
+            "relation": "organized-as"
+          },
+          {
+            "from": "outline",
+            "to": "expressor",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "expressed",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "cause",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "effect",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "14/14 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖教宗行益中心與綱目、能所、因果分組重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

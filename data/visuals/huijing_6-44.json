@@ -9,17 +9,167 @@
       "id": "media-525ef83395cd4eb139efe0de",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-525ef83395cd4eb139efe0de.svg",
         "sha256": "6eba51525c9e75eea23386c7a8b0b1dffd4bd31d790a5cc8dc57ecf05ea7dd44"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三大願；攝法身願：第十二光明無量願、第十三壽命無量願、第十七諸佛稱揚願；攝淨土願：第三十一國土清淨願（徹見十方願）、第三十二國土嚴飾願；攝眾生願：其他之四十三願。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "四十八願中的三大願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三大願",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身願",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "light",
+            "label": "第十二光明無量願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "life",
+            "label": "第十三壽命無量願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 45
+            }
+          },
+          {
+            "id": "praise",
+            "label": "第十七諸佛稱揚願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 90
+            }
+          },
+          {
+            "id": "land",
+            "label": "攝淨土願",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 160
+            }
+          },
+          {
+            "id": "clean",
+            "label": "第三十一國土清淨願（徹見十方願）",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 160
+            }
+          },
+          {
+            "id": "adorn",
+            "label": "第三十二國土嚴飾願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 215
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生願",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 285
+            }
+          },
+          {
+            "id": "other",
+            "label": "其他之四十三願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 285
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "light",
+            "relation": "contains"
+          },
+          {
+            "from": "body",
+            "to": "life",
+            "relation": "contains"
+          },
+          {
+            "from": "body",
+            "to": "praise",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "land",
+            "to": "clean",
+            "relation": "contains"
+          },
+          {
+            "from": "land",
+            "to": "adorn",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "divides-into"
+          },
+          {
+            "from": "beings",
+            "to": "other",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依三大願與五個具名願、其他四十三願的欄列重建。"
       }
     },
     {
@@ -156,8 +306,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

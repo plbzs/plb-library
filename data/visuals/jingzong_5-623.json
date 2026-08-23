@@ -43,17 +43,167 @@
       "id": "media-4f468b3b201fc6b0295141f2",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4f468b3b201fc6b0295141f2.svg",
         "sha256": "2915108986a57fb67f61df4da1aca690fc3e1facc263d60c5cafb1fa2216c05e"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法；聖道門：要門、定善、散善；弘願；大願、大業、大力；息慮凝心、廢惡修善、五劫思惟之本願（為我發）、兆載永劫之萬行（為我修）、無礙光明攝取力（為我成）、無為無漏名號力；淨土門；迴斯二行求願往生；自力迴向、一向專念、佛力得生、他力迴向。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "聖道門、淨土門與大願大業大力",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "要門",
+            "label": "要門／定善／散善",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願：大願／大業／大力",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "vow-detail",
+            "label": "五劫思惟本願（為我發）／兆載永劫萬行（為我修）／無礙光明攝取力（為我成）",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 180
+            }
+          },
+          {
+            "id": "name-power",
+            "label": "無為無漏名號力",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 280
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 700,
+              "y": 180
+            }
+          },
+          {
+            "id": "return",
+            "label": "迴斯二行，求願往生",
+            "kind": "detail",
+            "position": {
+              "x": 920,
+              "y": 120
+            }
+          },
+          {
+            "id": "self",
+            "label": "自力迴向",
+            "kind": "detail",
+            "position": {
+              "x": 920,
+              "y": 180
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "一向專念／佛力得生／他力迴向",
+            "kind": "result",
+            "position": {
+              "x": 920,
+              "y": 250
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "要門",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "vow",
+            "to": "vow-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "vow",
+            "to": "name-power",
+            "relation": "explained-by"
+          },
+          {
+            "from": "vow",
+            "to": "pure",
+            "relation": "leads-to"
+          },
+          {
+            "from": "pure",
+            "to": "return",
+            "relation": "contains"
+          },
+          {
+            "from": "pure",
+            "to": "self",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "pure",
+            "to": "dedicated",
+            "relation": "concludes-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖聖道／淨土兩門、弘願三大與迴向結果的欄列重建，保留文字對照。"
       }
     },
     {
@@ -76,8 +226,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,104 @@
       "id": "media-4cd2f368d4799a49c1e915af",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4cd2f368d4799a49c1e915af.svg",
         "sha256": "4dee93d208550861f8e8c179024a20ed9be2a2201718f8176adb3695e4d966b0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法、菩薩道；難行道—勤行精進—諸、久、墮—步行—苦；易行道—易行疾至—一、速、必—乘船—樂。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "菩薩道的難行道與易行道",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法／菩薩道",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 90
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "勤行精進／諸、久、墮／步行／苦",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "易行疾至／一、速、必／乘船／樂",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖難行道／易行道對照欄與步行／乘船、苦／樂的對應重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
