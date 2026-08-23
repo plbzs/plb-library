@@ -9,24 +9,146 @@
       "id": "media-67614e68c612577e789716a6",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-67614e68c612577e789716a6.svg",
         "sha256": "99b4fcfd7002ac503e71c8abf52b2eba08317f18a4510a7aa5a099a6295becef"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "近代確立蓮宗十三位祖師的過程及其釋疑；文獻來源包括樂邦文類、佛祖統紀、淨土指歸集、生無生論註、生無生親聞記、西舫匯徵、蓮宗九祖傳略、十宗略說、蓮宗十二祖讚頌、靈巖山念誦儀規；祖師序列標示初祖至十三祖，並出現慧遠、善導、曇鸞、道綽、承遠、法照、少康、省常、宗賾、延壽、蓮池、省庵、蕅益、行策、徹悟、印光等名號。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "蓮宗十三祖的文獻考證與祖師序列",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "蓮宗十三位祖師",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 170
+            }
+          },
+          {
+            "id": "sources",
+            "label": "文獻考證",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "source-list",
+            "label": "樂邦文類／佛祖統紀／淨土指歸集／生無生論註／生無生親聞記／西舫匯徵／蓮宗九祖傳略／十宗略說／蓮宗十二祖讚頌／靈巖山念誦儀規",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "lineage",
+            "label": "初祖至十三祖",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 220
+            }
+          },
+          {
+            "id": "early",
+            "label": "慧遠／善導／承遠／法照／少康",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 150
+            }
+          },
+          {
+            "id": "middle",
+            "label": "省常／宗賾／延壽／蓮池／省庵",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 240
+            }
+          },
+          {
+            "id": "late",
+            "label": "蕅益／行策／徹悟／印光",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 330
+            }
+          },
+          {
+            "id": "question",
+            "label": "過程及其釋疑",
+            "kind": "result",
+            "position": {
+              "x": 850,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "sources",
+            "relation": "supported-by"
+          },
+          {
+            "from": "sources",
+            "to": "source-list",
+            "relation": "enumerates"
+          },
+          {
+            "from": "root",
+            "to": "lineage",
+            "relation": "organized-as"
+          },
+          {
+            "from": "lineage",
+            "to": "early",
+            "relation": "includes"
+          },
+          {
+            "from": "lineage",
+            "to": "middle",
+            "relation": "includes"
+          },
+          {
+            "from": "lineage",
+            "to": "late",
+            "relation": "includes"
+          },
+          {
+            "from": "lineage",
+            "to": "question",
+            "relation": "examined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "42/42 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留文獻來源、初祖至十三祖序列與圖中出現的祖師名號；同一名號的重複節點合併。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

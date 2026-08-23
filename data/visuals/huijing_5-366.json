@@ -258,17 +258,251 @@
       "id": "media-6cae81b3d0602b7d8f7d3294",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-6cae81b3d0602b7d8f7d3294.svg",
         "sha256": "20e66b2120de2e22900f7b699c8db8ca06991902cfa19aba3b937f708abf2ca7"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "稱名念佛的十五種利益：彌陀住頂、佛光護身、諸佛護念、菩薩相隨、冥眾護持、消除罪障、增長福慧、離諸厄難、能得壽康、將獲善終、入正定聚、斷除輪迴、往生淨土、成就佛果、廣度眾生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "稱名念佛的十五種利益",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "稱名念佛",
+            "kind": "root",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "n1",
+            "label": "01 彌陀住頂",
+            "kind": "benefit",
+            "position": {
+              "x": 0,
+              "y": 120
+            }
+          },
+          {
+            "id": "n2",
+            "label": "02 佛光護身",
+            "kind": "benefit",
+            "position": {
+              "x": 180,
+              "y": 120
+            }
+          },
+          {
+            "id": "n3",
+            "label": "03 諸佛護念",
+            "kind": "benefit",
+            "position": {
+              "x": 360,
+              "y": 120
+            }
+          },
+          {
+            "id": "n4",
+            "label": "04 菩薩相隨",
+            "kind": "benefit",
+            "position": {
+              "x": 540,
+              "y": 120
+            }
+          },
+          {
+            "id": "n5",
+            "label": "05 冥眾護持",
+            "kind": "benefit",
+            "position": {
+              "x": 720,
+              "y": 120
+            }
+          },
+          {
+            "id": "n6",
+            "label": "06 消除罪障",
+            "kind": "benefit",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "n7",
+            "label": "07 增長福慧",
+            "kind": "benefit",
+            "position": {
+              "x": 180,
+              "y": 240
+            }
+          },
+          {
+            "id": "n8",
+            "label": "08 離諸厄難",
+            "kind": "benefit",
+            "position": {
+              "x": 360,
+              "y": 240
+            }
+          },
+          {
+            "id": "n9",
+            "label": "09 能得壽康",
+            "kind": "benefit",
+            "position": {
+              "x": 540,
+              "y": 240
+            }
+          },
+          {
+            "id": "n10",
+            "label": "10 將獲善終",
+            "kind": "benefit",
+            "position": {
+              "x": 720,
+              "y": 240
+            }
+          },
+          {
+            "id": "n11",
+            "label": "11 入正定聚",
+            "kind": "benefit",
+            "position": {
+              "x": 0,
+              "y": 360
+            }
+          },
+          {
+            "id": "n12",
+            "label": "12 斷除輪迴",
+            "kind": "benefit",
+            "position": {
+              "x": 180,
+              "y": 360
+            }
+          },
+          {
+            "id": "n13",
+            "label": "13 往生淨土",
+            "kind": "benefit",
+            "position": {
+              "x": 360,
+              "y": 360
+            }
+          },
+          {
+            "id": "n14",
+            "label": "14 成就佛果",
+            "kind": "benefit",
+            "position": {
+              "x": 540,
+              "y": 360
+            }
+          },
+          {
+            "id": "n15",
+            "label": "15 廣度眾生",
+            "kind": "benefit",
+            "position": {
+              "x": 720,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "n1",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n2",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n3",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n4",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n5",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n6",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n7",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n8",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n9",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n10",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n11",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n12",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n13",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n14",
+            "relation": "gives"
+          },
+          {
+            "from": "root",
+            "to": "n15",
+            "relation": "gives"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "48/48 visual labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "十五項利益逐項保留並補上固定編號，方便 AI 與閱讀者定位。"
       }
     },
     {
@@ -492,8 +726,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/8 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "coverage": "4/8 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

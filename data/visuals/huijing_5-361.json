@@ -9,17 +9,154 @@
       "id": "media-68f60411c56bed0c5e5aacb4",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-68f60411c56bed0c5e5aacb4.svg",
         "sha256": "b0df0b2ca7e4b211abf23cff88fdd0ce4461278ebe6722024109e9d7b347b8b6"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五念門：禮拜門身業、讚歎門口業、作願門意業、觀察門、迴向門；前四門偏自利，迴向門通利他。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五念門與身口意三業",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五念門",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "bow",
+            "label": "禮拜門／身業",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "praise",
+            "label": "讚歎門／口業",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 90
+            }
+          },
+          {
+            "id": "vow",
+            "label": "作願門／意業",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "observe",
+            "label": "觀察門",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 270
+            }
+          },
+          {
+            "id": "dedicate",
+            "label": "迴向門",
+            "kind": "result",
+            "position": {
+              "x": 240,
+              "y": 360
+            }
+          },
+          {
+            "id": "self",
+            "label": "自利",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 120
+            }
+          },
+          {
+            "id": "other",
+            "label": "利他",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "bow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "praise",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "observe",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "dedicate",
+            "relation": "divides-into"
+          },
+          {
+            "from": "bow",
+            "to": "self",
+            "relation": "serves"
+          },
+          {
+            "from": "praise",
+            "to": "self",
+            "relation": "serves"
+          },
+          {
+            "from": "vow",
+            "to": "self",
+            "relation": "serves"
+          },
+          {
+            "from": "observe",
+            "to": "self",
+            "relation": "serves"
+          },
+          {
+            "from": "dedicate",
+            "to": "other",
+            "relation": "serves"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "26/26 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留五念門順序、身口意三業與自利／利他歸屬。"
       }
     },
     {
@@ -43,17 +180,139 @@
       "id": "media-641d2ee817cd223d2c9b7fdb",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-641d2ee817cd223d2c9b7fdb.svg",
         "sha256": "8a78e1a9d128fa9879c4bd49611f82d02b9363d676b4c6c2da742c29b7b04f7f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "生彼淨土；凡是彼菩薩人天所起諸行；五念門與五果門；第十八願為往生因、第十一願為往生果；第二十二願為還相；往相、本願力。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "本願力與五念門、五果門的往生因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "生彼淨土",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 160
+            }
+          },
+          {
+            "id": "practice",
+            "label": "彼菩薩人天所起諸行",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "five-practice",
+            "label": "五念門",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "第十八願：往生因",
+            "kind": "scheme",
+            "position": {
+              "x": 760,
+              "y": 0
+            }
+          },
+          {
+            "id": "result",
+            "label": "第十一願：往生果",
+            "kind": "result",
+            "position": {
+              "x": 1020,
+              "y": 0
+            }
+          },
+          {
+            "id": "fruits",
+            "label": "五果門（前四）／五果門後一",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "return",
+            "label": "第二十二願：還相",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 260
+            }
+          },
+          {
+            "id": "going",
+            "label": "往相／本願力",
+            "kind": "detail",
+            "position": {
+              "x": 1020,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "explained-by"
+          },
+          {
+            "from": "practice",
+            "to": "five-practice",
+            "relation": "organized-as"
+          },
+          {
+            "from": "five-practice",
+            "to": "cause",
+            "relation": "leads-to"
+          },
+          {
+            "from": "cause",
+            "to": "result",
+            "relation": "causes"
+          },
+          {
+            "from": "root",
+            "to": "fruits",
+            "relation": "explained-by"
+          },
+          {
+            "from": "fruits",
+            "to": "return",
+            "relation": "leads-to"
+          },
+          {
+            "from": "return",
+            "to": "going",
+            "relation": "has-as-basis"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "34/34 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重建五念門／五果門與第十八、十一、二十二願之因果與往還二相。"
       }
     },
     {
@@ -76,8 +335,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

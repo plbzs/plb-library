@@ -148,24 +148,114 @@
       "id": "media-6d65c6804e4e9a6c0f654c77",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-6d65c6804e4e9a6c0f654c77.svg",
         "sha256": "92ba00f0fb3caa3b26563131683eba31ae1dc08be070fd00974963869f491f62"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "大願：我建超世願，必至無上道，斯願不滿足，誓不成等覺；大業：我於無量劫，不為大施主，普濟諸貧苦，誓不成等覺；大力：我至成佛道，名聲超十方，究竟有不聞，誓不成等覺；總結為南無阿彌陀佛（他力迴向）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "大願、大業、大力與南無阿彌陀佛",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "大願、大業、大力",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "vow",
+            "label": "大願：我建超世願／必至無上道／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "work",
+            "label": "大業：我於無量劫／普濟諸貧苦／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 150
+            }
+          },
+          {
+            "id": "power",
+            "label": "大力：我至成佛道／名聲超十方／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "name",
+            "label": "南無阿彌陀佛（他力迴向）",
+            "kind": "result",
+            "position": {
+              "x": 720,
+              "y": 150
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "work",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "power",
+            "relation": "contains"
+          },
+          {
+            "from": "vow",
+            "to": "name",
+            "relation": "converges-to"
+          },
+          {
+            "from": "work",
+            "to": "name",
+            "relation": "converges-to"
+          },
+          {
+            "from": "power",
+            "to": "name",
+            "relation": "converges-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "28/28 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三組偈文主題與共同歸結的名號、他力迴向。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

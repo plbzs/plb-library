@@ -26,17 +26,181 @@
       "id": "media-67ed79899c71cde1a8e013e4",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-67ed79899c71cde1a8e013e4.svg",
         "sha256": "c87c9f2072aaeadeda083b6a38ba257e0256394f7cbdc094d3360be2d57c3f1f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "內嵌 PNG 關係圖：實相身對應自利、約義、光明、攝法身；為物身對應利他、約名、名號、攝眾生；兩列共同歸入事佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "實相身、為物身與事佛的兩列對應",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "real",
+            "label": "實相身",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 0
+            }
+          },
+          {
+            "id": "self",
+            "label": "自利",
+            "kind": "detail",
+            "position": {
+              "x": 190,
+              "y": 0
+            }
+          },
+          {
+            "id": "meaning",
+            "label": "約義",
+            "kind": "detail",
+            "position": {
+              "x": 340,
+              "y": 0
+            }
+          },
+          {
+            "id": "light",
+            "label": "光明",
+            "kind": "detail",
+            "position": {
+              "x": 490,
+              "y": 0
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身",
+            "kind": "detail",
+            "position": {
+              "x": 640,
+              "y": 0
+            }
+          },
+          {
+            "id": "object",
+            "label": "為物身",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 160
+            }
+          },
+          {
+            "id": "other",
+            "label": "利他",
+            "kind": "detail",
+            "position": {
+              "x": 190,
+              "y": 160
+            }
+          },
+          {
+            "id": "name",
+            "label": "約名",
+            "kind": "detail",
+            "position": {
+              "x": 340,
+              "y": 160
+            }
+          },
+          {
+            "id": "title",
+            "label": "名號",
+            "kind": "detail",
+            "position": {
+              "x": 490,
+              "y": 160
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生",
+            "kind": "detail",
+            "position": {
+              "x": 640,
+              "y": 160
+            }
+          },
+          {
+            "id": "service",
+            "label": "事佛",
+            "kind": "result",
+            "position": {
+              "x": 830,
+              "y": 80
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "real",
+            "to": "self",
+            "relation": "paired-with"
+          },
+          {
+            "from": "self",
+            "to": "meaning",
+            "relation": "paired-with"
+          },
+          {
+            "from": "meaning",
+            "to": "light",
+            "relation": "paired-with"
+          },
+          {
+            "from": "light",
+            "to": "body",
+            "relation": "paired-with"
+          },
+          {
+            "from": "object",
+            "to": "other",
+            "relation": "paired-with"
+          },
+          {
+            "from": "other",
+            "to": "name",
+            "relation": "paired-with"
+          },
+          {
+            "from": "name",
+            "to": "title",
+            "relation": "paired-with"
+          },
+          {
+            "from": "title",
+            "to": "beings",
+            "relation": "paired-with"
+          },
+          {
+            "from": "body",
+            "to": "service",
+            "relation": "converges-to"
+          },
+          {
+            "from": "beings",
+            "to": "service",
+            "relation": "converges-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 visual labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "已解開 SVG 內嵌 PNG 進行視覺確認；圖中文字雖不在 SVG text layer，仍按兩列對應與共同歸結重建。"
       }
     },
     {
@@ -62,8 +226,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "2/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 1
   }
 }

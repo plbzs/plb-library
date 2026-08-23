@@ -143,24 +143,118 @@
       "id": "media-6b54c08e61c112100fafb905",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-6b54c08e61c112100fafb905.svg",
         "sha256": "76b48e8c35de5e1276b9d8c2877d65654dd6adb23c87e1a89f4186f07f8e585c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "本願稱名帶來凡夫入報、平生業成、現生不退；平生與命終形成因行與果益的對應。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "本願稱名的因行與果益",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "vow",
+            "label": "本願稱名",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "enter",
+            "label": "凡夫入報",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "life",
+            "label": "平生業成",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 180
+            }
+          },
+          {
+            "id": "present",
+            "label": "現生不退",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因行／平生",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "果益／命終",
+            "kind": "result",
+            "position": {
+              "x": 780,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "vow",
+            "to": "enter",
+            "relation": "leads-to"
+          },
+          {
+            "from": "vow",
+            "to": "life",
+            "relation": "leads-to"
+          },
+          {
+            "from": "enter",
+            "to": "present",
+            "relation": "results-in"
+          },
+          {
+            "from": "life",
+            "to": "cause",
+            "relation": "classified-as"
+          },
+          {
+            "from": "cause",
+            "to": "benefit",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "11/11 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖本願稱名、凡夫入報、平生業成、現生不退與因行果益關係重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

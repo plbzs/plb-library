@@ -9,24 +9,104 @@
       "id": "media-623683c9ee039ab33ab776fa",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-623683c9ee039ab33ab776fa.svg",
         "sha256": "109ab85a3b15f560c7200f7adbcb2ddeb4b00fb90e54b342b4583a4e0c8716ee"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "依報：寶欄網樹、寶池德水、樓閣蓮花、天樂、金地、雨花、鳥風說法；正報：光壽無量，成佛十劫，住眾。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《阿彌陀經》所說依報與正報",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "極樂世界",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "reliant",
+            "label": "依報",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "reliant-detail",
+            "label": "寶欄網樹／寶池德水／樓閣蓮花／天樂／金地／雨花／鳥風說法",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "body",
+            "label": "正報",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 280
+            }
+          },
+          {
+            "id": "body-detail",
+            "label": "光壽無量／成佛十劫／住眾",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "reliant",
+            "relation": "divides-into"
+          },
+          {
+            "from": "reliant",
+            "to": "reliant-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "body-detail",
+            "relation": "described-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "16/16 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依報與正報兩欄均保留，列出原圖可辨識的七項依報與三項正報內容。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
