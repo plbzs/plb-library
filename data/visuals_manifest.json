@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 192,
+    "approvedReconstruction": 193,
     "semanticOnly": 25,
-    "needsReview": 126,
+    "needsReview": 125,
     "sourceMissing": 1
   },
   "articles": [
@@ -1173,9 +1173,9 @@
       "articleId": "jingzong_5-635",
       "path": "data/visuals/jingzong_5-635.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_5-637",

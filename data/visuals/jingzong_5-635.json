@@ -218,24 +218,245 @@
       "id": "media-fcd83c88e542ceea15f6f0a0",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-fcd83c88e542ceea15f6f0a0.svg",
         "sha256": "9fb535c2e793c58af9ffca901a573385f2ecc3a3f6fbcf379a84d86e88845669"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五部九卷\n《觀經疏》\n《法事讚》\n《觀念法門》\n《往生禮讚》\n《般舟讚》\n五種正行\n稱名正定業\n讀誦正行\n觀察正行\n禮拜正行\n讚歎供養正行",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善導五部九卷與五種正行對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "books-root",
+            "label": "五部九卷",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "book-1",
+            "label": "《觀經疏》",
+            "kind": "text",
+            "position": {
+              "x": 0,
+              "y": 90
+            }
+          },
+          {
+            "id": "book-2",
+            "label": "《法事讚》",
+            "kind": "text",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "book-3",
+            "label": "《觀念法門》",
+            "kind": "text",
+            "position": {
+              "x": 0,
+              "y": 270
+            }
+          },
+          {
+            "id": "book-4",
+            "label": "《往生禮讚》",
+            "kind": "text",
+            "position": {
+              "x": 0,
+              "y": 360
+            }
+          },
+          {
+            "id": "book-5",
+            "label": "《般舟讚》",
+            "kind": "text",
+            "position": {
+              "x": 0,
+              "y": 450
+            }
+          },
+          {
+            "id": "practice-root",
+            "label": "五種正行",
+            "kind": "category",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice-1",
+            "label": "稱名正定業",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 90
+            }
+          },
+          {
+            "id": "practice-2",
+            "label": "讀誦正行",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "practice-3",
+            "label": "觀察正行",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 270
+            }
+          },
+          {
+            "id": "practice-4",
+            "label": "禮拜正行",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 360
+            }
+          },
+          {
+            "id": "practice-5",
+            "label": "讚歎供養正行",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 450
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "books-root",
+            "to": "book-1",
+            "relation": "contains"
+          },
+          {
+            "from": "books-root",
+            "to": "book-2",
+            "relation": "contains"
+          },
+          {
+            "from": "books-root",
+            "to": "book-3",
+            "relation": "contains"
+          },
+          {
+            "from": "books-root",
+            "to": "book-4",
+            "relation": "contains"
+          },
+          {
+            "from": "books-root",
+            "to": "book-5",
+            "relation": "contains"
+          },
+          {
+            "from": "practice-root",
+            "to": "practice-1",
+            "relation": "contains"
+          },
+          {
+            "from": "practice-root",
+            "to": "practice-2",
+            "relation": "contains"
+          },
+          {
+            "from": "practice-root",
+            "to": "practice-3",
+            "relation": "contains"
+          },
+          {
+            "from": "practice-root",
+            "to": "practice-4",
+            "relation": "contains"
+          },
+          {
+            "from": "practice-root",
+            "to": "practice-5",
+            "relation": "contains"
+          },
+          {
+            "from": "book-1",
+            "to": "practice-1",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "book-2",
+            "to": "practice-2",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "book-3",
+            "to": "practice-3",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "book-4",
+            "to": "practice-4",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "book-5",
+            "to": "practice-5",
+            "relation": "corresponds-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "five-books",
+            "label": "五部九卷",
+            "members": [
+              "book-1",
+              "book-2",
+              "book-3",
+              "book-4",
+              "book-5"
+            ]
+          },
+          {
+            "id": "five-practices",
+            "label": "五種正行",
+            "members": [
+              "practice-1",
+              "practice-2",
+              "practice-3",
+              "practice-4",
+              "practice-5"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12標籤與五組對應線",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原 SVG 為左右兩欄的五組對照：五部九卷與五種正行逐一相應；完整保留五部名稱、五種正行名稱與對應關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }
