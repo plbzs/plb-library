@@ -27,9 +27,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

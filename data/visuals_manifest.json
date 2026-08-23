@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 211,
-    "semanticOnly": 87,
-    "needsReview": 45,
+    "approvedReconstruction": 212,
+    "semanticOnly": 94,
+    "needsReview": 37,
     "sourceMissing": 1
   },
   "articles": [
@@ -213,9 +213,9 @@
       "articleId": "huijing_5-366",
       "path": "data/visuals/huijing_5-366.json",
       "expectedVisualCount": 8,
-      "approvedReconstructionCount": 7,
+      "approvedReconstructionCount": 8,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "huijing_5-369",
@@ -1286,8 +1286,8 @@
       "path": "data/visuals/library_4-1412.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "library_4-1447",
@@ -1342,8 +1342,8 @@
       "path": "data/visuals/library_4-1630.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "library_4-1664",
@@ -1414,8 +1414,8 @@
       "path": "data/visuals/library_4-2077.json",
       "expectedVisualCount": 2,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 1,
-      "status": "in-review"
+      "semanticOnlyCount": 2,
+      "status": "approved"
     },
     {
       "articleId": "library_4-2080",
@@ -1470,8 +1470,8 @@
       "path": "data/visuals/library_4-416.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "library_4-426",
@@ -1606,7 +1606,7 @@
       "path": "data/visuals/library_7-2162.json",
       "expectedVisualCount": 15,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 10,
+      "semanticOnlyCount": 12,
       "status": "in-review"
     },
     {
@@ -1662,8 +1662,8 @@
       "path": "data/visuals/story_1-1262.json",
       "expectedVisualCount": 2,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 1,
-      "status": "in-review"
+      "semanticOnlyCount": 2,
+      "status": "approved"
     },
     {
       "articleId": "story_1-1301",

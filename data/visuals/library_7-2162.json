@@ -297,8 +297,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "10/15 approved-or-semantic",
+    "coverage": "12/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 10
+    "semanticOnlyCount": 12
   }
 }
