@@ -181,17 +181,20 @@
       "id": "media-20bf27b2bad648d3036f93c2",
       "position": 11,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-20bf27b2bad648d3036f93c2.jpg",
         "sha256": "703864c4a9f2e698e92486111c1503e42f373536257ce948fabcfd314d55a9f6"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛教人物畫：兩位菩薩或佛教人物立於雲氣之上，左側人物持法器或圓形物件，右側人物手持大型弦樂器，人物上方有題字。屬於宗教繪畫，沒有可重建的關係圖。",
+      "transcript": "畫面上方與邊角可見佛教人物題字，解析度不足以作完整可靠轉錄。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "人物與法器語意；題字不作完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留兩位人物、法器、雲氣與題字位置等語意，不猜測人物身份。"
       }
     },
     {
@@ -270,8 +273,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/15 approved-or-semantic",
+    "coverage": "4/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
+    "semanticOnlyCount": 4
   }
 }

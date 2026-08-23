@@ -43,17 +43,20 @@
       "id": "media-20c4ae18c32ba038e488a9ec",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-20c4ae18c32ba038e488a9ec.jpg",
         "sha256": "ad03666f5d88cf37692b5c38e03687b4702ee971b082ac5aed6e64c7eea5f4f8"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "彩色漫畫式小插圖：一隻綠色斑紋小動物或恐龍般角色在草地與山丘背景中，底部有一句旁白，描述牠把橘子一口氣吞下後感覺很飽。屬於敘事插畫，不是結構圖。",
+      "transcript": "於是，牠一口氣把橘子吞進肚子裡；此刻橘虎感覺好飽啊。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1旁白文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留漫畫旁白與角色、橘子、吞食情節語意，不將單格漫畫誤判為流程圖。"
       }
     },
     {
@@ -76,8 +79,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
+    "coverage": "1/4 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

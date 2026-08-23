@@ -262,24 +262,226 @@
       "id": "media-18593aa5e45a5807814869b2",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-18593aa5e45a5807814869b2.jpg",
         "sha256": "9f3a7c0eab515dcb7643fb941d83e030fe650a6fd4f5f47ec513eac2bccc7afd"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "彌陀救度三大特質\n沒有條件，全憑本願\n聖凡善惡，平等無差\n主動積極，非被動消極\n往生成佛靠全佛力\n專稱佛名即蒙接引\n不問修行學問善惡\n佛光遍照攝取念佛人\n如太陽普照大地萬物\n佛心對眾生慈悲平等\n如父愛子，性不須祈求\n欲生我國，是佛懇求\n佛主動發願呼喚等待",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀救度三大特質",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "彌陀救度三大特質",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow",
+            "label": "沒有條件，全憑本願",
+            "kind": "category",
+            "position": {
+              "x": 0,
+              "y": 170
+            }
+          },
+          {
+            "id": "equality",
+            "label": "聖凡善惡，平等無差",
+            "kind": "category",
+            "position": {
+              "x": 520,
+              "y": 170
+            }
+          },
+          {
+            "id": "initiative",
+            "label": "主動積極，非被動消極",
+            "kind": "category",
+            "position": {
+              "x": 1040,
+              "y": 170
+            }
+          },
+          {
+            "id": "all-power",
+            "label": "往生成佛靠全佛力",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 360
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "專稱佛名即蒙接引",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 450
+            }
+          },
+          {
+            "id": "no-condition",
+            "label": "不問修行學問善惡",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 540
+            }
+          },
+          {
+            "id": "light",
+            "label": "佛光遍照攝取念佛人",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 360
+            }
+          },
+          {
+            "id": "sun",
+            "label": "如太陽普照大地萬物",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 450
+            }
+          },
+          {
+            "id": "equality-compassion",
+            "label": "佛心對眾生慈悲平等",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 540
+            }
+          },
+          {
+            "id": "father",
+            "label": "如父愛子，性不須祈求",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 360
+            }
+          },
+          {
+            "id": "wish",
+            "label": "欲生我國，是佛懇求",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 450
+            }
+          },
+          {
+            "id": "calling",
+            "label": "佛主動發願呼喚等待",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 540
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "equality",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "initiative",
+            "relation": "divides-into"
+          },
+          {
+            "from": "vow",
+            "to": "all-power",
+            "relation": "explains"
+          },
+          {
+            "from": "vow",
+            "to": "recitation",
+            "relation": "explains"
+          },
+          {
+            "from": "vow",
+            "to": "no-condition",
+            "relation": "explains"
+          },
+          {
+            "from": "equality",
+            "to": "light",
+            "relation": "explains"
+          },
+          {
+            "from": "equality",
+            "to": "sun",
+            "relation": "explains"
+          },
+          {
+            "from": "equality",
+            "to": "equality-compassion",
+            "relation": "explains"
+          },
+          {
+            "from": "initiative",
+            "to": "father",
+            "relation": "explains"
+          },
+          {
+            "from": "initiative",
+            "to": "wish",
+            "relation": "explains"
+          },
+          {
+            "from": "initiative",
+            "to": "calling",
+            "relation": "explains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-features",
+            "label": "三大特質",
+            "members": [
+              "vow",
+              "equality",
+              "initiative"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13節點與三分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "雖然來源是 JPG，但內容是清楚的樹狀架構圖；完整重建三大特質及其九個說明節點。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

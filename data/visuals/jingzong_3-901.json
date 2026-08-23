@@ -9,24 +9,27 @@
       "id": "media-19b5612ca4f133eb58b60654",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-19b5612ca4f133eb58b60654.jpg",
         "sha256": "c060458ef67b5ac44a9ec4b0409891c28cd42e15abf827c43841b8aa7157ea5e"
       },
-      "semanticDescription": null,
+      "semanticDescription": "白色蓮花照片：一朵盛開的白蓮花位於畫面中央，周圍有大片綠色荷葉與花苞，背景景深模糊。屬於自然與佛教象徵相關的照片，沒有文字或結構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：蓮花照片無文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留白蓮、荷葉、花苞與自然背景語意，不賦予圖片額外教義結論。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

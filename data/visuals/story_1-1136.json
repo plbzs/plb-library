@@ -9,17 +9,20 @@
       "id": "media-1df1fa8bfe42e30e3395d5f6",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1df1fa8bfe42e30e3395d5f6.jpg",
         "sha256": "b4498ddfacdd8c952ed94f696217892596996b4d28a9c35c1e71b9aa28f123a0"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "白底文字截圖，內容是一封交代病情、後事與財產安排的告知文字，底部署名「釋佛滿」及日期「2019.4.2」。這是文章中的文字圖片，不是表格或架構圖；可辨識內容以搜尋文字補充。",
+      "transcript": "親愛的師兄弟、我的親人們好：釋佛滿心（深）重，這幾天的病情突然加重，所以人生無常，如果神識昏迷、氣息將斷等，皆不送醫院、不做任何的急救措施，唯當下靜待往生。今天打以後的所有一切事情，我全權托付給釋佛仰處理，包括我的財產。往生後，化成骨灰，隨意撒到山上。因為身體虛弱，簡單幾句。釋佛滿，2019.4.2。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "主要段落、署名與日期可辨識；個別字詞可能有影像誤差",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "將截圖作為可搜尋文字輔助，但保留原圖並標示手寫／影像辨識的不確定性。"
       }
     },
     {
@@ -42,8 +45,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

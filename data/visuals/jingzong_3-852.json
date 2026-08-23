@@ -9,24 +9,27 @@
       "id": "media-1949c7041bcf3ae4379e48c1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1949c7041bcf3ae4379e48c1.jpg",
         "sha256": "fbd99fad0c54edb200e2c4a10b0722457dc29fc07011eee0526179b1693e9e8b"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "水墨插畫：窗邊有月牙，室內或陽台放著茶桌、茶壺與茶杯，左右有竹椅，畫面右側有直排題字。整體呈現夜晚、飲茶與靜觀的生活意境，沒有可重建的圖表。",
+      "transcript": "右側直排題字與月夜、飲茶意象相關；因書法字形限制，不作完整逐字轉錄。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "插畫與部分題字語意",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留月亮、茶桌、茶壺、竹椅與靜謐生活場景語意。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

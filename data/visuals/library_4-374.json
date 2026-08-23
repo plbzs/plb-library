@@ -9,17 +9,20 @@
       "id": "media-1f8b08d32a9f4ada4eb7b371",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1f8b08d32a9f4ada4eb7b371.jpg",
         "sha256": "77c96b01976716b6219d685c22eab9d49cd55901a84d78f481426085047615e4"
       },
-      "semanticDescription": null,
+      "semanticDescription": "石窟或石刻佛像照片：中央為一尊坐姿佛教造像，身後有圓形背光，周圍是帶有浮雕紋飾與雕刻痕跡的石壁。屬於歷史宗教藝術照片，沒有可重建的文字結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：石刻佛像照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛像、石窟、背光與浮雕藝術語意，不推定確切年代或地點。"
       }
     },
     {
@@ -42,8 +45,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
