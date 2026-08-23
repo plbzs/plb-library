@@ -26,17 +26,237 @@
       "id": "media-4c30b7eb2faf7eb622b9b562",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4c30b7eb2faf7eb622b9b562.svg",
         "sha256": "84ebcc3a234d85419df88909d042c3f2057057207e6f0547ba1da777305097dd"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《淨土宗概論講記》十章：第一章宗義概說、第二章教相判釋、第三章正依經典、第四章相承論釋、第五章安心、第六章起行、第七章作業行儀、第八章本願稱名、第九章凡夫入報、第十章宗旨特色；教、行、證；承上、起下；總述、分述、結要。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《淨土宗概論講記》的十章與教行證",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土宗概論講記",
+            "kind": "root",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "chapters",
+            "label": "十章綱要",
+            "kind": "scheme",
+            "position": {
+              "x": 480,
+              "y": 80
+            }
+          },
+          {
+            "id": "c1",
+            "label": "第一章 宗義概說",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "c2",
+            "label": "第二章 教相判釋",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 230
+            }
+          },
+          {
+            "id": "c3",
+            "label": "第三章 正依經典",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 280
+            }
+          },
+          {
+            "id": "c4",
+            "label": "第四章 相承論釋",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 330
+            }
+          },
+          {
+            "id": "c5",
+            "label": "第五章 安心",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 180
+            }
+          },
+          {
+            "id": "c6",
+            "label": "第六章 起行",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 230
+            }
+          },
+          {
+            "id": "c7",
+            "label": "第七章 作業行儀",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 280
+            }
+          },
+          {
+            "id": "c8",
+            "label": "第八章 本願稱名",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 330
+            }
+          },
+          {
+            "id": "c9",
+            "label": "第九章 凡夫入報",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "c10",
+            "label": "第十章 宗旨特色",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 230
+            }
+          },
+          {
+            "id": "three",
+            "label": "教／行／證",
+            "kind": "section",
+            "position": {
+              "x": 520,
+              "y": 330
+            }
+          },
+          {
+            "id": "transition",
+            "label": "承上／起下",
+            "kind": "detail",
+            "position": {
+              "x": 780,
+              "y": 330
+            }
+          },
+          {
+            "id": "summary",
+            "label": "總述／分述／結要",
+            "kind": "result",
+            "position": {
+              "x": 780,
+              "y": 420
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "chapters",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c1",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c2",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c3",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c4",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c5",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c6",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c7",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c8",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c9",
+            "relation": "contains"
+          },
+          {
+            "from": "chapters",
+            "to": "c10",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "organized-as"
+          },
+          {
+            "from": "three",
+            "to": "transition",
+            "relation": "connected-by"
+          },
+          {
+            "from": "three",
+            "to": "summary",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "21/21 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖十章目錄與教行證、承上起下、總述分述結要的分區重建。"
       }
     },
     {
@@ -76,8 +296,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -43,17 +43,167 @@
       "id": "media-41329d9dd6c37f1b561adfe1",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-41329d9dd6c37f1b561adfe1.svg",
         "sha256": "54341be8ecd5cbbcca29625ec5e07e67f073bca1c09379d61429c8619a3ed0d6"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "大師教判；通判：二藏二教判；別判：要弘二門判；二藏：聲聞藏、菩薩藏；二教：漸教、頓教；要門、弘願；開宗。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "大師教判的二藏二教與要弘二門",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "大師教判",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "general",
+            "label": "通判：二藏二教判",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 30
+            }
+          },
+          {
+            "id": "store-1",
+            "label": "聲聞藏",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "store-2",
+            "label": "菩薩藏",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 45
+            }
+          },
+          {
+            "id": "teaching-1",
+            "label": "漸教",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 90
+            }
+          },
+          {
+            "id": "teaching-2",
+            "label": "頓教",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 135
+            }
+          },
+          {
+            "id": "specific",
+            "label": "別判：要弘二門判",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 230
+            }
+          },
+          {
+            "id": "要門",
+            "label": "要門",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 220
+            }
+          },
+          {
+            "id": "弘願",
+            "label": "弘願",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 265
+            }
+          },
+          {
+            "id": "result",
+            "label": "開宗",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 230
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "divides-into"
+          },
+          {
+            "from": "general",
+            "to": "store-1",
+            "relation": "contains"
+          },
+          {
+            "from": "general",
+            "to": "store-2",
+            "relation": "contains"
+          },
+          {
+            "from": "general",
+            "to": "teaching-1",
+            "relation": "contains"
+          },
+          {
+            "from": "general",
+            "to": "teaching-2",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "specific",
+            "relation": "divides-into"
+          },
+          {
+            "from": "specific",
+            "to": "要門",
+            "relation": "contrasts"
+          },
+          {
+            "from": "specific",
+            "to": "弘願",
+            "relation": "contrasts"
+          },
+          {
+            "from": "specific",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "17/17 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依通判／別判兩層與二藏、二教、要弘二門的欄位重建。"
       }
     },
     {
@@ -406,8 +556,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/6 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/6 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

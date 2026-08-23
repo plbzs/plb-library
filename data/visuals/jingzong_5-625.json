@@ -9,17 +9,153 @@
       "id": "media-3e4e9d9c748ebc0d9225b7d8",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-3e4e9d9c748ebc0d9225b7d8.svg",
         "sha256": "610b5a7fee7079710a88fec0462ccc45b7654c60ba80a2a925ae2fb458cb2ae2"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第一節、第二節、第三節、第四節；淨土三經、三經關係、三經先後；正依經典之意義—直述、補充；能依規則、所依經典。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正依經典與淨土三經的四節綱要",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正依經典之意義",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 130
+            }
+          },
+          {
+            "id": "section-1",
+            "label": "第一節：淨土三經",
+            "kind": "section",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "section-2",
+            "label": "第二節：三經關係",
+            "kind": "section",
+            "position": {
+              "x": 240,
+              "y": 70
+            }
+          },
+          {
+            "id": "section-3",
+            "label": "第三節：三經先後",
+            "kind": "section",
+            "position": {
+              "x": 240,
+              "y": 140
+            }
+          },
+          {
+            "id": "section-4",
+            "label": "第四節：正依經典之意義",
+            "kind": "section",
+            "position": {
+              "x": 240,
+              "y": 210
+            }
+          },
+          {
+            "id": "direct",
+            "label": "直述",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "supplement",
+            "label": "補充",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 225
+            }
+          },
+          {
+            "id": "can-rely",
+            "label": "能依規則",
+            "kind": "detail",
+            "position": {
+              "x": 760,
+              "y": 180
+            }
+          },
+          {
+            "id": "relied",
+            "label": "所依經典",
+            "kind": "detail",
+            "position": {
+              "x": 760,
+              "y": 225
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "section-1",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-2",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-3",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "section-4",
+            "relation": "divides-into"
+          },
+          {
+            "from": "section-4",
+            "to": "direct",
+            "relation": "explained-by"
+          },
+          {
+            "from": "section-4",
+            "to": "supplement",
+            "relation": "explained-by"
+          },
+          {
+            "from": "direct",
+            "to": "can-rely",
+            "relation": "clarified-by"
+          },
+          {
+            "from": "supplement",
+            "to": "relied",
+            "relation": "clarified-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "16/16 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依四節欄位與正依經典之意義下的直述、補充及能所規則重建。"
       }
     },
     {
@@ -226,8 +362,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

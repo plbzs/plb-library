@@ -26,17 +26,116 @@
       "id": "media-46e33c68ab2ceb99b0a84ff6",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-46e33c68ab2ceb99b0a84ff6.svg",
         "sha256": "4252ceb66ea30eb011a811cd0864421663e0414820921bc299cecc7d43fe5200"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "緣因果的水之比喻；水；攝氏零度—冰塊；攝氏一百度—蒸氣；因、緣、果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "水、冰塊與蒸氣的因緣果比喻",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "水",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "cold",
+            "label": "攝氏零度／冰塊",
+            "kind": "result",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "hot",
+            "label": "攝氏一百度／蒸氣",
+            "kind": "result",
+            "position": {
+              "x": 480,
+              "y": 180
+            }
+          },
+          {
+            "id": "condition",
+            "label": "緣",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "effect",
+            "label": "果",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "has"
+          },
+          {
+            "from": "cause",
+            "to": "cold",
+            "relation": "conditioned-as"
+          },
+          {
+            "from": "cause",
+            "to": "hot",
+            "relation": "conditioned-as"
+          },
+          {
+            "from": "root",
+            "to": "condition",
+            "relation": "has"
+          },
+          {
+            "from": "cold",
+            "to": "effect",
+            "relation": "illustrates"
+          },
+          {
+            "from": "hot",
+            "to": "effect",
+            "relation": "illustrates"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依水、攝氏溫度、冰塊／蒸氣與因緣果標籤重建比喻圖。"
       }
     },
     {
@@ -59,8 +158,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

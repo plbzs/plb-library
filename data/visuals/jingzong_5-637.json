@@ -9,24 +9,188 @@
       "id": "media-48b7186d4edfefb9ffbaf27a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-48b7186d4edfefb9ffbaf27a.svg",
         "sha256": "5869b8e6133c9ecef37f7b2efd5ca114c2dd023d16fc66d4b3600447ca427037"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "觀念法門；三昧行相分（示三昧行法）：觀佛三昧法、念佛三昧法、道場念佛法、懺悔發願法、臨終行法；五緣功德分（示念佛利益）：滅罪增上緣、護念增上緣、見佛增上緣、攝生增上緣、證生增上緣；結勸修行分（示信謗損益）：不信罪報問答、信行功德問答、滅罪方法問答。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "觀念法門的三分與行法、利益、問答",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "觀念法門",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 190
+            }
+          },
+          {
+            "id": "samadhi",
+            "label": "三昧行相分（示三昧行法）",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "observe",
+            "label": "觀佛三昧法",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "念佛",
+            "label": "念佛三昧法",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 45
+            }
+          },
+          {
+            "id": "道場",
+            "label": "道場念佛法",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 90
+            }
+          },
+          {
+            "id": "repent",
+            "label": "懺悔發願法",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 135
+            }
+          },
+          {
+            "id": "end",
+            "label": "臨終行法",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 180
+            }
+          },
+          {
+            "id": "merit",
+            "label": "五緣功德分（示念佛利益）",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 280
+            }
+          },
+          {
+            "id": "benefits",
+            "label": "滅罪／護念／見佛／攝生／證生增上緣",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 280
+            }
+          },
+          {
+            "id": "admonition",
+            "label": "結勸修行分（示信謗損益）",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 380
+            }
+          },
+          {
+            "id": "questions",
+            "label": "不信罪報問答／信行功德問答／滅罪方法問答",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 380
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "samadhi",
+            "relation": "divides-into"
+          },
+          {
+            "from": "samadhi",
+            "to": "observe",
+            "relation": "contains"
+          },
+          {
+            "from": "samadhi",
+            "to": "念佛",
+            "relation": "contains"
+          },
+          {
+            "from": "samadhi",
+            "to": "道場",
+            "relation": "contains"
+          },
+          {
+            "from": "samadhi",
+            "to": "repent",
+            "relation": "contains"
+          },
+          {
+            "from": "samadhi",
+            "to": "end",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "merit",
+            "relation": "divides-into"
+          },
+          {
+            "from": "merit",
+            "to": "benefits",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "admonition",
+            "relation": "divides-into"
+          },
+          {
+            "from": "admonition",
+            "to": "questions",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三個分區及其五項行法、五緣利益與三項問答重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,160 @@
       "id": "media-42289df2624f6f13a95b983e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-42289df2624f6f13a95b983e.svg",
         "sha256": "375c6d055f2c9c894ec01253e4c3613c808a61e0de1588f5e0144236a6faa7bb"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第二十二願略解；一、標對象：他方佛土；一、明必至補處；二、明所願；二、明自在所化；三、結誓約；三、明還相得益。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第二十二願略解的六項說明",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "第二十二願略解",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 130
+            }
+          },
+          {
+            "id": "target",
+            "label": "一、標對象：他方佛土",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 0
+            }
+          },
+          {
+            "id": "must",
+            "label": "一、明必至補處",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 65
+            }
+          },
+          {
+            "id": "wish",
+            "label": "二、明所願",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 130
+            }
+          },
+          {
+            "id": "自在",
+            "label": "二、明自在所化",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 195
+            }
+          },
+          {
+            "id": "oath",
+            "label": "三、結誓約：若不爾者",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 260
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "三、明還相得益",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 325
+            }
+          },
+          {
+            "id": "completion",
+            "label": "究竟必至補處",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 65
+            }
+          },
+          {
+            "id": "return",
+            "label": "還相得益／超出",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 325
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "target",
+            "relation": "organized-as"
+          },
+          {
+            "from": "root",
+            "to": "must",
+            "relation": "organized-as"
+          },
+          {
+            "from": "root",
+            "to": "wish",
+            "relation": "organized-as"
+          },
+          {
+            "from": "root",
+            "to": "自在",
+            "relation": "organized-as"
+          },
+          {
+            "from": "root",
+            "to": "oath",
+            "relation": "organized-as"
+          },
+          {
+            "from": "root",
+            "to": "benefit",
+            "relation": "organized-as"
+          },
+          {
+            "from": "must",
+            "to": "completion",
+            "relation": "explained-by"
+          },
+          {
+            "from": "benefit",
+            "to": "return",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三組重複編號與六個說明節點重建；原始文字在圖中部分為直排，未擅自補足看不清的句段。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

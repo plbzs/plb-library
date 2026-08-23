@@ -9,24 +9,258 @@
       "id": "media-4c94fd772ff83063a555289e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4c94fd772ff83063a555289e.svg",
         "sha256": "f741fa0d65a8672473626a07620c24bc8625b0219205daeb3fff9a099222c279"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "一切法安心；仗自力／仗佛力；諸行／念佛；十方／西方；穢土不退／淨土不退；小乘／大乘；世間善／出世善；惡／善；安心得安心。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "一切法安心的自力他力對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "一切法安心",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 180
+            }
+          },
+          {
+            "id": "self",
+            "label": "仗自力",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "buddha",
+            "label": "仗佛力",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 360
+            }
+          },
+          {
+            "id": "self-practice",
+            "label": "諸行",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "buddha-practice",
+            "label": "念佛",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 360
+            }
+          },
+          {
+            "id": "ten",
+            "label": "十方",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 60
+            }
+          },
+          {
+            "id": "west",
+            "label": "西方",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 420
+            }
+          },
+          {
+            "id": "defilement",
+            "label": "穢土不退",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 120
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土不退",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 480
+            }
+          },
+          {
+            "id": "small",
+            "label": "小乘",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "large",
+            "label": "大乘",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 360
+            }
+          },
+          {
+            "id": "world-good",
+            "label": "世間善",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 60
+            }
+          },
+          {
+            "id": "out-world-good",
+            "label": "出世善",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 420
+            }
+          },
+          {
+            "id": "evil",
+            "label": "惡",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 120
+            }
+          },
+          {
+            "id": "good",
+            "label": "善",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 480
+            }
+          },
+          {
+            "id": "result",
+            "label": "安心得安心",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 240
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "self",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "root",
+            "to": "buddha",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "self",
+            "to": "self-practice",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "buddha",
+            "to": "buddha-practice",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "self",
+            "to": "ten",
+            "relation": "associated-with"
+          },
+          {
+            "from": "buddha",
+            "to": "west",
+            "relation": "associated-with"
+          },
+          {
+            "from": "self",
+            "to": "defilement",
+            "relation": "associated-with"
+          },
+          {
+            "from": "buddha",
+            "to": "pure",
+            "relation": "associated-with"
+          },
+          {
+            "from": "self",
+            "to": "small",
+            "relation": "associated-with"
+          },
+          {
+            "from": "buddha",
+            "to": "large",
+            "relation": "associated-with"
+          },
+          {
+            "from": "self",
+            "to": "world-good",
+            "relation": "associated-with"
+          },
+          {
+            "from": "buddha",
+            "to": "out-world-good",
+            "relation": "associated-with"
+          },
+          {
+            "from": "self",
+            "to": "evil",
+            "relation": "associated-with"
+          },
+          {
+            "from": "buddha",
+            "to": "good",
+            "relation": "associated-with"
+          },
+          {
+            "from": "root",
+            "to": "result",
+            "relation": "concludes-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "32/32 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖左右對照的自力／佛力、諸行／念佛、穢土／淨土等配對重建，保留安心結論。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

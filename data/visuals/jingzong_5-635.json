@@ -9,17 +9,209 @@
       "id": "media-3c6060fb691342ad0afbd5b0",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-3c6060fb691342ad0afbd5b0.svg",
         "sha256": "01ca13d5651af591c87aaa8dce980f3a25378729f1e9a1462b191048c5af3cdc"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教門本疏、行門具疏；五部九卷：玄義分一卷、序分義一卷、定善義一卷、散善義一卷；行門：觀念法門一卷、法事讚二卷、往生禮讚一卷、般舟讚一卷。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善導五部九卷與行門具疏",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "善導本疏與具疏",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "教門本疏",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 40
+            }
+          },
+          {
+            "id": "five",
+            "label": "五部九卷",
+            "kind": "section",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "meaning",
+            "label": "玄義分／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "preface",
+            "label": "序分義／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 45
+            }
+          },
+          {
+            "id": "good",
+            "label": "定善義／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 90
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善義／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 135
+            }
+          },
+          {
+            "id": "circulation",
+            "label": "流通分散善義／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 180
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行門具疏",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "observance",
+            "label": "觀念法門／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 260
+            }
+          },
+          {
+            "id": "ritual",
+            "label": "法事讚／二卷",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 305
+            }
+          },
+          {
+            "id": "birth-praise",
+            "label": "往生禮讚／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 350
+            }
+          },
+          {
+            "id": "boat-praise",
+            "label": "般舟讚／一卷",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 395
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "teaching",
+            "relation": "divides-into"
+          },
+          {
+            "from": "teaching",
+            "to": "five",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "meaning",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "preface",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "good",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "scattered",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "circulation",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "divides-into"
+          },
+          {
+            "from": "practice",
+            "to": "observance",
+            "relation": "contains"
+          },
+          {
+            "from": "practice",
+            "to": "ritual",
+            "relation": "contains"
+          },
+          {
+            "from": "practice",
+            "to": "birth-praise",
+            "relation": "contains"
+          },
+          {
+            "from": "practice",
+            "to": "boat-praise",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖教門本疏與行門具疏的上下分組，保留五部九卷及各部卷數。"
       }
     },
     {
@@ -42,8 +234,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
