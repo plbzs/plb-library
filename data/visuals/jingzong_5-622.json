@@ -179,17 +179,125 @@
       "id": "media-11b98d15b969b98bff9c4339",
       "position": 11,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-11b98d15b969b98bff9c4339.svg",
         "sha256": "6683eadd8146fb9ecb0f706d32c79dcc7079fcbda7576cde6cd28897eed7f19d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法；小乘、大乘；漸教、頓教；聖道門：斷惑證理，望機成漸；淨土門：不斷得證，頓中之頓。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法的小乘、大乘與漸頓二門",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "small",
+            "label": "小乘",
+            "kind": "scheme",
+            "position": {
+              "x": 120,
+              "y": 100
+            }
+          },
+          {
+            "id": "large",
+            "label": "大乘",
+            "kind": "scheme",
+            "position": {
+              "x": 480,
+              "y": 100
+            }
+          },
+          {
+            "id": "gradual",
+            "label": "漸教",
+            "kind": "detail",
+            "position": {
+              "x": 120,
+              "y": 200
+            }
+          },
+          {
+            "id": "sudden",
+            "label": "頓教",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 200
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門：斷惑證理，望機成漸",
+            "kind": "detail",
+            "position": {
+              "x": 100,
+              "y": 300
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門：不斷得證，頓中之頓",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "small",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "large",
+            "relation": "divides-into"
+          },
+          {
+            "from": "small",
+            "to": "gradual",
+            "relation": "classified-as"
+          },
+          {
+            "from": "large",
+            "to": "sudden",
+            "relation": "classified-as"
+          },
+          {
+            "from": "gradual",
+            "to": "holy",
+            "relation": "expressed-by"
+          },
+          {
+            "from": "sudden",
+            "to": "pure",
+            "relation": "expressed-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 的佛法→小乘／大乘→漸／頓教及二門說明重建。"
       }
     },
     {
@@ -246,8 +354,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/14 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/14 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

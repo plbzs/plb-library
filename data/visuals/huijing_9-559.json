@@ -151,24 +151,174 @@
       "id": "media-12e8cda890e7be994f82a5b4",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-12e8cda890e7be994f82a5b4.svg",
         "sha256": "a20d4fac47c36e038c9c4fe351315883bc1a96db7cfa89aa99b7d0595e92af32"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "願我作佛，齊聖法王；吾誓得佛，普行此願；一切恐懼，為作大安；令我作佛，國土第一；攝法身願、攝眾生願、攝淨土願；總別；其眾奇妙（眾第一）、道場超絕（成佛第一）、國如泥洹（快樂第一）、而無等雙（國土第一）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀願文的三願與總別四義",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "令我作佛，國土第一",
+            "kind": "root",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow-text",
+            "label": "願我作佛，齊聖法王／吾誓得佛，普行此願／一切恐懼，為作大安",
+            "kind": "text",
+            "position": {
+              "x": 40,
+              "y": 100
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身願",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 100
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生願",
+            "kind": "scheme",
+            "position": {
+              "x": 480,
+              "y": 100
+            }
+          },
+          {
+            "id": "land",
+            "label": "攝淨土願",
+            "kind": "scheme",
+            "position": {
+              "x": 660,
+              "y": 100
+            }
+          },
+          {
+            "id": "total",
+            "label": "總別",
+            "kind": "section",
+            "position": {
+              "x": 360,
+              "y": 220
+            }
+          },
+          {
+            "id": "assembly",
+            "label": "其眾奇妙／眾第一",
+            "kind": "detail",
+            "position": {
+              "x": 100,
+              "y": 320
+            }
+          },
+          {
+            "id": "buddhahood",
+            "label": "道場超絕／成佛第一",
+            "kind": "detail",
+            "position": {
+              "x": 330,
+              "y": 320
+            }
+          },
+          {
+            "id": "joy",
+            "label": "國如泥洹／快樂第一",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 320
+            }
+          },
+          {
+            "id": "peerless",
+            "label": "而無等雙／國土第一",
+            "kind": "detail",
+            "position": {
+              "x": 790,
+              "y": 320
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow-text",
+            "relation": "introduced-by"
+          },
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "total",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "total",
+            "to": "assembly",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "buddhahood",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "joy",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "total",
+            "to": "peerless",
+            "relation": "has-meaning"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 上下兩區文字與分欄位置重建三願及總別四義；同一視覺項目在兩篇文章中共用，保留相同來源雜湊。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/3 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

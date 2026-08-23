@@ -9,24 +9,104 @@
       "id": "media-0e7f8714b560277584684c7a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0e7f8714b560277584684c7a.svg",
         "sha256": "33850696f68ff34eaefb66d7919c0be67437e7b8519135d619dff5937e4782bb"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "生起：機的深信本末、法的深信；名號=佛願；深心=信心。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "深信的機法二面與名號、深心",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "生起",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 70
+            }
+          },
+          {
+            "id": "machine",
+            "label": "機的深信本末",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 20
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法的深信",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "name",
+            "label": "名號＝佛願",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 20
+            }
+          },
+          {
+            "id": "deep",
+            "label": "深心＝信心",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "machine",
+            "relation": "develops-from"
+          },
+          {
+            "from": "root",
+            "to": "dharma",
+            "relation": "develops-from"
+          },
+          {
+            "from": "dharma",
+            "to": "name",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "machine",
+            "to": "deep",
+            "relation": "expressed-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5/5 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 三列文字及其左右位置重建生起、機法深信、名號與深心的對應。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

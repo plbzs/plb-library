@@ -9,24 +9,160 @@
       "id": "media-0c8d2a7d8af8e467d5dd49ac",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0c8d2a7d8af8e467d5dd49ac.svg",
         "sha256": "ac1d8131de9e3693edfd29e215dac2f4bd365d55868bc7782c9a7ff3f9a4fa17"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "釋迦本懷：彌陀成佛因果、眾生往生因果、講釋迦佛的慇勤勸喻；第一點、第二點、第三點、第四點、第五點、第六點、第七點、第八點、第九點、第十點。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "釋迦本懷與十點講釋綱要",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "釋迦本懷",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 80
+            }
+          },
+          {
+            "id": "buddha-cause",
+            "label": "彌陀成佛因果",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "beings-result",
+            "label": "眾生往生因果",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 60
+            }
+          },
+          {
+            "id": "exhortation",
+            "label": "講釋迦佛的慇勤勸喻",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 120
+            }
+          },
+          {
+            "id": "ten-points",
+            "label": "十點講釋綱要",
+            "kind": "section",
+            "position": {
+              "x": 220,
+              "y": 190
+            }
+          },
+          {
+            "id": "point-1",
+            "label": "第一點",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 150
+            }
+          },
+          {
+            "id": "point-2-3",
+            "label": "第二點、第三點",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 200
+            }
+          },
+          {
+            "id": "point-4-6",
+            "label": "第四點、第五點、第六點",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 250
+            }
+          },
+          {
+            "id": "point-7-10",
+            "label": "第七點、第八點、第九點、第十點",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "buddha-cause",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "beings-result",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "exhortation",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "ten-points",
+            "relation": "organized-as"
+          },
+          {
+            "from": "ten-points",
+            "to": "point-1",
+            "relation": "contains"
+          },
+          {
+            "from": "ten-points",
+            "to": "point-2-3",
+            "relation": "contains"
+          },
+          {
+            "from": "ten-points",
+            "to": "point-4-6",
+            "relation": "contains"
+          },
+          {
+            "from": "ten-points",
+            "to": "point-7-10",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原圖文字節點雖合併為兩列，仍保留釋迦本懷的三項主題與十點編號分組。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

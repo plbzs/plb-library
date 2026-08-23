@@ -9,24 +9,202 @@
       "id": "media-0b37966ba058f03ad0a118b1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0b37966ba058f03ad0a118b1.svg",
         "sha256": "8b0e70985c09506c97b6fcea3e11a95562e1e1c42309fe07b71bb4d4c622ab80"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法；難行道—自力—聖道門；雜行；易行道—他力—淨土門；助業；正行；正定業；本願稱名。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法的難行道與易行道",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道",
+            "kind": "scheme",
+            "position": {
+              "x": 180,
+              "y": 30
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道",
+            "kind": "scheme",
+            "position": {
+              "x": 180,
+              "y": 210
+            }
+          },
+          {
+            "id": "self",
+            "label": "自力",
+            "kind": "detail",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行",
+            "kind": "detail",
+            "position": {
+              "x": 360,
+              "y": 60
+            }
+          },
+          {
+            "id": "other",
+            "label": "他力",
+            "kind": "detail",
+            "position": {
+              "x": 360,
+              "y": 180
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 180
+            }
+          },
+          {
+            "id": "assistant",
+            "label": "助業",
+            "kind": "detail",
+            "position": {
+              "x": 360,
+              "y": 240
+            }
+          },
+          {
+            "id": "right",
+            "label": "正行",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 240
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "正定業",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 240
+            }
+          },
+          {
+            "id": "name",
+            "label": "本願稱名",
+            "kind": "detail",
+            "position": {
+              "x": 860,
+              "y": 240
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "self",
+            "relation": "depends-on"
+          },
+          {
+            "from": "self",
+            "to": "holy",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "hard",
+            "to": "mixed",
+            "relation": "includes"
+          },
+          {
+            "from": "easy",
+            "to": "other",
+            "relation": "depends-on"
+          },
+          {
+            "from": "other",
+            "to": "pure",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "easy",
+            "to": "assistant",
+            "relation": "includes"
+          },
+          {
+            "from": "assistant",
+            "to": "right",
+            "relation": "supports"
+          },
+          {
+            "from": "right",
+            "to": "dedicated",
+            "relation": "includes"
+          },
+          {
+            "from": "dedicated",
+            "to": "name",
+            "relation": "fulfilled-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 五條水平文字列與連線方向重建難行道／易行道、自力／他力、聖道門／淨土門及正行鏈。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

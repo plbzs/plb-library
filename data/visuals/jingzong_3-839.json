@@ -9,24 +9,27 @@
       "id": "media-12ed05e48f80b0ca7531d38c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-12ed05e48f80b0ca7531d38c.svg",
         "sha256": "0da4f1fc4b3a9d1f24dda7dfafae7b1f58f39b1c3e50ef92c31de27f66c42ec6"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張大型直幅 SVG 視覺檔，尺寸約 620×791；原始檔沒有可讀文字節點，內容以路徑或嵌入視覺元素呈現，位於《春日遊 杏花吹滿頭》文章中。保留原始 SVG，不臆造文字或圖表結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; visual-only source",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔無可讀文字，無法可靠反向重建；以文章題名與檔案型態提供語意描述並保留原圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
