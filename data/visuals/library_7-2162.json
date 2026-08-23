@@ -9,17 +9,20 @@
       "id": "media-3dcf08aa0f778beae72a6246",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-3dcf08aa0f778beae72a6246.jpg",
         "sha256": "4ac10c0710deffad06d1528f4927b761db4130c12a9bdb9b210b3f4d3ba10ae6"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "直幅傳統佛教畫：一位持蓮花供器、立於雲氣上的觀世音菩薩形象，頭戴冠飾並有圓形光輪，畫面左上直排題字可辨識為「觀世音菩薩」。屬於人物畫，不是可重建的分類或流程圖。",
+      "transcript": "觀世音菩薩",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1可辨識題字；人物畫無結構關係",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留觀世音菩薩題字與持蓮、雲氣、光輪等語意，不轉成虛構結構圖。"
       }
     },
     {
@@ -79,17 +82,20 @@
       "id": "media-3dcc7fdd0f102aba7000fb0c",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-3dcc7fdd0f102aba7000fb0c.jpg",
         "sha256": "7b4e1ecfb6922a60804b92211688240dea44e2ce6a4b28f14a73cf1f14ca80bf"
       },
-      "semanticDescription": null,
+      "semanticDescription": "直幅傳統佛教畫：兩位身著華麗天衣、頭戴冠飾的菩薩或天人立於雲氣與蓮花上，人物各持法器，畫面以金色光輪、雲海與古畫質感呈現。左右上方可見直排題字，但不足以可靠重建成圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：傳統佛畫題字不足以形成結構圖",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留雙人物、法器、光輪、雲氣與古畫等主要視覺語意，不臆測人物確切身份。"
       }
     },
     {
@@ -273,8 +279,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "4/15 approved-or-semantic",
+    "coverage": "6/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 4
+    "semanticOnlyCount": 6
   }
 }

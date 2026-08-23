@@ -9,24 +9,164 @@
       "id": "media-3ed88f39e69d679b53c5e219",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-3ed88f39e69d679b53c5e219.png",
         "sha256": "a63e0e87baf2dbcb3f2d2412ebbdcbeb2ebbbfc33965a737f60f2a303fc33478"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "實相（法性涅槃樂）\n時間——無量壽——永遠的生命\n空間——無量光——絕對的光明\n現象（淨土莊嚴相）",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "實相與現象：無量壽及無量光的時間空間對應",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "reality",
+            "label": "實相（法性涅槃樂）",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "time",
+            "label": "時間",
+            "kind": "dimension",
+            "position": {
+              "x": 300,
+              "y": 60
+            }
+          },
+          {
+            "id": "infinite-life",
+            "label": "無量壽",
+            "kind": "concept",
+            "position": {
+              "x": 560,
+              "y": 60
+            }
+          },
+          {
+            "id": "eternal-life",
+            "label": "永遠的生命",
+            "kind": "result",
+            "position": {
+              "x": 840,
+              "y": 60
+            }
+          },
+          {
+            "id": "space",
+            "label": "空間",
+            "kind": "dimension",
+            "position": {
+              "x": 300,
+              "y": 300
+            }
+          },
+          {
+            "id": "infinite-light",
+            "label": "無量光",
+            "kind": "concept",
+            "position": {
+              "x": 560,
+              "y": 300
+            }
+          },
+          {
+            "id": "absolute-light",
+            "label": "絕對的光明",
+            "kind": "result",
+            "position": {
+              "x": 840,
+              "y": 300
+            }
+          },
+          {
+            "id": "phenomenon",
+            "label": "現象（淨土莊嚴相）",
+            "kind": "conclusion",
+            "position": {
+              "x": 1120,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "reality",
+            "to": "time",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "time",
+            "to": "infinite-life",
+            "relation": "means"
+          },
+          {
+            "from": "infinite-life",
+            "to": "eternal-life",
+            "relation": "explains"
+          },
+          {
+            "from": "reality",
+            "to": "space",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "space",
+            "to": "infinite-light",
+            "relation": "means"
+          },
+          {
+            "from": "infinite-light",
+            "to": "absolute-light",
+            "relation": "explains"
+          },
+          {
+            "from": "eternal-life",
+            "to": "phenomenon",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "absolute-light",
+            "to": "phenomenon",
+            "relation": "corresponds-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "time-space",
+            "label": "時間與空間",
+            "members": [
+              "time",
+              "infinite-life",
+              "eternal-life",
+              "space",
+              "infinite-light",
+              "absolute-light"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8標籤與兩條時間空間鏈；左右括線語意保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底 PNG 經白底核對；完整重建實相、時間／空間、無量壽／無量光、生命／光明與現象的對應關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

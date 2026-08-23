@@ -9,24 +9,27 @@
       "id": "media-4c399e3b7041dae008c81382",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-4c399e3b7041dae008c81382.jpg",
         "sha256": "4ec0810ee2d15dd34947c15c5881db61741021cb138ba6e8f106637f8630d277"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "彩色淨土園區概念插畫：天空與光芒背景中有中央佛像、瀑布、蓮花池、池中蓮台上的人物、石板步道與兩側碑柱，右上有「彌陀光明園」字樣。屬於場景設計插畫，不是可可靠重建的組織或流程圖。",
+      "transcript": "彌陀光明園",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1主標題文字；園景插畫無結構關係",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留彌陀光明園、中央佛像、蓮花池、蓮台與園區景觀語意，不把空間景觀誤轉成層級圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

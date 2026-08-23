@@ -49,24 +49,27 @@
       "id": "media-47b4d0409e03f21744d96c9c",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-47b4d0409e03f21744d96c9c.jpg",
         "sha256": "cdd8fe29d4806cba3e054dbb6984492b0ca1030487a05c31ebaf1bca50307425"
       },
-      "semanticDescription": null,
+      "semanticDescription": "室內聚會照片：數位戴口罩的人圍坐在咖啡桌旁交談，桌上有茶杯、紙張與餐具，背景有室內裝飾與窗光。屬於活動紀錄照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：活動照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留多人交流、口罩、桌面茶具與室內環境語意，不猜測人物身份或活動名稱。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

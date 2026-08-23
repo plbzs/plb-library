@@ -9,17 +9,20 @@
       "id": "media-4661f2950d5ca08d33e6e65b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-4661f2950d5ca08d33e6e65b.jpg",
         "sha256": "e6e4acdf4895e3f74f11b3fe4a1293454941d96cdebcecf02200267536717eff"
       },
-      "semanticDescription": null,
+      "semanticDescription": "近距離照片：一隻蟑螂停在白色佛像或雕像的手掌上，手部有金色裝飾或法器細節。屬於故事相關現場照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：現場照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "只描述蟑螂、佛像手部與金色細節，不把照片解讀為可重建圖表。"
       }
     },
     {
@@ -42,8 +45,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

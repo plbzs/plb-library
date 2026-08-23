@@ -9,24 +9,27 @@
       "id": "media-4a1588e2ab833c03d4b315d5",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-4a1588e2ab833c03d4b315d5.jpg",
         "sha256": "6bfb688ed1113bda01bb32f9ea2a2bd980d6cb053a1d44a1db5660ba25d0abd9"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "黑白水墨風插畫：一葉小舟停在水面，岸邊有樹木、草叢與石塊，右側直排文字可辨識為「野渡無人舟自橫」。屬於詩意風景插圖，不是分類或流程圖。",
+      "transcript": "野渡無人舟自橫",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1可辨識題字；風景插畫無結構關係",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留小舟、野渡、樹岸與題字語意，不強行重建自然景物為圖表。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

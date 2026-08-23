@@ -245,17 +245,123 @@
       "id": "media-4af61a5a7c2ab4eb3e9a9ff5",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-4af61a5a7c2ab4eb3e9a9ff5.png",
         "sha256": "482a635aa01c65b5d45b4a452703165b1cbf54d4b3bba3dd7a157e1bf14d8850"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五正行\n讀誦正行：一心專讀誦淨土三經\n觀察正行：一心專想像淨土依正\n禮拜正行：一心專禮拜阿彌陀佛\n稱名正行：一心專稱念彌陀名號\n讚供正行：一心專讚歎供養阿彌陀佛",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五正行及其專修內容",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五正行",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "讀誦正行：一心專讀誦淨土三經",
+            "kind": "practice",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "contemplation",
+            "label": "觀察正行：一心專想像淨土依正",
+            "kind": "practice",
+            "position": {
+              "x": 360,
+              "y": 120
+            }
+          },
+          {
+            "id": "prostration",
+            "label": "禮拜正行：一心專禮拜阿彌陀佛",
+            "kind": "practice",
+            "position": {
+              "x": 360,
+              "y": 240
+            }
+          },
+          {
+            "id": "vocal-recitation",
+            "label": "稱名正行：一心專稱念彌陀名號",
+            "kind": "practice",
+            "position": {
+              "x": 360,
+              "y": 360
+            }
+          },
+          {
+            "id": "praise-offering",
+            "label": "讚供正行：一心專讚歎供養阿彌陀佛",
+            "kind": "practice",
+            "position": {
+              "x": 360,
+              "y": 480
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "recitation",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "contemplation",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "prostration",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "vocal-recitation",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "praise-offering",
+            "relation": "contains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "five-practices",
+            "label": "五種正行",
+            "members": [
+              "recitation",
+              "contemplation",
+              "prostration",
+              "vocal-recitation",
+              "praise-offering"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "6/6標籤與五條分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "白底核對後，按原圖括線與五條正行逐項重建，完整保留每項的一心專修內容。"
       }
     },
     {
@@ -278,8 +384,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/5 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/5 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }
