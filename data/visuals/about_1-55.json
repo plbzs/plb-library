@@ -9,24 +9,27 @@
       "id": "media-0e8af7517c752f2a72e3d542",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0e8af7517c752f2a72e3d542.png",
         "sha256": "be5bee9e693080aa9c6d1298a9de2e4aaf469ac2d084237cbb3bda74fc72b506"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "淨土宗宗旨的中英雙語海報：左側深藍底白字，右側為兩位佛教人物與光圈圖像。海報列出信受彌陀救度、專稱彌陀佛名、願生彌陀淨土、廣度十方眾生四項宗旨。屬於文字海報，不是需要圖表重建的關係結構。",
+      "transcript": "淨土宗宗旨／Guiding Principles；信受彌陀救度、專稱彌陀佛名、願生彌陀淨土、廣度十方眾生；Faith in, and acceptance of, Amitabha's deliverance; Single-minded recitation of Amitabha's name; Aspiration to rebirth in Amitabha's Pure Land; Comprehensive deliverance of all sentient beings。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "8/8中英標語與標題",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "完整提供海報中的中英文字，讓搜尋與 AI 可以取得原圖上的宗旨內容；不把四句標語強行編成圖表。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

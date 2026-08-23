@@ -26,17 +26,20 @@
       "id": "media-1393f09d056c08bdffbb919d",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1393f09d056c08bdffbb919d.jpg",
         "sha256": "717f03ccfdacb824edafe4b5f47f845ef3517656f8653f0d0bd072124b426cb0"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "橫線紙上的手寫筆記照片，藍色筆跡分成數行，底部有清楚的黑色標題「長老給黃太的開示」。內容像是個人記錄或開示摘記，字跡不穩定，無法可靠還原全部文字。",
+      "transcript": "長老給黃太的開示；其餘為難以可靠辨識的手寫筆記。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "標題可辨識，手寫內文不作猜測性轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留手寫開示筆記與可辨識標題；不將不確定的手寫字轉成錯誤資料。"
       }
     },
     {
@@ -59,8 +62,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
+    "coverage": "1/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

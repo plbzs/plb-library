@@ -9,24 +9,27 @@
       "id": "media-0c25baa076df3bafa09e1206",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0c25baa076df3bafa09e1206.jpg",
         "sha256": "694eeeb2ba31f8564a854a2fb323d31db4d6d5c40689d962a89a80baee31971f"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "水墨或木刻風格的生活插畫：一位讀書人坐在大樹下讀書，遠處有田野與草屋，右側有直排書法題字。畫面呈現耕讀、讀書與鄉野生活意象，沒有需要重建的圖表結構。",
+      "transcript": "右側直排題字可辨識為與耕讀、讀書相關的詩句或題辭；因字形與解析度限制，不作完整逐字轉錄。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "插畫與部分題字語意",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留耕讀、讀書人、大樹、田野與題字語意，不將詩畫誤判成結構圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

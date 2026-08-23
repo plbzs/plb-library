@@ -26,24 +26,27 @@
       "id": "media-10be6191b477cd07648771df",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-10be6191b477cd07648771df.jpg",
         "sha256": "30339c786b460a606563b0836caef9c21ca5ce23be7b6bd11c1f5bfebc4e6048"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "紅底金色邊飾的直式春聯或書法海報，中央以黑色書法分成左右兩列，內容與捨身求法、成佛道、無量壽光、度眾生相關。屬於書法作品，不是結構化資料圖。",
+      "transcript": "捨身求法成佛道；無量壽光度眾生。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "2列主要書法文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留主要可辨識書法文字與春聯視覺語意，不把對聯格式誤當成資料表。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

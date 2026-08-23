@@ -26,17 +26,20 @@
       "id": "media-1125aee171574d5ed8128069",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1125aee171574d5ed8128069.jpg",
         "sha256": "cc03d32d2ba6811ddaa03304149b72a5a9f01766e8c5d2da5fd5eb9260994eee"
       },
-      "semanticDescription": null,
+      "semanticDescription": "家中佛桌或供桌照片：右側有金色佛像，桌面放置盤香、供品與其他物件，紅色箭頭指向左側一組細長物件。畫面用於說明佛號攝化或往生故事，沒有可重建的圖表結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：佛桌照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛像、盤香、供桌、箭頭標示與居家場景語意，不猜測箭頭所指物品身份。"
       }
     },
     {
@@ -93,8 +96,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/5 approved-or-semantic",
+    "coverage": "1/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

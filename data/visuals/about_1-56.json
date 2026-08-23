@@ -9,24 +9,27 @@
       "id": "media-1022dc048120356295dcc847",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-1022dc048120356295dcc847.png",
         "sha256": "c31b98367a6969f747f485298ae04e9f76c64bad414040781776fdc719b99f2d"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "淨土宗特色的中英雙語海報：左側深藍底白字，右側為佛教人物與光圈圖像。海報列出本願稱名、凡夫入報、平生業成、現生不退四項特色。這是宣傳／介紹海報，文字雖可搜尋但不需轉成圖表。",
+      "transcript": "淨土宗特色／Characteristics；本願稱名、凡夫入報、平生業成、現生不退；Recitation of Amitabha's name, relying on his Fundamental Vow (the 18th); Rebirth of ordinary beings in the Pure Land's Realm of Rewards; Rebirth assured in the present lifetime; Non-retrogression achieved in this lifetime。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "8/8中英標語與標題",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "完整提供海報中的中英文字供搜尋與 AI 使用；不將四項特色誤判成流程圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -26,17 +26,20 @@
       "id": "media-0f5b5ed6256f65c40aba6ee3",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0f5b5ed6256f65c40aba6ee3.jpg",
         "sha256": "f53ab9f44807241837f0a9ba7260b63e6d8486de6270097cdf40feb4e3105056"
       },
-      "semanticDescription": null,
+      "semanticDescription": "室內餐廳或咖啡空間的生活照片：前景是一位戴口罩、穿條紋上衣的人坐在桌旁，背景有其他用餐者與室內燈光。屬於人物與生活場景照片，沒有可重建的文字結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：生活照片無可辨識文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、口罩、餐廳與生活場景語意，不對人物身份作推定。"
       }
     },
     {
@@ -59,8 +62,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
+    "coverage": "1/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

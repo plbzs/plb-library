@@ -9,24 +9,227 @@
       "id": "media-119cb7b9233481c6c6ec44cb",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-119cb7b9233481c6c6ec44cb.png",
         "sha256": "7517e653cf12cc50e7d7213f3973dc26d1351670eb1c492bd78909548861bb8e"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四十八願\n攝法身願\n第十二 光明無量願\n第十三 壽命無量願\n第十七 諸佛稱揚願\n攝淨土願\n第三十一 國土清淨願（徹見十方願）\n第三十二 國土嚴飾願（寶香合成願）\n攝眾生願——其他之四十三願\n一一誓願為眾生\n願願三攝—影略互顯",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "四十八願的三類分類與一一為眾生",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "四十八願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身願",
+            "kind": "category",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "land",
+            "label": "攝淨土願",
+            "kind": "category",
+            "position": {
+              "x": 320,
+              "y": 240
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生願",
+            "kind": "category",
+            "position": {
+              "x": 320,
+              "y": 520
+            }
+          },
+          {
+            "id": "light",
+            "label": "第十二 光明無量願",
+            "kind": "vow",
+            "position": {
+              "x": 720,
+              "y": 0
+            }
+          },
+          {
+            "id": "life",
+            "label": "第十三 壽命無量願",
+            "kind": "vow",
+            "position": {
+              "x": 720,
+              "y": 80
+            }
+          },
+          {
+            "id": "praise",
+            "label": "第十七 諸佛稱揚願",
+            "kind": "vow",
+            "position": {
+              "x": 720,
+              "y": 160
+            }
+          },
+          {
+            "id": "clean",
+            "label": "第三十一 國土清淨願（徹見十方願）",
+            "kind": "vow",
+            "position": {
+              "x": 720,
+              "y": 260
+            }
+          },
+          {
+            "id": "adorn",
+            "label": "第三十二 國土嚴飾願（寶香合成願）",
+            "kind": "vow",
+            "position": {
+              "x": 720,
+              "y": 360
+            }
+          },
+          {
+            "id": "other",
+            "label": "其他之四十三願",
+            "kind": "vow-group",
+            "position": {
+              "x": 720,
+              "y": 540
+            }
+          },
+          {
+            "id": "beings-meaning",
+            "label": "一一誓願為眾生",
+            "kind": "interpretation",
+            "position": {
+              "x": 1120,
+              "y": 300
+            }
+          },
+          {
+            "id": "mutual",
+            "label": "願願三攝—影略互顯",
+            "kind": "interpretation",
+            "position": {
+              "x": 1120,
+              "y": 440
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "light",
+            "relation": "includes"
+          },
+          {
+            "from": "body",
+            "to": "life",
+            "relation": "includes"
+          },
+          {
+            "from": "body",
+            "to": "praise",
+            "relation": "includes"
+          },
+          {
+            "from": "land",
+            "to": "clean",
+            "relation": "includes"
+          },
+          {
+            "from": "land",
+            "to": "adorn",
+            "relation": "includes"
+          },
+          {
+            "from": "beings",
+            "to": "other",
+            "relation": "includes"
+          },
+          {
+            "from": "beings-meaning",
+            "to": "root",
+            "relation": "interprets"
+          },
+          {
+            "from": "beings-meaning",
+            "to": "beings",
+            "relation": "emphasizes"
+          },
+          {
+            "from": "mutual",
+            "to": "body",
+            "relation": "explains"
+          },
+          {
+            "from": "mutual",
+            "to": "land",
+            "relation": "explains"
+          },
+          {
+            "from": "mutual",
+            "to": "beings",
+            "relation": "explains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-categories",
+            "label": "四十八願三類",
+            "members": [
+              "body",
+              "land",
+              "beings"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12主要節點與三類關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "來源 PNG 是清楚的文字樹狀圖；完整保留三類願、五個代表願、其餘四十三願與一一為眾生的結歸。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
