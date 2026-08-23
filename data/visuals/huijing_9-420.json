@@ -9,17 +9,111 @@
       "id": "media-d6f6af4e36ef88bc026fdf96",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d6f6af4e36ef88bc026fdf96.svg",
         "sha256": "b5523b88f710ac7b4e6fd0133ff3a34a7c3421581b0bfd17dd4a8d5d9f0dfd2a"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《十住論》；第一序品、第二至二七品、第二八至三五品；解釋初地、解釋二地；第六、七、八品、第九品（易行品）；說明難行內容、專說易行內容。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《十住論》的品次與難易內容",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "十住論",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "preface",
+            "label": "第一序品",
+            "kind": "section",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "first-ground",
+            "label": "第二至二七品／解釋初地",
+            "kind": "section",
+            "position": {
+              "x": 280,
+              "y": 220
+            }
+          },
+          {
+            "id": "second-ground",
+            "label": "第二八至三五品／解釋二地",
+            "kind": "section",
+            "position": {
+              "x": 280,
+              "y": 440
+            }
+          },
+          {
+            "id": "hard",
+            "label": "第六、七、八品／說明難行內容",
+            "kind": "detail",
+            "position": {
+              "x": 660,
+              "y": 120
+            }
+          },
+          {
+            "id": "easy",
+            "label": "第九品（易行品）／專說易行內容",
+            "kind": "detail",
+            "position": {
+              "x": 660,
+              "y": 420
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "preface",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "first-ground",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "second-ground",
+            "relation": "contains"
+          },
+          {
+            "from": "first-ground",
+            "to": "hard",
+            "relation": "details"
+          },
+          {
+            "from": "second-ground",
+            "to": "easy",
+            "relation": "details"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "品次、地位解釋與難易內容全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留十住論品次與初地、二地的分組，並連到難行與易行內容。"
       }
     },
     {
@@ -595,9 +689,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "4/5 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "status": "approved",
+    "coverage": "5/5 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

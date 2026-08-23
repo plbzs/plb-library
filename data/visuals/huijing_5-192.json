@@ -153,24 +153,174 @@
       "id": "media-ca1a6218cb93e1e41086ef0b",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ca1a6218cb93e1e41086ef0b.svg",
         "sha256": "4e9576d1fb4fc1d4bcf8db28809fc71e1e84691598e7d208c615aafa83b05a99"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "慇懃付囑，再三叮嚀；（一）專復專：專捨雜行歸正行；（二）專復專：專傍助業、專正定業；（三）專復專：專一行、一信；五正行：讀誦正行、觀察正行、禮拜正行、稱名正行、讚供正行；專讀誦淨土三經、專觀察極樂依正、專禮拜阿彌陀佛、專稱念阿彌陀佛、專讚供阿彌陀佛；助業、正定業。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "專復專與五正行",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "慇懃付囑，再三叮嚀",
+            "kind": "root",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "one",
+            "label": "（一）專復專：專捨雜行歸正行",
+            "kind": "instruction",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "two",
+            "label": "（二）專復專：專傍助業／專正定業",
+            "kind": "instruction",
+            "position": {
+              "x": 400,
+              "y": 180
+            }
+          },
+          {
+            "id": "three",
+            "label": "（三）專復專：專一行／一信",
+            "kind": "instruction",
+            "position": {
+              "x": 820,
+              "y": 180
+            }
+          },
+          {
+            "id": "five",
+            "label": "五正行",
+            "kind": "scheme",
+            "position": {
+              "x": 500,
+              "y": 420
+            }
+          },
+          {
+            "id": "recite",
+            "label": "讀誦正行：專讀誦淨土三經",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 660
+            }
+          },
+          {
+            "id": "observe",
+            "label": "觀察正行：專觀察極樂依正",
+            "kind": "practice",
+            "position": {
+              "x": 300,
+              "y": 660
+            }
+          },
+          {
+            "id": "bow",
+            "label": "禮拜正行：專禮拜阿彌陀佛",
+            "kind": "practice",
+            "position": {
+              "x": 600,
+              "y": 660
+            }
+          },
+          {
+            "id": "name",
+            "label": "稱名正行：專稱念阿彌陀佛／正定業",
+            "kind": "practice",
+            "position": {
+              "x": 900,
+              "y": 660
+            }
+          },
+          {
+            "id": "praise",
+            "label": "讚供正行：專讚供阿彌陀佛／助業",
+            "kind": "practice",
+            "position": {
+              "x": 1200,
+              "y": 660
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "one",
+            "relation": "reiterates"
+          },
+          {
+            "from": "root",
+            "to": "two",
+            "relation": "reiterates"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "reiterates"
+          },
+          {
+            "from": "root",
+            "to": "five",
+            "relation": "organizes"
+          },
+          {
+            "from": "five",
+            "to": "recite",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "observe",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "bow",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "name",
+            "relation": "contains"
+          },
+          {
+            "from": "five",
+            "to": "praise",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "三次專復專與五正行全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將上方三次專復專的分判與下方五正行表格分層，保留助業、正定業標籤。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

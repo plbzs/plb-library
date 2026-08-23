@@ -203,17 +203,195 @@
       "id": "media-d5ebbcce53f3819ebb37c6fb",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d5ebbcce53f3819ebb37c6fb.svg",
         "sha256": "0daa590036b1bc4a46ae7a6eef2312300563b3f273f3a9bc085ddeeeb8b3c189"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "阿彌陀佛；本名、譯語；二名說、一名說、二字譯、三字譯；阿彌陀婆（Amitābha）—無量光；阿彌陀由須（Amitāyus）—無量壽；阿彌陀（Amitā）；無量—直譯；無量壽—意譯。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "阿彌陀佛的本名與譯語",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "阿彌陀佛",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "original",
+            "label": "本名",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "translation",
+            "label": "譯語",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 520
+            }
+          },
+          {
+            "id": "two-name",
+            "label": "二名說",
+            "kind": "classification",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "one-name",
+            "label": "一名說",
+            "kind": "classification",
+            "position": {
+              "x": 540,
+              "y": 300
+            }
+          },
+          {
+            "id": "two-char",
+            "label": "二字譯",
+            "kind": "classification",
+            "position": {
+              "x": 540,
+              "y": 520
+            }
+          },
+          {
+            "id": "three-char",
+            "label": "三字譯",
+            "kind": "classification",
+            "position": {
+              "x": 540,
+              "y": 700
+            }
+          },
+          {
+            "id": "light",
+            "label": "阿彌陀婆（Amitābha）／無量光",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 0
+            }
+          },
+          {
+            "id": "life",
+            "label": "阿彌陀由須（Amitāyus）／無量壽",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 180
+            }
+          },
+          {
+            "id": "amita",
+            "label": "阿彌陀（Amitā）",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 360
+            }
+          },
+          {
+            "id": "direct",
+            "label": "無量／直譯",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 540
+            }
+          },
+          {
+            "id": "意譯",
+            "label": "無量壽／意譯",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 700
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "original",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "translation",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "original",
+            "to": "two-name",
+            "relation": "classified-as"
+          },
+          {
+            "from": "original",
+            "to": "one-name",
+            "relation": "classified-as"
+          },
+          {
+            "from": "translation",
+            "to": "two-char",
+            "relation": "classified-as"
+          },
+          {
+            "from": "translation",
+            "to": "three-char",
+            "relation": "classified-as"
+          },
+          {
+            "from": "two-name",
+            "to": "light",
+            "relation": "explains"
+          },
+          {
+            "from": "two-name",
+            "to": "life",
+            "relation": "explains"
+          },
+          {
+            "from": "one-name",
+            "to": "amita",
+            "relation": "explains"
+          },
+          {
+            "from": "two-char",
+            "to": "direct",
+            "relation": "explains"
+          },
+          {
+            "from": "three-char",
+            "to": "意譯",
+            "relation": "explains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "本名、譯語、三種說法與音譯全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "把二名說、一名說、二字譯、三字譯與無量光、無量壽的對應整理成分支。"
       }
     },
     {
@@ -371,9 +549,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

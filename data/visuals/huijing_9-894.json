@@ -9,24 +9,113 @@
       "id": "media-d429336dc5b5aa593fed930a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d429336dc5b5aa593fed930a.svg",
         "sha256": "8ad84972ac66e652da3a926b6e66e7ffc41cc6a77bf22d8c1924bb4c6a00d9d5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "兩重因果：平生專持佛名；臨終佛聖現前；命終心不顛倒。第一重：平生專持佛名為因，臨終佛聖現前為果。第二重：臨終佛聖現前為因，命終心不顛倒為果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "平生、臨終、命終的兩重因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "兩重因果",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "practice",
+            "label": "平生專持佛名",
+            "kind": "cause",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "appearance",
+            "label": "臨終佛聖現前",
+            "kind": "middle",
+            "position": {
+              "x": 620,
+              "y": 260
+            }
+          },
+          {
+            "id": "mind",
+            "label": "命終心不顛倒",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 520
+            }
+          },
+          {
+            "id": "first",
+            "label": "第一重：平生專持佛名→臨終佛聖現前",
+            "kind": "cause-effect",
+            "position": {
+              "x": 620,
+              "y": 0
+            }
+          },
+          {
+            "id": "second",
+            "label": "第二重：臨終佛聖現前→命終心不顛倒",
+            "kind": "cause-effect",
+            "position": {
+              "x": 940,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "first",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "second",
+            "relation": "contains"
+          },
+          {
+            "from": "practice",
+            "to": "appearance",
+            "relation": "causes"
+          },
+          {
+            "from": "appearance",
+            "to": "mind",
+            "relation": "causes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "三個事件節點與兩重因果全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "把同一個中間事件在兩重因果中同時作為第一重果與第二重因，保留原圖的連續性。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

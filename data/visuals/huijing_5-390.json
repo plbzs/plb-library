@@ -9,24 +9,76 @@
       "id": "media-c920dbfa7ab0df7ff739464a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-c920dbfa7ab0df7ff739464a.svg",
         "sha256": "b23a179f21e36cb508ef5ccfd23e408992f3f7275e9310a00e3d858c3a4fa70c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "眾生念佛，佛在眾生心內；佛念眾生，眾生在佛心中；生佛不離，機法一體。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀與眾生的機法一體",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "生佛不離／機法一體",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 200
+            }
+          },
+          {
+            "id": "beings",
+            "label": "眾生念佛，佛在眾生心內",
+            "kind": "relationship",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "buddha",
+            "label": "佛念眾生，眾生在佛心中",
+            "kind": "relationship",
+            "position": {
+              "x": 320,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "expresses"
+          },
+          {
+            "from": "root",
+            "to": "buddha",
+            "relation": "expresses"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "兩條互念關係與總結全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "把兩條互念句與生佛不離、機法一體的總結重建為雙向關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
