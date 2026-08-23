@@ -26,24 +26,27 @@
       "id": "media-8f682b612c493599dc341a43",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8f682b612c493599dc341a43.jpg",
         "sha256": "3cb1f343e13dae5787d068295387579475bdcd037b66e887c196dfe986f1cb6c"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "紅色書法海報：兩列黑色直排毛筆字，右列為「捨身求法成佛道」，左列為「無量壽光度眾生」，上下有金色青海波紋裝飾。屬於書法文字圖，不是結構化圖表。",
+      "transcript": "捨身求法成佛道\n無量壽光度眾生",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "12/12主題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留兩列書法文字與紅色海報裝飾，不把書法排版誤判成流程圖。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

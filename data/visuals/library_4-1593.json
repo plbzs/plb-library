@@ -29,17 +29,20 @@
       "id": "media-8c384208a6a686cc2bef7b38",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8c384208a6a686cc2bef7b38.jpg",
         "sha256": "7cfab8fdc0c77e815fcb36f3093d69b956adf787611e62635a35b5c4b6e0e9b9"
       },
-      "semanticDescription": null,
+      "semanticDescription": "暖色手繪故事插畫：一名坐著的長者手持物品，旁邊有一名成年人與小孩交談或說明，背景有一張小圖與室內生活場景。屬於敘事插畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：敘事插畫無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留長者、成年人、小孩與室內對話場景，不對人物身份與情節作額外推定。"
       }
     },
     {
@@ -62,8 +65,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
+    "coverage": "2/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

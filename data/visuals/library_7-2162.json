@@ -216,17 +216,20 @@
       "id": "media-8a017e2e193b7e901f8d10c6",
       "position": 12,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8a017e2e193b7e901f8d10c6.jpg",
         "sha256": "8308cd49d6b821fa703748edcec059ba7cd54d45ebee9a5b152a80ac95214d8a"
       },
-      "semanticDescription": null,
+      "semanticDescription": "直幅傳統佛教畫：兩位身著華麗天衣、立於雲氣與蓮花上的菩薩或天人，一位持花瓶或蓮花，另一位持有鼓類法器，均有光輪，四角有直排題字。屬於人物畫，不是可重建的菩薩清單。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：人物畫題字不足以形成結構清單",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留雙人物、花器、鼓類法器、光輪、雲氣與題字位置，不臆測人物身份。"
       }
     },
     {
@@ -288,8 +291,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "9/15 approved-or-semantic",
+    "coverage": "10/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 9
+    "semanticOnlyCount": 10
   }
 }

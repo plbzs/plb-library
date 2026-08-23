@@ -9,24 +9,172 @@
       "id": "media-8c6201ac5519e18e8f796d8b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8c6201ac5519e18e8f796d8b.jpg",
         "sha256": "2e0a976b1e79082910fd574f1b67cf005ac63ec91c5c0f0cfb18c482523d366e"
       },
-      "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "semanticDescription": "橫幅關係圖：圖中以「五種正行」為左側總類，列出讀誦正行、觀察正行、禮拜正行、稱名正行、讚歎供養正行；前四項中的讀誦、觀察、禮拜與讚歎供養連向「助業」，稱名正行連向「正定業」。",
+      "transcript": "五種正行\n讀誦正行\n觀察正行\n禮拜正行\n稱名正行\n讚歎供養正行\n助業\n正定業",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五種正行與助業、正定業",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "five-practices",
+            "label": "五種正行",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "讀誦正行",
+            "kind": "practice",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "contemplation",
+            "label": "觀察正行",
+            "kind": "practice",
+            "position": {
+              "x": 320,
+              "y": 110
+            }
+          },
+          {
+            "id": "prostration",
+            "label": "禮拜正行",
+            "kind": "practice",
+            "position": {
+              "x": 320,
+              "y": 220
+            }
+          },
+          {
+            "id": "vocal-recitation",
+            "label": "稱名正行",
+            "kind": "practice",
+            "position": {
+              "x": 320,
+              "y": 330
+            }
+          },
+          {
+            "id": "praise-offering",
+            "label": "讚歎供養正行",
+            "kind": "practice",
+            "position": {
+              "x": 320,
+              "y": 440
+            }
+          },
+          {
+            "id": "auxiliary",
+            "label": "助業",
+            "kind": "result",
+            "position": {
+              "x": 900,
+              "y": 150
+            }
+          },
+          {
+            "id": "right-determination",
+            "label": "正定業",
+            "kind": "result",
+            "position": {
+              "x": 900,
+              "y": 350
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "five-practices",
+            "to": "recitation",
+            "relation": "contains"
+          },
+          {
+            "from": "five-practices",
+            "to": "contemplation",
+            "relation": "contains"
+          },
+          {
+            "from": "five-practices",
+            "to": "prostration",
+            "relation": "contains"
+          },
+          {
+            "from": "five-practices",
+            "to": "vocal-recitation",
+            "relation": "contains"
+          },
+          {
+            "from": "five-practices",
+            "to": "praise-offering",
+            "relation": "contains"
+          },
+          {
+            "from": "recitation",
+            "to": "auxiliary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "contemplation",
+            "to": "auxiliary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "prostration",
+            "to": "auxiliary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "praise-offering",
+            "to": "auxiliary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "vocal-recitation",
+            "to": "right-determination",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": [
+          {
+            "id": "auxiliary-practices",
+            "label": "助業",
+            "members": [
+              "recitation",
+              "contemplation",
+              "prostration",
+              "praise-offering"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8標籤與五種正行到兩類業的關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "按原圖五種正行的分支與連線重建，明確保留稱名正行是正定業，其餘四項歸入助業。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

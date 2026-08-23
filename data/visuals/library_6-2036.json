@@ -195,24 +195,130 @@
       "id": "media-8b5fa36aabe77301c3419596",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-8b5fa36aabe77301c3419596.png",
         "sha256": "c07161a2b54a721d82db2cf942e2a9b179ea64b556dcf9e5113114dfa6e81ddf"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第三個圖表：相對的關係\n一、內外對\n二、大小對\n三、善惡對\n四、染淨對\n五、自他對",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五種難的五組相對關係",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "relative-relations",
+            "label": "相對的關係",
+            "kind": "root",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "inside-outside",
+            "label": "一、內外對",
+            "kind": "pair",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "small-large",
+            "label": "二、大小對",
+            "kind": "pair",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "good-evil",
+            "label": "三、善惡對",
+            "kind": "pair",
+            "position": {
+              "x": 480,
+              "y": 180
+            }
+          },
+          {
+            "id": "stained-pure",
+            "label": "四、染淨對",
+            "kind": "pair",
+            "position": {
+              "x": 720,
+              "y": 180
+            }
+          },
+          {
+            "id": "self-other",
+            "label": "五、自他對",
+            "kind": "pair",
+            "position": {
+              "x": 960,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "relative-relations",
+            "to": "inside-outside",
+            "relation": "contains"
+          },
+          {
+            "from": "relative-relations",
+            "to": "small-large",
+            "relation": "contains"
+          },
+          {
+            "from": "relative-relations",
+            "to": "good-evil",
+            "relation": "contains"
+          },
+          {
+            "from": "relative-relations",
+            "to": "stained-pure",
+            "relation": "contains"
+          },
+          {
+            "from": "relative-relations",
+            "to": "self-other",
+            "relation": "contains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "five-pairs",
+            "label": "五組對待關係",
+            "members": [
+              "inside-outside",
+              "small-large",
+              "good-evil",
+              "stained-pure",
+              "self-other"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "6/6可辨識標籤；圖左的數字標記保留於 transcript",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖經白底核對；圖面本身沒有總標題，使用文章中「第三個圖表：相對的關係」作為結構根節點，不臆補圖左側裁切標記。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/3 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

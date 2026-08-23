@@ -9,24 +9,27 @@
       "id": "media-92f00fc127a4a16208f643ea",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-92f00fc127a4a16208f643ea.jpg",
         "sha256": "03583533e201de0da1916663b099c42710243dafcb2d5c1b2f8c4a9de645afa2"
       },
-      "semanticDescription": null,
+      "semanticDescription": "荷花池照片：前景是一朵粉紅色荷花，背景有白色荷花、荷葉與柔焦的綠色水景，畫面沒有可辨識文字。屬於自然景物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：荷花照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留粉紅荷花、白色荷花、荷葉與水景語意，不將景物照片誤轉成圖表。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -46,24 +46,27 @@
       "id": "media-8c3d70d825e2dc9c227f4cc4",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-8c3d70d825e2dc9c227f4cc4.jpg",
         "sha256": "7def41ee6dafbc611e71b7348e7548d2a527aa2de5f83c4678759e115054d321"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "白板照片：白板上寫有多行手寫中文，底部有貼圖式文字「長老寫了自己的座右銘」，內容像是人生或念佛相關的座右銘。手寫字部分解析度與筆跡限制使完整逐字轉錄不可靠，且不是圖表。",
+      "transcript": "長老寫了自己的座右銘",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1貼圖式標題；白板手寫內容不可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留白板、手寫文字與座右銘標題，不以猜測取代原始手寫內容。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
+    "coverage": "2/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

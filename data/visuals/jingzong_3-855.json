@@ -26,24 +26,27 @@
       "id": "media-89c8a2578d6a1c0ea3942d73",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-89c8a2578d6a1c0ea3942d73.jpg",
         "sha256": "d5629bf30b7c888e9e5f6313bf88d6354e4249b7d68bb47078a9ae30b9252ea7"
       },
-      "semanticDescription": null,
+      "semanticDescription": "高解析度荷花照片：一朵粉紅色盛開的荷花位於畫面中央，周圍是荷葉與柔焦綠色背景。屬於自然景物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：荷花照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留荷花、荷葉、粉紅色花瓣與自然背景語意，不將景物照片誤轉成圖表。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
