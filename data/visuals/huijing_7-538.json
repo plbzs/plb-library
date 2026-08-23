@@ -9,24 +9,202 @@
       "id": "media-fa7128022c347c737adc8843",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-fa7128022c347c737adc8843.svg",
         "sha256": "d5c462f3ec5d390d5ddf6521a6ab50b9ea50b5326e6bbc65922c92005e1f46d4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "人身難得\n機緣喻\n數量喻\n時間喻\n高山垂線穿針\n盲龜浮木伸頭\n光壁撒豆難留\n針尖堆豆不存\n爪土及大地土\n天人地獄餓鬼壽長\n七佛以來猶為蟻子\n八萬劫後未脫鴿身",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "人身難得的三類譬喻",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "人身難得",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "opportunity",
+            "label": "機緣喻",
+            "kind": "category",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "quantity",
+            "label": "數量喻",
+            "kind": "category",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "time",
+            "label": "時間喻",
+            "kind": "category",
+            "position": {
+              "x": 980,
+              "y": 180
+            }
+          },
+          {
+            "id": "mountain",
+            "label": "高山垂線穿針",
+            "kind": "example",
+            "position": {
+              "x": 0,
+              "y": 340
+            }
+          },
+          {
+            "id": "turtle",
+            "label": "盲龜浮木伸頭",
+            "kind": "example",
+            "position": {
+              "x": 0,
+              "y": 410
+            }
+          },
+          {
+            "id": "wall",
+            "label": "光壁撒豆難留",
+            "kind": "example",
+            "position": {
+              "x": 0,
+              "y": 480
+            }
+          },
+          {
+            "id": "needle",
+            "label": "針尖堆豆不存",
+            "kind": "example",
+            "position": {
+              "x": 0,
+              "y": 550
+            }
+          },
+          {
+            "id": "claw",
+            "label": "爪土及大地土",
+            "kind": "example",
+            "position": {
+              "x": 520,
+              "y": 340
+            }
+          },
+          {
+            "id": "long-life",
+            "label": "天人地獄餓鬼壽長",
+            "kind": "example",
+            "position": {
+              "x": 980,
+              "y": 340
+            }
+          },
+          {
+            "id": "ants",
+            "label": "七佛以來猶為蟻子",
+            "kind": "example",
+            "position": {
+              "x": 980,
+              "y": 410
+            }
+          },
+          {
+            "id": "pigeon",
+            "label": "八萬劫後未脫鴿身",
+            "kind": "example",
+            "position": {
+              "x": 980,
+              "y": 480
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "opportunity",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "quantity",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "time",
+            "relation": "explained-by"
+          },
+          {
+            "from": "opportunity",
+            "to": "mountain",
+            "relation": "includes"
+          },
+          {
+            "from": "opportunity",
+            "to": "turtle",
+            "relation": "includes"
+          },
+          {
+            "from": "opportunity",
+            "to": "wall",
+            "relation": "includes"
+          },
+          {
+            "from": "opportunity",
+            "to": "needle",
+            "relation": "includes"
+          },
+          {
+            "from": "quantity",
+            "to": "claw",
+            "relation": "includes"
+          },
+          {
+            "from": "time",
+            "to": "long-life",
+            "relation": "includes"
+          },
+          {
+            "from": "time",
+            "to": "ants",
+            "relation": "includes"
+          },
+          {
+            "from": "time",
+            "to": "pigeon",
+            "relation": "includes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12標籤",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留人身難得的三類譬喻與全部八個例子，依原圖的分類關係重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

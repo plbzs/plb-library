@@ -9,17 +9,260 @@
       "id": "media-f9f88411c023ef938c066f8c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f9f88411c023ef938c066f8c.svg",
         "sha256": "8e97ab8b8bfc1086955fb929483910cab3c818ce21915d1d84ec446edb497b26"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "設我得佛\n十方眾生\n至心信樂\n欲生我國\n乃至十念\n若不生者\n不取正覺\n唯除五逆\n誹謗正法\n諸有眾生\n聞其名號\n信心歡喜\n乃至一念\n至心迴向\n願生彼國\n即得往生\n住不退轉",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八願與成就文的往生條件架構",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "vow",
+            "label": "設我得佛",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 120
+            }
+          },
+          {
+            "id": "beings",
+            "label": "十方眾生",
+            "kind": "condition",
+            "position": {
+              "x": 260,
+              "y": 120
+            }
+          },
+          {
+            "id": "faith",
+            "label": "至心信樂",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "birth",
+            "label": "欲生我國",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 100
+            }
+          },
+          {
+            "id": "ten",
+            "label": "乃至十念",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 200
+            }
+          },
+          {
+            "id": "promise",
+            "label": "若不生者／不取正覺",
+            "kind": "promise",
+            "position": {
+              "x": 820,
+              "y": 100
+            }
+          },
+          {
+            "id": "exception",
+            "label": "唯除五逆／誹謗正法",
+            "kind": "exception",
+            "position": {
+              "x": 820,
+              "y": 260
+            }
+          },
+          {
+            "id": "all-beings",
+            "label": "諸有眾生",
+            "kind": "parallel-root",
+            "position": {
+              "x": 0,
+              "y": 520
+            }
+          },
+          {
+            "id": "name",
+            "label": "聞其名號",
+            "kind": "condition",
+            "position": {
+              "x": 260,
+              "y": 520
+            }
+          },
+          {
+            "id": "joy",
+            "label": "信心歡喜",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 520
+            }
+          },
+          {
+            "id": "one",
+            "label": "乃至一念",
+            "kind": "condition",
+            "position": {
+              "x": 720,
+              "y": 520
+            }
+          },
+          {
+            "id": "dedication",
+            "label": "至心迴向",
+            "kind": "condition",
+            "position": {
+              "x": 920,
+              "y": 520
+            }
+          },
+          {
+            "id": "wish",
+            "label": "願生彼國",
+            "kind": "condition",
+            "position": {
+              "x": 1120,
+              "y": 520
+            }
+          },
+          {
+            "id": "rebirth",
+            "label": "即得往生",
+            "kind": "result",
+            "position": {
+              "x": 1320,
+              "y": 460
+            }
+          },
+          {
+            "id": "nonretrogression",
+            "label": "住不退轉",
+            "kind": "result",
+            "position": {
+              "x": 1320,
+              "y": 580
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "vow",
+            "to": "beings",
+            "relation": "addresses"
+          },
+          {
+            "from": "beings",
+            "to": "faith",
+            "relation": "requires"
+          },
+          {
+            "from": "beings",
+            "to": "birth",
+            "relation": "requires"
+          },
+          {
+            "from": "beings",
+            "to": "ten",
+            "relation": "requires"
+          },
+          {
+            "from": "ten",
+            "to": "promise",
+            "relation": "fulfills"
+          },
+          {
+            "from": "exception",
+            "to": "promise",
+            "relation": "qualifies"
+          },
+          {
+            "from": "all-beings",
+            "to": "name",
+            "relation": "hears"
+          },
+          {
+            "from": "name",
+            "to": "joy",
+            "relation": "leads-to"
+          },
+          {
+            "from": "joy",
+            "to": "one",
+            "relation": "leads-to"
+          },
+          {
+            "from": "one",
+            "to": "dedication",
+            "relation": "leads-to"
+          },
+          {
+            "from": "dedication",
+            "to": "wish",
+            "relation": "leads-to"
+          },
+          {
+            "from": "wish",
+            "to": "rebirth",
+            "relation": "results-in"
+          },
+          {
+            "from": "wish",
+            "to": "nonretrogression",
+            "relation": "results-in"
+          }
+        ],
+        "groups": [
+          {
+            "id": "main-vow",
+            "label": "第十八願文",
+            "members": [
+              "vow",
+              "beings",
+              "faith",
+              "birth",
+              "ten",
+              "promise",
+              "exception"
+            ]
+          },
+          {
+            "id": "completion-text",
+            "label": "成就文",
+            "members": [
+              "all-beings",
+              "name",
+              "joy",
+              "one",
+              "dedication",
+              "wish",
+              "rebirth",
+              "nonretrogression"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "17/17標籤",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留第十八願文與成就文兩條平行文字鏈，並標出五逆／誹謗正法的例外條件及往生、不退轉結果。"
       }
     },
     {
@@ -259,9 +502,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

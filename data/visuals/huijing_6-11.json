@@ -537,17 +537,342 @@
       "id": "media-fbf579826d9f2362e541f774",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-fbf579826d9f2362e541f774.svg",
         "sha256": "cc621d1d345100a40d595d1d58b23ab1f6e3ecae5008c6f5af40101d23117585"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五番相對\n正行五得\n雜行五失\n親疏對\n近遠對\n無間有間對\n不迴向迴向對\n純雜對\n親\n疏\n近\n遠\n無間\n有間\n不用迴向\n必須迴向\n純\n雜",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正行五得與雜行五失的五番相對",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五番相對",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "pair-1",
+            "label": "親疏對",
+            "kind": "pair",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "pair-2",
+            "label": "近遠對",
+            "kind": "pair",
+            "position": {
+              "x": 320,
+              "y": 130
+            }
+          },
+          {
+            "id": "pair-3",
+            "label": "無間有間對",
+            "kind": "pair",
+            "position": {
+              "x": 320,
+              "y": 260
+            }
+          },
+          {
+            "id": "pair-4",
+            "label": "不迴向迴向對",
+            "kind": "pair",
+            "position": {
+              "x": 320,
+              "y": 390
+            }
+          },
+          {
+            "id": "pair-5",
+            "label": "純雜對",
+            "kind": "pair",
+            "position": {
+              "x": 320,
+              "y": 520
+            }
+          },
+          {
+            "id": "positive",
+            "label": "正行五得",
+            "kind": "positive",
+            "position": {
+              "x": 680,
+              "y": 120
+            }
+          },
+          {
+            "id": "negative",
+            "label": "雜行五失",
+            "kind": "negative",
+            "position": {
+              "x": 680,
+              "y": 400
+            }
+          },
+          {
+            "id": "p1",
+            "label": "親",
+            "kind": "positive-detail",
+            "position": {
+              "x": 1020,
+              "y": 0
+            }
+          },
+          {
+            "id": "n1",
+            "label": "疏",
+            "kind": "negative-detail",
+            "position": {
+              "x": 1020,
+              "y": 60
+            }
+          },
+          {
+            "id": "p2",
+            "label": "近",
+            "kind": "positive-detail",
+            "position": {
+              "x": 1020,
+              "y": 120
+            }
+          },
+          {
+            "id": "n2",
+            "label": "遠",
+            "kind": "negative-detail",
+            "position": {
+              "x": 1020,
+              "y": 180
+            }
+          },
+          {
+            "id": "p3",
+            "label": "無間",
+            "kind": "positive-detail",
+            "position": {
+              "x": 1020,
+              "y": 240
+            }
+          },
+          {
+            "id": "n3",
+            "label": "有間",
+            "kind": "negative-detail",
+            "position": {
+              "x": 1020,
+              "y": 300
+            }
+          },
+          {
+            "id": "p4",
+            "label": "不用迴向",
+            "kind": "positive-detail",
+            "position": {
+              "x": 1020,
+              "y": 360
+            }
+          },
+          {
+            "id": "n4",
+            "label": "必須迴向",
+            "kind": "negative-detail",
+            "position": {
+              "x": 1020,
+              "y": 420
+            }
+          },
+          {
+            "id": "p5",
+            "label": "純",
+            "kind": "positive-detail",
+            "position": {
+              "x": 1020,
+              "y": 480
+            }
+          },
+          {
+            "id": "n5",
+            "label": "雜",
+            "kind": "negative-detail",
+            "position": {
+              "x": 1020,
+              "y": 540
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pair-1",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "pair-2",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "pair-3",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "pair-4",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "pair-5",
+            "relation": "contains"
+          },
+          {
+            "from": "pair-1",
+            "to": "positive",
+            "relation": "positive-side"
+          },
+          {
+            "from": "pair-2",
+            "to": "positive",
+            "relation": "positive-side"
+          },
+          {
+            "from": "pair-3",
+            "to": "positive",
+            "relation": "positive-side"
+          },
+          {
+            "from": "pair-4",
+            "to": "positive",
+            "relation": "positive-side"
+          },
+          {
+            "from": "pair-5",
+            "to": "positive",
+            "relation": "positive-side"
+          },
+          {
+            "from": "pair-1",
+            "to": "negative",
+            "relation": "negative-side"
+          },
+          {
+            "from": "pair-2",
+            "to": "negative",
+            "relation": "negative-side"
+          },
+          {
+            "from": "pair-3",
+            "to": "negative",
+            "relation": "negative-side"
+          },
+          {
+            "from": "pair-4",
+            "to": "negative",
+            "relation": "negative-side"
+          },
+          {
+            "from": "pair-5",
+            "to": "negative",
+            "relation": "negative-side"
+          },
+          {
+            "from": "positive",
+            "to": "p1",
+            "relation": "includes"
+          },
+          {
+            "from": "positive",
+            "to": "p2",
+            "relation": "includes"
+          },
+          {
+            "from": "positive",
+            "to": "p3",
+            "relation": "includes"
+          },
+          {
+            "from": "positive",
+            "to": "p4",
+            "relation": "includes"
+          },
+          {
+            "from": "positive",
+            "to": "p5",
+            "relation": "includes"
+          },
+          {
+            "from": "negative",
+            "to": "n1",
+            "relation": "includes"
+          },
+          {
+            "from": "negative",
+            "to": "n2",
+            "relation": "includes"
+          },
+          {
+            "from": "negative",
+            "to": "n3",
+            "relation": "includes"
+          },
+          {
+            "from": "negative",
+            "to": "n4",
+            "relation": "includes"
+          },
+          {
+            "from": "negative",
+            "to": "n5",
+            "relation": "includes"
+          }
+        ],
+        "groups": [
+          {
+            "id": "positive-group",
+            "label": "正行五得",
+            "members": [
+              "p1",
+              "p2",
+              "p3",
+              "p4",
+              "p5"
+            ]
+          },
+          {
+            "id": "negative-group",
+            "label": "雜行五失",
+            "members": [
+              "n1",
+              "n2",
+              "n3",
+              "n4",
+              "n5"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "20/20標籤與五組對照",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留五番相對、正行五得／雜行五失，以及每一組的正負兩側詞語。"
       }
     },
     {
@@ -738,9 +1063,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "5/6 approved-or-semantic",
-    "approvedReconstructionCount": 5,
+    "status": "approved",
+    "coverage": "6/6 approved-or-semantic",
+    "approvedReconstructionCount": 6,
     "semanticOnlyCount": 0
   }
 }

@@ -29,24 +29,27 @@
       "id": "media-f832f2cc8c49db8bed921e06",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-f832f2cc8c49db8bed921e06.svg",
         "sha256": "7502ba3afbd5e371800de978e5560f3abadf14fe3cc6f2dd02220355e55fed33"
       },
-      "semanticDescription": null,
+      "semanticDescription": "故事頁的照片型插圖：灰白色貓咪坐在綠色墊面上，旁邊可見佛教儀式或供養相關物件。畫面沒有可可靠重建的文字結構，因此保留原始圖片並提供語意描述，不轉成圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片型素材無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留照片與語意描述；不虛構不存在的流程、表格或分類關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

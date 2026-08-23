@@ -9,24 +9,217 @@
       "id": "media-f97a5a1e8e2e343997fa9807",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f97a5a1e8e2e343997fa9807.svg",
         "sha256": "170882b435369452d283c71e14ea1d764e77e995e80e54008098f689e17fa999"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四十八願\n攝法身願\n攝淨土願\n攝眾生願\n第三類四十三\n三類願\n第十二光明無量願\n第十三壽命無量願\n第十七諸佛稱揚願\n第三十一國土清淨願\n第三十二國土嚴飾願\n淨影\n善導\n一一誓願為眾生\n願願三攝—影略互顯",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "阿彌陀佛四十八願的三類分類與善導解釋",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "四十八願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身願（三）",
+            "kind": "category",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "land",
+            "label": "攝淨土願（二）",
+            "kind": "category",
+            "position": {
+              "x": 360,
+              "y": 180
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生願（四十三）",
+            "kind": "category",
+            "position": {
+              "x": 360,
+              "y": 420
+            }
+          },
+          {
+            "id": "light",
+            "label": "第十二光明無量願",
+            "kind": "example",
+            "position": {
+              "x": 720,
+              "y": 0
+            }
+          },
+          {
+            "id": "life",
+            "label": "第十三壽命無量願",
+            "kind": "example",
+            "position": {
+              "x": 720,
+              "y": 60
+            }
+          },
+          {
+            "id": "praise",
+            "label": "第十七諸佛稱揚願",
+            "kind": "example",
+            "position": {
+              "x": 720,
+              "y": 120
+            }
+          },
+          {
+            "id": "pure",
+            "label": "第三十一國土清淨願",
+            "kind": "example",
+            "position": {
+              "x": 720,
+              "y": 200
+            }
+          },
+          {
+            "id": "adorn",
+            "label": "第三十二國土嚴飾願",
+            "kind": "example",
+            "position": {
+              "x": 720,
+              "y": 260
+            }
+          },
+          {
+            "id": "jingying",
+            "label": "淨影：三類分類",
+            "kind": "commentary",
+            "position": {
+              "x": 720,
+              "y": 420
+            }
+          },
+          {
+            "id": "shandao",
+            "label": "善導：一一誓願為眾生",
+            "kind": "commentary",
+            "position": {
+              "x": 1120,
+              "y": 320
+            }
+          },
+          {
+            "id": "mutual",
+            "label": "願願三攝—影略互顯",
+            "kind": "interpretation",
+            "position": {
+              "x": 1120,
+              "y": 460
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "body",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "divides-into"
+          },
+          {
+            "from": "body",
+            "to": "light",
+            "relation": "includes"
+          },
+          {
+            "from": "body",
+            "to": "life",
+            "relation": "includes"
+          },
+          {
+            "from": "body",
+            "to": "praise",
+            "relation": "includes"
+          },
+          {
+            "from": "land",
+            "to": "pure",
+            "relation": "includes"
+          },
+          {
+            "from": "land",
+            "to": "adorn",
+            "relation": "includes"
+          },
+          {
+            "from": "jingying",
+            "to": "body",
+            "relation": "classifies"
+          },
+          {
+            "from": "jingying",
+            "to": "land",
+            "relation": "classifies"
+          },
+          {
+            "from": "jingying",
+            "to": "beings",
+            "relation": "classifies"
+          },
+          {
+            "from": "shandao",
+            "to": "root",
+            "relation": "interprets"
+          },
+          {
+            "from": "shandao",
+            "to": "beings",
+            "relation": "emphasizes"
+          },
+          {
+            "from": "shandao",
+            "to": "mutual",
+            "relation": "explains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "15/15主要標籤與五個願例",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖保留淨影的三分類、五個代表願及善導一一攝眾生的補充解釋。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

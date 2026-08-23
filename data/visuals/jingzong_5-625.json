@@ -329,17 +329,125 @@
       "id": "media-f921597312cd6571016ea955",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f921597312cd6571016ea955.svg",
         "sha256": "5e7443ecdf30cea944e5c7dd4f65d8fd1dbc0f2167e7a9442cfe69d44ff0cb33"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "何故依\n何所依\n云何依\n教相判釋\n正依經典\n相承論釋\n為什麼\n是什麼\n怎麼樣",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗所依的三個問題與回答",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "依據與所依",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 200
+            }
+          },
+          {
+            "id": "why",
+            "label": "何故依／為什麼",
+            "kind": "question",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "what",
+            "label": "何所依／是什麼",
+            "kind": "question",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "how",
+            "label": "云何依／怎麼樣",
+            "kind": "question",
+            "position": {
+              "x": 300,
+              "y": 360
+            }
+          },
+          {
+            "id": "judgment",
+            "label": "教相判釋",
+            "kind": "answer",
+            "position": {
+              "x": 680,
+              "y": 0
+            }
+          },
+          {
+            "id": "scriptures",
+            "label": "正依經典",
+            "kind": "answer",
+            "position": {
+              "x": 680,
+              "y": 180
+            }
+          },
+          {
+            "id": "commentary",
+            "label": "相承論釋",
+            "kind": "answer",
+            "position": {
+              "x": 680,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "why",
+            "relation": "asks"
+          },
+          {
+            "from": "root",
+            "to": "what",
+            "relation": "asks"
+          },
+          {
+            "from": "root",
+            "to": "how",
+            "relation": "asks"
+          },
+          {
+            "from": "why",
+            "to": "judgment",
+            "relation": "answered-by"
+          },
+          {
+            "from": "what",
+            "to": "scriptures",
+            "relation": "answered-by"
+          },
+          {
+            "from": "how",
+            "to": "commentary",
+            "relation": "answered-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9標籤",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三個問題詞、三個回答詞及其一對一對應。"
       }
     },
     {
@@ -455,9 +563,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

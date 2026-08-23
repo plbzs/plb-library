@@ -9,24 +9,27 @@
       "id": "media-f9c04ff5b4d9017f015eb5e7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-f9c04ff5b4d9017f015eb5e7.svg",
         "sha256": "680c49030a00343eb920d78097c93d0315f32bdab7f937cb49649b93ad907203"
       },
-      "semanticDescription": null,
+      "semanticDescription": "佛像型圖片：中央是一尊金色佛教造像，背景偏黑，下方有水平白線與彩色區塊。這是宗教圖像與版面裝飾，沒有可可靠抽取的表格或流程結構，因此只保留原圖及語意描述。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：佛像與裝飾型素材無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "依使用者原則保留語意輔助，不花費成本虛構或重建無結構的圖像。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

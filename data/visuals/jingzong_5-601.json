@@ -706,24 +706,314 @@
       "id": "media-f8846bf4fb58c0b2642f3bee",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f8846bf4fb58c0b2642f3bee.svg",
         "sha256": "bea4934924c903ed50156862702fe193d4765e8b73b51ed72ef1515a428305b2"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第一章 概說\n第二章 教判\n第三章 經典\n第四章 相承\n第五章 安心\n第六章 起行\n第七章 作業\n第八章 本願稱名\n第九章 凡夫入報\n第十章 宗旨特色\n約教\n約行\n承上\n起下\n約證\n總論\n分論\n結論\n論述\n論證\n論定\n序分\n正宗分\n流通分",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《淨土宗概論講記》（五）總論的章節與論述架構",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "總論",
+            "kind": "root",
+            "position": {
+              "x": 600,
+              "y": 0
+            }
+          },
+          {
+            "id": "chapter-1",
+            "label": "第一章 概說",
+            "kind": "chapter",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-2",
+            "label": "第二章 教判",
+            "kind": "chapter",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-3",
+            "label": "第三章 經典",
+            "kind": "chapter",
+            "position": {
+              "x": 440,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-4",
+            "label": "第四章 相承",
+            "kind": "chapter",
+            "position": {
+              "x": 660,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-5",
+            "label": "第五章 安心",
+            "kind": "chapter",
+            "position": {
+              "x": 880,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-6",
+            "label": "第六章 起行",
+            "kind": "chapter",
+            "position": {
+              "x": 1100,
+              "y": 180
+            }
+          },
+          {
+            "id": "chapter-7",
+            "label": "第七章 作業",
+            "kind": "chapter",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "chapter-8",
+            "label": "第八章 本願稱名",
+            "kind": "chapter",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "chapter-9",
+            "label": "第九章 凡夫入報",
+            "kind": "chapter",
+            "position": {
+              "x": 560,
+              "y": 300
+            }
+          },
+          {
+            "id": "chapter-10",
+            "label": "第十章 宗旨特色",
+            "kind": "chapter",
+            "position": {
+              "x": 900,
+              "y": 300
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "約教",
+            "kind": "axis",
+            "position": {
+              "x": 0,
+              "y": 480
+            }
+          },
+          {
+            "id": "practice",
+            "label": "約行",
+            "kind": "axis",
+            "position": {
+              "x": 240,
+              "y": 480
+            }
+          },
+          {
+            "id": "inherit",
+            "label": "承上",
+            "kind": "relation",
+            "position": {
+              "x": 480,
+              "y": 480
+            }
+          },
+          {
+            "id": "develop",
+            "label": "起下",
+            "kind": "relation",
+            "position": {
+              "x": 680,
+              "y": 480
+            }
+          },
+          {
+            "id": "realization",
+            "label": "約證",
+            "kind": "axis",
+            "position": {
+              "x": 880,
+              "y": 480
+            }
+          },
+          {
+            "id": "outline",
+            "label": "分論",
+            "kind": "section",
+            "position": {
+              "x": 1120,
+              "y": 480
+            }
+          },
+          {
+            "id": "argument",
+            "label": "論述／論證／論定",
+            "kind": "method",
+            "position": {
+              "x": 560,
+              "y": 620
+            }
+          },
+          {
+            "id": "sequence",
+            "label": "序分／正宗分／流通分",
+            "kind": "sequence",
+            "position": {
+              "x": 900,
+              "y": 620
+            }
+          },
+          {
+            "id": "conclusion",
+            "label": "結論",
+            "kind": "section",
+            "position": {
+              "x": 1120,
+              "y": 620
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "chapter-1",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-2",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-3",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-4",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-5",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-6",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-7",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-8",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-9",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "chapter-10",
+            "relation": "contains"
+          },
+          {
+            "from": "chapter-1",
+            "to": "teaching",
+            "relation": "classified-by"
+          },
+          {
+            "from": "chapter-2",
+            "to": "practice",
+            "relation": "classified-by"
+          },
+          {
+            "from": "chapter-3",
+            "to": "inherit",
+            "relation": "continues"
+          },
+          {
+            "from": "chapter-4",
+            "to": "develop",
+            "relation": "continues"
+          },
+          {
+            "from": "chapter-5",
+            "to": "realization",
+            "relation": "classified-by"
+          },
+          {
+            "from": "root",
+            "to": "outline",
+            "relation": "divides-into"
+          },
+          {
+            "from": "outline",
+            "to": "argument",
+            "relation": "develops-through"
+          },
+          {
+            "from": "outline",
+            "to": "sequence",
+            "relation": "follows"
+          },
+          {
+            "from": "root",
+            "to": "conclusion",
+            "relation": "concludes-with"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "26/26主要標籤",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留十章、約教／約行／約證、承上／起下，以及總論／分論／結論與三段論述次序；把原圖的文字架構轉為可搜尋節點。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }
