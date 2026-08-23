@@ -1,0 +1,246 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-420",
+  "title": "《易行品》概說",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 5,
+  "visuals": [
+    {
+      "id": "media-d6f6af4e36ef88bc026fdf96",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-d6f6af4e36ef88bc026fdf96.svg",
+        "sha256": "b5523b88f710ac7b4e6fd0133ff3a34a7c3421581b0bfd17dd4a8d5d9f0dfd2a"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-8ca3cb931ae52f38bb532ac1",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-8ca3cb931ae52f38bb532ac1.svg",
+        "sha256": "8bb318723a814ecb0562ff8f80be158d025c8c85388282865a516780b47c73b4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-7ab75f0384297a92dfad4581",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-7ab75f0384297a92dfad4581.svg",
+        "sha256": "d156e9349e75e44d3a2929792bccd7edb3fc53ba147272c199357cc2fae032e2"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "media-86413045a487d2173c8c4e8f",
+      "position": 4,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-86413045a487d2173c8c4e8f.svg",
+        "sha256": "85fa06b5cea0da18634aae6394ab358684326376e4a513f73183a010612f404c"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "table-huijing_9-420-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/huijing_9-420.html",
+        "sha256": "00e91da9bbdf3aada073c49e2f1fd5df9fa1b1636ddf8e62b9994f9e36f081f6"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "龍樹菩薩本願取意文 | 第十八願文 | 第十八願成就文\n若人 | 十方眾生 | 諸有眾生\n念我 | 至心信樂 | 聞其名號，信心歡喜\n稱名 | 乃至十念 | 乃至一念\n自歸 | 欲生我國 | 至心迴向，願生彼國\n即入必定 | 若不生者，不取正覺 | 即得往生，住不退轉",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "《易行品》概說（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "龍樹菩薩本願取意文",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "第十八願文",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "第十八願成就文",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "若人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "十方眾生",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "諸有眾生",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "念我",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "至心信樂",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "聞其名號，信心歡喜",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "稱名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "乃至十念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "乃至一念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "自歸",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "欲生我國",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "至心迴向，願生彼國",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "即入必定",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "若不生者，不取正覺",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "即得往生，住不退轉",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 18
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/5 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

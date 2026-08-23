@@ -1,0 +1,222 @@
+{
+  "version": 4,
+  "articleId": "library_4-2177",
+  "title": "上衍之極致──從淨土宗特色看大乘究竟義(六) -宗助居士",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "table-library_4-2177-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/library_4-2177.html",
+        "sha256": "0efa3d487db075d175b8c7ba47c6a1fb668696754563bc02a6e3adbe6cb596c5"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "  | 自力稱名 | 他力稱名\n對佛的認知 | 高高在上、嚴格審查的考官 | 無緣大慈、同體大悲的慈父\n往生功德 | 需自己加功用行 | 佛早已主動完成\n  往生心態 | 條件交換 | 領受佛恩（無條件救度）\n稱名心態 | 累積資本，為臨終買保險 | 名號法體納於心，盡形壽自然稱名\n順符佛願否 | 非往生正定之業，與佛本願不相應 | 順彼佛願，往生正定之業\n平生業成否 | 擔憂條件不夠或臨終無正念，往生不定 | 平生業成，佛攝取不捨，安心念佛\n淨土門教判 |   要門 |   弘願",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "上衍之極致──從淨土宗特色看大乘究竟義(六) -宗助居士（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "自力稱名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "他力稱名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "對佛的認知",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "高高在上、嚴格審查的考官",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "無緣大慈、同體大悲的慈父",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "往生功德",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "需自己加功用行",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛早已主動完成",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "往生心態",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "條件交換",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "領受佛恩（無條件救度）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "稱名心態",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "累積資本，為臨終買保險",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "名號法體納於心，盡形壽自然稱名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "順符佛願否",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "非往生正定之業，與佛本願不相應",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "順彼佛願，往生正定之業",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "平生業成否",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "擔憂條件不夠或臨終無正念，往生不定",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "平生業成，佛攝取不捨，安心念佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "淨土門教判",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "要門",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "弘願",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 24
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "24/24",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

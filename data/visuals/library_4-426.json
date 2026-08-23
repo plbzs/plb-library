@@ -1,0 +1,442 @@
+{
+  "version": 4,
+  "articleId": "library_4-426",
+  "title": "求職簡歷，讓佛做你的CEO -宗悲法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "table-library_4-426-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/library_4-426.html",
+        "sha256": "b71b457cc3d537d1ecf643d60ee113d2e48b5bb2adf0af3ee5a54eaff346ceb4"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "姓 名 | 阿彌陀佛 | 別 名 | 無量壽佛、十二光佛\n年 齡 | 十劫 | 民 族 | 佛\n面 貌 | 佛中之王 | 身 高 | 六十萬億那由他恆河沙由旬\n戶口所在地 | 極樂世界 | 身體狀況 | 金剛不壞\n學 歷 | 無上正等正覺 | 語言能力 | 一音說法隨類各解\n專 業 | 轉凡夫為佛陀 | 畢業院校 | 世饒王佛所\n連絡方式 | 稱名即到 | 通訊位址 | 遍一切處\n興趣愛好 | 光明遍照十方世界，唯觀念佛眾生攝取不捨\n特 長 | 救度被一千四佛所放捨的罪惡凡夫\n應聘單位 | 娑婆火宅 | 求職意向 | CEO\n薪資要求 | 0元/年 | 待遇要求 | 一心專念我名號，不問時節久近\n修行經歷 | 於不可思議兆載永劫，積植菩薩無量德行。 專求清白之法，以惠利群生。 以大莊嚴，具足眾行，令諸眾生功德成就。 教化安立無數眾生，住於無上正真之道。\n工作經歷 | 其第一佛，名曰遠照，彼有百八十億菩薩，皆當往生。 其第二佛，名曰寶藏，彼有九十億菩薩，皆當往生。 其第三佛，名曰無量音，彼有二百二十億菩薩，皆當往生。 其第四佛，名曰甘露味，彼有二百五十億菩薩，皆當往生。 其第五佛，名曰龍勝，彼有十四億菩薩，皆當往生。 其第六佛，名曰勝力，彼有萬四千菩薩，皆當往生。 其第七佛，名曰獅子，彼有五百菩薩，皆當往生。 其第八佛，名曰離垢光，彼有八十億菩薩，皆當往生。 其第九佛，名曰德首，彼有六十億菩薩，皆當往生。 其第十佛，名曰妙德山，彼有六十億菩薩，皆當往生。 其第十一佛，名曰人王，彼有十億菩薩，皆當往生。 其第十二佛，名曰無上華，彼有無數不可稱計諸菩薩眾，皆不退轉，智慧勇猛，已曾供養無量諸佛。於七日中，即能攝取百千億劫大士所修堅固之法。斯等菩薩，皆當往生。 其第十三佛，名曰無畏，彼有七百九十億大菩薩眾，諸小菩薩及比丘等，不可稱計，皆當往生。 不但此十四佛國中諸菩薩等，當往生也。十方世界無量佛國，其往生者，亦復如是，甚多無數。\n提供服務 | 一、常住其頂。二、佛光護身。三、諸佛護念。 四、菩薩相隨。五、冥眾護持。六、消除罪障。 七、增長福慧。八、離諸厄難。九、能得壽康。 十、將獲善終。十一、入正定聚。十二、斷除輪迴。 十三、往生淨土。十四、成就佛果。十五、廣度眾生。\n工作特點 | 如純孝之子，愛敬父母。 荷負群生，為之重擔。\n榮譽成就 | 十方恆沙諸佛如來，皆共讚歎無量壽佛威神功德不可思議。諸有眾生，聞其名號，信心歡喜，乃至一念至心迴向，願生彼國，即得往生，住不退轉。\n自我評價 | 我建超世願，必至無上道，斯願不滿足，誓不成等覺。 我於無量劫，不為大施主，普濟諸貧苦，誓不成等覺。 我至成佛道，名聲超十方，究竟有不聞，誓不成等覺。\n求職格言 | 你給我一份信任，我還你一個安樂的世界！",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "求職簡歷，讓佛做你的CEO -宗悲法師（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "姓 名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "阿彌陀佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "別 名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "無量壽佛、十二光佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "年 齡",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "十劫",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "民 族",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "面 貌",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛中之王",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "身 高",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "六十萬億那由他恆河沙由旬",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "戶口所在地",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "極樂世界",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "身體狀況",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "金剛不壞",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "學 歷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "無上正等正覺",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "語言能力",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一音說法隨類各解",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "專 業",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "轉凡夫為佛陀",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "畢業院校",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "世饒王佛所",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "連絡方式",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "稱名即到",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "通訊位址",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "遍一切處",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "興趣愛好",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "光明遍照十方世界，唯觀念佛眾生攝取不捨",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "特 長",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "救度被一千四佛所放捨的罪惡凡夫",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "應聘單位",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "娑婆火宅",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "求職意向",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "CEO",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "薪資要求",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "0元/年",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "待遇要求",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一心專念我名號，不問時節久近",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "修行經歷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "於不可思議兆載永劫，積植菩薩無量德行。\n專求清白之法，以惠利群生。\n以大莊嚴，具足眾行，令諸眾生功德成就。\n教化安立無數眾生，住於無上正真之道。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "工作經歷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "其第一佛，名曰遠照，彼有百八十億菩薩，皆當往生。\n其第二佛，名曰寶藏，彼有九十億菩薩，皆當往生。\n其第三佛，名曰無量音，彼有二百二十億菩薩，皆當往生。\n其第四佛，名曰甘露味，彼有二百五十億菩薩，皆當往生。\n其第五佛，名曰龍勝，彼有十四億菩薩，皆當往生。\n其第六佛，名曰勝力，彼有萬四千菩薩，皆當往生。\n其第七佛，名曰獅子，彼有五百菩薩，皆當往生。\n其第八佛，名曰離垢光，彼有八十億菩薩，皆當往生。\n其第九佛，名曰德首，彼有六十億菩薩，皆當往生。\n其第十佛，名曰妙德山，彼有六十億菩薩，皆當往生。\n其第十一佛，名曰人王，彼有十億菩薩，皆當往生。\n其第十二佛，名曰無上華，彼有無數不可稱計諸菩薩眾，皆不退轉，智慧勇猛，已曾供養無量諸佛。於七日中，即能攝取百千億劫大士所修堅固之法。斯等菩薩，皆當往生。\n其第十三佛，名曰無畏，彼有七百九十億大菩薩眾，諸小菩薩及比丘等，不可稱計，皆當往生。\n不但此十四佛國中諸菩薩等，當往生也。十方世界無量佛國，其往生者，亦復如是，甚多無數。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "提供服務",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一、常住其頂。二、佛光護身。三、諸佛護念。\n四、菩薩相隨。五、冥眾護持。六、消除罪障。\n七、增長福慧。八、離諸厄難。九、能得壽康。\n十、將獲善終。十一、入正定聚。十二、斷除輪迴。\n十三、往生淨土。十四、成就佛果。十五、廣度眾生。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "工作特點",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "如純孝之子，愛敬父母。\n荷負群生，為之重擔。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "榮譽成就",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "十方恆沙諸佛如來，皆共讚歎無量壽佛威神功德不可思議。諸有眾生，聞其名號，信心歡喜，乃至一念至心迴向，願生彼國，即得往生，住不退轉。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "自我評價",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "我建超世願，必至無上道，斯願不滿足，誓不成等覺。\n我於無量劫，不為大施主，普濟諸貧苦，誓不成等覺。\n我至成佛道，名聲超十方，究竟有不聞，誓不成等覺。",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "求職格言",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "你給我一份信任，我還你一個安樂的世界！",
+                "kind": "td",
+                "colspan": 3,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 54
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "54/54",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

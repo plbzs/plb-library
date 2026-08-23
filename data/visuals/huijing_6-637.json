@@ -1,0 +1,76 @@
+{
+  "version": 4,
+  "articleId": "huijing_6-637",
+  "title": "《小經》要文三譯對照",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 3,
+  "visuals": [
+    {
+      "id": "media-9e86798319f779176c26a20a",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-9e86798319f779176c26a20a.svg",
+        "sha256": "5323ccdd1f5f0c7498847842501e25cd25c0a42bd5bbc4a8950bb641410ee2c4"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "table-huijing_6-637-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "non-content-table",
+      "sourceArchive": {
+        "path": "raw/huijing_6-637.html",
+        "sha256": "2d88e47b7dba29784c29c7c869152ca47aca9a999cc70550989e4172145305bd"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": "原始 HTML 的空白 table 元素，未含可供閱讀或重建的文字儲存格。",
+      "transcript": "",
+      "reconstruction": null,
+      "validation": {
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "visualReview": "approved"
+      }
+    },
+    {
+      "id": "table-huijing_6-637-2",
+      "position": "table-2",
+      "sourceType": "html-table",
+      "classification": "non-content-table",
+      "sourceArchive": {
+        "path": "raw/huijing_6-637.html",
+        "sha256": "2d88e47b7dba29784c29c7c869152ca47aca9a999cc70550989e4172145305bd"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 2
+      },
+      "semanticDescription": "原始 HTML 的空白 table 元素，未含可供閱讀或重建的文字儲存格。",
+      "transcript": "",
+      "reconstruction": null,
+      "validation": {
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "visualReview": "approved"
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "2/3 approved-or-semantic",
+    "approvedReconstructionCount": 0,
+    "semanticOnlyCount": 2
+  }
+}

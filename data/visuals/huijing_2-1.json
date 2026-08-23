@@ -1,0 +1,267 @@
+{
+  "version": 4,
+  "articleId": "huijing_2-1",
+  "title": "《無量壽經五本分段對照》序",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-f9f88411c023ef938c066f8c",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-f9f88411c023ef938c066f8c.svg",
+        "sha256": "8e97ab8b8bfc1086955fb929483910cab3c818ce21915d1d84ec446edb497b26"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "table-huijing_2-1-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/huijing_2-1.html",
+        "sha256": "f678ef0446e4e9f9da96989d35531ce4cbab75b08cb1353e922ead9f6ef3672d"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "編 號 | 經 名 | 卷 數 | 時 代 | 譯 者\n1 | 佛說無量清淨平等覺經 | 四 卷 | 後 漢 | 支婁迦讖\n2 | 佛說阿彌陀三耶三佛薩樓佛檀過度人道經（大阿彌陀經） | 二 卷 | 吳 | 支 謙\n3 | 佛說無量壽經 | 二 卷 | 曹 魏 | 康僧鎧\n4 | 無量壽如來會 | 二 卷 | 唐 | 菩提流志\n5 | 佛說大乘無量壽莊嚴經 | 三 卷 | 趙 宋 | 法 賢",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "《無量壽經五本分段對照》序（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "編 號",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "經 名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "卷 數",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "時 代",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "譯 者",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "1",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛說無量清淨平等覺經",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "四 卷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "後 漢",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "支婁迦讖",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "2",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛說阿彌陀三耶三佛薩樓佛檀過度人道經（大阿彌陀經）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "二 卷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "吳",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "支 謙",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "3",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛說無量壽經",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "二 卷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "曹 魏",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "康僧鎧",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "4",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "無量壽如來會",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "二 卷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "唐",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "菩提流志",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "5",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "佛說大乘無量壽莊嚴經",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "三 卷",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "趙 宋",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "法 賢",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 30
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "30/30",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "version": 4,
+  "articleId": "jingzong_6-666",
+  "title": "答王子九問",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "table-jingzong_6-666-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/jingzong_6-666.html",
+        "sha256": "7930a993d3556720d7f78336c9a94b30aa1a5fe9849bcfd24b7be20c639c8fe7"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "《阿彌陀經》 | 《無量壽經》 | 《觀無量壽經》\n若有善男子善女人 | 十方眾生 |  \n聞說阿彌陀佛 | 設我得佛 |  \n執持名號，若一日&hellip;&hellip; | 乃至十念 | 持是語者，即是持無量壽佛名\n一心不亂 | 至心信樂，欲生我國 |  \n阿彌陀佛與諸聖眾現在其前 | 若不生者，不取正覺 |  ",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "答王子九問（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "《阿彌陀經》",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "《無量壽經》",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "《觀無量壽經》",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "若有善男子善女人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "十方眾生",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "聞說阿彌陀佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "設我得佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "執持名號，若一日......",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "乃至十念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "持是語者，即是持無量壽佛名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "一心不亂",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "至心信樂，欲生我國",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "阿彌陀佛與諸聖眾現在其前",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "若不生者，不取正覺",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 18
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

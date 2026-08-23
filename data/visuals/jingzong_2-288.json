@@ -1,0 +1,250 @@
+{
+  "version": 4,
+  "articleId": "jingzong_2-288",
+  "title": "《佛說阿彌陀經》講義（三十六）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "table-jingzong_2-288-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/jingzong_2-288.html",
+        "sha256": "606110b566fbff319d56cd12e2b14f2cb7f0ca2ee3451a2c88ef30f85e7420ac"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "第十八願文 | 第十八願成就文 | 觀  經 |  阿彌陀經 | 備  註\n設我得佛 | 聞其名號 | 十六觀門 下三品 | 聞說阿彌陀佛 | 此經定散文中，唯標專念彌陀名號得生。 釋迦佛說此《觀經》三福九品定散二善，證讚彼佛依正二報，使人欣慕。\n十方眾生 | 諸有眾生 | 善惡九品 下下品 | 善男女 五濁凡夫 | 九品俱回得不退\n至心信樂 欲生我國 | 信心歡喜 至心迴向 願生彼國 | 至誠心 深心 迴向發願心 | 一心不亂 | 專復專 心無間\n乃至十念 | 乃至一念 | 一日乃至七日 具足十念稱南無阿彌陀佛 | 持執名號，若一日&hellip;&hellip;若七日&hellip;&hellip; | 上盡一形，下至一日、一時、一念等；或從一念十念，至一時、一日、一形。 大意者：一發心以後，誓畢此生，無有退轉，唯以淨土為期。 長時起行倍皆然。\n若不生者 不取正覺 | 即得往生 住不退轉 | 發三種心，即便往生。 命終之時見金蓮華&hellip;&hellip;如一念頃即得往生。 | 其人臨命終時，阿彌陀佛與諸聖眾，現在其前。是人終時，心不顛倒，即得往生。 | 眾生生者，皆是阿鞞跋致。 聞是經受持者，皆得不退轉。 欲生阿彌陀佛國者，皆得不退轉。 臨終聖眾持華現，身心踴躍坐金蓮。 坐時即得無生忍，一念迎將至佛前。 法侶將衣競來著，證得不退入三賢。",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "《佛說阿彌陀經》講義（三十六）（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "第十八願文",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "第十八願成就文",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "觀 經",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "阿彌陀經",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "備 註",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "設我得佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "聞其名號",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "十六觀門\n下三品",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "聞說阿彌陀佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "此經定散文中，唯標專念彌陀名號得生。\n釋迦佛說此《觀經》三福九品定散二善，證讚彼佛依正二報，使人欣慕。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "十方眾生",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "諸有眾生",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "善惡九品\n下下品",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "善男女\n五濁凡夫",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "九品俱回得不退",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "至心信樂\n欲生我國",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "信心歡喜\n至心迴向\n願生彼國",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "至誠心\n深心\n迴向發願心",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一心不亂",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "專復專\n心無間",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "乃至十念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "乃至一念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一日乃至七日\n具足十念稱南無阿彌陀佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "持執名號，若一日......若七日......",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "上盡一形，下至一日、一時、一念等；或從一念十念，至一時、一日、一形。\n大意者：一發心以後，誓畢此生，無有退轉，唯以淨土為期。\n長時起行倍皆然。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "若不生者\n不取正覺",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "即得往生\n住不退轉",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "發三種心，即便往生。\n命終之時見金蓮華......如一念頃即得往生。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "其人臨命終時，阿彌陀佛與諸聖眾，現在其前。是人終時，心不顛倒，即得往生。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "眾生生者，皆是阿鞞跋致。\n聞是經受持者，皆得不退轉。\n欲生阿彌陀佛國者，皆得不退轉。\n臨終聖眾持華現，身心踴躍坐金蓮。\n坐時即得無生忍，一念迎將至佛前。\n法侶將衣競來著，證得不退入三賢。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 30
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "30/30",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "version": 4,
+  "articleId": "library_4-2111",
+  "title": "念佛全效使用說明書-道晟法師",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 1,
+  "visuals": [
+    {
+      "id": "table-library_4-2111-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/library_4-2111.html",
+        "sha256": "844ca9c7440521d9613c24396fb77e5bf05bf391af39f61c75a74674cbc26a5d"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "一向專念 | 雜行雜修\n真實修行真實功德 | 虛假之行雜毒之善\n佛光普照，唯攝念佛者 | 總不論照攝余雜業行者\n行走於白道 蒙諸佛護念通往彼岸 | 生死大海中，諸邪業繫 雖有願往生心，但所修行是虛假之行，所以，此條願往生的白道會受貪瞋水火所破壞。\n稱名念佛仰仗佛力，易 | 急走急作如炙頭燃，難\n多善根福德因緣 | 種下未來解脫之因\n三根普披，上至普賢下至阿鼻地獄皆可隨自己因緣稱名 | 上根利智精勤不懈\n真實因得真實果 因果相符，必往生（100%） | 虛假因得虛假果 因果不符，不可往生（千中少有一二）\n不論何時、何處、何種情況下往生，阿彌陀佛臨終前決定現前！決定往生！ |  ",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "念佛全效使用說明書-道晟法師（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "一向專念",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "雜行雜修",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "真實修行真實功德",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "虛假之行雜毒之善",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "佛光普照，唯攝念佛者",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "總不論照攝余雜業行者",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "行走於白道\n蒙諸佛護念通往彼岸",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "生死大海中，諸邪業繫\n雖有願往生心，但所修行是虛假之行，所以，此條願往生的白道會受貪瞋水火所破壞。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "稱名念佛仰仗佛力，易",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "急走急作如炙頭燃，難",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "多善根福德因緣",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "種下未來解脫之因",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "三根普披，上至普賢下至阿鼻地獄皆可隨自己因緣稱名",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "上根利智精勤不懈",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "真實因得真實果\n因果相符，必往生（100%）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "虛假因得虛假果\n因果不符，不可往生（千中少有一二）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "不論何時、何處、何種情況下往生，阿彌陀佛臨終前決定現前！決定往生！",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 18
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

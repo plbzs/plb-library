@@ -1,0 +1,207 @@
+{
+  "version": 4,
+  "articleId": "huijing_9-591",
+  "title": "善導大師淨土思想（十一）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-86c8408bc20f4ed1acef9dec",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-86c8408bc20f4ed1acef9dec.svg",
+        "sha256": "8de863058ee89f93e8337f1f596433635b27d8ac74ebfd91d0933cfeb0482ed0"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "table-huijing_9-591-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/huijing_9-591.html",
+        "sha256": "ff1058542d4143f10a9b63c88951ff8d825d0a0fa9c9f9900e09ff347709e616"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "聖道諸師 | 善導大師\n一、以十六觀全體為定善， 三福為散善。 | 一、前十三觀為定善， 後三觀為散善。\n二、序、正、流通之三分說。 | 二、序、正、得益、流通、 耆闍之五分說。\n三、以觀佛三昧為經之宗體。 | 三、約要門以觀佛三昧為宗， 約弘願以念佛三昧為宗。\n四、定善散善皆韋提致請。 | 四、韋提致請唯在定善， 散善是佛自開。\n五、視九品之機類通於凡聖。 | 五、以九品為凡， 特以下品為惡凡夫。\n六、視韋提為聖者。 | 六、視韋提為實凡夫。\n七、視彌陀身土為應身應土。 | 七、視彌陀身土為報身報土， 此報土是凡夫往生之土。\n八、釋尊付囑定散二善。 | 八、釋尊付囑弘願念佛。",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "善導大師淨土思想（十一）（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "聖道諸師",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "善導大師",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "一、以十六觀全體為定善，\n三福為散善。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "一、前十三觀為定善，\n後三觀為散善。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "二、序、正、流通之三分說。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "二、序、正、得益、流通、\n耆闍之五分說。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "三、以觀佛三昧為經之宗體。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "三、約要門以觀佛三昧為宗，\n約弘願以念佛三昧為宗。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "四、定善散善皆韋提致請。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "四、韋提致請唯在定善，\n散善是佛自開。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "五、視九品之機類通於凡聖。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "五、以九品為凡，\n特以下品為惡凡夫。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "六、視韋提為聖者。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "六、視韋提為實凡夫。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "七、視彌陀身土為應身應土。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "七、視彌陀身土為報身報土，\n此報土是凡夫往生之土。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "八、釋尊付囑定散二善。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "八、釋尊付囑弘願念佛。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 18
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}

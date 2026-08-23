@@ -1,0 +1,287 @@
+{
+  "version": 4,
+  "articleId": "huijing_5-357",
+  "title": "《阿彌陀經》要旨（二）",
+  "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
+  "expectedVisualCount": 2,
+  "visuals": [
+    {
+      "id": "media-621b32d49711c0518ac87f7d",
+      "position": 1,
+      "sourceType": "image",
+      "classification": "needs-classification",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-621b32d49711c0518ac87f7d.svg",
+        "sha256": "b2d41de74bb0a15d8de362de83b332c14ae6dc945177b68755fe78f998f83565"
+      },
+      "semanticDescription": null,
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "needs-review",
+        "sourceVerified": true
+      }
+    },
+    {
+      "id": "table-huijing_5-357-1",
+      "position": "table-1",
+      "sourceType": "html-table",
+      "classification": "reconstructable-table",
+      "sourceArchive": {
+        "path": "raw/huijing_5-357.html",
+        "sha256": "a0bac5c1fb1ab63bcc12c33f05a4c9f66debdaac32bc6fb9050b5b5afa32b262"
+      },
+      "sourceLocator": {
+        "kind": "table",
+        "tableIndex": 1
+      },
+      "semanticDescription": null,
+      "transcript": "《佛說阿彌陀經 》（鳩摩羅什 譯） | 《稱讚淨土佛攝受經》 （玄奘 譯）\n舍利弗 | 又舍利子\n若有善男子．善女人 | 若有淨信．諸善男子．或善女人\n聞說阿彌陀佛 | 得聞如是．無量壽佛．無量無邊．不可思議．功德名號．極樂世界．功德莊嚴\n執持名號 | 聞已思惟\n若一日、若二日、若三日、若四日、若五日、若六日、若七日 | 若一日夜、或二、或三、或四、或五、或六、或七\n一心不亂 | 繫念不亂\n其人 | 是善男子．或善女人\n臨命終時 | 臨命終時\n阿彌陀佛．與諸聖眾 | 無量壽佛．與其無量．聲聞弟子．菩薩眾俱\n現在其前 | 前後圍繞．來住其前\n是人終時．心不顛倒 | 慈悲加祐．令心不亂．即捨命已\n即得往生．阿彌陀佛．極樂國土 | 隨佛眾會．生無量壽．極樂世界．清淨佛土\n意譯法（依梵文採佛理意義翻譯的方法） 特點：(1)不省略原梵文經文；             (2)順中國人好略習性；             (3)文法修飾，合中文文法 | 直譯法（依梵文採逐句直接翻譯的方法） 特點：(1)不省略原梵文經文；             (2)不順中國人好略習性；             (3)文法不修飾，合梵文文法",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "《阿彌陀經》要旨（二）（表 1）",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "《佛說阿彌陀經 》（鳩摩羅什 譯）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "《稱讚淨土佛攝受經》 （玄奘 譯）",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "舍利弗",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "又舍利子",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "若有善男子．善女人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "若有淨信．諸善男子．或善女人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "聞說阿彌陀佛",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "得聞如是．無量壽佛．無量無邊．不可思議．功德名號．極樂世界．功德莊嚴",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "執持名號",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "聞已思惟",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "若一日、若二日、若三日、若四日、若五日、若六日、若七日",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "若一日夜、或二、或三、或四、或五、或六、或七",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "一心不亂",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "繫念不亂",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "其人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "是善男子．或善女人",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "臨命終時",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "臨命終時",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "阿彌陀佛．與諸聖眾",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "無量壽佛．與其無量．聲聞弟子．菩薩眾俱",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "現在其前",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "前後圍繞．來住其前",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "是人終時．心不顛倒",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "慈悲加祐．令心不亂．即捨命已",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "即得往生．阿彌陀佛．極樂國土",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "隨佛眾會．生無量壽．極樂世界．清淨佛土",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "意譯法（依梵文採佛理意義翻譯的方法）\n特點：(1)不省略原梵文經文；\n(2)順中國人好略習性；\n(3)文法修飾，合中文文法",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "直譯法（依梵文採逐句直接翻譯的方法）\n特點：(1)不省略原梵文經文；\n(2)不順中國人好略習性；\n(3)文法不修飾，合梵文文法",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 28
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "28/28",
+        "visualReview": "approved",
+        "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
+      }
+    }
+  ],
+  "validation": {
+    "status": "in-review",
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
+    "semanticOnlyCount": 0
+  }
+}
