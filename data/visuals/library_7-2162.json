@@ -251,24 +251,27 @@
       "id": "media-0af9ea26fff316f7ef748cb4",
       "position": 15,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0af9ea26fff316f7ef748cb4.jpg",
         "sha256": "b51c0b8afc666b1ca205d77ff954b4c08adcf333c3827f8db971ee07783f637f"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛教人物畫：畫面中央為兩位菩薩或佛教人物立於雲氣之上，一位持錫杖，另一位持如意或法器；上方邊角有題字標籤。屬於宗教繪畫，沒有可重建的文字關係圖。",
+      "transcript": "邊角題字可見地藏菩薩等佛教人物相關字樣，但畫面文字解析度有限，不作完整逐字轉錄。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "佛教人物與部分題字語意",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "以人物、法器、雲氣與佛教畫作語意輔助搜尋，不虛構人物的完整身份或關係。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/15 approved-or-semantic",
+    "coverage": "3/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

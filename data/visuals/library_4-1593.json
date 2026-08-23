@@ -9,17 +9,20 @@
       "id": "media-07bc77a133c93e99b60a54d5",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-07bc77a133c93e99b60a54d5.jpg",
         "sha256": "6a1848f0dba4ebe506b0bc9335a0c707654a4a2c70f7e9af829437f59a20e1b4"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "仿木刻或手繪風格的故事插畫：畫面中一位長者向兩名聽眾講述念佛故事，右側直排文字為「聽外婆講念佛故事」。屬於敘事插圖，沒有流程或分類結構。",
+      "transcript": "聽外婆講念佛故事",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1可辨識標題文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "將圖片標題提供給搜尋與 AI，畫面人物關係只作語意描述。"
       }
     },
     {
@@ -59,8 +62,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
+    "coverage": "1/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-05a8b2de8e15af6c27dfdddb",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-05a8b2de8e15af6c27dfdddb.jpg",
         "sha256": "908632593fe000f0f8b389c31a46dad8a24f358f3a56ee083df8de429898cb42"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛教寺院供桌或佛堂照片：中央為有背光與火焰形背屏的佛教造像，兩側各有一尊立像，前方擺放大量鮮花供品；底部可見寺院或法師相關匾額文字。屬於宗教人物與場所照片，沒有可重建的結構。",
+      "transcript": "底部匾額文字疑似包含寺院名稱與善導大師字樣，影像解析度不足以作為逐字資料來源。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "照片中的匾額文字不作可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛堂、佛像、供花與匾額的語意，避免對低解析度文字作過度推定。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

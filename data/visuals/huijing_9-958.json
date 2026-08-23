@@ -43,17 +43,219 @@
       "id": "media-07c2c1defeac5caa9bdf2799",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-07c2c1defeac5caa9bdf2799.jpg",
         "sha256": "f3cef73b48f977e8611beaf05a8b8b559c9d7701af93ba58817b9cc613d3c0ba"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "彌陀恆常徹底的救度\n不可思議的救度方式\n徹底救度：度盡阿鼻苦眾生\n恆常救度：常運慈心拔有情\n彌陀發願救度三惡道\n為阿鼻親人念佛即蒙救\n佛智願海非凡夫能測\n如明醫憐愍救垂死病人\n佛為無望者特來希望\n使阿鼻眾生往生成佛\n佛心如太陽恆常照耀\n無緣大慈，同體大悲\n過現未三世恆常不息",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀恆常徹底的救度架構",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "彌陀恆常徹底的救度",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "inconceivable",
+            "label": "不可思議的救度方式",
+            "kind": "category",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "thorough",
+            "label": "徹底救度：度盡阿鼻苦眾生",
+            "kind": "category",
+            "position": {
+              "x": 520,
+              "y": 160
+            }
+          },
+          {
+            "id": "constant",
+            "label": "恆常救度：常運慈心拔有情",
+            "kind": "category",
+            "position": {
+              "x": 1040,
+              "y": 160
+            }
+          },
+          {
+            "id": "three-realms",
+            "label": "彌陀發願救度三惡道",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 340
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "為阿鼻親人念佛即蒙救",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 430
+            }
+          },
+          {
+            "id": "wisdom",
+            "label": "佛智願海非凡夫能測",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 520
+            }
+          },
+          {
+            "id": "doctor",
+            "label": "如明醫憐愍救垂死病人",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 340
+            }
+          },
+          {
+            "id": "hope",
+            "label": "佛為無望者特來希望",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 430
+            }
+          },
+          {
+            "id": "rebirth",
+            "label": "使阿鼻眾生往生成佛",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 520
+            }
+          },
+          {
+            "id": "sun",
+            "label": "佛心如太陽恆常照耀",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 340
+            }
+          },
+          {
+            "id": "compassion",
+            "label": "無緣大慈，同體大悲",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 430
+            }
+          },
+          {
+            "id": "three-times",
+            "label": "過現未三世恆常不息",
+            "kind": "detail",
+            "position": {
+              "x": 1040,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "inconceivable",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "thorough",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "constant",
+            "relation": "divides-into"
+          },
+          {
+            "from": "inconceivable",
+            "to": "three-realms",
+            "relation": "explains"
+          },
+          {
+            "from": "inconceivable",
+            "to": "recitation",
+            "relation": "explains"
+          },
+          {
+            "from": "inconceivable",
+            "to": "wisdom",
+            "relation": "explains"
+          },
+          {
+            "from": "thorough",
+            "to": "doctor",
+            "relation": "explains"
+          },
+          {
+            "from": "thorough",
+            "to": "hope",
+            "relation": "explains"
+          },
+          {
+            "from": "thorough",
+            "to": "rebirth",
+            "relation": "explains"
+          },
+          {
+            "from": "constant",
+            "to": "sun",
+            "relation": "explains"
+          },
+          {
+            "from": "constant",
+            "to": "compassion",
+            "relation": "explains"
+          },
+          {
+            "from": "constant",
+            "to": "three-times",
+            "relation": "explains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-aspects",
+            "label": "三種救度面向",
+            "members": [
+              "inconceivable",
+              "thorough",
+              "constant"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13節點文字與三層架構",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "雖然來源副檔名是 JPG，但內容是清楚的樹狀架構圖；已依三個救度面向與各自三項說明完整重建。"
       }
     },
     {
@@ -76,8 +278,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

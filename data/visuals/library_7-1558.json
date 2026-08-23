@@ -9,24 +9,27 @@
       "id": "media-0b5d0122d1c895b1e0a6b997",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0b5d0122d1c895b1e0a6b997.jpg",
         "sha256": "405806a32314856b9725acc86023a10db153dad79b79e13f51a966d0e03d3208"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "小型字形圖片：白底綠框內呈現一個與「疑」相關的古文字或異體字形。這是單一字形展示，不是可展開的表格或流程結構。",
+      "transcript": "疑",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1單字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留可搜尋單字與字形展示語意，不將單字圖誤判為圖表。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

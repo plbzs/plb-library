@@ -9,24 +9,27 @@
       "id": "media-097c119d1d4a88a1604240e1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-097c119d1d4a88a1604240e1.jpg",
         "sha256": "ba81b99ec849803832677850e3b50deafc756ef9ae051100a1fc8fe6c79943d2"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "牛年春聯照片：兩幅直式紅紙黑色書法春聯並排，帶有金色或白色斑點裝飾，主題圍繞牛耕大地、豐收、安居與福氣。屬於書法作品照片，不是可重建的資料圖表。",
+      "transcript": "圖片可辨識到「牛耕大地」等牛年春聯字樣；其餘書法字形與邊緣內容不作不可靠逐字轉錄。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "部分春聯文字可辨識；書法圖片不作結構化重建",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留牛年、春聯、書法、豐收與福氣等語意，避免把藝術字照片誤作表格。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -62,17 +62,20 @@
       "id": "media-034ecee3446817796acd29ea",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-034ecee3446817796acd29ea.jpg",
         "sha256": "4ee0bf2968a29b76ca6eeecf8d4a37dd2c0c6587cccc4217557f8628aef4aa4b"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "祈願主題的合成圖片：左側為祈願文字與跪坐念佛人物插畫，右側為暖色光線下的佛教手印或造像手部，手掌上有 OK 字樣。圖片同時呈現祈願、念佛與佛教手印意象，但沒有需要重建的圖表結構。",
+      "transcript": "願疫情早日解除；願人人健康平安；願國家安定昌盛；願世界和平友愛；願眾生信佛念佛；願眾生離苦得樂；南無阿彌陀佛。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "祈願文字可辨識；插畫與手部照片非結構圖",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留圖片、可搜尋的祈願文字與整體視覺語意，不把祈願清單誤判成資料表。"
       }
     },
     {
@@ -95,8 +98,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/5 approved-or-semantic",
+    "coverage": "2/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

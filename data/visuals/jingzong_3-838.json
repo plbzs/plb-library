@@ -9,24 +9,27 @@
       "id": "media-0b40629692d504238ccfa78e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-0b40629692d504238ccfa78e.jpg",
         "sha256": "6abb054ad43d409e84c5ce48b37e42d87395896fe49b5bdd2af876f667aff878"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "手繪風格的生活插圖：左側是窗格與香蕉葉，中央有一盤紅色水果，右下是一根點燃的香或線香；右側直排題字呈現時間流逝、紅了櫻桃、綠了芭蕉的詩句意象。屬於詩句插畫，不是結構圖。",
+      "transcript": "流光容易把人拋，紅了櫻桃，綠了芭蕉",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "詩句可辨識；插畫元素非結構圖",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留詩句、香蕉、櫻桃／水果與香的語意，方便 AI 理解文章插圖的主題。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
