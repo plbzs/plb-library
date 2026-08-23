@@ -26,24 +26,27 @@
       "id": "media-6acac5f1cdf736836f361645",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-6acac5f1cdf736836f361645.jpg",
         "sha256": "f139b135b84cf14d1b854ad826414f5ab9dfd155cdac50f560f2846a6ebd7bf6"
       },
-      "semanticDescription": null,
+      "semanticDescription": "低畫質室內照片：一隻小狗戴著項圈，站在木製櫃格或供桌內，旁邊可見小型佛教物件與布墊。屬於故事現場照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：現場照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留小狗、項圈、木櫃與室內物件語意，不從低畫質照片猜測更多情節。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

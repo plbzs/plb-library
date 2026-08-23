@@ -46,17 +46,20 @@
       "id": "media-7208a419db0b06a8765a4ce0",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-7208a419db0b06a8765a4ce0.jpg",
         "sha256": "79c649b7085cd7cb15f3bd5040e9d4513aa04e7e639920e228cc03c71d48f67a"
       },
-      "semanticDescription": null,
+      "semanticDescription": "桌面物品照片：多串不同顏色與材質的念珠、黑色掛繩與一個小型電子裝置放在木桌上，背景有其他日用品。屬於物品照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：物品照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留念珠、掛繩、電子裝置與桌面環境語意，不猜測物品用途或宗教儀式。"
       }
     },
     {
@@ -99,8 +102,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/5 approved-or-semantic",
+    "coverage": "3/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
+    "semanticOnlyCount": 3
   }
 }

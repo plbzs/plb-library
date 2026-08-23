@@ -211,17 +211,246 @@
       "id": "media-6f1438d1b6cdd1d6d9a58c9f",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-6f1438d1b6cdd1d6d9a58c9f.png",
         "sha256": "b5f2e70eb334505c0c72463ab3fd65dffa40e240d57affef048599bf6b586470"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n聖道門\n淨土門\n要門\n定善：息慮凝心之十三定觀\n散善：廢惡修善之三福九品\n自力迴向\n弘願\n大願：五劫思惟之本願（為我發）\n大業：兆載永劫之萬行（為我修）\n大力：無礙光明攝取力（為我成）\n無為無漏名號力\n他力迴向",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法中的聖道門、淨土門與要門弘願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "buddha-dharma",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "sacred-path",
+            "label": "聖道門",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 100
+            }
+          },
+          {
+            "id": "pure-land-path",
+            "label": "淨土門",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 420
+            }
+          },
+          {
+            "id": "essential-gate",
+            "label": "要門",
+            "kind": "branch",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          },
+          {
+            "id": "vow-gate",
+            "label": "弘願",
+            "kind": "branch",
+            "position": {
+              "x": 520,
+              "y": 540
+            }
+          },
+          {
+            "id": "fixed-contemplation",
+            "label": "定善：息慮凝心之十三定觀",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 80
+            }
+          },
+          {
+            "id": "scattered-good",
+            "label": "散善：廢惡修善之三福九品",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 200
+            }
+          },
+          {
+            "id": "self-power",
+            "label": "自力迴向",
+            "kind": "result",
+            "position": {
+              "x": 1180,
+              "y": 140
+            }
+          },
+          {
+            "id": "great-vow",
+            "label": "大願：五劫思惟之本願（為我發）",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 400
+            }
+          },
+          {
+            "id": "great-work",
+            "label": "大業：兆載永劫之萬行（為我修）",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 520
+            }
+          },
+          {
+            "id": "great-power",
+            "label": "大力：無礙光明攝取力（為我成）",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 640
+            }
+          },
+          {
+            "id": "name-power",
+            "label": "無為無漏名號力",
+            "kind": "practice",
+            "position": {
+              "x": 820,
+              "y": 760
+            }
+          },
+          {
+            "id": "other-power",
+            "label": "他力迴向",
+            "kind": "result",
+            "position": {
+              "x": 1180,
+              "y": 580
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "buddha-dharma",
+            "to": "sacred-path",
+            "relation": "contains"
+          },
+          {
+            "from": "buddha-dharma",
+            "to": "pure-land-path",
+            "relation": "contains"
+          },
+          {
+            "from": "pure-land-path",
+            "to": "essential-gate",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure-land-path",
+            "to": "vow-gate",
+            "relation": "divides-into"
+          },
+          {
+            "from": "essential-gate",
+            "to": "fixed-contemplation",
+            "relation": "contains"
+          },
+          {
+            "from": "essential-gate",
+            "to": "scattered-good",
+            "relation": "contains"
+          },
+          {
+            "from": "fixed-contemplation",
+            "to": "self-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "scattered-good",
+            "to": "self-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "vow-gate",
+            "to": "great-vow",
+            "relation": "contains"
+          },
+          {
+            "from": "vow-gate",
+            "to": "great-work",
+            "relation": "contains"
+          },
+          {
+            "from": "vow-gate",
+            "to": "great-power",
+            "relation": "contains"
+          },
+          {
+            "from": "vow-gate",
+            "to": "name-power",
+            "relation": "contains"
+          },
+          {
+            "from": "great-vow",
+            "to": "other-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "great-work",
+            "to": "other-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "great-power",
+            "to": "other-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "name-power",
+            "to": "other-power",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "two-gates",
+            "label": "要門與弘願",
+            "members": [
+              "essential-gate",
+              "vow-gate"
+            ]
+          },
+          {
+            "id": "self-other-power",
+            "label": "自力與他力迴向",
+            "members": [
+              "self-power",
+              "other-power"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13主要標籤與要門／弘願分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底圖經白底核對，完整重建佛法、聖道門、淨土門、要門、弘願以及自力／他力迴向關係。"
       }
     },
     {
@@ -384,8 +613,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/5 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/5 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

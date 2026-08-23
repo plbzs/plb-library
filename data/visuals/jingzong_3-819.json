@@ -9,24 +9,27 @@
       "id": "media-6a8fdc8e2195e0d0a5d38f44",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-6a8fdc8e2195e0d0a5d38f44.jpg",
         "sha256": "8399d4fc4698b18b71abcce5c48368fc0a5a88bf602d10bfd0473f1b1401161f"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "水墨人物畫：一個家庭在鄉間道路上行走，成年人抱著孩子並牽著另一名孩子，旁邊有坐在路邊的老人，背景有屋舍、樹木與遠山。右上題字主題為「滿眼兒孫身外事，閒梳白髮對斜陽」。屬於生活場景插畫，不是結構圖。",
+      "transcript": "滿眼兒孫身外事，閒梳白髮對斜陽",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1主題題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留家庭、老人、鄉路、屋舍與遠山語意，不對人物身份或故事細節作推定。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -85,24 +85,27 @@
       "id": "media-6c5b5f181de4684d44ae464d",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-6c5b5f181de4684d44ae464d.jpg",
         "sha256": "b4f61c90af833d7e63bfa5a7f054e0422f5053f625b631d5c2d76522a94b80e0"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "橙色漸層文字插畫：上方是人物整理衣領的線描，下方是舉手歡呼的人物，中央有四行文字「正念直來／我能護汝／一切恐懼／為作大安」。屬於詩句與人物插畫，不是結構圖。",
+      "transcript": "正念直來\n我能護汝\n一切恐懼\n為作大安",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "4/4中央詩句",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留四行文字、暖色背景與上下人物構圖，不將詩句插畫誤判為層級圖。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/5 approved-or-semantic",
+    "coverage": "4/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
+    "semanticOnlyCount": 4
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-6ae4f8df8bafcfb1d8ddc87d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-6ae4f8df8bafcfb1d8ddc87d.jpg",
         "sha256": "8fb1435782c3ac5e2d8482f244e6cc82968d94bfe1368db9463b5b8b3b7458bf"
       },
-      "semanticDescription": null,
+      "semanticDescription": "手寫稿照片：紙張上有多欄直排中文手寫文字，部分欄位有方格線與日期或註記，整體像是故事或追思文字草稿。字跡與解析度不足以可靠逐字轉錄，且不是圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "字跡不足以可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留手寫稿、多欄文字、方格線與紙張內容的語意，不以猜測文字取代原圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

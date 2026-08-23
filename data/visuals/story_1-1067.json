@@ -29,24 +29,27 @@
       "id": "media-70a7e117dda6e8a015c30ac5",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-70a7e117dda6e8a015c30ac5.jpg",
         "sha256": "1a6e9caa2ecc380291d24ddd6ed8f431fc24eaaed7ec3cd910dd488433f3a921"
       },
-      "semanticDescription": null,
+      "semanticDescription": "近距離故事照片：一隻蟑螂或小昆蟲位於淺色液體或容器邊緣，畫面焦點在昆蟲與水面反光，解析度較低。屬於現場照片，不是結構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：低畫質現場照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "只保留昆蟲、液面與容器邊緣等可見語意，不猜測照片中的因果情節。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

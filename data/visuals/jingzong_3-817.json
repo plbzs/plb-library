@@ -9,24 +9,27 @@
       "id": "media-5f4edb85192d96d56c7c0575",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-5f4edb85192d96d56c7c0575.jpg",
         "sha256": "3e4a2a2451444c1b3d8de76e143930d9d68788b7b13eb0d89a2c48f38acc527d"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "水墨寓言插畫：一名坐在石桌旁的人觀看樹上的蜘蛛網與昆蟲，遠處一名孩童拿著長竿走近，桌上有茶壺與書本。文章標題為「蜻蜓倒掛蜂兒窘，催喚山童為解圍」，屬於敘事插畫，不是結構圖。",
+      "transcript": "蜻蜓倒掛蜂兒窘，催喚山童為解圍",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "文章標題文字；插畫無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留蜘蛛網、昆蟲、人物、孩童與茶桌場景，不把寓言畫面誤轉成流程模型。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }
