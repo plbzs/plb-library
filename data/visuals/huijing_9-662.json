@@ -43,24 +43,258 @@
       "id": "media-2539d1ac8ae12dde91ba1efd",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2539d1ac8ae12dde91ba1efd.svg",
         "sha256": "1088fa1594d11bb9fb9f300933513a512e6e89c43b36010bf1f9f09133e63dd6"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "九品：上上品、上中品、上下品；中上品、中中品、中下品；下上品、下中品、下下品。上輩、中輩、下輩；大乘上善凡夫人、大乘次善凡夫人、大乘下善凡夫人、小乘上善凡夫人、小乘下善凡夫人、世間上福凡夫人、十惡輕罪凡夫人、破戒次罪凡夫人、逆惡重罪凡夫人；大乘凡夫、小乘凡夫、遇惡凡夫、九品唯凡。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "九品往生與凡夫分類",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "九品唯凡",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "upper",
+            "label": "上輩",
+            "kind": "scheme",
+            "position": {
+              "x": 100,
+              "y": 100
+            }
+          },
+          {
+            "id": "middle",
+            "label": "中輩",
+            "kind": "scheme",
+            "position": {
+              "x": 420,
+              "y": 100
+            }
+          },
+          {
+            "id": "lower",
+            "label": "下輩",
+            "kind": "scheme",
+            "position": {
+              "x": 740,
+              "y": 100
+            }
+          },
+          {
+            "id": "upper-upper",
+            "label": "上上品／大乘上善凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "upper-middle",
+            "label": "上中品／大乘次善凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 270
+            }
+          },
+          {
+            "id": "upper-lower",
+            "label": "上下品／大乘下善凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 320
+            }
+          },
+          {
+            "id": "middle-upper",
+            "label": "中上品／小乘上善凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 310,
+              "y": 220
+            }
+          },
+          {
+            "id": "middle-middle",
+            "label": "中中品／小乘下善凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 310,
+              "y": 270
+            }
+          },
+          {
+            "id": "middle-lower",
+            "label": "中下品／世間上福凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 310,
+              "y": 320
+            }
+          },
+          {
+            "id": "lower-upper",
+            "label": "下上品／十惡輕罪凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 620,
+              "y": 220
+            }
+          },
+          {
+            "id": "lower-middle",
+            "label": "下中品／破戒次罪凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 620,
+              "y": 270
+            }
+          },
+          {
+            "id": "lower-lower",
+            "label": "下下品／逆惡重罪凡夫人",
+            "kind": "detail",
+            "position": {
+              "x": 620,
+              "y": 320
+            }
+          },
+          {
+            "id": "mahayanist",
+            "label": "大乘凡夫",
+            "kind": "section",
+            "position": {
+              "x": 0,
+              "y": 420
+            }
+          },
+          {
+            "id": "hinayanist",
+            "label": "小乘凡夫",
+            "kind": "section",
+            "position": {
+              "x": 250,
+              "y": 420
+            }
+          },
+          {
+            "id": "evil-meeting",
+            "label": "遇惡凡夫",
+            "kind": "section",
+            "position": {
+              "x": 500,
+              "y": 420
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "upper",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "lower",
+            "relation": "divides-into"
+          },
+          {
+            "from": "upper",
+            "to": "upper-upper",
+            "relation": "contains"
+          },
+          {
+            "from": "upper",
+            "to": "upper-middle",
+            "relation": "contains"
+          },
+          {
+            "from": "upper",
+            "to": "upper-lower",
+            "relation": "contains"
+          },
+          {
+            "from": "middle",
+            "to": "middle-upper",
+            "relation": "contains"
+          },
+          {
+            "from": "middle",
+            "to": "middle-middle",
+            "relation": "contains"
+          },
+          {
+            "from": "middle",
+            "to": "middle-lower",
+            "relation": "contains"
+          },
+          {
+            "from": "lower",
+            "to": "lower-upper",
+            "relation": "contains"
+          },
+          {
+            "from": "lower",
+            "to": "lower-middle",
+            "relation": "contains"
+          },
+          {
+            "from": "lower",
+            "to": "lower-lower",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "mahayanist",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "hinayanist",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "evil-meeting",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "25/25 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依三列九品、三輩與下方凡夫分類重建；將每一品與原圖同列的凡夫標籤合併為可讀節點。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

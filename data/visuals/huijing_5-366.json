@@ -9,17 +9,135 @@
       "id": "media-2621e48c826bc6e20e9f0052",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2621e48c826bc6e20e9f0052.svg",
         "sha256": "2925a0ddcd8c520010b0a34e0dda011c16801aa2d39e56ed1066d96a675452a0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "涅槃；(1)彌陀涅槃、(2)聖眾涅槃、(3)國土涅槃；依正主伴，同一涅槃，妙境界相。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀、聖眾與國土同一涅槃",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "涅槃",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "amita",
+            "label": "(1)彌陀涅槃",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "assembly",
+            "label": "(2)聖眾涅槃",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 80
+            }
+          },
+          {
+            "id": "land",
+            "label": "(3)國土涅槃",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 160
+            }
+          },
+          {
+            "id": "relation",
+            "label": "依正主伴",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 40
+            }
+          },
+          {
+            "id": "same",
+            "label": "同一涅槃",
+            "kind": "result",
+            "position": {
+              "x": 480,
+              "y": 100
+            }
+          },
+          {
+            "id": "realm",
+            "label": "妙境界相",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "amita",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "assembly",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "land",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "amita",
+            "to": "relation",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "assembly",
+            "to": "relation",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "land",
+            "to": "relation",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "relation",
+            "to": "same",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "same",
+            "to": "realm",
+            "relation": "described-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三個涅槃項目與依正主伴、同一涅槃、妙境界相的串接關係重建。"
       }
     },
     {
@@ -144,8 +262,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/8 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/8 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

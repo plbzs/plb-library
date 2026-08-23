@@ -9,17 +9,195 @@
       "id": "media-20a44dd0c04a3a463f0c5f8b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-20a44dd0c04a3a463f0c5f8b.svg",
         "sha256": "9f8e172567af527979645177ea5fd9615bb7362bfaa646593503ed0b84cea14f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土教；純：淨土宗；雜：聖道諸宗；正依與旁依：淨土三經／諸經、龍樹易行品與天親往生論／餘論、曇鸞道綽善導三師之釋／諸師之釋；佛經、菩薩論、人師釋。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土教的純雜與正旁依經論",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土教",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 170
+            }
+          },
+          {
+            "id": "pure",
+            "label": "純：淨土宗",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 40
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜：聖道諸宗",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 270
+            }
+          },
+          {
+            "id": "sutras",
+            "label": "淨土三經",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 0
+            }
+          },
+          {
+            "id": "other-sutras",
+            "label": "諸經",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 45
+            }
+          },
+          {
+            "id": "nagarjuna",
+            "label": "龍樹易行品、天親往生論",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 90
+            }
+          },
+          {
+            "id": "other-treatises",
+            "label": "餘論",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 135
+            }
+          },
+          {
+            "id": "three-masters",
+            "label": "曇鸞、道綽、善導三師之釋",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 180
+            }
+          },
+          {
+            "id": "other-masters",
+            "label": "諸師之釋",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 225
+            }
+          },
+          {
+            "id": "buddha",
+            "label": "佛經",
+            "kind": "section",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "bodhisattva",
+            "label": "菩薩論",
+            "kind": "section",
+            "position": {
+              "x": 700,
+              "y": 90
+            }
+          },
+          {
+            "id": "teacher",
+            "label": "人師釋",
+            "kind": "section",
+            "position": {
+              "x": 700,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "mixed",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "sutras",
+            "relation": "uses"
+          },
+          {
+            "from": "mixed",
+            "to": "other-sutras",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "pure",
+            "to": "nagarjuna",
+            "relation": "uses"
+          },
+          {
+            "from": "mixed",
+            "to": "other-treatises",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "pure",
+            "to": "three-masters",
+            "relation": "uses"
+          },
+          {
+            "from": "mixed",
+            "to": "other-masters",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "root",
+            "to": "buddha",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "bodhisattva",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "teacher",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依圖中的純／雜、正／旁欄列與佛經／菩薩論／人師釋三層分類重建；正旁配對保留為對照關係。"
       }
     },
     {
@@ -279,9 +457,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

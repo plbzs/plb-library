@@ -9,24 +9,216 @@
       "id": "media-2407053eb43a592c2a5e74cf",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2407053eb43a592c2a5e74cf.svg",
         "sha256": "1f9f151590c2d69c784648c48fe7ad34200a191cdc8fc47e1b2e8b80909289b0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教、理、行、果；所依、能依、因、能證、果、所證、能詮、所詮。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "教理行果及其能所關係",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "教理行果",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "教",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 0
+            }
+          },
+          {
+            "id": "principle",
+            "label": "理",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 80
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 160
+            }
+          },
+          {
+            "id": "result",
+            "label": "果",
+            "kind": "scheme",
+            "position": {
+              "x": 210,
+              "y": 240
+            }
+          },
+          {
+            "id": "basis",
+            "label": "所依",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "reliant",
+            "label": "能依",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 45
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 90
+            }
+          },
+          {
+            "id": "realizer",
+            "label": "能證",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 135
+            }
+          },
+          {
+            "id": "effect",
+            "label": "果",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 180
+            }
+          },
+          {
+            "id": "realized",
+            "label": "所證",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 225
+            }
+          },
+          {
+            "id": "expressor",
+            "label": "能詮",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 90
+            }
+          },
+          {
+            "id": "expressed",
+            "label": "所詮",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "teaching",
+            "relation": "has-stage"
+          },
+          {
+            "from": "root",
+            "to": "principle",
+            "relation": "has-stage"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "has-stage"
+          },
+          {
+            "from": "root",
+            "to": "result",
+            "relation": "has-stage"
+          },
+          {
+            "from": "teaching",
+            "to": "basis",
+            "relation": "associated-with"
+          },
+          {
+            "from": "teaching",
+            "to": "reliant",
+            "relation": "associated-with"
+          },
+          {
+            "from": "principle",
+            "to": "cause",
+            "relation": "associated-with"
+          },
+          {
+            "from": "practice",
+            "to": "realizer",
+            "relation": "associated-with"
+          },
+          {
+            "from": "result",
+            "to": "effect",
+            "relation": "associated-with"
+          },
+          {
+            "from": "principle",
+            "to": "realized",
+            "relation": "associated-with"
+          },
+          {
+            "from": "teaching",
+            "to": "expressor",
+            "relation": "associated-with"
+          },
+          {
+            "from": "principle",
+            "to": "expressed",
+            "relation": "associated-with"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖教理行果的主序與能所術語重建；因原 SVG 文字以單字節點排版，關係採 associated-with 以避免過度推斷。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

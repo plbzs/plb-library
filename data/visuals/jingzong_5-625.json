@@ -26,17 +26,167 @@
       "id": "media-20991b4cc3b0f031add013b6",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-20991b4cc3b0f031add013b6.svg",
         "sha256": "f8a26af9b515c96aa75fed4db711a6b6c9afd5b9651b40e059d9d82771ba99f0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "正依、旁依；純、專、統攝、依用、簡別明；明字義、明意義、結明規則、明正依地位、明正依規則。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正依與旁依的判別綱要",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正依與旁依",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "pure",
+            "label": "正依",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 40
+            }
+          },
+          {
+            "id": "secondary",
+            "label": "旁依",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 210
+            }
+          },
+          {
+            "id": "pure-features",
+            "label": "純、專、統攝、依用、簡別明",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 25
+            }
+          },
+          {
+            "id": "secondary-features",
+            "label": "正、旁、正依、旁依、統攝",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 195
+            }
+          },
+          {
+            "id": "word",
+            "label": "明字義",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 0
+            }
+          },
+          {
+            "id": "meaning",
+            "label": "明意義",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 45
+            }
+          },
+          {
+            "id": "rule",
+            "label": "結明規則",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 90
+            }
+          },
+          {
+            "id": "position",
+            "label": "明正依地位",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 135
+            }
+          },
+          {
+            "id": "criteria",
+            "label": "明正依規則",
+            "kind": "detail",
+            "position": {
+              "x": 720,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "secondary",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "pure-features",
+            "relation": "described-by"
+          },
+          {
+            "from": "secondary",
+            "to": "secondary-features",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "word",
+            "relation": "clarified-by"
+          },
+          {
+            "from": "root",
+            "to": "meaning",
+            "relation": "clarified-by"
+          },
+          {
+            "from": "root",
+            "to": "rule",
+            "relation": "clarified-by"
+          },
+          {
+            "from": "root",
+            "to": "position",
+            "relation": "clarified-by"
+          },
+          {
+            "from": "root",
+            "to": "criteria",
+            "relation": "clarified-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 的左右欄位與五個說明節點重建正依／旁依及其判別綱要；未把文字欄誤當成文章內容。"
       }
     },
     {
@@ -76,8 +226,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

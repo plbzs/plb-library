@@ -26,24 +26,188 @@
       "id": "media-2046f62d2454df946e24879c",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2046f62d2454df946e24879c.svg",
         "sha256": "60617e5f7425e71fb322a73e8affdc3850621db6c62e51a200c488f7d24dc17b"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "般舟讚；一部綱要：三昧名義、總讚緣起、讚正宗分、讚得益分、讚流通分；讚文三分：前序、正讚、後序。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "般舟讚的一部綱要與三分結構",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "般舟讚",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "outline",
+            "label": "一部綱要",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 30
+            }
+          },
+          {
+            "id": "samadhi",
+            "label": "三昧名義",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 0
+            }
+          },
+          {
+            "id": "opening-praise",
+            "label": "總讚緣起",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 45
+            }
+          },
+          {
+            "id": "main-praise",
+            "label": "讚正宗分",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 90
+            }
+          },
+          {
+            "id": "benefit-praise",
+            "label": "讚得益分",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 135
+            }
+          },
+          {
+            "id": "circulation-praise",
+            "label": "讚流通分",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 180
+            }
+          },
+          {
+            "id": "three-parts",
+            "label": "讚文三分",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 260
+            }
+          },
+          {
+            "id": "preface",
+            "label": "一、前序",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 235
+            }
+          },
+          {
+            "id": "praise",
+            "label": "二、正讚",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 280
+            }
+          },
+          {
+            "id": "afterword",
+            "label": "三、後序",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 325
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "outline",
+            "relation": "organized-as"
+          },
+          {
+            "from": "outline",
+            "to": "samadhi",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "opening-praise",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "main-praise",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "benefit-praise",
+            "relation": "contains"
+          },
+          {
+            "from": "outline",
+            "to": "circulation-praise",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "three-parts",
+            "relation": "organized-as"
+          },
+          {
+            "from": "three-parts",
+            "to": "preface",
+            "relation": "contains"
+          },
+          {
+            "from": "three-parts",
+            "to": "praise",
+            "relation": "contains"
+          },
+          {
+            "from": "three-parts",
+            "to": "afterword",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 的兩組文字欄與分隔線保留般舟讚的綱要項目及前序、正讚、後序三分。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

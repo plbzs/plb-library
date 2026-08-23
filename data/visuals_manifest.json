@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 45,
-    "semanticOnly": 12,
-    "needsReview": 286,
+    "approvedReconstruction": 52,
+    "semanticOnly": 13,
+    "needsReview": 278,
     "sourceMissing": 1
   },
   "articles": [
@@ -45,9 +45,9 @@
       "articleId": "huijing_2-12",
       "path": "data/visuals/huijing_2-12.json",
       "expectedVisualCount": 1,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "huijing_2-171",
@@ -213,7 +213,7 @@
       "articleId": "huijing_5-366",
       "path": "data/visuals/huijing_5-366.json",
       "expectedVisualCount": 8,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -717,7 +717,7 @@
       "articleId": "huijing_9-662",
       "path": "data/visuals/huijing_9-662.json",
       "expectedVisualCount": 3,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1061,17 +1061,17 @@
       "articleId": "jingzong_5-602",
       "path": "data/visuals/jingzong_5-602.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_5-603",
       "path": "data/visuals/jingzong_5-603.json",
       "expectedVisualCount": 1,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_5-604",
@@ -1141,7 +1141,7 @@
       "articleId": "jingzong_5-625",
       "path": "data/visuals/jingzong_5-625.json",
       "expectedVisualCount": 4,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1189,7 +1189,7 @@
       "articleId": "jingzong_5-638",
       "path": "data/visuals/jingzong_5-638.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1310,8 +1310,8 @@
       "path": "data/visuals/library_4-1583.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "library_4-1593",

@@ -9,24 +9,216 @@
       "id": "media-22ba2f56c4afc5830473f43c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-22ba2f56c4afc5830473f43c.svg",
         "sha256": "d8f5b2560b8f052320f1d7702b59cfde53dc9464bb29124916605dd6073fe8ee"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "善導釋；不增：不增加眾生往生條件；不減：不減損彌陀救度功能；不偏：不偏離淨土三經、不偏離彌陀本願、不偏離釋尊本懷、不偏離凡夫根機；不雜：不夾雜聖道自力修行；純淨土，以淨土立宗，是淨土宗。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善導釋的四不與純淨土",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "善導釋",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 130
+            }
+          },
+          {
+            "id": "no-increase",
+            "label": "不增",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "no-decrease",
+            "label": "不減",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 70
+            }
+          },
+          {
+            "id": "no-deviation",
+            "label": "不偏",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 140
+            }
+          },
+          {
+            "id": "no-mix",
+            "label": "不雜",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "increase-detail",
+            "label": "不增加眾生往生條件",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 0
+            }
+          },
+          {
+            "id": "decrease-detail",
+            "label": "不減損彌陀救度功能",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 70
+            }
+          },
+          {
+            "id": "sutras-detail",
+            "label": "不偏離淨土三經",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 140
+            }
+          },
+          {
+            "id": "vow-detail",
+            "label": "不偏離彌陀本願",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 185
+            }
+          },
+          {
+            "id": "buddha-detail",
+            "label": "不偏離釋尊本懷",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 230
+            }
+          },
+          {
+            "id": "beings-detail",
+            "label": "不偏離凡夫根機",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 275
+            }
+          },
+          {
+            "id": "mix-detail",
+            "label": "不夾雜聖道自力修行",
+            "kind": "detail",
+            "position": {
+              "x": 480,
+              "y": 320
+            }
+          },
+          {
+            "id": "pure-land",
+            "label": "純淨土，以淨土立宗，是淨土宗。",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 150
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "no-increase",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "no-decrease",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "no-deviation",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "no-mix",
+            "relation": "defined-by"
+          },
+          {
+            "from": "no-increase",
+            "to": "increase-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-decrease",
+            "to": "decrease-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-deviation",
+            "to": "sutras-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-deviation",
+            "to": "vow-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-deviation",
+            "to": "buddha-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-deviation",
+            "to": "beings-detail",
+            "relation": "means"
+          },
+          {
+            "from": "no-mix",
+            "to": "mix-detail",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "pure-land",
+            "relation": "concludes-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依 SVG 左右欄位與四個不字原則重建，保留不偏之下的四個對象與最後的純淨土結論。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
