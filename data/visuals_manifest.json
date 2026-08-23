@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 25,
+    "approvedReconstruction": 26,
     "semanticOnly": 7,
-    "needsReview": 311,
+    "needsReview": 310,
     "sourceMissing": 1
   },
   "articles": [
