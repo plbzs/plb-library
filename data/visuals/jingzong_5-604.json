@@ -26,24 +26,160 @@
       "id": "media-b917a5e43279072e66b99473",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-b917a5e43279072e66b99473.svg",
         "sha256": "daed6b2cf9811a74a32d4454c5d5dae95aac94c14200e3ac43804b4d334c0fd4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "機：凡夫；行：稱名；益：入報。對照聖者上根、定散萬行、凡聖同居。本願（彌陀修德、他力救度）與心性（眾生性德、自力修行之教）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "本願與心性的機、行、益對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土教法的機、行、益",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "vow",
+            "label": "本願：彌陀修德／他力救度",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "nature",
+            "label": "心性：眾生性德／自力修行之教",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 520
+            }
+          },
+          {
+            "id": "vow-machine",
+            "label": "機：凡夫",
+            "kind": "machine",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow-practice",
+            "label": "行：稱名",
+            "kind": "practice",
+            "position": {
+              "x": 700,
+              "y": 140
+            }
+          },
+          {
+            "id": "vow-benefit",
+            "label": "益：入報",
+            "kind": "result",
+            "position": {
+              "x": 700,
+              "y": 280
+            }
+          },
+          {
+            "id": "nature-machine",
+            "label": "機：聖者上根",
+            "kind": "machine",
+            "position": {
+              "x": 700,
+              "y": 520
+            }
+          },
+          {
+            "id": "nature-practice",
+            "label": "行：定散萬行",
+            "kind": "practice",
+            "position": {
+              "x": 700,
+              "y": 660
+            }
+          },
+          {
+            "id": "nature-benefit",
+            "label": "益：凡聖同居",
+            "kind": "result",
+            "position": {
+              "x": 700,
+              "y": 800
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "compared-with"
+          },
+          {
+            "from": "root",
+            "to": "nature",
+            "relation": "compared-with"
+          },
+          {
+            "from": "vow",
+            "to": "vow-machine",
+            "relation": "has"
+          },
+          {
+            "from": "vow",
+            "to": "vow-practice",
+            "relation": "has"
+          },
+          {
+            "from": "vow",
+            "to": "vow-benefit",
+            "relation": "has"
+          },
+          {
+            "from": "nature",
+            "to": "nature-machine",
+            "relation": "has"
+          },
+          {
+            "from": "nature",
+            "to": "nature-practice",
+            "relation": "has"
+          },
+          {
+            "from": "nature",
+            "to": "nature-benefit",
+            "relation": "has"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "4 comparison groups and 6 role labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將本願、心性與機行益三欄的對照關係重建，保留凡夫／稱名／入報與聖者上根／定散萬行／凡聖同居。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

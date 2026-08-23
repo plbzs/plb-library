@@ -9,17 +9,139 @@
       "id": "media-b839746ed6392da759a2f0ad",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-b839746ed6392da759a2f0ad.svg",
         "sha256": "b41d16e8ca2e7064d1fb23dd7ff968b5a917f70b06c78d2638ca5634194c435d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "善分有漏（有為）與無漏（無為）。有漏：不順法性有造作，漏貪瞋癡，顛倒、虛偽，不實功德。無漏：隨順法性無造作，彌陀名號；法：度生法體、名號獨運；機：往生法體、稱名獨達。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善的有漏與無漏分判",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "善",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "leaky",
+            "label": "有漏（有為）",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "nonleaky",
+            "label": "無漏（無為）",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 420
+            }
+          },
+          {
+            "id": "leaky-conditions",
+            "label": "不順法性有造作",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "leaky-result",
+            "label": "漏貪瞋癡／顛倒、虛偽／不實功德",
+            "kind": "result",
+            "position": {
+              "x": 900,
+              "y": 0
+            }
+          },
+          {
+            "id": "name",
+            "label": "彌陀名號",
+            "kind": "concept",
+            "position": {
+              "x": 560,
+              "y": 420
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法：度生法體／名號獨運",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 330
+            }
+          },
+          {
+            "id": "person",
+            "label": "機：往生法體／稱名獨達",
+            "kind": "meaning",
+            "position": {
+              "x": 900,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "leaky",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "nonleaky",
+            "relation": "divides-into"
+          },
+          {
+            "from": "leaky",
+            "to": "leaky-conditions",
+            "relation": "described-by"
+          },
+          {
+            "from": "leaky-conditions",
+            "to": "leaky-result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "nonleaky",
+            "to": "name",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "name",
+            "to": "dharma",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "name",
+            "to": "person",
+            "relation": "has-aspect"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "embedded PNG flowchart visually reviewed",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "雖為內嵌 PNG，仍有清楚的有漏／無漏分支與法、機兩條無漏支線，已依可見文字與連線重建。"
       }
     },
     {
@@ -121,9 +243,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

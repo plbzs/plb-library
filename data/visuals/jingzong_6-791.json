@@ -9,24 +9,188 @@
       "id": "media-aa847190d236b370e101bafd",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-aa847190d236b370e101bafd.svg",
         "sha256": "45f7972e81cb41ec818dbf37957a5190df22a1c97ef263690a989c61841fbb25"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "臨終；有念佛／未念佛有信願；決定往生淨土；平生未念佛無信願、臨終；得助念／未得助念；瑞相／常相／惡相；大概率往生、小概率人天；或淨土（如中陰身得度）、或人天（如中陰身得度）、或惡道（由業障如常）；生人天／定下惡道。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "臨終往生不往生之確證",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "臨終",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "faith",
+            "label": "有念佛／未念佛有信願",
+            "kind": "condition",
+            "position": {
+              "x": 220,
+              "y": 40
+            }
+          },
+          {
+            "id": "certain",
+            "label": "決定往生淨土",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 40
+            }
+          },
+          {
+            "id": "without-practice",
+            "label": "平生未念佛無信願，臨終",
+            "kind": "condition",
+            "position": {
+              "x": 220,
+              "y": 420
+            }
+          },
+          {
+            "id": "helped",
+            "label": "得助念",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 300
+            }
+          },
+          {
+            "id": "not-helped",
+            "label": "未得助念",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 560
+            }
+          },
+          {
+            "id": "signs-helped",
+            "label": "瑞相／常相／惡相",
+            "kind": "sign",
+            "position": {
+              "x": 790,
+              "y": 300
+            }
+          },
+          {
+            "id": "result-helped",
+            "label": "大概率往生，小概率人天",
+            "kind": "result",
+            "position": {
+              "x": 1060,
+              "y": 260
+            }
+          },
+          {
+            "id": "signs-not-helped",
+            "label": "瑞相／常相／惡相",
+            "kind": "sign",
+            "position": {
+              "x": 790,
+              "y": 560
+            }
+          },
+          {
+            "id": "result-not-helped",
+            "label": "大概率往生、小概率人天；或淨土（如中陰身得度）、或人天（如中陰身得度）、或惡道（由業障如常）",
+            "kind": "result",
+            "position": {
+              "x": 1060,
+              "y": 520
+            }
+          },
+          {
+            "id": "final",
+            "label": "生人天／定下惡道",
+            "kind": "result",
+            "position": {
+              "x": 1380,
+              "y": 560
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "faith",
+            "relation": "condition"
+          },
+          {
+            "from": "faith",
+            "to": "certain",
+            "relation": "leads-to"
+          },
+          {
+            "from": "root",
+            "to": "without-practice",
+            "relation": "condition"
+          },
+          {
+            "from": "without-practice",
+            "to": "helped",
+            "relation": "divides-into"
+          },
+          {
+            "from": "without-practice",
+            "to": "not-helped",
+            "relation": "divides-into"
+          },
+          {
+            "from": "helped",
+            "to": "signs-helped",
+            "relation": "observes"
+          },
+          {
+            "from": "signs-helped",
+            "to": "result-helped",
+            "relation": "leads-to"
+          },
+          {
+            "from": "not-helped",
+            "to": "signs-not-helped",
+            "relation": "observes"
+          },
+          {
+            "from": "signs-not-helped",
+            "to": "result-not-helped",
+            "relation": "leads-to"
+          },
+          {
+            "from": "result-not-helped",
+            "to": "final",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9 semantic text groups and branch lines",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依臨終、助念、瑞相與往生結果的原始分支重建；保留有念佛有信願與未念佛無信願兩條主要路徑。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

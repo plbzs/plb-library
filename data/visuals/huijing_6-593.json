@@ -106,17 +106,69 @@
       "id": "media-b14c249145526d92edf1deb8",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-b14c249145526d92edf1deb8.svg",
         "sha256": "77b834802f650dfac33ab4c4e41ad4b215c34846cff0f9c1537b798fd6d4d194"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "志願；總：眾生一切之願；別：往生淨土之願。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "志願的總別二義",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "志願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "general",
+            "label": "總：眾生一切之願",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "specific",
+            "label": "別：往生淨土之願",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "specific",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "3 semantic labels and 2 branches",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留總、別二分與志願的上位概念。"
       }
     },
     {
@@ -315,9 +367,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

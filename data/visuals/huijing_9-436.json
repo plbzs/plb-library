@@ -106,24 +106,114 @@
       "id": "media-af2692a99406a4c566d35493",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-af2692a99406a4c566d35493.svg",
         "sha256": "b38cdbce32babd52845213ff2d6fcc4dd10a6396be275e4b9929a8178850f41f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第十八願與《觀念法門》《往生禮讚》願文對照：設我得佛／若我成佛；十方眾生；至心信樂／願生我國／稱我名號；欲生我國／稱我名字；乃至十念／下至十聲；乘我願力；若不生者；不取正覺。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八願與觀念法門、往生禮讚願文對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "第十八願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "sutra",
+            "label": "願文：設我得佛／十方眾生／至心信樂／乃至十念／若不生者／不取正覺",
+            "kind": "text",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "contemplation",
+            "label": "《觀念法門》：若我成佛／十方眾生／願生我國／下至十聲／乘我願力／若不生者／不取正覺",
+            "kind": "text",
+            "position": {
+              "x": 300,
+              "y": 260
+            }
+          },
+          {
+            "id": "praise",
+            "label": "《往生禮讚》：若我成佛／十方眾生／稱我名號、稱我名字／下至十聲／若不生者／不取正覺",
+            "kind": "text",
+            "position": {
+              "x": 300,
+              "y": 520
+            }
+          },
+          {
+            "id": "meaning",
+            "label": "三種願文共同指向乘願念佛往生",
+            "kind": "summary",
+            "position": {
+              "x": 760,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "sutra",
+            "relation": "compared-with"
+          },
+          {
+            "from": "root",
+            "to": "contemplation",
+            "relation": "compared-with"
+          },
+          {
+            "from": "root",
+            "to": "praise",
+            "relation": "compared-with"
+          },
+          {
+            "from": "sutra",
+            "to": "meaning",
+            "relation": "expresses"
+          },
+          {
+            "from": "contemplation",
+            "to": "meaning",
+            "relation": "expresses"
+          },
+          {
+            "from": "praise",
+            "to": "meaning",
+            "relation": "expresses"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "3 columns and 8 wording rows grouped",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "以三欄願文對照保留經文、觀念法門與往生禮讚的異文位置，避免將對照表誤寫成單一路徑。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

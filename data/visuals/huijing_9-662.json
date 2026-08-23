@@ -26,17 +26,168 @@
       "id": "media-abef8a45cb56160650805ebd",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-abef8a45cb56160650805ebd.svg",
         "sha256": "5659037da07e8f3ddb461a80b593d2461bf5af54e446cd912818bb781ed8124f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "九品；上三品、中三品、下三品；遇大乘教凡夫、遇小乘教凡夫、遇世間善凡夫、遇惡凡夫；遇大、遇小、遇惡、唯凡。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "九品與所遇根機",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "九品",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "upper",
+            "label": "上三品",
+            "kind": "grade",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "middle",
+            "label": "中三品",
+            "kind": "grade",
+            "position": {
+              "x": 260,
+              "y": 180
+            }
+          },
+          {
+            "id": "lower",
+            "label": "下三品",
+            "kind": "grade",
+            "position": {
+              "x": 260,
+              "y": 360
+            }
+          },
+          {
+            "id": "great",
+            "label": "遇大乘教凡夫／遇大",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "small",
+            "label": "遇小乘教凡夫／遇小",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 180
+            }
+          },
+          {
+            "id": "worldly",
+            "label": "遇世間善凡夫",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 360
+            }
+          },
+          {
+            "id": "evil",
+            "label": "遇惡凡夫／遇惡",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 540
+            }
+          },
+          {
+            "id": "ordinary",
+            "label": "唯凡",
+            "kind": "summary",
+            "position": {
+              "x": 860,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "upper",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "lower",
+            "relation": "divides-into"
+          },
+          {
+            "from": "upper",
+            "to": "great",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "middle",
+            "to": "small",
+            "relation": "corresponds-to"
+          },
+          {
+            "from": "lower",
+            "to": "worldly",
+            "relation": "includes"
+          },
+          {
+            "from": "lower",
+            "to": "evil",
+            "relation": "includes"
+          },
+          {
+            "from": "great",
+            "to": "ordinary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "small",
+            "to": "ordinary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "worldly",
+            "to": "ordinary",
+            "relation": "classified-as"
+          },
+          {
+            "from": "evil",
+            "to": "ordinary",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "九品、三品分組與四種所遇根機全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將原圖中分散排列的單字重組為九品、上中下三組及所遇根機的層級，唯凡保留為總結節點。"
       }
     },
     {
@@ -293,8 +444,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/3 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/3 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

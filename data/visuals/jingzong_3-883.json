@@ -9,24 +9,27 @@
       "id": "media-b0976af9c4d7688f677ebdd1",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b0976af9c4d7688f677ebdd1.svg",
         "sha256": "7be38501b9915412a856f1d5698dc60d1da4879a20a33128046fbc283e3be49c"
       },
-      "semanticDescription": null,
+      "semanticDescription": "文章〈彌陀如何為我，我便如何為人〉中的內嵌 PNG 書法配圖，畫面為直式黑色毛筆字，主文可辨識為「彌陀如何為我，我便如何為人」，旁有直排署名與朱紅印章；屬書法／題字視覺素材，不適合重建成節點圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "embedded PNG visually reviewed",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留書法內容與配圖性質，不把題字臆造為流程或分類結構。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

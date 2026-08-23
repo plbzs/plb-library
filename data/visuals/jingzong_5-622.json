@@ -567,17 +567,153 @@
       "id": "media-b75b63819cdfe3af3a0b0f76",
       "position": 7,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-b75b63819cdfe3af3a0b0f76.svg",
         "sha256": "8686e9bbdf7e2f670b7b5d9d1a833a7fe4c7344bf4f4a34d1da27656be2166af"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "聖淨二門；聖道門、淨土門；聲聞／四諦法／三生六十劫；緣覺／十二因緣／四生百劫；菩薩／六度萬行／三祇百大劫；分齊、次第、時劫；總釋、別釋；聖淨比較、捨聖歸淨、聖淨與難易。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "聖淨二門與修行分判",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "聖淨二門",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 320,
+              "y": 520
+            }
+          },
+          {
+            "id": "sravaka",
+            "label": "聲聞：四諦法／三生六十劫",
+            "kind": "practice",
+            "position": {
+              "x": 650,
+              "y": 0
+            }
+          },
+          {
+            "id": "pratyeka",
+            "label": "緣覺：十二因緣／四生百劫",
+            "kind": "practice",
+            "position": {
+              "x": 650,
+              "y": 150
+            }
+          },
+          {
+            "id": "bodhisattva",
+            "label": "菩薩：六度萬行／三祇百大劫",
+            "kind": "practice",
+            "position": {
+              "x": 650,
+              "y": 300
+            }
+          },
+          {
+            "id": "rank",
+            "label": "分齊／次第／時劫",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 520
+            }
+          },
+          {
+            "id": "interpretation",
+            "label": "總釋／別釋",
+            "kind": "detail",
+            "position": {
+              "x": 650,
+              "y": 670
+            }
+          },
+          {
+            "id": "comparison",
+            "label": "聖淨比較／捨聖歸淨／聖淨與難易",
+            "kind": "result",
+            "position": {
+              "x": 1010,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "sravaka",
+            "relation": "includes"
+          },
+          {
+            "from": "holy",
+            "to": "pratyeka",
+            "relation": "includes"
+          },
+          {
+            "from": "holy",
+            "to": "bodhisattva",
+            "relation": "includes"
+          },
+          {
+            "from": "pure",
+            "to": "rank",
+            "relation": "described-by"
+          },
+          {
+            "from": "pure",
+            "to": "interpretation",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "comparison",
+            "relation": "compared-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5 diagram groups and 3 practice rows",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將聖道門的聲聞、緣覺、菩薩修行時間與淨土門的分判項目分開，保留原圖的比較語意。"
       }
     },
     {
@@ -1496,8 +1632,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "11/14 approved-or-semantic",
-    "approvedReconstructionCount": 11,
+    "coverage": "12/14 approved-or-semantic",
+    "approvedReconstructionCount": 12,
     "semanticOnlyCount": 0
   }
 }
