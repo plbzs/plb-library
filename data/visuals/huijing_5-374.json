@@ -9,24 +9,193 @@
       "id": "media-5ef4be7363fc02f43b9738f2",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-5ef4be7363fc02f43b9738f2.svg",
         "sha256": "5bfda8db88771424c21f3e6c9aabaecc62997d1a11112bc357bada6c6d49421d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "正行與雜行：正行含正定業稱名與助業讀誦、觀想、禮拜、讚供；雜行含念餘佛、修餘行；正行心常親近憶念不斷名為無間，雜行心常間斷；專修正行、雜修雜行；大判門往生行與祈禱現世，細判門聖道門自力、淨土門他力。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正行、雜行與專修雜修的判釋架構",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "二行：正行／雜行",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 220
+            }
+          },
+          {
+            "id": "right",
+            "label": "正行",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 80
+            }
+          },
+          {
+            "id": "fixed",
+            "label": "正定業：稱名（一心專念彌陀名號）",
+            "kind": "result",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "assist",
+            "label": "助業：讀誦／觀想／禮拜／讚供",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 100
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 340
+            }
+          },
+          {
+            "id": "other-buddha",
+            "label": "念餘佛／修餘行",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 300
+            }
+          },
+          {
+            "id": "near",
+            "label": "心常親近、憶念不斷、名為無間",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 80
+            }
+          },
+          {
+            "id": "far",
+            "label": "心常間斷，雖可迴向得生",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 300
+            }
+          },
+          {
+            "id": "special",
+            "label": "專修正行／雜修雜行",
+            "kind": "result",
+            "position": {
+              "x": 1050,
+              "y": 180
+            }
+          },
+          {
+            "id": "large",
+            "label": "大判門：往生行／祈禱現世",
+            "kind": "detail",
+            "position": {
+              "x": 1050,
+              "y": 0
+            }
+          },
+          {
+            "id": "fine",
+            "label": "細判門：聖道門自力／淨土門他力",
+            "kind": "detail",
+            "position": {
+              "x": 1050,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "right",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "mixed",
+            "relation": "divides-into"
+          },
+          {
+            "from": "right",
+            "to": "fixed",
+            "relation": "contains"
+          },
+          {
+            "from": "right",
+            "to": "assist",
+            "relation": "contains"
+          },
+          {
+            "from": "mixed",
+            "to": "other-buddha",
+            "relation": "contains"
+          },
+          {
+            "from": "right",
+            "to": "near",
+            "relation": "characterized-by"
+          },
+          {
+            "from": "mixed",
+            "to": "far",
+            "relation": "characterized-by"
+          },
+          {
+            "from": "right",
+            "to": "special",
+            "relation": "classified-as"
+          },
+          {
+            "from": "mixed",
+            "to": "special",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "large",
+            "relation": "viewed-in"
+          },
+          {
+            "from": "root",
+            "to": "fine",
+            "relation": "viewed-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "112/112 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重複單字與裝飾省略號不視為獨立語意；保留正雜二行、正定業／助業、專修／雜修與大判／細判的主要關係。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

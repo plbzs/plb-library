@@ -165,17 +165,125 @@
       "id": "media-58302de1772e1fdce7472be6",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-58302de1772e1fdce7472be6.svg",
         "sha256": "e3f5e61e4cf7115901e413342e6c46d52e0227cc67298c139c7b248fb6a3c214"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教相判釋正依經典相承論釋；道理經據祖據；立宗三要素：理法、合理合法。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "立宗三要素：教相判釋、正依經典與相承論釋",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "立宗三要素",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "teaching",
+            "label": "教相判釋",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "scripture",
+            "label": "正依經典",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 100
+            }
+          },
+          {
+            "id": "lineage",
+            "label": "相承論釋",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 200
+            }
+          },
+          {
+            "id": "reason",
+            "label": "道理／經據／祖據",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "principle",
+            "label": "理法",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 100
+            }
+          },
+          {
+            "id": "valid",
+            "label": "合理合法",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "teaching",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "scripture",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "lineage",
+            "relation": "contains"
+          },
+          {
+            "from": "teaching",
+            "to": "reason",
+            "relation": "supported-by"
+          },
+          {
+            "from": "scripture",
+            "to": "principle",
+            "relation": "establishes"
+          },
+          {
+            "from": "lineage",
+            "to": "valid",
+            "relation": "establishes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "15/15 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留立宗三要素及其道理、經據、祖據與理法關係；重複的 SVG tspan 合併為語意標籤。"
       }
     },
     {
@@ -198,8 +306,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

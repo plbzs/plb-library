@@ -9,17 +9,111 @@
       "id": "media-5df74e10c4cbc02e4b96d1e7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-5df74e10c4cbc02e4b96d1e7.svg",
         "sha256": "bf31054b93465b4095367a254f7fd43ebca9b3218d252942bfa79ee6c1f720ab"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "往生禮讚：釋顯要義；略述造意；日沒、初夜、中夜、後夜、晨朝、日中禮讚；結歸本願念佛；經說、論說、師說；前序、正讚、後序。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "往生禮讚的內容架構",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "往生禮讚",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "釋顯要義／略述造意",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 130
+            }
+          },
+          {
+            "id": "daily",
+            "label": "日沒、初夜、中夜、後夜、晨朝、日中禮讚",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 130
+            }
+          },
+          {
+            "id": "source",
+            "label": "經說／論說／師說",
+            "kind": "scheme",
+            "position": {
+              "x": 600,
+              "y": 130
+            }
+          },
+          {
+            "id": "ending",
+            "label": "結歸本願念佛",
+            "kind": "result",
+            "position": {
+              "x": 300,
+              "y": 280
+            }
+          },
+          {
+            "id": "parts",
+            "label": "一、前序／二、正讚／三、後序",
+            "kind": "detail",
+            "position": {
+              "x": 600,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "purpose",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "daily",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "source",
+            "relation": "contains"
+          },
+          {
+            "from": "daily",
+            "to": "ending",
+            "relation": "leads-to"
+          },
+          {
+            "from": "source",
+            "to": "parts",
+            "relation": "organized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "29/29 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "合併 SVG 文字拆分造成的單字節點，保留禮讚時序、三種依據與三段結構。"
       }
     },
     {
@@ -205,9 +299,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

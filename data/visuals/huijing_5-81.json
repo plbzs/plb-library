@@ -204,24 +204,146 @@
       "id": "media-5f40c885e51f662f14b0705b",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-5f40c885e51f662f14b0705b.svg",
         "sha256": "78feebd2738de0b362594fcb9e414687c0fab4c76456e671530f134d6feaa569"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "觀經：定善十三定觀、散善三福九品、真實弘願；定善分上三品、中三品、下三品；散善含世福、戒福、行福、念佛；方便要門與真實弘願相對。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《觀經》的定善、散善與弘願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "觀經",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "fixed",
+            "label": "定善：十三定觀",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "fixed-grade",
+            "label": "上三品／中三品／下三品",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善：三福九品",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "three-fortunes",
+            "label": "世福／戒福／行福／念佛",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "vow",
+            "label": "真實弘願",
+            "kind": "result",
+            "position": {
+              "x": 240,
+              "y": 360
+            }
+          },
+          {
+            "id": "gateway",
+            "label": "方便要門",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 360
+            }
+          },
+          {
+            "id": "visible",
+            "label": "顯（萬行隨一）／隱（非定非散）",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "fixed",
+            "relation": "contains"
+          },
+          {
+            "from": "fixed",
+            "to": "fixed-grade",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "scattered",
+            "relation": "contains"
+          },
+          {
+            "from": "scattered",
+            "to": "three-fortunes",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "contains"
+          },
+          {
+            "from": "vow",
+            "to": "gateway",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "vow",
+            "to": "visible",
+            "relation": "explained-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "23/23 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依定善／散善／弘願三組主結構重建，並保留三品、三福九品與顯隱說明。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

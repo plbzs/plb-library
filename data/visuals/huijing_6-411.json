@@ -9,24 +9,132 @@
       "id": "media-5bf5458650168db5a3299d8e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-5bf5458650168db5a3299d8e.svg",
         "sha256": "49ada363c8ad281e7596133399280563efcc94570dd0edcc6c5a3aec7236aab7"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四種意識：五俱意識（散亂獨頭、夢中獨頭、定中獨頭）；明了意識；獨頭意識。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "四種意識分類圖",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "意識",
+            "kind": "root",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "five",
+            "label": "五俱意識",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 140
+            }
+          },
+          {
+            "id": "five-scattered",
+            "label": "散亂獨頭",
+            "kind": "detail",
+            "position": {
+              "x": -80,
+              "y": 280
+            }
+          },
+          {
+            "id": "five-dream",
+            "label": "夢中獨頭",
+            "kind": "detail",
+            "position": {
+              "x": 20,
+              "y": 280
+            }
+          },
+          {
+            "id": "five-samadhi",
+            "label": "定中獨頭",
+            "kind": "detail",
+            "position": {
+              "x": 120,
+              "y": 280
+            }
+          },
+          {
+            "id": "clear",
+            "label": "明了意識",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 140
+            }
+          },
+          {
+            "id": "single",
+            "label": "獨頭意識",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "five",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "clear",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "single",
+            "relation": "classified-as"
+          },
+          {
+            "from": "five",
+            "to": "five-scattered",
+            "relation": "has-mode"
+          },
+          {
+            "from": "five",
+            "to": "five-dream",
+            "relation": "has-mode"
+          },
+          {
+            "from": "five",
+            "to": "five-samadhi",
+            "relation": "has-mode"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "以意識為總類，重建五俱意識、明了意識、獨頭意識與五俱意識三種情境。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

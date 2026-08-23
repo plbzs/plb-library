@@ -9,17 +9,83 @@
       "id": "media-621b32d49711c0518ac87f7d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-621b32d49711c0518ac87f7d.svg",
         "sha256": "b2d41de74bb0a15d8de362de83b332c14ae6dc945177b68755fe78f998f83565"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "兩重因果：因為平生專持佛名，果為臨終佛聖現前；因為臨終佛聖現前，果為命終心不顛倒。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "平生念佛至臨終往生的兩重因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "cause1",
+            "label": "因：平生專持佛名",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 0
+            }
+          },
+          {
+            "id": "effect1",
+            "label": "果：臨終佛聖現前",
+            "kind": "result",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause2",
+            "label": "因：臨終佛聖現前",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "effect2",
+            "label": "果：命終心不顛倒",
+            "kind": "result",
+            "position": {
+              "x": 600,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "cause1",
+            "to": "effect1",
+            "relation": "causes"
+          },
+          {
+            "from": "cause2",
+            "to": "effect2",
+            "relation": "causes"
+          },
+          {
+            "from": "effect1",
+            "to": "cause2",
+            "relation": "becomes-cause"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖兩列因果與中間承接關係重建。"
       }
     },
     {
@@ -279,9 +345,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

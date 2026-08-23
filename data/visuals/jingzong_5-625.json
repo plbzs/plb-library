@@ -346,24 +346,118 @@
       "id": "media-5e1c6f717b341ba935795f41",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-5e1c6f717b341ba935795f41.svg",
         "sha256": "dffe28eaffdb9fc60b10b3c6efd5b3e308d1893f538f9ddb1949ee3af3529694"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三部經為正依經典：舉三部經名、明三經正依之理由、示祖證；旁依經甚多；正依唯三部；純、專、不雜，兼。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗正依三部經與旁依經",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正依經典",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "three",
+            "label": "三部經名",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "reason",
+            "label": "三經正依之理由／祖證",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "side",
+            "label": "旁依經甚多／舉例示祖證",
+            "kind": "scheme",
+            "position": {
+              "x": 240,
+              "y": 180
+            }
+          },
+          {
+            "id": "principle",
+            "label": "正依唯三部：純、專、不雜",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "compatible",
+            "label": "兼",
+            "kind": "detail",
+            "position": {
+              "x": 760,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "contains"
+          },
+          {
+            "from": "three",
+            "to": "reason",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "side",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "three",
+            "to": "principle",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "side",
+            "to": "compatible",
+            "relation": "allows"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "17/17 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留正依／旁依對照、三部經、祖證與純專不雜的判準。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }
