@@ -6,9 +6,9 @@
       "articleId": "huijing_9-640",
       "path": "data/visuals/huijing_9-640.json",
       "expectedVisualCount": 4,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 4,
       "semanticOnlyCount": 0,
-      "status": "incomplete"
+      "status": "approved"
     }
   ]
 }
