@@ -12,7 +12,8 @@
       "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "raw/huijing_4-303.html",
-        "sha256": "1f885af9a415e68853b3fd8d1cf42c7fb27fa48df0c9089e35be34cf3b9be776"
+        "sha256": "f6f31e5f2c08fc27aea25a235de3d5298db77b87a4e3becfedf7d710a5414ffe",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",
@@ -549,7 +550,8 @@
       "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "raw/huijing_4-303.html",
-        "sha256": "1f885af9a415e68853b3fd8d1cf42c7fb27fa48df0c9089e35be34cf3b9be776"
+        "sha256": "0003941852c658952574cc33137e304738b37ac08371cd5f21a6a658b27cc18b",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",

@@ -207,7 +207,8 @@
       "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "raw/jingzong_5-602.html",
-        "sha256": "495d47f5fcd261b69a2ba048560fdab0a72068ca62cb18cca4b1d14c88bc81b3"
+        "sha256": "2846de2039adf57dc0976dd669b473e152ceddff408dc3027645c94a1fa776c8",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",

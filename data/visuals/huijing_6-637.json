@@ -123,7 +123,8 @@
       "classification": "non-content-table",
       "sourceArchive": {
         "path": "raw/huijing_6-637.html",
-        "sha256": "2d88e47b7dba29784c29c7c869152ca47aca9a999cc70550989e4172145305bd"
+        "sha256": "de1feca21ff6bfa1bf28e09d4f96160e6346b19136c59839b12c805f2d9d7cf0",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",
@@ -145,7 +146,8 @@
       "classification": "non-content-table",
       "sourceArchive": {
         "path": "raw/huijing_6-637.html",
-        "sha256": "2d88e47b7dba29784c29c7c869152ca47aca9a999cc70550989e4172145305bd"
+        "sha256": "de1feca21ff6bfa1bf28e09d4f96160e6346b19136c59839b12c805f2d9d7cf0",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",

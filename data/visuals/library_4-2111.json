@@ -12,7 +12,8 @@
       "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "raw/library_4-2111.html",
-        "sha256": "844ca9c7440521d9613c24396fb77e5bf05bf391af39f61c75a74674cbc26a5d"
+        "sha256": "8d4cbf355310805deaafff4a25e709a1aca56b05f48cce0bd5fc7e6b84dbdc66",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",

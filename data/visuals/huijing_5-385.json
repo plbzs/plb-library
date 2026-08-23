@@ -12,7 +12,8 @@
       "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "raw/huijing_5-385.html",
-        "sha256": "d62986171fd1cd523d01402dd269f9db9078abe95a6251dfbab762a134e1a54f"
+        "sha256": "3b9dbfb5a102409d6e19308231eef34ffc54829c27d10c4d82cdfd1540d182f8",
+        "hashBasis": "table-html-v1"
       },
       "sourceLocator": {
         "kind": "table",
