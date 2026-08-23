@@ -48,17 +48,20 @@
       "id": "media-d7a4122e24efc65355a7bd49",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-d7a4122e24efc65355a7bd49.jpg",
         "sha256": "d7b3b764c3ca4c567fe3561a733742df7d7e58b5d444c84440ab48f3f95ac7fd"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "溫暖色調家庭插畫：一對成年人與一名年輕人坐在沙發上，旁邊有一隻狗，圓形背景內上方寫著「南無阿彌陀佛」。屬於家庭與念佛主題插畫，不是結構化圖表。",
+      "transcript": "南無阿彌陀佛",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1主要題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留家庭人物、狗、沙發、圓形背景與題字，不將插畫人物關係猜成組織圖。"
       }
     },
     {
@@ -103,9 +106,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "4/5 approved-or-semantic",
+    "status": "approved",
+    "coverage": "5/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 4
+    "semanticOnlyCount": 5
   }
 }

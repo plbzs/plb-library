@@ -9,24 +9,27 @@
       "id": "media-df3ea1d503e3826ee737c845",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-df3ea1d503e3826ee737c845.jpg",
         "sha256": "c9fe9807d4e360fcba099e2ca6ee43e28fb503ddbd6ec3cc9a2356eeb0f7193a"
       },
-      "semanticDescription": null,
+      "semanticDescription": "水墨風格山水插畫：一名穿粉紅衣服的人沿著溪流或山澗行走，兩側有岩壁、松樹與遠山，左側有直排書法題字。屬於山水敘事插畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "直排題字過小，無可靠完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、溪流、岩壁、松樹、遠山與水墨構圖，不把山水畫解讀成流程圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

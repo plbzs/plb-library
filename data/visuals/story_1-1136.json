@@ -29,24 +29,27 @@
       "id": "media-de3601903c504e02bf3b6bb8",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-de3601903c504e02bf3b6bb8.jpg",
         "sha256": "cd1ed0eb90ed6b286705fc8778f9e896c1b415901977fde9dc0ec22cee2ba7d4"
       },
-      "semanticDescription": null,
+      "semanticDescription": "手寫信件或祈願文字照片：一頁橫線筆記紙上寫有多段中文手寫內容，內容可辨識涉及家人、醫院急救、往生與念佛等語意，末尾有署名與日期；字跡與影像品質不足以可靠逐字轉錄。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "手寫全文不可靠，僅保留主題語意",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "不把模糊手寫內容當作精確引用；保留家人、醫療、急救、往生與念佛等可讀主題提示。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

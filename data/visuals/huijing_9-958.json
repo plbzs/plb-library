@@ -186,17 +186,228 @@
       "id": "media-dac206fe9a87e7546d5af8ed",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-dac206fe9a87e7546d5af8ed.jpg",
         "sha256": "2ef32420d48e4b5df70d9a567d2a708da44575bbdf494b3c24ea3b0c5966e245"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "彌陀救度對象與目的\n不依賴眾生自身\n救度目的：速生我剎受快樂\n救度對象：輪迴諸趣眾生類\n如救生船不論對象\n不需智慧修行善惡\n全憑彌陀本願功德\n當下離暗得明\n受涅槃安樂\n快速往生極樂\n平等普遍無遺漏\n涵蓋阿鼻眾生類\n指輪迴八道眾生",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀救度對象與目的",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "salvation",
+            "label": "彌陀救度對象與目的",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "not-self",
+            "label": "不依賴眾生自身",
+            "kind": "branch",
+            "position": {
+              "x": 100,
+              "y": 180
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "救度目的：速生我剎受快樂",
+            "kind": "branch",
+            "position": {
+              "x": 520,
+              "y": 180
+            }
+          },
+          {
+            "id": "object",
+            "label": "救度對象：輪迴諸趣眾生類",
+            "kind": "branch",
+            "position": {
+              "x": 940,
+              "y": 180
+            }
+          },
+          {
+            "id": "ship",
+            "label": "如救生船不論對象",
+            "kind": "concept",
+            "position": {
+              "x": 0,
+              "y": 380
+            }
+          },
+          {
+            "id": "no-practice-requirement",
+            "label": "不需智慧修行善惡",
+            "kind": "concept",
+            "position": {
+              "x": 180,
+              "y": 380
+            }
+          },
+          {
+            "id": "vow-merit",
+            "label": "全憑彌陀本願功德",
+            "kind": "result",
+            "position": {
+              "x": 360,
+              "y": 380
+            }
+          },
+          {
+            "id": "bright",
+            "label": "當下離暗得明",
+            "kind": "concept",
+            "position": {
+              "x": 500,
+              "y": 380
+            }
+          },
+          {
+            "id": "nirvana",
+            "label": "受涅槃安樂",
+            "kind": "concept",
+            "position": {
+              "x": 700,
+              "y": 380
+            }
+          },
+          {
+            "id": "rebirth",
+            "label": "快速往生極樂",
+            "kind": "result",
+            "position": {
+              "x": 900,
+              "y": 380
+            }
+          },
+          {
+            "id": "universal",
+            "label": "平等普遍無遺漏",
+            "kind": "concept",
+            "position": {
+              "x": 760,
+              "y": 560
+            }
+          },
+          {
+            "id": "avici",
+            "label": "涵蓋阿鼻眾生類",
+            "kind": "concept",
+            "position": {
+              "x": 960,
+              "y": 560
+            }
+          },
+          {
+            "id": "eight-realms",
+            "label": "指輪迴八道眾生",
+            "kind": "result",
+            "position": {
+              "x": 1160,
+              "y": 560
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "salvation",
+            "to": "not-self",
+            "relation": "explains"
+          },
+          {
+            "from": "salvation",
+            "to": "purpose",
+            "relation": "explains"
+          },
+          {
+            "from": "salvation",
+            "to": "object",
+            "relation": "explains"
+          },
+          {
+            "from": "not-self",
+            "to": "ship",
+            "relation": "illustrates"
+          },
+          {
+            "from": "not-self",
+            "to": "no-practice-requirement",
+            "relation": "means"
+          },
+          {
+            "from": "not-self",
+            "to": "vow-merit",
+            "relation": "depends-on"
+          },
+          {
+            "from": "purpose",
+            "to": "bright",
+            "relation": "results-in"
+          },
+          {
+            "from": "purpose",
+            "to": "nirvana",
+            "relation": "results-in"
+          },
+          {
+            "from": "purpose",
+            "to": "rebirth",
+            "relation": "results-in"
+          },
+          {
+            "from": "object",
+            "to": "universal",
+            "relation": "includes"
+          },
+          {
+            "from": "object",
+            "to": "avici",
+            "relation": "includes"
+          },
+          {
+            "from": "object",
+            "to": "eight-realms",
+            "relation": "includes"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-headings",
+            "label": "不依賴／目的／對象",
+            "members": [
+              "not-self",
+              "purpose",
+              "object"
+            ]
+          },
+          {
+            "id": "purpose-results",
+            "label": "救度目的的結果",
+            "members": [
+              "bright",
+              "nirvana",
+              "rebirth"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13主要標籤與三欄分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三欄架構重建不依賴眾生自身、救度目的、救度對象及各自說明；保留救生船比喻與三組結果。"
       }
     },
     {
@@ -639,9 +850,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-dad027096000bfde1572cb9a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-dad027096000bfde1572cb9a.jpg",
         "sha256": "b59ca6dadd05a517969d031c9394b9b25f67b0d1296edf35ce4bb67ae9327ea9"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛教祝福海報：右側為金色阿彌陀佛像，左側以紅黑文字列出「阿彌陀佛是無量壽」「阿彌陀佛是無量光」「阿彌陀佛是萬德洪名」及相應偈語，左邊另有直排「清淨常念」「南無阿彌陀佛」。屬於文字海報，不是關係圖。",
+      "transcript": "清淨常念\n南無阿彌陀佛\n阿彌陀佛是無量壽\n要求慈悲、善根、福德，正好念阿彌陀佛。\n阿彌陀佛是無量光\n要求智慧、理性、平和，正好念阿彌陀佛。\n阿彌陀佛是萬德洪名\n念南無阿彌陀佛，能夠消災免難，逢凶化吉，遇難呈祥。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "8/8主要文字區塊",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "完整保留可讀海報文字與佛像語意；排版是祝福海報而非明確關係圖，因此不產生虛假的圖模型。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

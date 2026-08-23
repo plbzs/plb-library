@@ -29,24 +29,27 @@
       "id": "media-ddbcc9345530fc202cb76d78",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-ddbcc9345530fc202cb76d78.jpg",
         "sha256": "3e92a1791cb8fa73a0eb37ba72d9a295983dd90da9d0297fedac79d7e5663dae"
       },
-      "semanticDescription": null,
+      "semanticDescription": "石窟佛像照片：一尊大型石雕佛像的頭肩與上半身近景，背景是刻有佛教造像與浮雕的岩壁。屬於佛像與文物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：浮雕文字不可可靠轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "描述石雕佛像、石窟與背景浮雕，不臆測地點、年代或造像身份。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

@@ -397,17 +397,165 @@
       "id": "media-d788e30e44aa198de18afa5a",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d788e30e44aa198de18afa5a.png",
         "sha256": "8d87253441f83e032ff1106c05503d13806d749a16706004543b0f5b7719c4b5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "南無—歸命—機法\n法—彌陀—歸之命—歸回之救命\n機—眾生—歸於命—歸順於救命\n機—眾生—命歸佛—污穢生滅輪迴短暫之生命歸入\n清淨常住自在永恆之佛命\n機—眾生—命歸願—生命歸於彌陀，即能歸還自性\n機法一體",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "南無歸命與機法一體",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "namo",
+            "label": "南無",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 180,
+              "y": 300
+            }
+          },
+          {
+            "id": "person-buddha",
+            "label": "機法",
+            "kind": "concept",
+            "position": {
+              "x": 360,
+              "y": 300
+            }
+          },
+          {
+            "id": "dharma-line",
+            "label": "法—彌陀—歸之命—歸回之救命",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 40
+            }
+          },
+          {
+            "id": "capacity-line",
+            "label": "機—眾生—歸於命—歸順於救命",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 180
+            }
+          },
+          {
+            "id": "buddha-life-line",
+            "label": "機—眾生—命歸佛—污穢生滅輪迴短暫之生命歸入清淨常住自在永恆之佛命",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 340
+            }
+          },
+          {
+            "id": "vow-line",
+            "label": "機—眾生—命歸願—生命歸於彌陀，即能歸還自性",
+            "kind": "branch",
+            "position": {
+              "x": 620,
+              "y": 540
+            }
+          },
+          {
+            "id": "one-body",
+            "label": "機法一體",
+            "kind": "result",
+            "position": {
+              "x": 1320,
+              "y": 180
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "namo",
+            "to": "refuge",
+            "relation": "means"
+          },
+          {
+            "from": "refuge",
+            "to": "person-buddha",
+            "relation": "contains"
+          },
+          {
+            "from": "person-buddha",
+            "to": "dharma-line",
+            "relation": "develops"
+          },
+          {
+            "from": "person-buddha",
+            "to": "capacity-line",
+            "relation": "develops"
+          },
+          {
+            "from": "person-buddha",
+            "to": "buddha-life-line",
+            "relation": "develops"
+          },
+          {
+            "from": "person-buddha",
+            "to": "vow-line",
+            "relation": "develops"
+          },
+          {
+            "from": "dharma-line",
+            "to": "one-body",
+            "relation": "forms"
+          },
+          {
+            "from": "capacity-line",
+            "to": "one-body",
+            "relation": "forms"
+          },
+          {
+            "from": "buddha-life-line",
+            "to": "one-body",
+            "relation": "forms"
+          },
+          {
+            "from": "vow-line",
+            "to": "one-body",
+            "relation": "forms"
+          }
+        ],
+        "groups": [
+          {
+            "id": "four-return-lines",
+            "label": "機法歸命的四條說明",
+            "members": [
+              "dharma-line",
+              "capacity-line",
+              "buddha-life-line",
+              "vow-line"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8主要標籤與四條分支；部分長句以原圖可辨識字串保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留南無、歸命、機法與四條歸命說明，並將四條分支匯入機法一體；圖中的括號與分支關係已轉成可搜尋圖模型。"
       }
     },
     {
@@ -1074,8 +1222,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "5/7 approved-or-semantic",
-    "approvedReconstructionCount": 5,
+    "coverage": "6/7 approved-or-semantic",
+    "approvedReconstructionCount": 6,
     "semanticOnlyCount": 0
   }
 }
