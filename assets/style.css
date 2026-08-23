@@ -1300,6 +1300,14 @@ main {
     overflow-x: auto;
   }
 
+  .header-article-nav:not([hidden]) {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: none;
+    order: 5;
+    overflow-x: hidden;
+  }
+
   .header-article-nav button {
     min-height: 2rem;
     padding: 0.22rem 0.45rem;
