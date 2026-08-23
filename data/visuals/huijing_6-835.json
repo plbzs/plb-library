@@ -43,24 +43,27 @@
       "id": "media-292575b53507f01b737039aa",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-292575b53507f01b737039aa.svg",
         "sha256": "c75561207e9878719b9a9ebfc2f924d1fa2a25a89c7611f0e464ef6bd09d1607"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張約 759×163 的橫幅 SVG 視覺檔，原始檔沒有可讀文字節點或可可靠還原的圖表結構，位於〈曇鸞大師之彌陀佛身觀〉文章中。保留原始 SVG，不臆造其視覺內容。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; visual-only source",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔無可讀文字或可靠結構，保留原圖並以文章位置提供語意描述。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
+    "coverage": "1/3 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

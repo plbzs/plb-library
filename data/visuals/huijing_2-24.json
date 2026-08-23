@@ -26,24 +26,104 @@
       "id": "media-2da9b35d316ce4d4ba2d27e5",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2da9b35d316ce4d4ba2d27e5.svg",
         "sha256": "f0a351021426880eaf9a45470835e0184b6a5e57f2b7f4d9aec569cb53c328c4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨宗；方法：本願稱名；目的：凡夫入報。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨宗的方法與目的",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨宗",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 80
+            }
+          },
+          {
+            "id": "method",
+            "label": "方法",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 20
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "目的",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 140
+            }
+          },
+          {
+            "id": "name",
+            "label": "本願稱名",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 20
+            }
+          },
+          {
+            "id": "birth",
+            "label": "凡夫入報",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 140
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "method",
+            "relation": "has"
+          },
+          {
+            "from": "root",
+            "to": "purpose",
+            "relation": "has"
+          },
+          {
+            "from": "method",
+            "to": "name",
+            "relation": "realized-by"
+          },
+          {
+            "from": "purpose",
+            "to": "birth",
+            "relation": "aims-at"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三欄短句與連線重建淨宗、方法、目的及其內容。此視覺項目在四篇文章中共用。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

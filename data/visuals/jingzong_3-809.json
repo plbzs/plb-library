@@ -9,24 +9,27 @@
       "id": "media-29072d12678385877d1ee6d2",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-29072d12678385877d1ee6d2.svg",
         "sha256": "e7286e82f161eca7e424eab3a6e2e238fc061e09cde95078e4550d54772f4864"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張約 583×744 的大型 SVG 視覺檔，原始檔沒有可讀文字、線段或可供可靠辨識的結構節點，位於〈停船暫借問，或恐是同鄉〉文章中。保留原始 SVG，不臆造圖表或插圖內容。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; visual-only source",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔無可讀文字或可靠結構，保留原圖並以文章位置提供語意描述。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -210,17 +210,181 @@
       "id": "media-2a3d11aa27e0028b6e875f16",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2a3d11aa27e0028b6e875f16.svg",
         "sha256": "b8b5d023554b91ef79f5beccddd9220265bbc41bc23b997e137de5894bdc674c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五雜行：讀誦雜行—讀誦淨土三經以外的經典；觀察雜行—想像彌陀淨土以外的依正；禮拜雜行—禮拜彌陀以外的諸佛菩薩；稱名雜行—稱念彌陀以外的諸佛菩薩名號及咒語；讚供雜行—讚歎供養彌陀以外的諸佛菩薩。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五雜行及其定義",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五雜行",
+            "kind": "root",
+            "position": {
+              "x": 350,
+              "y": 0
+            }
+          },
+          {
+            "id": "reading",
+            "label": "讀誦雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 100
+            }
+          },
+          {
+            "id": "observation",
+            "label": "觀察雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "worship",
+            "label": "禮拜雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 440,
+              "y": 100
+            }
+          },
+          {
+            "id": "recitation",
+            "label": "稱名雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 660,
+              "y": 100
+            }
+          },
+          {
+            "id": "praise",
+            "label": "讚供雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 880,
+              "y": 100
+            }
+          },
+          {
+            "id": "reading-detail",
+            "label": "讀誦淨土三經以外的經典",
+            "kind": "detail",
+            "position": {
+              "x": 0,
+              "y": 200
+            }
+          },
+          {
+            "id": "observation-detail",
+            "label": "想像彌陀淨土以外的依正",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "worship-detail",
+            "label": "禮拜彌陀以外的諸佛菩薩",
+            "kind": "detail",
+            "position": {
+              "x": 440,
+              "y": 200
+            }
+          },
+          {
+            "id": "recitation-detail",
+            "label": "稱念彌陀以外的諸佛菩薩名號及咒語",
+            "kind": "detail",
+            "position": {
+              "x": 660,
+              "y": 200
+            }
+          },
+          {
+            "id": "praise-detail",
+            "label": "讚歎供養彌陀以外的諸佛菩薩",
+            "kind": "detail",
+            "position": {
+              "x": 880,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "reading",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "observation",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "worship",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "recitation",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "praise",
+            "relation": "divides-into"
+          },
+          {
+            "from": "reading",
+            "to": "reading-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "observation",
+            "to": "observation-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "worship",
+            "to": "worship-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "recitation",
+            "to": "recitation-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "praise",
+            "to": "praise-detail",
+            "relation": "defined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "16/16 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖五列文字與分隔線重建五雜行及各自定義。此視覺項目在兩篇文章中共用。"
       }
     },
     {
@@ -260,8 +424,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/6 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/6 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

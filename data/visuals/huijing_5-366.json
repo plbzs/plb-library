@@ -246,24 +246,174 @@
       "id": "media-2dcf10fc9c8e175bb9e6df16",
       "position": 8,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2dcf10fc9c8e175bb9e6df16.svg",
         "sha256": "782041b2ed90ed153f53c8ebac58390663f3922a4a17d0b56432fe18eee5d677"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "第十八願；十方眾生；至心、信樂、欲生我國三心；乃至十念；若不生者即得往生果、不取正覺；念佛成佛；因、體、果、用；第十一願必至滅度成等正覺證大涅槃；第二十二願一生補處供養諸佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八願的機、心、行、果與念佛成佛",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "第十八願",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 150
+            }
+          },
+          {
+            "id": "beings",
+            "label": "十方眾生",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "three-minds",
+            "label": "三心：至心／信樂／欲生我國",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 80
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行：乃至十念",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 160
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因：具足",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 160
+            }
+          },
+          {
+            "id": "birth",
+            "label": "果：即得往生",
+            "kind": "result",
+            "position": {
+              "x": 700,
+              "y": 80
+            }
+          },
+          {
+            "id": "vow-result",
+            "label": "若不生者，不取正覺",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 240
+            }
+          },
+          {
+            "id": "buddha",
+            "label": "念佛成佛",
+            "kind": "scheme",
+            "position": {
+              "x": 700,
+              "y": 200
+            }
+          },
+          {
+            "id": "body",
+            "label": "體：第十一願，必至滅度成等正覺，證大涅槃",
+            "kind": "detail",
+            "position": {
+              "x": 950,
+              "y": 140
+            }
+          },
+          {
+            "id": "function",
+            "label": "用：第二十二願，一生補處供養諸佛",
+            "kind": "detail",
+            "position": {
+              "x": 950,
+              "y": 250
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "beings",
+            "relation": "addresses"
+          },
+          {
+            "from": "root",
+            "to": "three-minds",
+            "relation": "requires"
+          },
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "requires"
+          },
+          {
+            "from": "practice",
+            "to": "cause",
+            "relation": "forms"
+          },
+          {
+            "from": "cause",
+            "to": "birth",
+            "relation": "leads-to"
+          },
+          {
+            "from": "root",
+            "to": "vow-result",
+            "relation": "promises"
+          },
+          {
+            "from": "birth",
+            "to": "buddha",
+            "relation": "leads-to"
+          },
+          {
+            "from": "buddha",
+            "to": "body",
+            "relation": "has-body"
+          },
+          {
+            "from": "buddha",
+            "to": "function",
+            "relation": "has-function"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依第十八願 SVG 的左至右流程與下方體用分支重建；將垂直單字節點合併為原始詞組，未補入圖外教義。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/8 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/8 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

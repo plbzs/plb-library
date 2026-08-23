@@ -60,24 +60,160 @@
       "id": "media-2cd1f6e2227c0b81b2892f9c",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-2cd1f6e2227c0b81b2892f9c.svg",
         "sha256": "9e67320b15971a67425c00df887ad22beaa9f5d7cfe7f8b796e282c5f6e45b08"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六字三義；南無阿彌陀佛；歸命、發願、迴向；信、願、行；往生淨土三資糧。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六字名號三義與往生三資糧",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "六字三義",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "name",
+            "label": "南無阿彌陀佛",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "take-refuge",
+            "label": "歸命",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 0
+            }
+          },
+          {
+            "id": "vow",
+            "label": "發願",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 45
+            }
+          },
+          {
+            "id": "dedicate",
+            "label": "迴向",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 90
+            }
+          },
+          {
+            "id": "resources",
+            "label": "往生淨土三資糧",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 190
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 180
+            }
+          },
+          {
+            "id": "wish",
+            "label": "願",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 225
+            }
+          },
+          {
+            "id": "practice",
+            "label": "行",
+            "kind": "detail",
+            "position": {
+              "x": 460,
+              "y": 270
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "name",
+            "relation": "explained-as"
+          },
+          {
+            "from": "name",
+            "to": "take-refuge",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "name",
+            "to": "vow",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "name",
+            "to": "dedicate",
+            "relation": "has-meaning"
+          },
+          {
+            "from": "root",
+            "to": "resources",
+            "relation": "paired-with"
+          },
+          {
+            "from": "resources",
+            "to": "faith",
+            "relation": "contains"
+          },
+          {
+            "from": "resources",
+            "to": "wish",
+            "relation": "contains"
+          },
+          {
+            "from": "resources",
+            "to": "practice",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖六字、三義與信願行三資糧的上下分組重建；視覺項目在兩篇文章中共用。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/4 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

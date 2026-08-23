@@ -9,24 +9,314 @@
       "id": "media-280479757a61f3da26e1e5fd",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-280479757a61f3da26e1e5fd.svg",
         "sha256": "abecc05d9b312c213b79ac9a306bafdefaeb10a4920a4e83190d8abec74a513f"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土開宗；開宗祖師、開宗時間、開宗祖庭、開宗利益、開宗傳承、專依善導；普濟時眾、楷定古今、垂範未來；正明開宗、比較顯勝、總結定論；概要、概括概略論述、第一章論證、二至九章論定、第十章綜合；依準目的、全貌整體、不暇細釋；總論、分論、結論；本書簡介、淨土宗概論。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《淨土宗概論講記》開宗與全書綱要",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土開宗",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 180
+            }
+          },
+          {
+            "id": "founder",
+            "label": "開宗祖師",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "time",
+            "label": "開宗時間",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 45
+            }
+          },
+          {
+            "id": "place",
+            "label": "開宗祖庭",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 90
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "開宗利益",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 135
+            }
+          },
+          {
+            "id": "lineage",
+            "label": "開宗傳承",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 180
+            }
+          },
+          {
+            "id": "shandao",
+            "label": "專依善導",
+            "kind": "detail",
+            "position": {
+              "x": 220,
+              "y": 225
+            }
+          },
+          {
+            "id": "three-benefits",
+            "label": "普濟時眾／楷定古今／垂範未來",
+            "kind": "section",
+            "position": {
+              "x": 220,
+              "y": 290
+            }
+          },
+          {
+            "id": "opening",
+            "label": "正明開宗",
+            "kind": "scheme",
+            "position": {
+              "x": 470,
+              "y": 40
+            }
+          },
+          {
+            "id": "comparison",
+            "label": "比較顯勝",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 20
+            }
+          },
+          {
+            "id": "conclusion",
+            "label": "總結定論",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 65
+            }
+          },
+          {
+            "id": "overview",
+            "label": "概要",
+            "kind": "scheme",
+            "position": {
+              "x": 470,
+              "y": 160
+            }
+          },
+          {
+            "id": "general",
+            "label": "概括概略論述",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 130
+            }
+          },
+          {
+            "id": "chapter-1",
+            "label": "第一章論證",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 175
+            }
+          },
+          {
+            "id": "chapters-2-9",
+            "label": "二至九章論定",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 220
+            }
+          },
+          {
+            "id": "chapter-10",
+            "label": "第十章綜合",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 265
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "依準目的",
+            "kind": "scheme",
+            "position": {
+              "x": 470,
+              "y": 350
+            }
+          },
+          {
+            "id": "whole",
+            "label": "全貌整體",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 335
+            }
+          },
+          {
+            "id": "not-detail",
+            "label": "不暇細釋",
+            "kind": "detail",
+            "position": {
+              "x": 700,
+              "y": 380
+            }
+          },
+          {
+            "id": "book",
+            "label": "本書簡介／淨土宗概論",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "founder",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "time",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "place",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "benefit",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "lineage",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "shandao",
+            "relation": "described-by"
+          },
+          {
+            "from": "root",
+            "to": "three-benefits",
+            "relation": "results-in"
+          },
+          {
+            "from": "root",
+            "to": "opening",
+            "relation": "organized-as"
+          },
+          {
+            "from": "opening",
+            "to": "comparison",
+            "relation": "contains"
+          },
+          {
+            "from": "opening",
+            "to": "conclusion",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "overview",
+            "relation": "organized-as"
+          },
+          {
+            "from": "overview",
+            "to": "general",
+            "relation": "contains"
+          },
+          {
+            "from": "overview",
+            "to": "chapter-1",
+            "relation": "contains"
+          },
+          {
+            "from": "overview",
+            "to": "chapters-2-9",
+            "relation": "contains"
+          },
+          {
+            "from": "overview",
+            "to": "chapter-10",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "purpose",
+            "relation": "organized-as"
+          },
+          {
+            "from": "purpose",
+            "to": "whole",
+            "relation": "contains"
+          },
+          {
+            "from": "purpose",
+            "to": "not-detail",
+            "relation": "contains"
+          },
+          {
+            "from": "overview",
+            "to": "book",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable text nodes represented",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原 SVG 多組欄列與連線重建開宗資訊、正明開宗、全書概要及依準目的；重複的單字節點合併為原詞組。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
