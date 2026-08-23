@@ -771,24 +771,311 @@
       "id": "media-d0d2dcec29dcf1029222cd9a",
       "position": 7,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-d0d2dcec29dcf1029222cd9a.png",
         "sha256": "72ad7de97cb414d4e32d5099fd8961cb3dfda8b928eb7939fedf30e8ca695012"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六字三義\n歸命\n心相\n發願迴向\n義別\n即是其行\n具德\n機\n信\n法\n行\n受法\n因\n必得往生\n證\n得益\n果\n信證直接",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六字三義與信證直接",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "six-meanings",
+            "label": "六字三義",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 280,
+              "y": 80
+            }
+          },
+          {
+            "id": "mind-aspect",
+            "label": "心相",
+            "kind": "concept",
+            "position": {
+              "x": 520,
+              "y": 80
+            }
+          },
+          {
+            "id": "dedication",
+            "label": "發願迴向",
+            "kind": "meaning",
+            "position": {
+              "x": 280,
+              "y": 260
+            }
+          },
+          {
+            "id": "meaning-distinction",
+            "label": "義別",
+            "kind": "concept",
+            "position": {
+              "x": 520,
+              "y": 260
+            }
+          },
+          {
+            "id": "practice",
+            "label": "即是其行",
+            "kind": "meaning",
+            "position": {
+              "x": 280,
+              "y": 440
+            }
+          },
+          {
+            "id": "virtue",
+            "label": "具德",
+            "kind": "concept",
+            "position": {
+              "x": 520,
+              "y": 440
+            }
+          },
+          {
+            "id": "capacity",
+            "label": "機",
+            "kind": "branch",
+            "position": {
+              "x": 760,
+              "y": 150
+            }
+          },
+          {
+            "id": "faith",
+            "label": "信",
+            "kind": "resource",
+            "position": {
+              "x": 940,
+              "y": 150
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法",
+            "kind": "branch",
+            "position": {
+              "x": 760,
+              "y": 450
+            }
+          },
+          {
+            "id": "practice-resource",
+            "label": "行",
+            "kind": "resource",
+            "position": {
+              "x": 940,
+              "y": 450
+            }
+          },
+          {
+            "id": "receiving-dharma",
+            "label": "受法",
+            "kind": "concept",
+            "position": {
+              "x": 1160,
+              "y": 300
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "concept",
+            "position": {
+              "x": 1340,
+              "y": 300
+            }
+          },
+          {
+            "id": "rebirth",
+            "label": "必得往生",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 700
+            }
+          },
+          {
+            "id": "testimony",
+            "label": "證",
+            "kind": "concept",
+            "position": {
+              "x": 980,
+              "y": 700
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "得益",
+            "kind": "concept",
+            "position": {
+              "x": 1180,
+              "y": 700
+            }
+          },
+          {
+            "id": "effect",
+            "label": "果",
+            "kind": "result",
+            "position": {
+              "x": 1380,
+              "y": 700
+            }
+          },
+          {
+            "id": "direct-certification",
+            "label": "信證直接",
+            "kind": "result",
+            "position": {
+              "x": 1580,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "six-meanings",
+            "to": "refuge",
+            "relation": "contains"
+          },
+          {
+            "from": "six-meanings",
+            "to": "dedication",
+            "relation": "contains"
+          },
+          {
+            "from": "six-meanings",
+            "to": "practice",
+            "relation": "contains"
+          },
+          {
+            "from": "refuge",
+            "to": "mind-aspect",
+            "relation": "explains"
+          },
+          {
+            "from": "dedication",
+            "to": "meaning-distinction",
+            "relation": "explains"
+          },
+          {
+            "from": "practice",
+            "to": "virtue",
+            "relation": "explains"
+          },
+          {
+            "from": "mind-aspect",
+            "to": "capacity",
+            "relation": "leads-to"
+          },
+          {
+            "from": "capacity",
+            "to": "faith",
+            "relation": "forms"
+          },
+          {
+            "from": "virtue",
+            "to": "dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "dharma",
+            "to": "practice-resource",
+            "relation": "forms"
+          },
+          {
+            "from": "faith",
+            "to": "receiving-dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "practice-resource",
+            "to": "receiving-dharma",
+            "relation": "leads-to"
+          },
+          {
+            "from": "receiving-dharma",
+            "to": "cause",
+            "relation": "is"
+          },
+          {
+            "from": "cause",
+            "to": "direct-certification",
+            "relation": "leads-to"
+          },
+          {
+            "from": "rebirth",
+            "to": "testimony",
+            "relation": "is-confirmed-by"
+          },
+          {
+            "from": "testimony",
+            "to": "benefit",
+            "relation": "gives"
+          },
+          {
+            "from": "benefit",
+            "to": "effect",
+            "relation": "becomes"
+          },
+          {
+            "from": "effect",
+            "to": "direct-certification",
+            "relation": "supports"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-meanings",
+            "label": "六字三義",
+            "members": [
+              "refuge",
+              "dedication",
+              "practice"
+            ]
+          },
+          {
+            "id": "faith-and-practice",
+            "label": "機法信行",
+            "members": [
+              "capacity",
+              "faith",
+              "dharma",
+              "practice-resource"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "18/18主要標籤；六字三義、機法信行與證果收束已保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖的括號與連線重建三條六字義別、機法信行及受法／因、必得往生／證／得益／果的兩條收束；保留可辨識文字，不將裝飾線誤解成額外節點。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "4/7 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "coverage": "5/7 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

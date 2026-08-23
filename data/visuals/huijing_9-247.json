@@ -9,24 +9,27 @@
       "id": "media-c460157900287ed417622928",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-c460157900287ed417622928.jpg",
         "sha256": "9d50628c57213876372c716a24f992ff8b4e41ea3a9ba9b9b4e89f83acb9964b"
       },
-      "semanticDescription": null,
+      "semanticDescription": "黑白手繪示意插畫：上方有數個雲形框或標籤，下方畫一名頭戴圓形髮髻、身體被線條交叉包圍的人物，底部另有小人物、斜向筆觸與手寫註記。手寫內容不清楚，無法可靠建立文字關係圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "手寫標籤過小且模糊，無可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、雲形框、交叉線與下方小人物的畫面語意，不把藝術性手繪猜成流程或組織圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

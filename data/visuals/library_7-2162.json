@@ -145,17 +145,20 @@
       "id": "media-c0feda105b3eafc6bc311a8b",
       "position": 8,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-c0feda105b3eafc6bc311a8b.jpg",
         "sha256": "d38d6b3d4fd6d946fb36bb61e264232f8236593aff1615ea61f850230c174fc9"
       },
-      "semanticDescription": null,
+      "semanticDescription": "傳統佛教人物畫：兩尊身穿金色衣飾的菩薩或佛教人物立於雲氣之上，其中一位正在演奏或操作大型樂器，另一位手持圓形法器；畫面有古畫絹本質感與邊角題字。屬於宗教畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "邊角題字過小，無可靠完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留兩位人物、樂器、圓形法器、雲氣與古畫質感，不臆測人物身份或題字全文。"
       }
     },
     {
@@ -297,8 +300,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "12/15 approved-or-semantic",
+    "coverage": "13/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 12
+    "semanticOnlyCount": 13
   }
 }

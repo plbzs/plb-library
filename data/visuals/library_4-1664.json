@@ -9,24 +9,179 @@
       "id": "media-c9e5fead9554d13162fc804d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-c9e5fead9554d13162fc804d.jpg",
         "sha256": "3cd57d56091838b4b22837b06402809b60a02651c7d6648a170c3dffd24e10ee"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "六道輪迴圖\n三善\n天\n人\n修\n三惡\n鬼\n地\n畜",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "六道輪迴圖",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "six-realms",
+            "label": "六道輪迴圖",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "heaven",
+            "label": "天",
+            "kind": "realm",
+            "position": {
+              "x": 260,
+              "y": 220
+            }
+          },
+          {
+            "id": "human",
+            "label": "人",
+            "kind": "realm",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          },
+          {
+            "id": "asura",
+            "label": "修",
+            "kind": "realm",
+            "position": {
+              "x": 780,
+              "y": 220
+            }
+          },
+          {
+            "id": "hungry-ghost",
+            "label": "鬼",
+            "kind": "realm",
+            "position": {
+              "x": 260,
+              "y": 420
+            }
+          },
+          {
+            "id": "hell",
+            "label": "地",
+            "kind": "realm",
+            "position": {
+              "x": 520,
+              "y": 420
+            }
+          },
+          {
+            "id": "animal",
+            "label": "畜",
+            "kind": "realm",
+            "position": {
+              "x": 780,
+              "y": 420
+            }
+          },
+          {
+            "id": "three-good",
+            "label": "三善",
+            "kind": "group",
+            "position": {
+              "x": 520,
+              "y": 120
+            }
+          },
+          {
+            "id": "three-bad",
+            "label": "三惡",
+            "kind": "group",
+            "position": {
+              "x": 520,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "six-realms",
+            "to": "three-good",
+            "relation": "classifies"
+          },
+          {
+            "from": "six-realms",
+            "to": "three-bad",
+            "relation": "classifies"
+          },
+          {
+            "from": "three-good",
+            "to": "heaven",
+            "relation": "contains"
+          },
+          {
+            "from": "three-good",
+            "to": "human",
+            "relation": "contains"
+          },
+          {
+            "from": "three-good",
+            "to": "asura",
+            "relation": "contains"
+          },
+          {
+            "from": "three-bad",
+            "to": "hungry-ghost",
+            "relation": "contains"
+          },
+          {
+            "from": "three-bad",
+            "to": "hell",
+            "relation": "contains"
+          },
+          {
+            "from": "three-bad",
+            "to": "animal",
+            "relation": "contains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "good-realms",
+            "label": "三善",
+            "members": [
+              "heaven",
+              "human",
+              "asura"
+            ]
+          },
+          {
+            "id": "bad-realms",
+            "label": "三惡",
+            "members": [
+              "hungry-ghost",
+              "hell",
+              "animal"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9主要標籤；保留圖中『修』的原樣簡寫",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重建六道圓圖的六個分區與三善／三惡分組；不把圖中簡寫『修』擅自擴寫成原圖沒有的文字。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

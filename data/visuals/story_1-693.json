@@ -66,17 +66,20 @@
       "id": "media-cc4d3a4797c6faf3e9ec0921",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-cc4d3a4797c6faf3e9ec0921.jpg",
         "sha256": "0bbce4ba9ebeb931d7d2f12d6c49af23ed4928f78c9abc00405ae1baf3c116b5"
       },
-      "semanticDescription": null,
+      "semanticDescription": "佛堂或供桌照片：前景可見一朵粉紅色蓮花，中央有明亮的白色蓮花或燈光，右側有佛像局部；紅色箭頭指向左上方的粉紅蓮花。屬於照片與標示，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無可靠圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留蓮花、佛像局部、光源與紅色箭頭的可見語意，不推定箭頭所指的宗教意義。"
       }
     },
     {
@@ -102,8 +105,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/5 approved-or-semantic",
+    "coverage": "4/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
+    "semanticOnlyCount": 4
   }
 }

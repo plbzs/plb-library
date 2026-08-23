@@ -69,24 +69,27 @@
       "id": "media-d71f2279a5782979f68d804c",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-d71f2279a5782979f68d804c.jpg",
         "sha256": "28b07740fcaa26171e2452f5026455175e7fbdc8cef40be7d4e9d3bd550e95c5"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "彩色寓言連環插畫：綠色蜈蚣沿著竹林前進，接著鑽入直立的竹筒休息；畫面以兩格或連續場景呈現，並有旁白文字。可辨識旁白大意為「蜈蚣繼續前行，看到一片竹林」以及「於是，蜈蚣進了竹筒想休息一會兒……」，屬於敘事插畫，不是結構化圖表。",
+      "transcript": "蜈蚣繼續前行，看到一片竹林。\n於是，蜈蚣進了竹筒想休息一會兒……",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "2/2旁白主要句意",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留竹林、蜈蚣、竹筒與連續場景及旁白，不將寓言插畫轉成流程模型。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
+    "semanticOnlyCount": 4
   }
 }

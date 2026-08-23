@@ -9,17 +9,20 @@
       "id": "media-cda02fe6bcb91738b0adda0c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-cda02fe6bcb91738b0adda0c.jpg",
         "sha256": "4ac737638eeeabc1418d1016b38c1976d901f6f8be1a0466a7ed0d10f55053a8"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "紅色直幅書法海報：中央以黑色毛筆字書寫「靈蛇生慧」，右側有「乙巳年慶」與淨土宗標誌，左下有「慧淨」及印章，下方有金色吉祥裝飾。屬於書法祝福海報，不是結構化圖表。",
+      "transcript": "靈蛇生慧\n乙巳年慶\n慧淨",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "3/3主要文字區塊",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "轉錄主標、年份與署名，保留書法、標誌、印章與吉祥圖樣，不重建為關係圖。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }
