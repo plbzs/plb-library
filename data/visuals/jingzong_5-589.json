@@ -125,17 +125,149 @@
       "id": "media-9a78b7068c94c342d6f74a51",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9a78b7068c94c342d6f74a51.svg",
         "sha256": "7270022c791aab8347d88d83ed50ff4865acc6439fe32f76ec7a27963a987804"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "教判：所判、能判、判法；客觀要求、主觀意願、有機整體；開宗。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "教判與開宗",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "教判",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "what",
+            "label": "所判",
+            "kind": "element",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "who",
+            "label": "能判",
+            "kind": "element",
+            "position": {
+              "x": 280,
+              "y": 160
+            }
+          },
+          {
+            "id": "method",
+            "label": "判法",
+            "kind": "element",
+            "position": {
+              "x": 560,
+              "y": 160
+            }
+          },
+          {
+            "id": "objective",
+            "label": "客觀要求",
+            "kind": "condition",
+            "position": {
+              "x": 120,
+              "y": 340
+            }
+          },
+          {
+            "id": "subjective",
+            "label": "主觀意願",
+            "kind": "condition",
+            "position": {
+              "x": 420,
+              "y": 340
+            }
+          },
+          {
+            "id": "whole",
+            "label": "有機整體",
+            "kind": "synthesis",
+            "position": {
+              "x": 720,
+              "y": 340
+            }
+          },
+          {
+            "id": "opening",
+            "label": "開宗",
+            "kind": "result",
+            "position": {
+              "x": 420,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "what",
+            "relation": "asks"
+          },
+          {
+            "from": "root",
+            "to": "who",
+            "relation": "asks"
+          },
+          {
+            "from": "root",
+            "to": "method",
+            "relation": "asks"
+          },
+          {
+            "from": "what",
+            "to": "objective",
+            "relation": "constrained-by"
+          },
+          {
+            "from": "who",
+            "to": "subjective",
+            "relation": "guided-by"
+          },
+          {
+            "from": "method",
+            "to": "whole",
+            "relation": "organized-as"
+          },
+          {
+            "from": "objective",
+            "to": "opening",
+            "relation": "contributes-to"
+          },
+          {
+            "from": "subjective",
+            "to": "opening",
+            "relation": "contributes-to"
+          },
+          {
+            "from": "whole",
+            "to": "opening",
+            "relation": "contributes-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留教判的所判／能判／判法三面向，以及客觀要求、主觀意願、有機整體通向開宗的關係。"
       }
     },
     {
@@ -870,9 +1002,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/6 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "6/6 approved-or-semantic",
+    "approvedReconstructionCount": 6,
     "semanticOnlyCount": 0
   }
 }

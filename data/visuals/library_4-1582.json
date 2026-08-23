@@ -9,24 +9,27 @@
       "id": "media-a0942e3569777f9955770fad",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a0942e3569777f9955770fad.svg",
         "sha256": "2f126dd8b2e2b5e25496016efb945ac0266b1c79d96c4975c81d12170638e0de"
       },
-      "semanticDescription": null,
+      "semanticDescription": "文章〈此地真是魔鄉嗎？-佛迎居士〉中的內嵌 SVG 點陣圖，圖說為「家母早年的劇照」；它呈現作者母親早年在舞台活動時的劇照，屬人物／歷史照片類視覺資料，不適合硬重建成圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "no SVG text layer; caption and article context retained",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "依文章緊接圖片的圖說建立描述；不將人物照片誤標為可逆向重建的組織圖或表格。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

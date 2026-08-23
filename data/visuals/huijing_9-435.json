@@ -9,24 +9,165 @@
       "id": "media-9b07401512d4d947b55514d5",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9b07401512d4d947b55514d5.svg",
         "sha256": "c454828684eb82d4b33754eef4de6e7b0567861ca8fdebc22d54daa24eeec164"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法分聖道門、淨土門；淨土門分要門、弘願。觀經分定善與散善：定善為息慮凝心之十三定觀，散善為廢惡修善之三福九品；三福包括世福、戒福、行福。定善與散善對應上品、中品、下品；弘願為真實弘願、念佛。另列：大願為五劫思惟之本願（為我發），大業為兆載永劫之萬行（為我修），大力為名號無上功德力（為我成），並有光明無礙攝取力；自力迴向與他力迴向。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《觀經》定散二善與本願名號",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門／自力迴向",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門／他力迴向",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 160
+            }
+          },
+          {
+            "id": "gate",
+            "label": "要門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 340
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願／真實弘願／念佛",
+            "kind": "scheme",
+            "position": {
+              "x": 780,
+              "y": 340
+            }
+          },
+          {
+            "id": "kan",
+            "label": "《觀經》",
+            "kind": "source",
+            "position": {
+              "x": 520,
+              "y": 520
+            }
+          },
+          {
+            "id": "meditative",
+            "label": "定善：十三定觀；上、中、下三品",
+            "kind": "practice",
+            "position": {
+              "x": 160,
+              "y": 700
+            }
+          },
+          {
+            "id": "nonmeditative",
+            "label": "散善：三福九品；世福、戒福、行福",
+            "kind": "practice",
+            "position": {
+              "x": 560,
+              "y": 700
+            }
+          },
+          {
+            "id": "merit",
+            "label": "大願：五劫本願；大業：兆載永劫萬行；大力：名號無上功德力；光明攝取力",
+            "kind": "ground",
+            "position": {
+              "x": 960,
+              "y": 700
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "gate",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "gate",
+            "to": "kan",
+            "relation": "uses"
+          },
+          {
+            "from": "kan",
+            "to": "meditative",
+            "relation": "classified-as"
+          },
+          {
+            "from": "kan",
+            "to": "nonmeditative",
+            "relation": "classified-as"
+          },
+          {
+            "from": "vow",
+            "to": "merit",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "merit",
+            "to": "vow",
+            "relation": "fulfills"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "28/28 semantic groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將定善、散善、三福九品、要門、弘願與本願／名號力量整理成主幹；分散單字與品位標記已合併。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -148,24 +148,142 @@
       "id": "media-a0d5828d6b0a8382cc575e41",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a0d5828d6b0a8382cc575e41.svg",
         "sha256": "c72845ab86db63a10da8ca4edb3ac01561b1ec5a49d3d116089af2bab7107668"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "阿彌陀佛三位：一、因位；二、中間；三、果位。因位：思惟時節五劫、思惟誓願四十八願；中間：修行時節兆載永劫、修行功德六度萬行；果位：定善、散善、依報、正報。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "阿彌陀佛因位、中間、果位",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "阿彌陀佛三位",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "cause",
+            "label": "一、因位",
+            "kind": "stage",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "middle",
+            "label": "二、中間",
+            "kind": "stage",
+            "position": {
+              "x": 240,
+              "y": 240
+            }
+          },
+          {
+            "id": "result",
+            "label": "三、果位",
+            "kind": "stage",
+            "position": {
+              "x": 240,
+              "y": 480
+            }
+          },
+          {
+            "id": "vow",
+            "label": "思惟時節五劫／思惟誓願四十八願",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "practice",
+            "label": "修行時節兆載永劫／修行功德六度萬行",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 240
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "定善／散善／依報／正報",
+            "kind": "detail",
+            "position": {
+              "x": 560,
+              "y": 480
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "result",
+            "relation": "divides-into"
+          },
+          {
+            "from": "cause",
+            "to": "vow",
+            "relation": "described-by"
+          },
+          {
+            "from": "middle",
+            "to": "practice",
+            "relation": "described-by"
+          },
+          {
+            "from": "result",
+            "to": "benefit",
+            "relation": "described-by"
+          },
+          {
+            "from": "cause",
+            "to": "middle",
+            "relation": "develops-into"
+          },
+          {
+            "from": "middle",
+            "to": "result",
+            "relation": "develops-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "27/27 semantic groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將因位、中間、果位及各自的時間／願行／果報標籤整理為三階段流程。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

@@ -9,17 +9,111 @@
       "id": "media-9e86798319f779176c26a20a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9e86798319f779176c26a20a.svg",
         "sha256": "5323ccdd1f5f0c7498847842501e25cd25c0a42bd5bbc4a8950bb641410ee2c4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《小經》要文三譯對照；三段兩重因果：因、平生專念佛名；果、臨終佛聖現前；因、命終心不顛倒；果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《小經》要文三段兩重因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三段兩重因果",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 200
+            }
+          },
+          {
+            "id": "cause-1",
+            "label": "因：平生專念佛名",
+            "kind": "cause",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "result-1",
+            "label": "果：臨終佛聖現前",
+            "kind": "result",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause-2",
+            "label": "因：命終心不顛倒",
+            "kind": "cause",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "result-2",
+            "label": "果",
+            "kind": "result",
+            "position": {
+              "x": 560,
+              "y": 300
+            }
+          },
+          {
+            "id": "three",
+            "label": "三段要文／三譯對照",
+            "kind": "source",
+            "position": {
+              "x": 860,
+              "y": 150
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause-1",
+            "relation": "contains"
+          },
+          {
+            "from": "cause-1",
+            "to": "result-1",
+            "relation": "causes"
+          },
+          {
+            "from": "root",
+            "to": "cause-2",
+            "relation": "contains"
+          },
+          {
+            "from": "cause-2",
+            "to": "result-2",
+            "relation": "causes"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "compared-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三段兩重因果及因／果標記，將三種譯文的共同語義整理為可查詢流程。"
       }
     },
     {
@@ -68,9 +162,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 2
   }
 }

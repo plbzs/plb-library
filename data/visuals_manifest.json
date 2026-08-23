@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 126,
-    "semanticOnly": 19,
-    "needsReview": 198,
+    "approvedReconstruction": 133,
+    "semanticOnly": 20,
+    "needsReview": 190,
     "sourceMissing": 1
   },
   "articles": [
@@ -85,9 +85,9 @@
       "articleId": "huijing_3-2",
       "path": "data/visuals/huijing_3-2.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "huijing_3-550",
@@ -261,7 +261,7 @@
       "articleId": "huijing_5-376",
       "path": "data/visuals/huijing_5-376.json",
       "expectedVisualCount": 4,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -381,7 +381,7 @@
       "articleId": "huijing_6-545",
       "path": "data/visuals/huijing_6-545.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -421,9 +421,9 @@
       "articleId": "huijing_6-637",
       "path": "data/visuals/huijing_6-637.json",
       "expectedVisualCount": 3,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 2,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "huijing_6-725",
@@ -597,9 +597,9 @@
       "articleId": "huijing_9-435",
       "path": "data/visuals/huijing_9-435.json",
       "expectedVisualCount": 1,
-      "approvedReconstructionCount": 0,
+      "approvedReconstructionCount": 1,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "huijing_9-436",
@@ -669,7 +669,7 @@
       "articleId": "huijing_9-563",
       "path": "data/visuals/huijing_9-563.json",
       "expectedVisualCount": 3,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },
@@ -1029,9 +1029,9 @@
       "articleId": "jingzong_5-589",
       "path": "data/visuals/jingzong_5-589.json",
       "expectedVisualCount": 6,
-      "approvedReconstructionCount": 5,
+      "approvedReconstructionCount": 6,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_5-596",
@@ -1085,9 +1085,9 @@
       "articleId": "jingzong_5-608",
       "path": "data/visuals/jingzong_5-608.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "jingzong_5-616",
@@ -1302,8 +1302,8 @@
       "path": "data/visuals/library_4-1582.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "library_4-1583",
@@ -1493,7 +1493,7 @@
       "articleId": "library_5-1389",
       "path": "data/visuals/library_5-1389.json",
       "expectedVisualCount": 3,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
       "status": "in-review"
     },

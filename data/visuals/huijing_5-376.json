@@ -142,17 +142,153 @@
       "id": "media-9cdd4d2c194a586bbbfae49a",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9cdd4d2c194a586bbbfae49a.svg",
         "sha256": "b7e86887a66e9632451b8ce522b42c339c70ccceffdefe1468207e95ef4788e8"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "碳素、水氣、種子喻；因與緣形成果。火燒導致永遠死亡；種子遇水土與緣則生生不息。圖中標示因、緣、果。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "碳素、水氣、種子喻",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "因緣果喻",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "fire",
+            "label": "火燒",
+            "kind": "condition",
+            "position": {
+              "x": 240,
+              "y": 0
+            }
+          },
+          {
+            "id": "dead",
+            "label": "永遠死亡",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "seed",
+            "label": "種子",
+            "kind": "cause",
+            "position": {
+              "x": 240,
+              "y": 260
+            }
+          },
+          {
+            "id": "water",
+            "label": "水土／水氣",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "concept",
+            "position": {
+              "x": 520,
+              "y": 360
+            }
+          },
+          {
+            "id": "condition",
+            "label": "緣",
+            "kind": "concept",
+            "position": {
+              "x": 720,
+              "y": 220
+            }
+          },
+          {
+            "id": "growth",
+            "label": "生生不息",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 260
+            }
+          },
+          {
+            "id": "fruit",
+            "label": "果",
+            "kind": "concept",
+            "position": {
+              "x": 1140,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "fire",
+            "relation": "contrasts"
+          },
+          {
+            "from": "fire",
+            "to": "dead",
+            "relation": "results-in"
+          },
+          {
+            "from": "root",
+            "to": "seed",
+            "relation": "illustrated-by"
+          },
+          {
+            "from": "seed",
+            "to": "cause",
+            "relation": "is"
+          },
+          {
+            "from": "water",
+            "to": "condition",
+            "relation": "supports"
+          },
+          {
+            "from": "cause",
+            "to": "growth",
+            "relation": "with-conditions"
+          },
+          {
+            "from": "condition",
+            "to": "growth",
+            "relation": "supports"
+          },
+          {
+            "from": "growth",
+            "to": "fruit",
+            "relation": "results-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留火燒／永遠死亡與種子／水土／緣／生生不息的對照，並補回圖中因與果標記。"
       }
     },
     {
@@ -175,8 +311,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

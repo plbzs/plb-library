@@ -9,17 +9,126 @@
       "id": "media-9d6b4a574d1b9eee1ba1c1fd",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9d6b4a574d1b9eee1ba1c1fd.svg",
         "sha256": "d5b933d971968c30a2f621e65e62610d3475ace5257654a6292aa885bca552bd"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四聖諦：苦諦、集諦、滅諦、道諦；苦諦說現世苦與後世輪迴苦，包括身心苦、環境苦、三苦、八苦；集諦為三毒貪瞋癡及愛執；滅諦為斷煩惱、證涅槃、常樂我淨；道諦為達成涅槃之法，包括大小乘、解脫道與菩薩道；離苦得樂、斷惑證真。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "四聖諦",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "四聖諦",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "suffering",
+            "label": "苦諦：現世苦／後世輪迴苦；身心、環境、三苦、八苦",
+            "kind": "truth",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "集諦：三毒貪瞋癡；愛執起苦",
+            "kind": "truth",
+            "position": {
+              "x": 260,
+              "y": 180
+            }
+          },
+          {
+            "id": "cessation",
+            "label": "滅諦：斷煩惱、證涅槃；常樂我淨",
+            "kind": "truth",
+            "position": {
+              "x": 260,
+              "y": 360
+            }
+          },
+          {
+            "id": "path",
+            "label": "道諦：達成涅槃之法；大小乘、解脫道、菩薩道",
+            "kind": "truth",
+            "position": {
+              "x": 260,
+              "y": 540
+            }
+          },
+          {
+            "id": "result",
+            "label": "離苦得樂／斷惑證真",
+            "kind": "result",
+            "position": {
+              "x": 760,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "suffering",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "cessation",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "path",
+            "relation": "divides-into"
+          },
+          {
+            "from": "suffering",
+            "to": "cause",
+            "relation": "explained-by"
+          },
+          {
+            "from": "cause",
+            "to": "cessation",
+            "relation": "overcome-by"
+          },
+          {
+            "from": "cessation",
+            "to": "path",
+            "relation": "realized-through"
+          },
+          {
+            "from": "path",
+            "to": "result",
+            "relation": "results-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 semantic groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留四聖諦主幹及苦、集、滅、道的說明，將混排的三苦／八苦與修行結果歸入對應節點。"
       }
     },
     {
@@ -42,8 +151,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

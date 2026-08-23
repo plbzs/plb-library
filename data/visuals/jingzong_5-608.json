@@ -92,24 +92,118 @@
       "id": "media-9a0146f422b63e5fa50f4edd",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-9a0146f422b63e5fa50f4edd.svg",
         "sha256": "80f0a5ddf16d35f2aee4cbe96d4daa754ec4e66ce314d841f45c6bb551d480da"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "立宗要素：宗、名、教判、經典、相承。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "立宗要素",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "立宗要素",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "school",
+            "label": "宗",
+            "kind": "element",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "name",
+            "label": "名",
+            "kind": "element",
+            "position": {
+              "x": 260,
+              "y": 90
+            }
+          },
+          {
+            "id": "judgment",
+            "label": "教判",
+            "kind": "element",
+            "position": {
+              "x": 260,
+              "y": 180
+            }
+          },
+          {
+            "id": "canon",
+            "label": "經典",
+            "kind": "element",
+            "position": {
+              "x": 260,
+              "y": 270
+            }
+          },
+          {
+            "id": "lineage",
+            "label": "相承",
+            "kind": "element",
+            "position": {
+              "x": 260,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "school",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "name",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "judgment",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "canon",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "lineage",
+            "relation": "defined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5/5立宗要素",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將 SVG 中分散的五個立宗要素整理為一個根節點下的平級項目。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

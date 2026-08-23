@@ -596,8 +596,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/5 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "coverage": "4/5 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }
