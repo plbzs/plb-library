@@ -9,24 +9,179 @@
       "id": "media-bf81acc59b224581a5ae4df3",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-bf81acc59b224581a5ae4df3.svg",
         "sha256": "61e8efd9d6dbfa136f28a5139db6ebb4f0a262aac5fe3c06014ffee3d2cd10a5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "往生正覺；機法一體；眾生以彌陀之正覺為往生之因；彌陀以眾生之往生為正覺之果；彼此成一體、流同一血液、呼同一鼻息；阿彌陀佛是法界身，入一切眾生心中，想佛入我心；光明遍照十方世界，念佛眾生攝取不捨；色心功德；眾生口稱／佛即聞之；眾生身禮／佛即見之；眾生心念／佛即念之；彼此三業。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "往生正覺的機法一體",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "往生正覺／機法一體",
+            "kind": "root",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "cause",
+            "label": "眾生以彌陀之正覺為往生之因",
+            "kind": "cause",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "effect",
+            "label": "彌陀以眾生之往生為正覺之果",
+            "kind": "effect",
+            "position": {
+              "x": 600,
+              "y": 180
+            }
+          },
+          {
+            "id": "unity",
+            "label": "彼此成一體／流同一血液／呼同一鼻息",
+            "kind": "relationship",
+            "position": {
+              "x": 500,
+              "y": 380
+            }
+          },
+          {
+            "id": "body",
+            "label": "阿彌陀佛是法界身，入一切眾生心中；想佛入我心",
+            "kind": "concept",
+            "position": {
+              "x": 500,
+              "y": 580
+            }
+          },
+          {
+            "id": "light",
+            "label": "光明遍照十方世界；念佛眾生攝取不捨",
+            "kind": "concept",
+            "position": {
+              "x": 500,
+              "y": 780
+            }
+          },
+          {
+            "id": "three-karma",
+            "label": "彼此三業／色心功德",
+            "kind": "summary",
+            "position": {
+              "x": 500,
+              "y": 980
+            }
+          },
+          {
+            "id": "mouth",
+            "label": "口稱／佛即聞之",
+            "kind": "three-karma",
+            "position": {
+              "x": 100,
+              "y": 1160
+            }
+          },
+          {
+            "id": "body-karma",
+            "label": "身禮／佛即見之",
+            "kind": "three-karma",
+            "position": {
+              "x": 500,
+              "y": 1160
+            }
+          },
+          {
+            "id": "mind",
+            "label": "心念／佛即念之",
+            "kind": "three-karma",
+            "position": {
+              "x": 900,
+              "y": 1160
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "effect",
+            "relation": "explains"
+          },
+          {
+            "from": "cause",
+            "to": "unity",
+            "relation": "supports"
+          },
+          {
+            "from": "effect",
+            "to": "unity",
+            "relation": "supports"
+          },
+          {
+            "from": "unity",
+            "to": "body",
+            "relation": "develops"
+          },
+          {
+            "from": "body",
+            "to": "light",
+            "relation": "develops"
+          },
+          {
+            "from": "light",
+            "to": "three-karma",
+            "relation": "supports"
+          },
+          {
+            "from": "three-karma",
+            "to": "mouth",
+            "relation": "divides-into"
+          },
+          {
+            "from": "three-karma",
+            "to": "body-karma",
+            "relation": "divides-into"
+          },
+          {
+            "from": "three-karma",
+            "to": "mind",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "因果、機法一體、法界身與三業全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留原圖由往生正覺到機法一體、法界身、光明與三業的向下結構。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

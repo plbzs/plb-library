@@ -637,17 +637,163 @@
       "id": "media-be21a55879fa1c41f4a24534",
       "position": 7,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-be21a55879fa1c41f4a24534.svg",
         "sha256": "071b401598ef8f3e1f5e8d4d673124f57ac897091b7ea2a536ed12bf94a77029"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "往生正覺；機法一體；眾生依彌陀之正覺為往生之因；彌陀依眾生之往生為正覺之果；身心功德；彌陀功德入眾生心、念佛眾生攝取不捨；眾生口稱、佛即聞之；眾生身禮、佛即見之；眾生心念、佛即念之；彼此依靠、互相融合、彼此三業、三業不離。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "機法一體與往生正覺",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "往生正覺／機法一體",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "cause",
+            "label": "眾生依彌陀之正覺為往生之因",
+            "kind": "cause",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "effect",
+            "label": "彌陀依眾生之往生為正覺之果",
+            "kind": "effect",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "body-mind",
+            "label": "身心功德",
+            "kind": "concept",
+            "position": {
+              "x": 300,
+              "y": 420
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "彌陀功德入眾生心；念佛眾生攝取不捨",
+            "kind": "relationship",
+            "position": {
+              "x": 620,
+              "y": 300
+            }
+          },
+          {
+            "id": "mouth",
+            "label": "眾生口稱／佛即聞之",
+            "kind": "three-karma",
+            "position": {
+              "x": 940,
+              "y": 140
+            }
+          },
+          {
+            "id": "body",
+            "label": "眾生身禮／佛即見之",
+            "kind": "three-karma",
+            "position": {
+              "x": 940,
+              "y": 300
+            }
+          },
+          {
+            "id": "mind",
+            "label": "眾生心念／佛即念之",
+            "kind": "three-karma",
+            "position": {
+              "x": 940,
+              "y": 460
+            }
+          },
+          {
+            "id": "summary",
+            "label": "彼此依靠／互相融合／三業不離",
+            "kind": "summary",
+            "position": {
+              "x": 1260,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "effect",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "body-mind",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "body-mind",
+            "to": "dharma",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "dharma",
+            "to": "mouth",
+            "relation": "includes"
+          },
+          {
+            "from": "dharma",
+            "to": "body",
+            "relation": "includes"
+          },
+          {
+            "from": "dharma",
+            "to": "mind",
+            "relation": "includes"
+          },
+          {
+            "from": "mouth",
+            "to": "summary",
+            "relation": "synthesizes"
+          },
+          {
+            "from": "body",
+            "to": "summary",
+            "relation": "synthesizes"
+          },
+          {
+            "from": "mind",
+            "to": "summary",
+            "relation": "synthesizes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "因果、身心功德與三業互動全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將原圖的往生因／正覺果、機法一體與口身心三業分層重建，保留彼此依靠、互相融合的總結。"
       }
     },
     {
@@ -820,8 +966,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "5/8 approved-or-semantic",
-    "approvedReconstructionCount": 5,
+    "coverage": "6/8 approved-or-semantic",
+    "approvedReconstructionCount": 6,
     "semanticOnlyCount": 0
   }
 }

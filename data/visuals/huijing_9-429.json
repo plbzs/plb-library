@@ -163,24 +163,146 @@
       "id": "media-bc194b761387c1af3447dcd2",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-bc194b761387c1af3447dcd2.svg",
         "sha256": "ff19ab2f7034afea12cdcc41a5aaf1ee752600fb7e3e6a0e3e92dea52785f3e0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五果門；近門、大會眾門、宅門、屋門、園林遊戲地門；入功德（自利）；出功德（利他）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五果門與入出功德",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五果門",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "in",
+            "label": "入功德（自利）",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 80
+            }
+          },
+          {
+            "id": "out",
+            "label": "出功德（利他）",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 520
+            }
+          },
+          {
+            "id": "near",
+            "label": "近門",
+            "kind": "door",
+            "position": {
+              "x": 620,
+              "y": 0
+            }
+          },
+          {
+            "id": "great-assembly",
+            "label": "大會眾門",
+            "kind": "door",
+            "position": {
+              "x": 620,
+              "y": 120
+            }
+          },
+          {
+            "id": "house",
+            "label": "宅門",
+            "kind": "door",
+            "position": {
+              "x": 620,
+              "y": 240
+            }
+          },
+          {
+            "id": "roof",
+            "label": "屋門",
+            "kind": "door",
+            "position": {
+              "x": 620,
+              "y": 360
+            }
+          },
+          {
+            "id": "garden",
+            "label": "園林遊戲地門",
+            "kind": "door",
+            "position": {
+              "x": 620,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "in",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "out",
+            "relation": "divides-into"
+          },
+          {
+            "from": "in",
+            "to": "near",
+            "relation": "includes"
+          },
+          {
+            "from": "in",
+            "to": "great-assembly",
+            "relation": "includes"
+          },
+          {
+            "from": "in",
+            "to": "house",
+            "relation": "includes"
+          },
+          {
+            "from": "in",
+            "to": "roof",
+            "relation": "includes"
+          },
+          {
+            "from": "out",
+            "to": "garden",
+            "relation": "includes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "五果門與五門名稱全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖的入功德／出功德分組，保留五果門的五個門名與自利、利他標籤。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

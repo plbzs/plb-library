@@ -9,17 +9,111 @@
       "id": "media-bfa3c015e9cb500a3e693ab3",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-bfa3c015e9cb500a3e693ab3.svg",
         "sha256": "9e11057a1591731c4f1af3409f25c43cdcabb8be3e04d17ee279c54b84e526bf"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五正行：讀誦正行（一心專讀誦淨土三經）；觀想正行（一心專想像淨土依正）；禮拜正行（一心專禮拜阿彌陀佛）；稱名正行（一心專稱念彌陀名號）；讚供正行（一心專讚歎供養阿彌陀佛）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五正行",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五正行",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "recite",
+            "label": "讀誦正行：一心專讀誦淨土三經",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "visualize",
+            "label": "觀想正行：一心專想像淨土依正",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "bow",
+            "label": "禮拜正行：一心專禮拜阿彌陀佛",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 420
+            }
+          },
+          {
+            "id": "name",
+            "label": "稱名正行：一心專稱念彌陀名號",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 540
+            }
+          },
+          {
+            "id": "praise",
+            "label": "讚供正行：一心專讚歎供養阿彌陀佛",
+            "kind": "practice",
+            "position": {
+              "x": 0,
+              "y": 660
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "recite",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "visualize",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "bow",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "name",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "praise",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "五項正行與各項行法全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "把原圖的五列文字整理成根節點下的平級實踐清單。"
       }
     },
     {
@@ -589,8 +683,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "4/6 approved-or-semantic",
-    "approvedReconstructionCount": 4,
+    "coverage": "5/6 approved-or-semantic",
+    "approvedReconstructionCount": 5,
     "semanticOnlyCount": 0
   }
 }

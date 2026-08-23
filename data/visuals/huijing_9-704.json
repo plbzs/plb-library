@@ -306,24 +306,114 @@
       "id": "media-beb6c7c8374f4eea2cce1502",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-beb6c7c8374f4eea2cce1502.svg",
         "sha256": "bdfe042b24b9b4fdf642abb28d0f3945e4198aa97345b5c3686867940b13f415"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三橫超：一、超六道；二、超二乘；三、超諸地；速證大涅槃。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三橫超與速證大涅槃",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三橫超",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "six-realms",
+            "label": "一、超六道",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "two-vehicles",
+            "label": "二、超二乘",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "stages",
+            "label": "三、超諸地",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 360
+            }
+          },
+          {
+            "id": "result",
+            "label": "速證大涅槃",
+            "kind": "result",
+            "position": {
+              "x": 660,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "six-realms",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "two-vehicles",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "stages",
+            "relation": "contains"
+          },
+          {
+            "from": "six-realms",
+            "to": "result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "two-vehicles",
+            "to": "result",
+            "relation": "leads-to"
+          },
+          {
+            "from": "stages",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "三項橫超與結果節點全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "原圖是三分支匯入速證大涅槃，已保留三項分支與共同結果。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

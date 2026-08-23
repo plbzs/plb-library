@@ -9,17 +9,111 @@
       "id": "media-c5eb90c52aa4939be6f20caf",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-c5eb90c52aa4939be6f20caf.svg",
         "sha256": "061690c6373581d78abf2ec3194445bc05768e10f8b9c312fd279bf20b4c2aba"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "緣與因果譬喻：因分常溫、常壓的條件形成碳素；二千度、五萬五千氣壓的條件形成鑽；果分碳與鑽。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "碳素與鑽石的因緣條件譬喻",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "緣",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "cause",
+            "position": {
+              "x": 260,
+              "y": 220
+            }
+          },
+          {
+            "id": "normal",
+            "label": "常溫、常壓／碳素",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 0
+            }
+          },
+          {
+            "id": "high",
+            "label": "二千度、五萬五千氣壓",
+            "kind": "condition",
+            "position": {
+              "x": 560,
+              "y": 360
+            }
+          },
+          {
+            "id": "carbon",
+            "label": "果：碳",
+            "kind": "result",
+            "position": {
+              "x": 920,
+              "y": 0
+            }
+          },
+          {
+            "id": "diamond",
+            "label": "果：鑽",
+            "kind": "result",
+            "position": {
+              "x": 920,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "gives-rise-to"
+          },
+          {
+            "from": "cause",
+            "to": "normal",
+            "relation": "conditioned-by"
+          },
+          {
+            "from": "cause",
+            "to": "high",
+            "relation": "conditioned-by"
+          },
+          {
+            "from": "normal",
+            "to": "carbon",
+            "relation": "produces"
+          },
+          {
+            "from": "high",
+            "to": "diamond",
+            "relation": "produces"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "因、三種條件與兩種果全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將原圖的條件分支與碳、鑽兩種結果重建為因緣流程，未加入圖外推論。"
       }
     },
     {
@@ -295,24 +389,137 @@
       "id": "media-c7399ff1b97bbad0297e6383",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-c7399ff1b97bbad0297e6383.svg",
         "sha256": "e387bc66af04fb189e82dab8bc32a49c71075a871a895d2bd3dd016050355f0d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "緣、因、果；普通緣、凡夫、增上緣；六道凡夫、往生成佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "普通緣、凡夫與增上緣的結果對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "緣",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "cause",
+            "position": {
+              "x": 250,
+              "y": 220
+            }
+          },
+          {
+            "id": "ordinary",
+            "label": "普通緣",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "ordinary-beings",
+            "label": "凡夫",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          },
+          {
+            "id": "superior",
+            "label": "增上緣",
+            "kind": "condition",
+            "position": {
+              "x": 520,
+              "y": 440
+            }
+          },
+          {
+            "id": "six-realms",
+            "label": "果：六道凡夫",
+            "kind": "result",
+            "position": {
+              "x": 860,
+              "y": 80
+            }
+          },
+          {
+            "id": "buddhahood",
+            "label": "果：往生成佛",
+            "kind": "result",
+            "position": {
+              "x": 860,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "cause",
+            "relation": "gives-rise-to"
+          },
+          {
+            "from": "cause",
+            "to": "ordinary",
+            "relation": "divides-into"
+          },
+          {
+            "from": "cause",
+            "to": "ordinary-beings",
+            "relation": "divides-into"
+          },
+          {
+            "from": "cause",
+            "to": "superior",
+            "relation": "divides-into"
+          },
+          {
+            "from": "ordinary",
+            "to": "six-realms",
+            "relation": "produces"
+          },
+          {
+            "from": "ordinary-beings",
+            "to": "six-realms",
+            "relation": "produces"
+          },
+          {
+            "from": "superior",
+            "to": "buddhahood",
+            "relation": "produces"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "因緣、三類緣與兩種果全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖分支重建普通緣、凡夫、增上緣到六道凡夫與往生成佛的對照。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }
