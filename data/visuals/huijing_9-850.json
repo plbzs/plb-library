@@ -3,7 +3,7 @@
   "articleId": "huijing_9-850",
   "title": "阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」（十二）",
   "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
-  "expectedVisualCount": 1,
+  "expectedVisualCount": 2,
   "visuals": [
     {
       "id": "media-3bb3dcbeea88fd49397cbaf0",
@@ -24,12 +24,26 @@
         "visualReview": "semantic-reviewed",
         "reviewNote": "原始檔無可讀文字，無法可靠反向重建；以文章位置、尺寸與檔案型態提供語意描述並保留原圖。"
       }
+    },
+    {
+      "id": "media-3bb3dcbeea88fd49397cbaf0",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "semantic-only",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-3bb3dcbeea88fd49397cbaf0.svg",
+        "sha256": "b0de90008c0c909653522bb3550d8cf7805de3432379bad339312856e1d738d4"
+      },
+      "semanticDescription": "一張約 603×291 的大型 SVG 視覺檔，原始檔沒有可讀文字節點，內容以路徑或嵌入視覺元素呈現，位於〈阿彌陀佛四十八題──以四十八題略解「阿彌陀佛是怎樣一尊佛？」（十二）〉文章中。保留原始 SVG，不臆造圖表結構。",
+      "transcript": null,
+      "reconstruction": null,
+      "validation": {
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "0 SVG text nodes; visual-only source",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "原始檔無可讀文字，無法可靠反向重建；以文章位置、尺寸與檔案型態提供語意描述並保留原圖。"
+      }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

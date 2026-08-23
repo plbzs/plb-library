@@ -121,11 +121,5 @@
         "reviewNote": "重建此土／彼土、往生益／成佛益與功德大寶海的流程。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

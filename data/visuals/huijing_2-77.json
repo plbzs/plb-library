@@ -246,11 +246,5 @@
         "reviewNote": "原 SVG 為左右兩欄第十八願對照；依文字座標保留兩個來源、信樂、願生、稱名、十念／十聲與願力結果。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

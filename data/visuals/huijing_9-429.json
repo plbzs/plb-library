@@ -298,11 +298,5 @@
         "reviewNote": "依原圖的入功德／出功德分組，保留五果門的五個門名與自利、利他標籤。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -590,11 +590,5 @@
         "reviewNote": "保留第十八、十一、二十二願的三路徑，以及十念念佛、五念門、正定聚、信心滅度、還來度人的結果關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -339,11 +339,5 @@
         "reviewNote": "依定善／散善／弘願三組主結構重建，並保留三品、三福九品與顯隱說明。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

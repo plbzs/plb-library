@@ -25,11 +25,5 @@
         "reviewNote": "保留山水、長者、孩童、山路與詩句主題，不猜測書法題字的完整內容。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

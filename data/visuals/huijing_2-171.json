@@ -219,11 +219,5 @@
         "reviewNote": "保留聖道門／淨土門、要門／弘願、定散、三福九品與本願四力等層級；把分散的單字重組為可搜尋節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

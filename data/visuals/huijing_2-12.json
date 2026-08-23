@@ -214,11 +214,5 @@
         "reviewNote": "依原圖教理行果的主序與能所術語重建；因原 SVG 文字以單字節點排版，關係採 associated-with 以避免過度推斷。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -200,11 +200,5 @@
         "reviewNote": "依原圖三攝與三、二、四十三的數字分組重建，保留五個具名願與願願三攝的限定語。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

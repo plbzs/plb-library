@@ -158,11 +158,5 @@
         "reviewNote": "將恆河七人的七個階段整理為由入水到彼岸的流程，保留原圖旁列的根機／果位序列。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

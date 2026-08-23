@@ -289,11 +289,5 @@
         "reviewNote": "按原圖因果、體用與往相／還相關係完整重建三條願行鏈。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

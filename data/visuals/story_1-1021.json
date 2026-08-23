@@ -25,11 +25,5 @@
         "reviewNote": "保留可辨識文字、卡通人物、翅膀與小佛像，不把手繪故事圖猜成流程模型。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

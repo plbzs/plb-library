@@ -25,11 +25,5 @@
         "reviewNote": "完整提供海報中的中英文字供搜尋與 AI 使用；不將四項特色誤判成流程圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

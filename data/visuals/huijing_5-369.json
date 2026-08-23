@@ -172,11 +172,5 @@
         "reviewNote": "依第十八願 SVG 的左至右流程與下方體用分支重建；將垂直單字節點合併為原始詞組，未補入圖外教義。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

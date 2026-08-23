@@ -102,11 +102,5 @@
         "reviewNote": "依原 SVG 三列文字及其左右位置重建生起、機法深信、名號與深心的對應。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

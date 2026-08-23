@@ -441,11 +441,5 @@
         "reviewNote": "依 SVG 上下兩區文字與分欄位置重建三願及總別四義；同一視覺項目在兩篇文章中共用，保留相同來源雜湊。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

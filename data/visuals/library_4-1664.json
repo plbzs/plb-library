@@ -177,11 +177,5 @@
         "reviewNote": "重建六道圓圖的六個分區與三善／三惡分組；不把圖中簡寫『修』擅自擴寫成原圖沒有的文字。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

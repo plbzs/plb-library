@@ -130,11 +130,5 @@
         "reviewNote": "依兩列文字與水平位置重建內證、外用、內德、外相及其說明。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

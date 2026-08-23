@@ -25,11 +25,5 @@
         "reviewNote": "保留耕讀、讀書人、大樹、田野與題字語意，不將詩畫誤判成結構圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

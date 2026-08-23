@@ -25,11 +25,5 @@
         "reviewNote": "保留中央橙色樹形、黑色枝幹與藍綠背景等視覺語意，不把象徵圖猜成組織架構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

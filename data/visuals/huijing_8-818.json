@@ -25,11 +25,5 @@
         "reviewNote": "此媒體與另一篇文章使用相同原圖，保留同一套老虎、樹藤、人物與水中生物語意。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

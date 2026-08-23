@@ -239,11 +239,5 @@
         "reviewNote": "按原圖左右兩條鏈完整重建佛法、聖道門與淨土門的對照關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -215,11 +215,5 @@
         "reviewNote": "大型章節圖以卷／章／節／主題四層重建；保留原圖的上卷、下卷、第一至第四章與第六至第十二大門，避免把大量章節文字壓成不可搜尋的圖片摘要。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

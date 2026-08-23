@@ -102,11 +102,5 @@
         "reviewNote": "重建難易二道兩欄與聖道／淨土、自力／他力、聖者／凡夫等對照。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

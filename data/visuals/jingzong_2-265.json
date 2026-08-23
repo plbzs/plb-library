@@ -121,11 +121,5 @@
         "reviewNote": "保留正宗分、略讚／廣讚與各自的內容節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

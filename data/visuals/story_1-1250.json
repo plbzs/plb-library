@@ -25,11 +25,5 @@
         "reviewNote": "保留小動物、籠舍、玩具與生活環境語意，不對物種或故事情節作過度推定。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

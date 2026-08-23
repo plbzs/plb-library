@@ -214,11 +214,5 @@
         "reviewNote": "依 SVG 左右欄位與四個不字原則重建，保留不偏之下的四個對象與最後的純淨土結論。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

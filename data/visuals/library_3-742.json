@@ -102,11 +102,5 @@
         "reviewNote": "保留佛法兩分、淺深與隨眾生意／隨佛自意的對照。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

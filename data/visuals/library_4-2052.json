@@ -181,11 +181,5 @@
         "reviewNote": "保留宗風分為俗諦與真諦、各自道路與自力／他力結論，以及阿彌陀佛48願攝受眾生的收束關係；模糊裝飾線不另造節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

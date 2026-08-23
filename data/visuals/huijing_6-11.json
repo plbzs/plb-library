@@ -1061,11 +1061,5 @@
         "reviewNote": "重複單字與裝飾省略號不視為獨立語意；保留正雜二行、正定業／助業、專修／雜修與大判／細判的主要關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "6/6 approved-or-semantic",
-    "approvedReconstructionCount": 6,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

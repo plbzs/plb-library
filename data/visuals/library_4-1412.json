@@ -25,11 +25,5 @@
         "reviewNote": "保留佛像姿態、手印與兩處可辨識題字，不將佛像照片轉為抽象結構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

@@ -25,11 +25,5 @@
         "reviewNote": "描述年長女性、服裝與鄉村環境，不由照片推定姓名、年齡或故事真實性。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

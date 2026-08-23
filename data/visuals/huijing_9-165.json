@@ -130,11 +130,5 @@
         "reviewNote": "保留機法一體的總題、三組機法關係與彼此相靠／包容／不捨離的對應語意。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

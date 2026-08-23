@@ -365,11 +365,5 @@
         "reviewNote": "依原圖對照語句合併重複單字節點，保留純、不雜與堅、不堅兩組對比。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

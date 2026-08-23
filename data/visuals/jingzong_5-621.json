@@ -149,11 +149,5 @@
         "reviewNote": "將原圖中散佈的釋義方法、歷史脈絡與分類觀點重組為可搜尋的概念架構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

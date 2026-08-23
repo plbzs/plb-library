@@ -45,11 +45,5 @@
         "reviewNote": "保留中毒、臨死、念佛、復生、醫療與佛像等故事語意，不將海報拼貼誤轉成流程圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

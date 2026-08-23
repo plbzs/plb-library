@@ -25,11 +25,5 @@
         "reviewNote": "完整保留可讀海報文字與佛像語意；排版是祝福海報而非明確關係圖，因此不產生虛假的圖模型。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

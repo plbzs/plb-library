@@ -162,11 +162,5 @@
         "reviewNote": "透明底 PNG 經白底核對；完整重建實相、時間／空間、無量壽／無量光、生命／光明與現象的對應關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

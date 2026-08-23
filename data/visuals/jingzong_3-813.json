@@ -25,11 +25,5 @@
         "reviewNote": "保留人物、溪流、岩壁、松樹、遠山與水墨構圖，不把山水畫解讀成流程圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

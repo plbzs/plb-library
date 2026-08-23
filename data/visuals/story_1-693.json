@@ -105,11 +105,5 @@
         "reviewNote": "保留念珠種類、材質、箭頭標示與居家背景語意，不猜測念珠功用或身份。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "5/5 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 5
-  }
+  ]
 }

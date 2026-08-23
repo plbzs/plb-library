@@ -3,7 +3,7 @@
   "articleId": "huijing_9-464",
   "title": "善導大師－《觀經疏》大願業力與《大經》三誓偈",
   "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
-  "expectedVisualCount": 2,
+  "expectedVisualCount": 4,
   "visuals": [
     {
       "id": "media-1030d133fd9a5b6018e2cad4",
@@ -145,8 +145,254 @@
       }
     },
     {
-      "id": "media-6d65c6804e4e9a6c0f654c77",
+      "id": "media-1030d133fd9a5b6018e2cad4",
       "position": 2,
+      "sourceType": "image",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-1030d133fd9a5b6018e2cad4.svg",
+        "sha256": "2c4de6515ba7531133c038948d1e0258b0a299f68fd5de80857d38693c48f166"
+      },
+      "semanticDescription": null,
+      "transcript": "大願業力：大願，彌陀因地五劫思惟四十八願（為我發）；大業，彌陀因地兆載永劫六度萬行（為我修）；大力，彌陀果地光明名號度生能力（為我成）；南無阿彌陀佛（他力迴向）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "大願、大業、大力與他力迴向",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "大願業力",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "vow",
+            "label": "大願",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 0
+            }
+          },
+          {
+            "id": "work",
+            "label": "大業",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 100
+            }
+          },
+          {
+            "id": "power",
+            "label": "大力",
+            "kind": "scheme",
+            "position": {
+              "x": 220,
+              "y": 200
+            }
+          },
+          {
+            "id": "vow-detail",
+            "label": "彌陀因地五劫思惟四十八願（為我發）",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 0
+            }
+          },
+          {
+            "id": "work-detail",
+            "label": "彌陀因地兆載永劫六度萬行（為我修）",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 100
+            }
+          },
+          {
+            "id": "power-detail",
+            "label": "彌陀果地光明名號度生能力（為我成）",
+            "kind": "detail",
+            "position": {
+              "x": 450,
+              "y": 200
+            }
+          },
+          {
+            "id": "result",
+            "label": "南無阿彌陀佛（他力迴向）",
+            "kind": "result",
+            "position": {
+              "x": 720,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "has-part"
+          },
+          {
+            "from": "root",
+            "to": "work",
+            "relation": "has-part"
+          },
+          {
+            "from": "root",
+            "to": "power",
+            "relation": "has-part"
+          },
+          {
+            "from": "vow",
+            "to": "vow-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "work",
+            "to": "work-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "power",
+            "to": "power-detail",
+            "relation": "explained-by"
+          },
+          {
+            "from": "power",
+            "to": "result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖大願業力的標題、三段說明與末端他力迴向重建。"
+      }
+    },
+    {
+      "id": "media-6d65c6804e4e9a6c0f654c77",
+      "position": 3,
+      "sourceType": "image",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-6d65c6804e4e9a6c0f654c77.svg",
+        "sha256": "92ba00f0fb3caa3b26563131683eba31ae1dc08be070fd00974963869f491f62"
+      },
+      "semanticDescription": null,
+      "transcript": "大願：我建超世願，必至無上道，斯願不滿足，誓不成等覺；大業：我於無量劫，不為大施主，普濟諸貧苦，誓不成等覺；大力：我至成佛道，名聲超十方，究竟有不聞，誓不成等覺；總結為南無阿彌陀佛（他力迴向）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "大願、大業、大力與南無阿彌陀佛",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "大願、大業、大力",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "vow",
+            "label": "大願：我建超世願／必至無上道／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "work",
+            "label": "大業：我於無量劫／普濟諸貧苦／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 150
+            }
+          },
+          {
+            "id": "power",
+            "label": "大力：我至成佛道／名聲超十方／誓不成等覺",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "name",
+            "label": "南無阿彌陀佛（他力迴向）",
+            "kind": "result",
+            "position": {
+              "x": 720,
+              "y": 150
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "vow",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "work",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "power",
+            "relation": "contains"
+          },
+          {
+            "from": "vow",
+            "to": "name",
+            "relation": "converges-to"
+          },
+          {
+            "from": "work",
+            "to": "name",
+            "relation": "converges-to"
+          },
+          {
+            "from": "power",
+            "to": "name",
+            "relation": "converges-to"
+          }
+        ],
+        "groups": []
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "28/28 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留三組偈文主題與共同歸結的名號、他力迴向。"
+      }
+    },
+    {
+      "id": "media-6d65c6804e4e9a6c0f654c77",
+      "position": 4,
       "sourceType": "image",
       "classification": "reconstructable-diagram",
       "sourceArchive": {
@@ -251,11 +497,5 @@
         "reviewNote": "保留三組偈文主題與共同歸結的名號、他力迴向。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

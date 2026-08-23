@@ -293,11 +293,5 @@
         "reviewNote": "已解開 SVG 內嵌 PNG 進行視覺確認；圖中文字雖不在 SVG text layer，仍按兩列對應與共同歸結重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

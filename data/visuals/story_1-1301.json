@@ -25,11 +25,5 @@
         "reviewNote": "保留佛力接引、往生極樂、花圈與追思現場語意，不嘗試還原被遮蔽個資。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

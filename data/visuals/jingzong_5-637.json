@@ -186,11 +186,5 @@
         "reviewNote": "依原圖三個分區及其五項行法、五緣利益與三項問答重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

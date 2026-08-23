@@ -67,14 +67,5 @@
   ],
   "reserved": false,
   "prevId": "huijing_5-391",
-  "nextId": "huijing_5-390",
-  "visualNotes": [
-    {
-      "id": "media-0b37966ba058f03ad0a118b1",
-      "type": "SVG 圖表",
-      "summary": "淨宗摘要圖，以階梯與括號整理難行道、自力、聖道門及易行道、他力、淨土門的對照。",
-      "extractedText": "難\\n行\\n道\\n—\\n自\\n力\\n聖\\n門\\n…\\n擱\\n雜\\n拋\\n易\\n他\\n淨\\n土門\\n助\\n業\\n旁\\n正\\n定\\n專\\n(\\n本\\n願\\n稱名\\n)\\n佛法",
-      "sourceArchiveVerified": true
-    }
-  ]
+  "nextId": "huijing_5-390"
 }

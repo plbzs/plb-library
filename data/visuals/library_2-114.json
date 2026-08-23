@@ -170,11 +170,5 @@
         "reviewNote": "按原圖五種正行的分支與連線重建，明確保留稱名正行是正定業，其餘四項歸入助業。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

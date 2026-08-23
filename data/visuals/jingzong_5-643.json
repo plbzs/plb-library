@@ -102,11 +102,5 @@
         "reviewNote": "保留一切行、雜行／正行及其助業／正定業的二層分支與原圖權實標記。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

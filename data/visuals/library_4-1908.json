@@ -25,11 +25,5 @@
         "reviewNote": "已解開內嵌 PNG 確認為平等／公平概念插圖，依原則不強行轉為 graph-v1。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

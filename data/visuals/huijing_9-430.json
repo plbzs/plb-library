@@ -144,11 +144,5 @@
         "reviewNote": "重建五念門／五果門與第十八、十一、二十二願之因果與往還二相。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

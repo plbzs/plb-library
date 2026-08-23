@@ -111,11 +111,5 @@
         "reviewNote": "把同一個中間事件在兩重因果中同時作為第一重果與第二重因，保留原圖的連續性。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

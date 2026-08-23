@@ -177,11 +177,5 @@
         "reviewNote": "保留原圖由往生正覺到機法一體、法界身、光明與三業的向下結構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

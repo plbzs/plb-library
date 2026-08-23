@@ -326,11 +326,5 @@
         "reviewNote": "保留人身難得的三類譬喻與全部八個例子，依原圖的分類關係重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

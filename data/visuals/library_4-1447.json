@@ -25,11 +25,5 @@
         "reviewNote": "依使用者原則保留語意輔助，不花費成本虛構或重建無結構的圖像。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

@@ -65,11 +65,5 @@
         "reviewNote": "保留多人交流、口罩、桌面茶具與室內環境語意，不猜測人物身份或活動名稱。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
-  }
+  ]
 }

@@ -45,11 +45,5 @@
         "reviewNote": "原始檔沒有文字節點，無法可靠建立反向結構；保留原圖並提供語意級描述。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

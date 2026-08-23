@@ -45,11 +45,5 @@
         "reviewNote": "保留老虎、樹藤、懸空人物與水中龍形生物等畫面關係，不對寓言內容作額外推定。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

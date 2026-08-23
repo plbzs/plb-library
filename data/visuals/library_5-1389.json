@@ -385,11 +385,5 @@
         "reviewNote": "保留火燒／永遠死亡與種子／水土／緣／生生不息的對照，並補回圖中因與果標記。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

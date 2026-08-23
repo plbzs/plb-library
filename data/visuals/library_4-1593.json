@@ -65,11 +65,5 @@
         "reviewNote": "保留清明、想念、親子人物、欄杆、飛鳥與水景語意，不對人物身份作推定。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
-  }
+  ]
 }

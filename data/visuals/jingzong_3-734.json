@@ -88,11 +88,5 @@
         "reviewNote": "保留善導年代、三位前代法師年代與各自著作，將 SVG 內以 path 拆散的善導年代還原為完整文字。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

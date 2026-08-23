@@ -485,11 +485,5 @@
         "reviewNote": "保留報身／報土兩個上位分類及自受用、他受用的平行分支。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

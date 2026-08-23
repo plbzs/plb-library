@@ -515,11 +515,5 @@
         "reviewNote": "依原圖分支重建普通緣、凡夫、增上緣到六道凡夫與往生成佛的對照。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

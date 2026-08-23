@@ -25,11 +25,5 @@
         "reviewNote": "保留人物、月亮、黑色背景與題字語意，不將詩意畫面誤轉成圖表。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

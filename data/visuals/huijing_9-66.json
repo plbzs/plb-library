@@ -163,11 +163,5 @@
         "reviewNote": "將重複的單字 tspan 合併，保留根機、起行、安心、本願與現當二益的流程。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

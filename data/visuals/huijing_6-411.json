@@ -130,11 +130,5 @@
         "reviewNote": "以意識為總類，重建五俱意識、明了意識、獨頭意識與五俱意識三種情境。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

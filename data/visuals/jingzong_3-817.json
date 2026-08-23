@@ -25,11 +25,5 @@
         "reviewNote": "保留蜘蛛網、昆蟲、人物、孩童與茶桌場景，不把寓言畫面誤轉成流程模型。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

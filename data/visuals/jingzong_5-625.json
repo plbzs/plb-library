@@ -561,11 +561,5 @@
         "reviewNote": "保留正依／旁依對照、三部經、祖證與純專不雜的判準。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

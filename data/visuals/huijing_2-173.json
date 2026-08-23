@@ -102,11 +102,5 @@
         "reviewNote": "依原 SVG 以法然為左端、人物分列為右側的排列重建；不臆測原圖未明示的師承箭頭。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

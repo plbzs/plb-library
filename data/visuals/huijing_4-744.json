@@ -25,11 +25,5 @@
         "reviewNote": "保留祝福標題、年份／人物、英文題字、法師、燈籠與紅色背景，不將海報排版當成資料圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

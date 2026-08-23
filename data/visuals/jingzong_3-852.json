@@ -25,11 +25,5 @@
         "reviewNote": "保留月亮、茶桌、茶壺、竹椅與靜謐生活場景語意。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

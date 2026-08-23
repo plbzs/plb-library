@@ -1957,11 +1957,5 @@
         "reviewNote": "依三位祖師、聖淨二門與結論節點重建教判總結。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "14/14 approved-or-semantic",
-    "approvedReconstructionCount": 14,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

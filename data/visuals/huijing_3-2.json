@@ -279,11 +279,5 @@
         "reviewNote": "將因位、中間、果位及各自的時間／願行／果報標籤整理為三階段流程。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

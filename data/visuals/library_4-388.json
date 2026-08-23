@@ -25,11 +25,5 @@
         "reviewNote": "保留信件、收信人、淨土主題與署名日期的語意，不把不確定手寫內容當成精確全文。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

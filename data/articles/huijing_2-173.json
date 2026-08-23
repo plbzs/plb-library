@@ -66,14 +66,5 @@
   ],
   "reserved": false,
   "prevId": "huijing_2-188",
-  "nextId": "huijing_2-172",
-  "visualNotes": [
-    {
-      "id": "media-185033e4c3a3a1a9c2f21b08",
-      "type": "SVG 圖表",
-      "summary": "佛教名相結構圖，以法然、聖覺、聖光、聖達、觀意、覺如等詞組分層呈現。",
-      "extractedText": "聖覺\\n聖光\\n證空\\n親鸞\\n聖達\\n圓空\\n觀鏡\\n一遍\\n顯意\\n彰空\\n覺如\\n存覺\\n法然",
-      "sourceArchiveVerified": true
-    }
-  ]
+  "nextId": "huijing_2-172"
 }

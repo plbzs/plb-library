@@ -102,11 +102,5 @@
         "reviewNote": "依報與正報兩欄均保留，列出原圖可辨識的七項依報與三項正報內容。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

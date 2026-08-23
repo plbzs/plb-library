@@ -255,11 +255,5 @@
         "reviewNote": "保留實相身／為物身與大智／大悲、自利／利他對應。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

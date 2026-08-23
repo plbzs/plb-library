@@ -25,11 +25,5 @@
         "reviewNote": "保留可搜尋單字與字形展示語意，不將單字圖誤判為圖表。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

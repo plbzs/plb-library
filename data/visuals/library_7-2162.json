@@ -303,11 +303,5 @@
         "reviewNote": "以人物、法器、雲氣與佛教畫作語意輔助搜尋，不虛構人物的完整身份或關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "15/15 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 15
-  }
+  ]
 }

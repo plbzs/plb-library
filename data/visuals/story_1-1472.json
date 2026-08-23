@@ -358,11 +358,5 @@
         "reviewNote": "將人生目標卡的姓名、年紀、日期與三列極樂世界目標整理成 table-v1；保留原卡的三次重複目標，不替使用者合併。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -758,11 +758,5 @@
         "reviewNote": "依原圖現益與當益兩欄，並保留平生、臨終及其細項。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

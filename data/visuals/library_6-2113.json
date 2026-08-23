@@ -225,11 +225,5 @@
         "reviewNote": "來源 PNG 是清楚的文字樹狀圖；完整保留三類願、五個代表願、其餘四十三願與一一為眾生的結歸。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

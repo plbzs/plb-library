@@ -25,11 +25,5 @@
         "reviewNote": "原始檔沒有可讀文字，無法可靠建立反向結構；保留原圖與語意級資訊。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

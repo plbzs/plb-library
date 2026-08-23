@@ -297,11 +297,5 @@
         "reviewNote": "依 SVG 的兩組文字欄與分隔線保留般舟讚的綱要項目及前序、正讚、後序三分。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -25,11 +25,5 @@
         "reviewNote": "保留白蓮、荷葉、花苞與自然背景語意，不賦予圖片額外教義結論。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

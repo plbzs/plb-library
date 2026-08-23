@@ -1009,11 +1009,5 @@
         "reviewNote": "保留十章、約教／約行／約證、承上／起下，以及總論／分論／結論與三段論述次序；把原圖的文字架構轉為可搜尋節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

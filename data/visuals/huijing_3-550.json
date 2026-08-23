@@ -215,11 +215,5 @@
         "reviewNote": "依原圖保留淨影的三分類、五個代表願及善導一一攝眾生的補充解釋。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

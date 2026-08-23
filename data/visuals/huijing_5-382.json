@@ -200,11 +200,5 @@
         "reviewNote": "依 SVG 五條水平文字列與連線方向重建難行道／易行道、自力／他力、聖道門／淨土門及正行鏈。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

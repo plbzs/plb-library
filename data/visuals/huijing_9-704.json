@@ -409,11 +409,5 @@
         "reviewNote": "原圖是三分支匯入速證大涅槃，已保留三項分支與共同結果。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

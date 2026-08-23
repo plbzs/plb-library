@@ -25,11 +25,5 @@
         "reviewNote": "保留詩句、香蕉、櫻桃／水果與香的語意，方便 AI 理解文章插圖的主題。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

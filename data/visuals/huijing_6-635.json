@@ -547,11 +547,5 @@
         "reviewNote": "依原圖六字、三義與信願行三資糧的上下分組重建；視覺項目在兩篇文章中共用。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

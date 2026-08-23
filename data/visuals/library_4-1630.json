@@ -25,11 +25,5 @@
         "reviewNote": "描述人物姿態、服飾、自然場景與古畫質感，不替人物或故事情節作未經證實的身份判定。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

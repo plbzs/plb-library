@@ -25,11 +25,5 @@
         "reviewNote": "完整提供海報中的中英文字，讓搜尋與 AI 可以取得原圖上的宗旨內容；不把四句標語強行編成圖表。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

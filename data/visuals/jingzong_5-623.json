@@ -676,11 +676,5 @@
         "reviewNote": "將三欄比較整理成聖道門、要門、弘願三條平行路徑，保留行法與目標的差異。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

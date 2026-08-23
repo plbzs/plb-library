@@ -154,11 +154,5 @@
         "reviewNote": "圖內沒有 SVG 文字層，但正文在圖片前逐項說明三願的名稱、因果位置與涵攝關係，據此重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -130,11 +130,5 @@
         "reviewNote": "將超長 SVG 文字依原圖的六個面向分組，保留各面向的內容而不讓全文退化為單一段落。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

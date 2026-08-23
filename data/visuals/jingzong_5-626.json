@@ -158,11 +158,5 @@
         "reviewNote": "原圖文字節點雖合併為兩列，仍保留釋迦本懷的三項主題與十點編號分組。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

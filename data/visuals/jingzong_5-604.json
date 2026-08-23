@@ -241,11 +241,5 @@
         "reviewNote": "將本願、心性與機行益三欄的對照關係重建，保留凡夫／稱名／入報與聖者上根／定散萬行／凡聖同居。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

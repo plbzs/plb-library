@@ -24,11 +24,5 @@
         "reviewNote": "自然攝影不含可驗證的結構性文字資訊；僅保留簡短語意描述。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

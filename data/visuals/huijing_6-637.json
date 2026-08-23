@@ -118,7 +118,7 @@
     },
     {
       "id": "table-huijing_6-637-1",
-      "position": "table-1",
+      "position": 2,
       "sourceType": "html-table",
       "classification": "non-content-table",
       "sourceArchive": {
@@ -140,7 +140,7 @@
     },
     {
       "id": "table-huijing_6-637-2",
-      "position": "table-2",
+      "position": 3,
       "sourceType": "html-table",
       "classification": "non-content-table",
       "sourceArchive": {
@@ -160,11 +160,5 @@
         "visualReview": "approved"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

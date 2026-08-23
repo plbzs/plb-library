@@ -689,7 +689,7 @@
     },
     {
       "id": "table-jingzong_5-589-1",
-      "position": "table-1",
+      "position": 6,
       "sourceType": "html-table",
       "classification": "reconstructable-table",
       "sourceArchive": {
@@ -1000,11 +1000,5 @@
         "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "6/6 approved-or-semantic",
-    "approvedReconstructionCount": 6,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

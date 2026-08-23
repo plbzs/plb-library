@@ -312,11 +312,5 @@
         "reviewNote": "依原 SVG 多組欄列與連線重建開宗資訊、正明開宗、全書概要及依準目的；重複的單字節點合併為原詞組。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

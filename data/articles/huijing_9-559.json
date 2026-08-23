@@ -68,21 +68,5 @@
   ],
   "reserved": false,
   "prevId": "huijing_9-562",
-  "nextId": "huijing_9-558",
-  "visualNotes": [
-    {
-      "id": "media-0a4b3ea7d98111b349db0496",
-      "type": "SVG 圖表",
-      "summary": "彌陀願心根源圖，從「總」與「別」兩層列出安樂、道場、國如泥洹、無等雙等語句。",
-      "extractedText": "令我作佛\\n，\\n國土第一\\n其眾奇妙(聖眾第一)\\n道場超絕(成佛第一)\\n國如泥洹(快樂第一)\\n而無等雙(國土第一)\\n總\\n別",
-      "sourceArchiveVerified": true
-    },
-    {
-      "id": "media-12e8cda890e7be994f82a5b4",
-      "type": "SVG 圖表",
-      "summary": "彌陀願心根源圖，將護念、阿彌陀經與願心語句以分支關係呈現。",
-      "extractedText": "願我作佛\\n，\\n齊聖法王\\n吾誓得佛\\n普行此願\\n一切恐懼\\n為作大安\\n令我作佛\\n國土第一\\n攝法身願\\n攝眾生願\\n攝淨土願\\n其眾奇妙(眾第一)\\n道場超絕(成佛第一)\\n國如泥洹(快樂第一)\\n而無等雙(國土第一)\\n總\\n別",
-      "sourceArchiveVerified": true
-    }
-  ]
+  "nextId": "huijing_9-558"
 }

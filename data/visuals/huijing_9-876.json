@@ -1361,11 +1361,5 @@
         "reviewNote": "依原圖的括號與連線重建三條六字義別、機法信行及受法／因、必得往生／證／得益／果的兩條收束；保留可辨識文字，不將裝飾線誤解成額外節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "7/7 approved-or-semantic",
-    "approvedReconstructionCount": 7,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -45,11 +45,5 @@
         "reviewNote": "保留兩列書法文字與紅色海報裝飾，不把書法排版誤判成流程圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

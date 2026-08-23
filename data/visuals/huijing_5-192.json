@@ -316,11 +316,5 @@
         "reviewNote": "將上方三次專復專的分判與下方五正行表格分層，保留助業、正定業標籤。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

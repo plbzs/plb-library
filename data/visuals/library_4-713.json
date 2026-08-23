@@ -65,11 +65,5 @@
         "reviewNote": "保留白板、手寫文字與座右銘標題，不以猜測取代原始手寫內容。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 3
-  }
+  ]
 }

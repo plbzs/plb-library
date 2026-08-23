@@ -163,11 +163,5 @@
         "reviewNote": "將定善、散善、三福九品、要門、弘願與本願／名號力量整理成主幹；分散單字與品位標記已合併。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

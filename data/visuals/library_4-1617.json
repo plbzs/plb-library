@@ -104,11 +104,5 @@
         "reviewNote": "保留四行文字、暖色背景與上下人物構圖，不將詩句插畫誤判為層級圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "5/5 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 5
-  }
+  ]
 }

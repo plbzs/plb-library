@@ -25,11 +25,5 @@
         "reviewNote": "保留粉紅荷花、白色荷花、荷葉與水景語意，不將景物照片誤轉成圖表。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

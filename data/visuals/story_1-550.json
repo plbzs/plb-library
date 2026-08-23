@@ -25,11 +25,5 @@
         "reviewNote": "保留家庭合照與疊加肖像的紀錄性質，不辨識人物姓名或推測故事身份。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

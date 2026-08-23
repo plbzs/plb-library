@@ -45,11 +45,5 @@
         "reviewNote": "不把模糊手寫內容當作精確引用；保留家人、醫療、急救、往生與念佛等可讀主題提示。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

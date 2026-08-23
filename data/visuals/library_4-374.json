@@ -45,11 +45,5 @@
         "reviewNote": "描述石雕佛像、石窟與背景浮雕，不臆測地點、年代或造像身份。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

@@ -25,11 +25,5 @@
         "reviewNote": "依文章緊接圖片的圖說建立描述；不將人物照片誤標為可逆向重建的組織圖或表格。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

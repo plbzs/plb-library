@@ -102,11 +102,5 @@
         "reviewNote": "依原圖難行道／易行道對照欄與步行／乘船、苦／樂的對應重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

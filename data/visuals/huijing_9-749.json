@@ -3,7 +3,7 @@
   "articleId": "huijing_9-749",
   "title": "《觀無量壽經》概說（七）",
   "scope": "文章內原始視覺項目的結構化稽核資料；不供一般閱讀頁顯示。",
-  "expectedVisualCount": 1,
+  "expectedVisualCount": 2,
   "visuals": [
     {
       "id": "media-c07a432a57bc23be5f647cf7",
@@ -218,12 +218,220 @@
         "visualReview": "structure-reviewed",
         "reviewNote": "保留聖道門／淨土門、要門／弘願、定散、三福九品與本願四力等層級；把分散的單字重組為可搜尋節點。"
       }
+    },
+    {
+      "id": "media-c07a432a57bc23be5f647cf7",
+      "position": 2,
+      "sourceType": "image",
+      "classification": "reconstructable-diagram",
+      "sourceArchive": {
+        "path": "media-archive/originals/media-c07a432a57bc23be5f647cf7.svg",
+        "sha256": "6332c6fee8928f4ba62240fbc0b61e7c504bd675c27ab1259e8325a6ec29e5ea"
+      },
+      "semanticDescription": null,
+      "transcript": "佛法分聖道門與淨土門。淨土門分要門與弘願。要門含定善（息慮凝心之十三定觀）、散善（廢惡修善之三福九品，含行福、戒福、世福、念佛）；弘願含大願（五劫思惟之本願）、大業（兆載永劫之萬行）、大力（名號無上功德力）、光明力（光明無礙攝取力），並有自力迴向與他力迴向。另標示觀經、上中下品、顯（萬行隨一）、隱（非定非散）、十三定觀、方便要門、真實弘願。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法中的聖道門、淨土門、要門與弘願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 520
+            }
+          },
+          {
+            "id": "gateway",
+            "label": "要門／方便要門",
+            "kind": "scheme",
+            "position": {
+              "x": 620,
+              "y": 300
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願／真實弘願",
+            "kind": "scheme",
+            "position": {
+              "x": 620,
+              "y": 600
+            }
+          },
+          {
+            "id": "meditation",
+            "label": "定善：息慮凝心之十三定觀",
+            "kind": "practice",
+            "position": {
+              "x": 980,
+              "y": 180
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善：廢惡修善之三福九品",
+            "kind": "practice",
+            "position": {
+              "x": 980,
+              "y": 360
+            }
+          },
+          {
+            "id": "three-fortunes",
+            "label": "行福／戒福／世福／念佛；上品／中品／下品",
+            "kind": "detail",
+            "position": {
+              "x": 1320,
+              "y": 360
+            }
+          },
+          {
+            "id": "great-vow",
+            "label": "大願：五劫思惟之本願（為我發）",
+            "kind": "vow",
+            "position": {
+              "x": 980,
+              "y": 560
+            }
+          },
+          {
+            "id": "great-practice",
+            "label": "大業：兆載永劫之萬行（為我修）",
+            "kind": "vow",
+            "position": {
+              "x": 980,
+              "y": 680
+            }
+          },
+          {
+            "id": "name-power",
+            "label": "大力：名號無上功德力",
+            "kind": "vow",
+            "position": {
+              "x": 980,
+              "y": 800
+            }
+          },
+          {
+            "id": "light-power",
+            "label": "光明力：光明無礙攝取力",
+            "kind": "vow",
+            "position": {
+              "x": 980,
+              "y": 920
+            }
+          },
+          {
+            "id": "return",
+            "label": "自力迴向／他力迴向",
+            "kind": "result",
+            "position": {
+              "x": 1320,
+              "y": 740
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "gateway",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "gateway",
+            "to": "meditation",
+            "relation": "includes"
+          },
+          {
+            "from": "gateway",
+            "to": "scattered",
+            "relation": "includes"
+          },
+          {
+            "from": "scattered",
+            "to": "three-fortunes",
+            "relation": "details"
+          },
+          {
+            "from": "vow",
+            "to": "great-vow",
+            "relation": "includes"
+          },
+          {
+            "from": "vow",
+            "to": "great-practice",
+            "relation": "includes"
+          },
+          {
+            "from": "vow",
+            "to": "name-power",
+            "relation": "includes"
+          },
+          {
+            "from": "vow",
+            "to": "light-power",
+            "relation": "includes"
+          },
+          {
+            "from": "gateway",
+            "to": "return",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "vow",
+            "to": "return",
+            "relation": "contrasts-with"
+          }
+        ],
+        "groups": []
+      },
+      "validation": {
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "all readable labels grouped into the visible hierarchy",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留聖道門／淨土門、要門／弘願、定散、三福九品與本願四力等層級；把分散的單字重組為可搜尋節點。"
+      }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

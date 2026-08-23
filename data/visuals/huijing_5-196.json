@@ -158,11 +158,5 @@
         "reviewNote": "依原圖三組重複編號與六個說明節點重建；原始文字在圖中部分為直排，未擅自補足看不清的句段。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -45,11 +45,5 @@
         "reviewNote": "保留照片與語意描述；不虛構不存在的流程、表格或分類關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

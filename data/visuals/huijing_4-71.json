@@ -317,11 +317,5 @@
         "reviewNote": "完整保留 12 條主句與兩種理由；將原圖重複出現的理由合併為可搜尋節點，並以群組保留括線的語意分組。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

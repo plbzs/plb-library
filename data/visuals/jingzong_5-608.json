@@ -199,11 +199,5 @@
         "reviewNote": "將 SVG 中分散的五個立宗要素整理為一個根節點下的平級項目。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

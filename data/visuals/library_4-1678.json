@@ -25,11 +25,5 @@
         "reviewNote": "保留牛年、春聯、書法、豐收與福氣等語意，避免把藝術字照片誤作表格。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

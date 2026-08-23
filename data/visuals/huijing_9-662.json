@@ -611,11 +611,5 @@
         "reviewNote": "依三列九品、三輩與下方凡夫分類重建；將每一品與原圖同列的凡夫標籤合併為可讀節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

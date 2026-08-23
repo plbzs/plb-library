@@ -59,28 +59,5 @@
   ],
   "reserved": false,
   "prevId": "library_7-2163",
-  "nextId": "library_7-2137",
-  "visualNotes": [
-    {
-      "id": "media-0049601d59e9b6999e7aff28",
-      "type": "圖片",
-      "summary": "佛教人物畫：兩尊具光背的人像立於雲上，前方人物持杖與幡旗。",
-      "extractedText": "",
-      "sourceArchiveVerified": true
-    },
-    {
-      "id": "media-007d1d9fb351543bbbc81883",
-      "type": "圖片",
-      "summary": "佛教人物畫：一位菩薩與一位佛像具光背立於雲上，畫面有直排題字。",
-      "extractedText": "",
-      "sourceArchiveVerified": true
-    },
-    {
-      "id": "media-0af9ea26fff316f7ef748cb4",
-      "type": "圖片",
-      "summary": "佛教人物畫：佛像具光背立於雲上，旁有一名跪坐或合掌人物。",
-      "extractedText": "",
-      "sourceArchiveVerified": true
-    }
-  ]
+  "nextId": "library_7-2137"
 }

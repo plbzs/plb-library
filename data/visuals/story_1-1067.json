@@ -45,11 +45,5 @@
         "reviewNote": "只保留昆蟲、液面與容器邊緣等可見語意，不猜測照片中的因果情節。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

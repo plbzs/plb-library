@@ -218,11 +218,5 @@
         "reviewNote": "依原 SVG 的兩列真空／妙有對照，保留第一義諦、妙境界相及空有不二說明。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -478,11 +478,5 @@
         "reviewNote": "將教相判釋的通說／別說和兩節內容整理為可搜尋的章節架構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

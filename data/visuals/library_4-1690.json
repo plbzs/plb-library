@@ -25,11 +25,5 @@
         "reviewNote": "保留彌陀光明園、中央佛像、蓮花池、蓮台與園區景觀語意，不把空間景觀誤轉成層級圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

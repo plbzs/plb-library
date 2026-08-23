@@ -256,11 +256,5 @@
         "reviewNote": "依原圖左右對照的自力／佛力、諸行／念佛、穢土／淨土等配對重建，保留安心結論。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -8,25 +8,151 @@
     {
       "id": "media-0c51d493a797f633f2b64191",
       "position": 1,
-      "sourceType": "image",
-      "classification": "needs-classification",
+      "sourceType": "svg",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-0c51d493a797f633f2b64191.svg",
         "sha256": "9305c6e1fbf270cd3c5bf6b2c45bb62b37ef1f445c06e7ca0877a461bafc6cd0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "聖道門諸經\n《無量壽經》\n《觀無量壽經》\n《阿彌陀經》\n序\n分\n正宗分\n流通分\n一代諸經",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "一代諸經的序分、正宗分與流通分",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "一代諸經",
+            "kind": "root",
+            "position": {
+              "x": 30,
+              "y": 100
+            }
+          },
+          {
+            "id": "preface",
+            "label": "序分",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 22
+            }
+          },
+          {
+            "id": "core",
+            "label": "正宗分",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 100
+            }
+          },
+          {
+            "id": "circulation",
+            "label": "流通分",
+            "kind": "section",
+            "position": {
+              "x": 230,
+              "y": 178
+            }
+          },
+          {
+            "id": "holy-path",
+            "label": "聖道門諸經",
+            "kind": "scripture-group",
+            "position": {
+              "x": 430,
+              "y": 22
+            }
+          },
+          {
+            "id": "larger-sutra",
+            "label": "《無量壽經》",
+            "kind": "scripture",
+            "position": {
+              "x": 430,
+              "y": 78
+            }
+          },
+          {
+            "id": "contemplation-sutra",
+            "label": "《觀無量壽經》",
+            "kind": "scripture",
+            "position": {
+              "x": 430,
+              "y": 122
+            }
+          },
+          {
+            "id": "amida-sutra",
+            "label": "《阿彌陀經》",
+            "kind": "scripture",
+            "position": {
+              "x": 430,
+              "y": 178
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "preface",
+            "relation": "has-section"
+          },
+          {
+            "from": "root",
+            "to": "core",
+            "relation": "has-section"
+          },
+          {
+            "from": "root",
+            "to": "circulation",
+            "relation": "has-section"
+          },
+          {
+            "from": "preface",
+            "to": "holy-path",
+            "relation": "is-filled-by"
+          },
+          {
+            "from": "core",
+            "to": "larger-sutra",
+            "relation": "is-filled-by"
+          },
+          {
+            "from": "core",
+            "to": "contemplation-sutra",
+            "relation": "is-filled-by"
+          },
+          {
+            "from": "circulation",
+            "to": "amida-sutra",
+            "relation": "is-filled-by"
+          }
+        ],
+        "groups": [
+          {
+            "id": "pure-land-three",
+            "label": "淨土三部經",
+            "members": [
+              "larger-sutra",
+              "contemplation-sutra",
+              "amida-sutra"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9",
+        "visualReview": "approved",
+        "reviewNote": "原圖的細短線不易單獨判讀；已以圖後原文逐句核對：聖道門諸經為序分，《無量壽經》與《觀無量壽經》為正宗分，《阿彌陀經》為流通分。"
       }
     }
-  ],
-  "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

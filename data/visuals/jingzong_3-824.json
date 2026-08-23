@@ -25,11 +25,5 @@
         "reviewNote": "依圖片前後的詩句與譬喻說明建立保守描述，不把配圖臆造為流程圖。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

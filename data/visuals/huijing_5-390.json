@@ -74,11 +74,5 @@
         "reviewNote": "把兩條互念句與生佛不離、機法一體的總結重建為雙向關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

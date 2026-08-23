@@ -256,11 +256,5 @@
         "reviewNote": "依原圖四個判釋分組與教宗行益、方便真實的下方總結重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

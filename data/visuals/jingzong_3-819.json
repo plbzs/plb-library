@@ -25,11 +25,5 @@
         "reviewNote": "保留家庭、老人、鄉路、屋舍與遠山語意，不對人物身份或故事細節作推定。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

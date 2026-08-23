@@ -25,11 +25,5 @@
         "reviewNote": "內嵌 PNG 無可提取的 SVG 文字或表格結構；依文章上下文建立保守語意描述，避免把不可驗證的視覺細節當成事實。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

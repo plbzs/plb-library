@@ -848,11 +848,5 @@
         "reviewNote": "雖然來源是 JPG，但內容是清楚的樹狀架構圖；完整重建三大特質及其九個說明節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

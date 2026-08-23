@@ -25,11 +25,5 @@
         "reviewNote": "保留紅色袋子、掛繩、白色吊牌、毛球與手部動作語意，不猜測吊牌內容。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

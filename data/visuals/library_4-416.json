@@ -25,11 +25,5 @@
         "reviewNote": "保留記事簿、手寫紀錄與佛珠等可見語意，不臆測姓名、日期或數字。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

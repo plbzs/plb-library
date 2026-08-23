@@ -116,11 +116,5 @@
         "reviewNote": "將原圖的條件分支與碳、鑽兩種結果重建為因緣流程，未加入圖外推論。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

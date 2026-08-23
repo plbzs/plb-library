@@ -112,11 +112,5 @@
         "reviewNote": "SVG 內嵌 PNG 已實際檢視；原圖是清楚的三分支分類圖，完整保留三種涅槃與總結語。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

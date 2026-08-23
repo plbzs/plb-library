@@ -313,11 +313,5 @@
         "reviewNote": "原始檔無可讀文字或可靠結構，保留原圖並以文章位置提供語意描述。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

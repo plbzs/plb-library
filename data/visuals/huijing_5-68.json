@@ -242,11 +242,5 @@
         "reviewNote": "原 SVG 以單字文字節點及垂直連線表達構造；已依座標分組為序分、正宗分、流通分、十三觀、九品與依正二報。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

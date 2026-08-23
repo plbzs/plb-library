@@ -116,11 +116,5 @@
         "reviewNote": "依原圖教宗行益中心與綱目、能所、因果分組重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -111,14 +111,7 @@
     ],
     "reserved": false,
     "prevId": "about_1-54",
-    "nextId": "about_1-56",
-    "visualNotes": [
-      {
-        "id": "media-0e8af7517c752f2a72e3d542",
-        "type": "圖片",
-        "summary": "淨土宗宗旨圖，藍色版面搭配佛教人物畫與中英文宗旨文字。"
-      }
-    ]
+    "nextId": "about_1-56"
   },
   {
     "id": "about_1-56",
@@ -177,14 +170,7 @@
     ],
     "reserved": false,
     "prevId": "about_1-55",
-    "nextId": "about_1-57",
-    "visualNotes": [
-      {
-        "id": "media-1022dc048120356295dcc847",
-        "type": "圖片",
-        "summary": "淨土宗特色圖，藍色版面搭配佛教人物畫與中英文特色文字。"
-      }
-    ]
+    "nextId": "about_1-57"
   },
   {
     "id": "about_1-57",
@@ -301,14 +287,7 @@
     ],
     "reserved": false,
     "prevId": "about_1-57",
-    "nextId": null,
-    "visualNotes": [
-      {
-        "id": "media-066ffea9e83e05daacbd696e",
-        "type": "SVG 圖表",
-        "summary": "淨土宗宗徽：紅色蓮花圖形，環繞「南無阿彌陀佛」文字，下方為「淨土宗」。"
-      }
-    ]
+    "nextId": null
   },
   {
     "id": "huijing_9-986",
@@ -7792,14 +7771,7 @@
     ],
     "reserved": false,
     "prevId": "library_6-2128",
-    "nextId": "library_6-2099",
-    "visualNotes": [
-      {
-        "id": "media-119cb7b9233481c6c6ec44cb",
-        "type": "圖片",
-        "summary": "四十八願分類結構圖，將願文依內容分組並以括號標示各願群。"
-      }
-    ]
+    "nextId": "library_6-2099"
   },
   {
     "id": "library_6-2099",
@@ -8521,14 +8493,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-188",
-    "nextId": "huijing_2-172",
-    "visualNotes": [
-      {
-        "id": "media-185033e4c3a3a1a9c2f21b08",
-        "type": "SVG 圖表",
-        "summary": "佛教名相結構圖，以法然、聖覺、聖光、聖達、觀意、覺如等詞組分層呈現。"
-      }
-    ]
+    "nextId": "huijing_2-172"
   },
   {
     "id": "huijing_2-172",
@@ -8734,14 +8699,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_2-171",
-    "nextId": "huijing_2-24",
-    "visualNotes": [
-      {
-        "id": "media-09d05a5b924afc700b9c3343",
-        "type": "SVG 圖表",
-        "summary": "《法然上人全集》序的雙欄對照表，並列第十八願與第十九、第二十願的因、行、果等差異。"
-      }
-    ]
+    "nextId": "huijing_2-24"
   },
   {
     "id": "huijing_2-24",
@@ -14742,14 +14700,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-181",
-    "nextId": "huijing_5-68",
-    "visualNotes": [
-      {
-        "id": "media-06efb2261d765b9ab3ab8320",
-        "type": "SVG 圖表",
-        "summary": "《觀經》眼目關係圖，將淨土門、願生、信願、稱名與定善、散善等內容分層連結。"
-      }
-    ]
+    "nextId": "huijing_5-68"
   },
   {
     "id": "huijing_5-68",
@@ -14820,14 +14771,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-81",
-    "nextId": "huijing_5-16",
-    "visualNotes": [
-      {
-        "id": "media-06e5cc1a0bedf752944bfd65",
-        "type": "SVG 圖表",
-        "summary": "《觀經》構造圖，將經文的依報、正報、九品、證信、發起、流通等部分以層級關係呈現。"
-      }
-    ]
+    "nextId": "huijing_5-16"
   },
   {
     "id": "huijing_5-16",
@@ -19105,14 +19049,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_5-391",
-    "nextId": "huijing_5-390",
-    "visualNotes": [
-      {
-        "id": "media-0b37966ba058f03ad0a118b1",
-        "type": "SVG 圖表",
-        "summary": "淨宗摘要圖，以階梯與括號整理難行道、自力、聖道門及易行道、他力、淨土門的對照。"
-      }
-    ]
+    "nextId": "huijing_5-390"
   },
   {
     "id": "huijing_5-390",
@@ -21851,19 +21788,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-956",
-    "nextId": "huijing_6-917",
-    "visualNotes": [
-      {
-        "id": "media-0a9bf04efe3ca9428ad3b315",
-        "type": "SVG 圖表",
-        "summary": "淨土宗創立與流變圖，以橫向分支呈現釋迦、彌陀與淨土門的傳承關係。"
-      },
-      {
-        "id": "media-0b14f1b7bdd2a2227ece6e0a",
-        "type": "SVG 圖表",
-        "summary": "淨土宗創立與流變圖，列出自力、他力、易行與難行等對照支線。"
-      }
-    ]
+    "nextId": "huijing_6-917"
   },
   {
     "id": "huijing_6-917",
@@ -22355,14 +22280,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-835",
-    "nextId": "huijing_6-694",
-    "visualNotes": [
-      {
-        "id": "media-0e7f8714b560277584684c7a",
-        "type": "SVG 圖表",
-        "summary": "淨土宗義略說關係圖，將名號、佛願、本末、機的深信與法的深信以箭線連結。"
-      }
-    ]
+    "nextId": "huijing_6-694"
   },
   {
     "id": "huijing_6-694",
@@ -23550,14 +23468,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-593",
-    "nextId": "huijing_6-548",
-    "visualNotes": [
-      {
-        "id": "media-12e8cda890e7be994f82a5b4",
-        "type": "SVG 圖表",
-        "summary": "彌陀願心根源圖，將護念、阿彌陀經與願心語句以分支關係呈現。"
-      }
-    ]
+    "nextId": "huijing_6-548"
   },
   {
     "id": "huijing_6-548",
@@ -25186,14 +25097,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_6-51",
-    "nextId": "huijing_6-967",
-    "visualNotes": [
-      {
-        "id": "media-143e472b41eeae8aeb8a5734",
-        "type": "SVG 圖表",
-        "summary": "命盤與淨土宗信仰關係圖，對照聖道門與淨土門的自力、他力與修行方向。"
-      }
-    ]
+    "nextId": "huijing_6-967"
   },
   {
     "id": "huijing_6-967",
@@ -30191,14 +30095,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_4-553",
-    "nextId": "huijing_4-524",
-    "visualNotes": [
-      {
-        "id": "media-0510000deeaf731da2e7d1d1",
-        "type": "SVG 圖表",
-        "summary": "「一心」要義圖，列出專一、無二、一向、無疑、順佛等層次及其念佛說明。"
-      }
-    ]
+    "nextId": "huijing_4-524"
   },
   {
     "id": "huijing_4-524",
@@ -41614,19 +41511,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-970",
-    "nextId": "huijing_9-952",
-    "visualNotes": [
-      {
-        "id": "media-07c2c1defeac5caa9bdf2799",
-        "type": "圖片",
-        "summary": "彌陀願心根源的直向結構圖，以多組佛法概念和箭線說明其關聯。"
-      },
-      {
-        "id": "media-18593aa5e45a5807814869b2",
-        "type": "圖片",
-        "summary": "彌陀願心根源的直向結構圖，以多組經義概念與箭線說明其關聯。"
-      }
-    ]
+    "nextId": "huijing_9-952"
   },
   {
     "id": "huijing_9-952",
@@ -45777,19 +45662,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-562",
-    "nextId": "huijing_9-558",
-    "visualNotes": [
-      {
-        "id": "media-0a4b3ea7d98111b349db0496",
-        "type": "SVG 圖表",
-        "summary": "彌陀願心根源圖，從「總」與「別」兩層列出安樂、道場、國如泥洹、無等雙等語句。"
-      },
-      {
-        "id": "media-12e8cda890e7be994f82a5b4",
-        "type": "SVG 圖表",
-        "summary": "彌陀願心根源圖，將護念、阿彌陀經與願心語句以分支關係呈現。"
-      }
-    ]
+    "nextId": "huijing_9-558"
   },
   {
     "id": "huijing_9-558",
@@ -50502,14 +50375,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-164",
-    "nextId": "huijing_9-832",
-    "visualNotes": [
-      {
-        "id": "media-024f7e78aaedbebaa92c58ca",
-        "type": "圖片",
-        "summary": "佛法二門對照圖：聖道門為難行道、自力、勤行精進；淨土門為易行道、他力、信彌陀救度。"
-      }
-    ]
+    "nextId": "huijing_9-832"
   },
   {
     "id": "huijing_9-832",
@@ -52585,14 +52451,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-714",
-    "nextId": "huijing_9-682",
-    "visualNotes": [
-      {
-        "id": "media-1460917ef300241a63eebf04",
-        "type": "SVG 圖表",
-        "summary": "淨土宗三法數圖，以三超、因超、果超、願超、行超與名超呈現層次。"
-      }
-    ]
+    "nextId": "huijing_9-682"
   },
   {
     "id": "huijing_9-682",
@@ -53428,19 +53287,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-662",
-    "nextId": "huijing_9-632",
-    "visualNotes": [
-      {
-        "id": "media-00d95bf6849fed15e55f0dc7",
-        "type": "圖片",
-        "summary": "《觀無量壽經》定善十三觀分類圖：分為依報觀與正報觀，各自再區分假觀、真觀及對應觀次。"
-      },
-      {
-        "id": "media-0c51d493a797f633f2b64191",
-        "type": "SVG 圖表",
-        "summary": "《觀無量壽經》概說圖，以一代諸經、序分、正宗分、流通分的樹狀架構標示經典位置。"
-      }
-    ]
+    "nextId": "huijing_9-632"
   },
   {
     "id": "huijing_9-632",
@@ -59220,19 +59067,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-465",
-    "nextId": "huijing_9-438",
-    "visualNotes": [
-      {
-        "id": "media-1030d133fd9a5b6018e2cad4",
-        "type": "SVG 圖表",
-        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
-      },
-      {
-        "id": "media-1030d133fd9a5b6018e2cad4",
-        "type": "SVG 圖表",
-        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
-      }
-    ]
+    "nextId": "huijing_9-438"
   },
   {
     "id": "huijing_9-438",
@@ -64749,14 +64584,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-643",
-    "nextId": "huijing_9-614",
-    "visualNotes": [
-      {
-        "id": "media-0acf60b4186db03e1f7a95d7",
-        "type": "SVG 圖表",
-        "summary": "淨土法門核心圖，將智慧、內外緣、利他、稱名等概念以分支關係呈現。"
-      }
-    ]
+    "nextId": "huijing_9-614"
   },
   {
     "id": "huijing_9-614",
@@ -69321,19 +69149,7 @@
     ],
     "reserved": false,
     "prevId": "huijing_9-859",
-    "nextId": "huijing_9-857",
-    "visualNotes": [
-      {
-        "id": "media-1030d133fd9a5b6018e2cad4",
-        "type": "SVG 圖表",
-        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
-      },
-      {
-        "id": "media-1030d133fd9a5b6018e2cad4",
-        "type": "SVG 圖表",
-        "summary": "善導大師《觀經疏》大願業力偈句分段圖，並列佛願、他力與眾生行願等語句。"
-      }
-    ]
+    "nextId": "huijing_9-857"
   },
   {
     "id": "huijing_9-857",
@@ -78470,14 +78286,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-842",
-    "nextId": "jingzong_3-838",
-    "visualNotes": [
-      {
-        "id": "media-12ed05e48f80b0ca7531d38c",
-        "type": "SVG 圖表",
-        "summary": "水墨山水短文插圖，畫面有遠山、屋舍與直排題字。"
-      }
-    ]
+    "nextId": "jingzong_3-838"
   },
   {
     "id": "jingzong_3-838",
@@ -78548,14 +78357,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-839",
-    "nextId": "jingzong_3-837",
-    "visualNotes": [
-      {
-        "id": "media-0b40629692d504238ccfa78e",
-        "type": "圖片",
-        "summary": "水墨風短文插圖：室內窗邊有一枝葉與花盆，畫面配有直排題字。"
-      }
-    ]
+    "nextId": "jingzong_3-837"
   },
   {
     "id": "jingzong_3-837",
@@ -79960,14 +79762,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_3-809",
-    "nextId": "jingzong_3-794",
-    "visualNotes": [
-      {
-        "id": "media-0c25baa076df3bafa09e1206",
-        "type": "圖片",
-        "summary": "水墨風人物插圖：一人坐於樹下讀書，遠處有山與塔，旁有直排題字。"
-      }
-    ]
+    "nextId": "jingzong_3-794"
   },
   {
     "id": "jingzong_3-794",
@@ -91214,14 +91009,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-597",
-    "nextId": "jingzong_5-595",
-    "visualNotes": [
-      {
-        "id": "media-08edbd4d1a2d0bdc8531cd2b",
-        "type": "SVG 圖表",
-        "summary": "淨土宗信願特色圖，分別列出信受彌陀救度、專稱彌陀佛名，以及願生淨土、廣度眾生。"
-      }
-    ]
+    "nextId": "jingzong_5-595"
   },
   {
     "id": "jingzong_5-595",
@@ -97074,14 +96862,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-630",
-    "nextId": "jingzong_5-628",
-    "visualNotes": [
-      {
-        "id": "media-141ce32ed6c3a2e83e0d410d",
-        "type": "SVG 圖表",
-        "summary": "淨土宗概論講記對照表，整理正依、助業、正業、願生與往生等欄位。"
-      }
-    ]
+    "nextId": "jingzong_5-628"
   },
   {
     "id": "jingzong_5-628",
@@ -97421,14 +97202,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-627",
-    "nextId": "jingzong_5-625",
-    "visualNotes": [
-      {
-        "id": "media-0c8d2a7d8af8e467d5dd49ac",
-        "type": "SVG 圖表",
-        "summary": "淨土宗概論講記提綱圖，依經文段落列出第一點至第十點等層次。"
-      }
-    ]
+    "nextId": "jingzong_5-625"
   },
   {
     "id": "jingzong_5-625",
@@ -97878,14 +97652,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-623",
-    "nextId": "jingzong_5-621",
-    "visualNotes": [
-      {
-        "id": "media-11b98d15b969b98bff9c4339",
-        "type": "SVG 圖表",
-        "summary": "佛法二門圖，以小乘、大乘、漸教、頓教、聖道門與淨土門整理修行路徑。"
-      }
-    ]
+    "nextId": "jingzong_5-621"
   },
   {
     "id": "jingzong_5-621",
@@ -99117,14 +98884,7 @@
     ],
     "reserved": false,
     "prevId": "jingzong_5-612",
-    "nextId": "jingzong_5-607",
-    "visualNotes": [
-      {
-        "id": "media-02ad7ff83902f7ff7413cfbe",
-        "type": "SVG 圖表",
-        "summary": "「宗的特性」關係圖，以括號列出獨尊性、統攝性、體系性三項。"
-      }
-    ]
+    "nextId": "jingzong_5-607"
   },
   {
     "id": "jingzong_5-607",
@@ -115496,14 +115256,7 @@
     ],
     "reserved": false,
     "prevId": "story_1-1457",
-    "nextId": "story_1-1450",
-    "visualNotes": [
-      {
-        "id": "media-0f5b5ed6256f65c40aba6ee3",
-        "type": "圖片",
-        "summary": "人物活動照片：一位戴口罩者坐在桌前，背景可見室內人群與燈光。"
-      }
-    ]
+    "nextId": "story_1-1450"
   },
   {
     "id": "story_1-1450",
@@ -118920,14 +118673,7 @@
     ],
     "reserved": false,
     "prevId": "story_1-1203",
-    "nextId": "story_1-1198",
-    "visualNotes": [
-      {
-        "id": "media-10e17245980372be53bee13f",
-        "type": "SVG 圖表",
-        "summary": "手繪圖稿照片，可見人物與雲狀線條，細節因原圖解析度有限而不清晰。"
-      }
-    ]
+    "nextId": "story_1-1198"
   },
   {
     "id": "story_1-1198",
@@ -124477,14 +124223,7 @@
     ],
     "reserved": false,
     "prevId": "story_1-694",
-    "nextId": "story_1-692",
-    "visualNotes": [
-      {
-        "id": "media-1125aee171574d5ed8128069",
-        "type": "圖片",
-        "summary": "佛堂照片：金色佛像旁有供桌、香爐與紅色引磬或法器。"
-      }
-    ]
+    "nextId": "story_1-692"
   },
   {
     "id": "story_1-692",
@@ -194783,14 +194522,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-1681",
-    "nextId": "library_4-1676",
-    "visualNotes": [
-      {
-        "id": "media-097c119d1d4a88a1604240e1",
-        "type": "圖片",
-        "summary": "紅色石碑題字照片，碑上有直排金色文字，置於庭園與石砌背景前。"
-      }
-    ]
+    "nextId": "library_4-1676"
   },
   {
     "id": "library_4-1676",
@@ -195966,14 +195698,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-1625",
-    "nextId": "library_4-1622",
-    "visualNotes": [
-      {
-        "id": "media-026ab3ff0bf8bbb062fe060b",
-        "type": "圖片",
-        "summary": "白色蓮花近景照片，背景為荷葉與蓮花花苞。"
-      }
-    ]
+    "nextId": "library_4-1622"
   },
   {
     "id": "library_4-1622",
@@ -196216,19 +195941,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-1619",
-    "nextId": "library_4-1616",
-    "visualNotes": [
-      {
-        "id": "media-01667700568607f5a374fc80",
-        "type": "圖片",
-        "summary": "簡筆插畫：人物倚靠一本淨土相關書籍休息，旁邊有蓮花與花瓣圖案。"
-      },
-      {
-        "id": "media-034ecee3446817796acd29ea",
-        "type": "圖片",
-        "summary": "祈願主題圖：左側列出疫情早日解除、健康平安、世界和平等文字，右側為佛像手印與念佛人物插畫。"
-      }
-    ]
+    "nextId": "library_4-1616"
   },
   {
     "id": "library_4-1616",
@@ -196844,14 +196557,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-1597",
-    "nextId": "library_4-1592",
-    "visualNotes": [
-      {
-        "id": "media-07bc77a133c93e99b60a54d5",
-        "type": "圖片",
-        "summary": "暖色線描插畫：一位坐在石上的老者與兩名站立人物相對談話。"
-      }
-    ]
+    "nextId": "library_4-1592"
   },
   {
     "id": "library_4-1592",
@@ -203359,14 +203065,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-714",
-    "nextId": "library_4-610",
-    "visualNotes": [
-      {
-        "id": "media-1393f09d056c08bdffbb919d",
-        "type": "圖片",
-        "summary": "手寫感應紀錄照片，白紙上以藍筆書寫多行文字。"
-      }
-    ]
+    "nextId": "library_4-610"
   },
   {
     "id": "library_4-610",
@@ -213192,14 +212891,7 @@
     ],
     "reserved": false,
     "prevId": "library_4-346",
-    "nextId": "library_4-344",
-    "visualNotes": [
-      {
-        "id": "media-05a8b2de8e15af6c27dfdddb",
-        "type": "圖片",
-        "summary": "佛堂照片：中央為金色佛像，兩側有佛教造像與供桌陳設。"
-      }
-    ]
+    "nextId": "library_4-344"
   },
   {
     "id": "library_4-344",
@@ -220982,24 +220674,7 @@
     ],
     "reserved": false,
     "prevId": "library_7-2163",
-    "nextId": "library_7-2137",
-    "visualNotes": [
-      {
-        "id": "media-0049601d59e9b6999e7aff28",
-        "type": "圖片",
-        "summary": "佛教人物畫：兩尊具光背的人像立於雲上，前方人物持杖與幡旗。"
-      },
-      {
-        "id": "media-007d1d9fb351543bbbc81883",
-        "type": "圖片",
-        "summary": "佛教人物畫：一位菩薩與一位佛像具光背立於雲上，畫面有直排題字。"
-      },
-      {
-        "id": "media-0af9ea26fff316f7ef748cb4",
-        "type": "圖片",
-        "summary": "佛教人物畫：佛像具光背立於雲上，旁有一名跪坐或合掌人物。"
-      }
-    ]
+    "nextId": "library_7-2137"
   },
   {
     "id": "library_7-2137",
@@ -221303,14 +220978,7 @@
     ],
     "reserved": false,
     "prevId": "library_7-2087",
-    "nextId": "library_7-2054",
-    "visualNotes": [
-      {
-        "id": "media-10be6191b477cd07648771df",
-        "type": "圖片",
-        "summary": "紅色春聯題字照片，畫面為直式紅紙上的黑色毛筆書法。"
-      }
-    ]
+    "nextId": "library_7-2054"
   },
   {
     "id": "library_7-2054",
@@ -223007,14 +222675,7 @@
     ],
     "reserved": false,
     "prevId": "library_7-1570",
-    "nextId": "library_7-1558",
-    "visualNotes": [
-      {
-        "id": "media-1840c532c6eff6389e10a0cb",
-        "type": "SVG 圖表",
-        "summary": "彩色插圖：人物與牛車在波浪中前行，畫面有雲水與遠方光明。"
-      }
-    ]
+    "nextId": "library_7-1558"
   },
   {
     "id": "library_7-1558",
@@ -223076,14 +222737,7 @@
     ],
     "reserved": false,
     "prevId": "library_7-1566",
-    "nextId": "library_7-1547",
-    "visualNotes": [
-      {
-        "id": "media-0b5d0122d1c895b1e0a6b997",
-        "type": "圖片",
-        "summary": "單字書法圖，以黑色毛筆寫出「淨」字。"
-      }
-    ]
+    "nextId": "library_7-1547"
   },
   {
     "id": "library_7-1547",
@@ -276025,14 +275679,7 @@
     ],
     "reserved": false,
     "prevId": "library_6-782",
-    "nextId": "library_6-809",
-    "visualNotes": [
-      {
-        "id": "media-0c51d493a797f633f2b64191",
-        "type": "SVG 圖表",
-        "summary": "《觀無量壽經》概說圖，以一代諸經、序分、正宗分、流通分的樹狀架構標示經典位置。"
-      }
-    ]
+    "nextId": "library_6-809"
   },
   {
     "id": "library_6-809",

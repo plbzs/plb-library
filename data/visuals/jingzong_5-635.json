@@ -452,11 +452,5 @@
         "reviewNote": "原 SVG 為左右兩欄的五組對照：五部九卷與五種正行逐一相應；完整保留五部名稱、五種正行名稱與對應關係。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

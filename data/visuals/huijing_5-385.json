@@ -7,7 +7,7 @@
   "visuals": [
     {
       "id": "table-huijing_5-385-1",
-      "position": "table-1",
+      "position": 1,
       "sourceType": "html-table",
       "classification": "reconstructable-table",
       "sourceArchive": {
@@ -46,11 +46,5 @@
         "reviewNote": "以原始 HTML 表格逐格轉錄，保留儲存格的 rowspan 與 colspan。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

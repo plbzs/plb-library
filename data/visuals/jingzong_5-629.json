@@ -182,11 +182,5 @@
         "reviewNote": "原 SVG 是橫向五欄比較表；保留三部經、地位、經體、經宗、力用與側重內容。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

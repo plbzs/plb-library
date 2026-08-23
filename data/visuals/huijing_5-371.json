@@ -154,11 +154,5 @@
         "reviewNote": "保留原圖以三個出處及願文條件、行持、願力、結果的對照結構；分散單字已重組為可讀詞組。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

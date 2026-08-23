@@ -24,11 +24,5 @@
         "reviewNote": "識別標誌不含可驗證的流程、表格或分類文字，保留語意描述而不臆造結構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

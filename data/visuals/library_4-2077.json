@@ -45,11 +45,5 @@
         "reviewNote": "保留紅色海報、金色裝飾與可辨識佛教語句範圍，不把不清楚的書法補寫成確定全文。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 2
-  }
+  ]
 }

@@ -209,11 +209,5 @@
         "reviewNote": "以三欄願文對照保留經文、觀念法門與往生禮讚的異文位置，避免將對照表誤寫成單一路徑。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "2/2 approved-or-semantic",
-    "approvedReconstructionCount": 2,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

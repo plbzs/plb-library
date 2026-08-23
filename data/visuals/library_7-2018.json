@@ -25,11 +25,5 @@
         "reviewNote": "保留中心圓、放射線與圓周的幾何語意，不臆測每條線的意義。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

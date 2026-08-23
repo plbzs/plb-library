@@ -966,11 +966,5 @@
         "reviewNote": "透明底圖經白底核對，將五番相對與二行得失的四組列示關係完整轉成圖模型；「親近對」與「疏遠對」保留為同一比較節點。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "5/5 approved-or-semantic",
-    "approvedReconstructionCount": 5,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

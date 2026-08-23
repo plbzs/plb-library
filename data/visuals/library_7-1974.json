@@ -85,11 +85,5 @@
         "reviewNote": "保留竹林、蜈蚣、竹筒與連續場景及旁白，不將寓言插畫轉成流程模型。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 4
-  }
+  ]
 }

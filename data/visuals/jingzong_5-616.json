@@ -144,11 +144,5 @@
         "reviewNote": "依宗名來歷與傳承箭頭重建，保留印度／中國的地理對照。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

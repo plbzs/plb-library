@@ -186,11 +186,5 @@
         "reviewNote": "依原始 SVG 的五列文字行、座標與連線關係重建；保留一心、五種心行及各自說明。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

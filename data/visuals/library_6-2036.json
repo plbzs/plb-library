@@ -496,11 +496,5 @@
         "reviewNote": "透明底圖經白底核對；圖面本身沒有總標題，使用文章中「第三個圖表：相對的關係」作為結構根節點，不臆補圖左側裁切標記。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "3/3 approved-or-semantic",
-    "approvedReconstructionCount": 3,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

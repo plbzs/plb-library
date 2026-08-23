@@ -172,11 +172,5 @@
         "reviewNote": "依原 SVG 的雜行／正行分欄、四種雜行、所觀所念及正定業鏈重建。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

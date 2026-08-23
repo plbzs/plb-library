@@ -144,11 +144,5 @@
         "reviewNote": "保留文獻來源、初祖至十三祖序列與圖中出現的祖師名號；同一名號的重複節點合併。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

@@ -80,11 +80,5 @@
         "reviewNote": "透明底 PNG 經白底核對後，按原圖兩欄三列逐格轉錄，保留譯本對照與頁碼資訊。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

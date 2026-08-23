@@ -68,14 +68,5 @@
   ],
   "reserved": false,
   "prevId": "huijing_6-835",
-  "nextId": "huijing_6-694",
-  "visualNotes": [
-    {
-      "id": "media-0e7f8714b560277584684c7a",
-      "type": "SVG 圖表",
-      "summary": "淨土宗義略說關係圖，將名號、佛願、本末、機的深信與法的深信以箭線連結。",
-      "extractedText": "生起···\\n機的深信\\n本末···\\n法的深信\\n名號=佛願\\n深心=信心",
-      "sourceArchiveVerified": true
-    }
-  ]
+  "nextId": "huijing_6-694"
 }

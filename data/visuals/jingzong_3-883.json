@@ -25,11 +25,5 @@
         "reviewNote": "保留書法內容與配圖性質，不把題字臆造為流程或分類結構。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

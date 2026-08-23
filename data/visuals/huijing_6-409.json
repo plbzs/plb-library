@@ -121,11 +121,5 @@
         "reviewNote": "以見佛為總結，保留淨土／穢土、平生／臨終、方法與眼見／心見分支。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

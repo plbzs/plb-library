@@ -651,11 +651,5 @@
         "reviewNote": "原圖為點陣圖，與同文 SVG 的分類結構相符；本資料依據此原始點陣圖逐一核對。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

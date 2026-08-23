@@ -25,11 +25,5 @@
         "reviewNote": "保留小舟、野渡、樹岸與題字語意，不強行重建自然景物為圖表。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
-  }
+  ]
 }

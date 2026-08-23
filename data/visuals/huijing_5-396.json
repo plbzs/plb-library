@@ -112,11 +112,5 @@
         "reviewNote": "保留三種機法一體與最後的相靠、容融、不捨離結論。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "1/1 approved-or-semantic",
-    "approvedReconstructionCount": 1,
-    "semanticOnlyCount": 0
-  }
+  ]
 }

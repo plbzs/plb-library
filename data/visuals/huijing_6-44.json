@@ -529,11 +529,5 @@
         "reviewNote": "依原圖三欄短句與連線重建淨宗、方法、目的及其內容。此視覺項目在四篇文章中共用。"
       }
     }
-  ],
-  "validation": {
-    "status": "approved",
-    "coverage": "4/4 approved-or-semantic",
-    "approvedReconstructionCount": 4,
-    "semanticOnlyCount": 0
-  }
+  ]
 }
