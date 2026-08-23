@@ -108,17 +108,20 @@
       "id": "media-f1000c486e8f21755d6b20ac",
       "position": 6,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-f1000c486e8f21755d6b20ac.jpg",
         "sha256": "7d5d1192c1821f1d235fbc4ee58e97dee9c578cc7a9bf4c3c089ac21603004f7"
       },
-      "semanticDescription": null,
+      "semanticDescription": "傳統佛教人物畫：兩尊身穿金色衣飾的菩薩或佛教人物立於雲氣之上，一位手持長柄法器，另一位合掌；畫面有古畫絹本質感與邊角題字。屬於宗教畫，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "邊角題字過小，無可靠完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留兩位人物、手持物、合掌姿勢、雲氣與古畫質感，不臆測人物身份或題字全文。"
       }
     },
     {
@@ -302,9 +305,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "14/15 approved-or-semantic",
+    "status": "approved",
+    "coverage": "15/15 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 14
+    "semanticOnlyCount": 15
   }
 }

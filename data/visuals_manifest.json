@@ -3,9 +3,9 @@
   "scope": "結構化視覺資料 API。一般閱讀頁不顯示此資料。",
   "progress": {
     "totalReviewItems": 343,
-    "approvedReconstruction": 222,
-    "semanticOnly": 116,
-    "needsReview": 5,
+    "approvedReconstruction": 223,
+    "semanticOnly": 120,
+    "needsReview": 0,
     "sourceMissing": 1
   },
   "articles": [
@@ -1606,16 +1606,16 @@
       "path": "data/visuals/library_7-2162.json",
       "expectedVisualCount": 15,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 14,
-      "status": "in-review"
+      "semanticOnlyCount": 15,
+      "status": "approved"
     },
     {
       "articleId": "story_1-1021",
       "path": "data/visuals/story_1-1021.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "story_1-1067",
@@ -1678,8 +1678,8 @@
       "path": "data/visuals/story_1-1316.json",
       "expectedVisualCount": 1,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 0,
-      "status": "in-review"
+      "semanticOnlyCount": 1,
+      "status": "approved"
     },
     {
       "articleId": "story_1-1396",
@@ -1701,9 +1701,9 @@
       "articleId": "story_1-1472",
       "path": "data/visuals/story_1-1472.json",
       "expectedVisualCount": 2,
-      "approvedReconstructionCount": 1,
+      "approvedReconstructionCount": 2,
       "semanticOnlyCount": 0,
-      "status": "in-review"
+      "status": "approved"
     },
     {
       "articleId": "story_1-161",
@@ -1758,8 +1758,8 @@
       "path": "data/visuals/story_1-693.json",
       "expectedVisualCount": 5,
       "approvedReconstructionCount": 0,
-      "semanticOnlyCount": 4,
-      "status": "in-review"
+      "semanticOnlyCount": 5,
+      "status": "approved"
     },
     {
       "articleId": "story_1-979",

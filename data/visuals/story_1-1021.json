@@ -9,24 +9,27 @@
       "id": "media-fd457b14547f41eca3e7c849",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-fd457b14547f41eca3e7c849.jpg",
         "sha256": "c9fcf2d119b7bd3a1fe16001ffbd0cfb0dfb5d9abc917c4c54946a5ba6e322e9"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "兒童手繪或祝福卡片：中央是一名有翅膀、穿裙子的卡通人物，左上畫有小佛像或佛陀，右側手寫「我去極樂世界做佛了!!」，上方另有「阿彌陀佛」，下方有「南無阿彌陀佛」字樣。屬於手繪敘事圖，不是結構化圖表。",
+      "transcript": "阿彌陀佛\n我去極樂世界做佛了!!\n南無阿彌陀佛",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "3/3主要手寫文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留可辨識文字、卡通人物、翅膀與小佛像，不把手繪故事圖猜成流程模型。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

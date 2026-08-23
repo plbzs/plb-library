@@ -9,24 +9,27 @@
       "id": "media-f79b323305925e2e48f84bc7",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-f79b323305925e2e48f84bc7.jpg",
         "sha256": "94306b595a91029ad0afaed131297d6a668bd3ecc62c0afdd7ab1dd3d8e5c1bc"
       },
-      "semanticDescription": null,
+      "semanticDescription": "室內張貼的中文文字牌或報導照片：上方有大字標題與日期，中央及下方是密集段落文字，字體與拍攝解析度不足以可靠逐字轉錄；不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "密集小字無可靠完整轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留文字牌、標題、密集段落與日期位置，不從低解析度照片猜補全文。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

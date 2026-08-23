@@ -223,24 +223,146 @@
       "id": "media-fc03acd588b94769f029685e",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "media-archive/originals/media-fc03acd588b94769f029685e.jpg",
         "sha256": "a518575304f752558493d4b35069ee6f5e0825dfaad4bfe7cb306eceb869edf7"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "人生目標 Life Goals\n姓名 NAME：淨化英\n年紀 AGE：51\n日期 DATE：1/1/2023\n1. 極樂世界\n2. 極樂世界\n3. 極樂世界\n淨土宗祈院（新加坡）",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "人生目標卡",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "欄位",
+                "kind": "th",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "內容",
+                "kind": "th",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "姓名 NAME",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "淨化英",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "年紀 AGE",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "51",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "日期 DATE",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "1/1/2023",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "目標 1",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "極樂世界",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "目標 2",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "極樂世界",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "目標 3",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "極樂世界",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 14
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "14/14主要欄位與三列目標；手寫姓名按影像可辨識字樣轉錄",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將人生目標卡的姓名、年紀、日期與三列極樂世界目標整理成 table-v1；保留原卡的三次重複目標，不替使用者合併。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }
