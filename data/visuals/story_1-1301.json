@@ -9,24 +9,27 @@
       "id": "media-373683fcbd9062fa8824f682",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-373683fcbd9062fa8824f682.jpg",
         "sha256": "cca614a69d9a591898b9d614205ca4ebf18efcf8ba8846ab33b0a5a24740d53a"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛教往生或追思場景照片：花圈與水墨畫背景前，中央展示一張大字紙牌，內容是佛力接引、某位長輩往生極樂的追思或告別文字；紙牌上部分姓名被遮蔽。屬於現場照片，不是結構圖。",
+      "transcript": "佛力接引；蔡門庄氏粉英慈母大人；往生極樂。圖片中的部分姓名或個人資料已被遮蔽。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "主要追思文字可辨識；個資遮蔽保留",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛力接引、往生極樂、花圈與追思現場語意，不嘗試還原被遮蔽個資。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

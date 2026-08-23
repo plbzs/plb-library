@@ -26,17 +26,169 @@
       "id": "media-3d482a2c4a6d32ff61cff9d8",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-3d482a2c4a6d32ff61cff9d8.png",
         "sha256": "c6c0e93bc7cd0eec934615cb4ba174d0cc72cf37ec08273448e01022731b6d5e"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五種難\n一、外道\n二、小乘\n三、惡人\n四、法障\n五、總\n人障\n別",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五種難的障礙分類",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五種難",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "external",
+            "label": "一、外道",
+            "kind": "difficulty",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "small-vehicle",
+            "label": "二、小乘",
+            "kind": "difficulty",
+            "position": {
+              "x": 300,
+              "y": 100
+            }
+          },
+          {
+            "id": "evil",
+            "label": "三、惡人",
+            "kind": "difficulty",
+            "position": {
+              "x": 300,
+              "y": 200
+            }
+          },
+          {
+            "id": "human-barrier",
+            "label": "人障",
+            "kind": "category",
+            "position": {
+              "x": 700,
+              "y": 100
+            }
+          },
+          {
+            "id": "dharma-barrier",
+            "label": "四、法障",
+            "kind": "difficulty",
+            "position": {
+              "x": 300,
+              "y": 340
+            }
+          },
+          {
+            "id": "total",
+            "label": "五、總",
+            "kind": "summary",
+            "position": {
+              "x": 300,
+              "y": 480
+            }
+          },
+          {
+            "id": "separate",
+            "label": "別",
+            "kind": "summary",
+            "position": {
+              "x": 1000,
+              "y": 240
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "external",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "small-vehicle",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "evil",
+            "relation": "contains"
+          },
+          {
+            "from": "external",
+            "to": "human-barrier",
+            "relation": "classified-as"
+          },
+          {
+            "from": "small-vehicle",
+            "to": "human-barrier",
+            "relation": "classified-as"
+          },
+          {
+            "from": "evil",
+            "to": "human-barrier",
+            "relation": "classified-as"
+          },
+          {
+            "from": "root",
+            "to": "dharma-barrier",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "total",
+            "relation": "summarizes"
+          },
+          {
+            "from": "human-barrier",
+            "to": "separate",
+            "relation": "distinguishes"
+          },
+          {
+            "from": "dharma-barrier",
+            "to": "separate",
+            "relation": "distinguishes"
+          },
+          {
+            "from": "total",
+            "to": "separate",
+            "relation": "summarizes"
+          }
+        ],
+        "groups": [
+          {
+            "id": "human-obstacles",
+            "label": "人障分支",
+            "members": [
+              "external",
+              "small-vehicle",
+              "evil"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "8/8可辨識標籤；最左側裁切標記保留為文章標題",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底 PNG 經白底核對；依可辨識的五種難、人障、法障、別與總結關係重建，最左側不完整標記不臆補。"
       }
     },
     {
@@ -59,8 +211,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/3 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/3 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

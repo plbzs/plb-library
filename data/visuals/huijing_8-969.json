@@ -9,24 +9,27 @@
       "id": "media-29679bd49e8a32d9f36a5507",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-29679bd49e8a32d9f36a5507.jpg",
         "sha256": "1685a2e599d181e06ede6c56c5706c70539b39630c6ffe89bd49bd497cbb781a"
       },
-      "semanticDescription": null,
+      "semanticDescription": "宗教故事插畫：上方是一位被火焰、黑雲與鎖鏈包圍的藍色鬼神或獄卒，下方是一名躺臥者與家人或旁觀者在床邊，呈現臨終、苦難或救度場景。屬於敘事繪畫，沒有可重建的圖表結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：敘事插畫無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留火焰、鬼神、鎖鏈、臨終者與家人場景語意，不對圖中人物作確定身份推定。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -9,24 +9,27 @@
       "id": "media-3a61ccf00dd4ebfee68bff21",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-3a61ccf00dd4ebfee68bff21.jpg",
         "sha256": "8487d018f7b5e5b6475f2f1311369dfa30deb737c592e0700b94afa9302c087b"
       },
-      "semanticDescription": null,
+      "semanticDescription": "小動物在籠中的生活照片：一隻灰色小動物位於金屬籠內，旁邊有綠色物件、玩具與食物，背景可見其他籠舍與裝飾。屬於動物或故事照片，沒有可重建的文字結構。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：動物照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留小動物、籠舍、玩具與生活環境語意，不對物種或故事情節作過度推定。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

@@ -9,17 +9,20 @@
       "id": "media-2b6911023dfa6bfa91822cdf",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-2b6911023dfa6bfa91822cdf.jpg",
         "sha256": "48ecf88f5fd39b090541670b12989c690e9aff30a71982d718fb0fae727b9a6a"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "彩色漫畫式小插圖：綠色斑紋小蟲在山丘草地上覓食，背景有樹木與石塊，底部文字說明牠出來覓食。屬於單格敘事插畫，不是流程或分類圖。",
+      "transcript": "有一天，一條很餓的小蟲，出來覓食。",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1旁白文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "提供旁白與小蟲、覓食、山丘場景語意，不將漫畫誤判成結構圖。"
       }
     },
     {
@@ -79,8 +82,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
+    "coverage": "2/4 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

@@ -80,24 +80,27 @@
       "id": "media-3a52359393f8e1d2bceb4c8a",
       "position": 5,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-3a52359393f8e1d2bceb4c8a.jpg",
         "sha256": "c697384592c1ce24aa39cbf7d57d2a7a88d25019190c733e6a163afdcd902ed2"
       },
-      "semanticDescription": null,
+      "semanticDescription": "念珠或佛珠照片拼圖：左右兩側展示多串不同顏色與材質的念珠，紅色箭頭分別指向其中的念珠或配件，背景是居家床面與小型佛教物件。屬於物品照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：念珠照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留念珠種類、材質、箭頭標示與居家背景語意，不猜測念珠功用或身份。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/5 approved-or-semantic",
+    "coverage": "2/5 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

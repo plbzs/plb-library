@@ -9,17 +9,201 @@
       "id": "media-34e3a9820dd3e31b7138403d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-34e3a9820dd3e31b7138403d.png",
         "sha256": "d725d74f4bc21a42a319dddb7668b6303c190c4ac3dd486327402bc794dde89b"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "南無阿彌陀佛\n言南無者即是歸命——南無歸命\n亦是發願迴向之義——發願迴向\n言阿彌陀佛者即是其行——即是其行\n三義一因\n以斯義故必得往生——必得往生——利益—果",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "南無阿彌陀佛的三義一因與往生利益",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "南無阿彌陀佛",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "namo",
+            "label": "言南無者即是歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedication",
+            "label": "亦是發願迴向之義",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 140
+            }
+          },
+          {
+            "id": "amita",
+            "label": "言阿彌陀佛者即是其行",
+            "kind": "meaning",
+            "position": {
+              "x": 300,
+              "y": 280
+            }
+          },
+          {
+            "id": "namo-result",
+            "label": "南無歸命",
+            "kind": "meaning-result",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedication-result",
+            "label": "發願迴向",
+            "kind": "meaning-result",
+            "position": {
+              "x": 700,
+              "y": 140
+            }
+          },
+          {
+            "id": "practice-result",
+            "label": "即是其行",
+            "kind": "meaning-result",
+            "position": {
+              "x": 700,
+              "y": 280
+            }
+          },
+          {
+            "id": "three-one",
+            "label": "三義一因",
+            "kind": "summary",
+            "position": {
+              "x": 1060,
+              "y": 140
+            }
+          },
+          {
+            "id": "cause",
+            "label": "以斯義故必得往生",
+            "kind": "conclusion",
+            "position": {
+              "x": 300,
+              "y": 500
+            }
+          },
+          {
+            "id": "birth",
+            "label": "必得往生",
+            "kind": "result",
+            "position": {
+              "x": 700,
+              "y": 500
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "利益—果",
+            "kind": "result",
+            "position": {
+              "x": 1060,
+              "y": 500
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "namo",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "dedication",
+            "relation": "explains"
+          },
+          {
+            "from": "root",
+            "to": "amita",
+            "relation": "explains"
+          },
+          {
+            "from": "namo",
+            "to": "namo-result",
+            "relation": "means"
+          },
+          {
+            "from": "dedication",
+            "to": "dedication-result",
+            "relation": "means"
+          },
+          {
+            "from": "amita",
+            "to": "practice-result",
+            "relation": "means"
+          },
+          {
+            "from": "namo-result",
+            "to": "three-one",
+            "relation": "forms"
+          },
+          {
+            "from": "dedication-result",
+            "to": "three-one",
+            "relation": "forms"
+          },
+          {
+            "from": "practice-result",
+            "to": "three-one",
+            "relation": "forms"
+          },
+          {
+            "from": "three-one",
+            "to": "cause",
+            "relation": "leads-to"
+          },
+          {
+            "from": "cause",
+            "to": "birth",
+            "relation": "results-in"
+          },
+          {
+            "from": "birth",
+            "to": "benefit",
+            "relation": "brings"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-meanings",
+            "label": "三義",
+            "members": [
+              "namo-result",
+              "dedication-result",
+              "practice-result"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "11/11節點與括線關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底 PNG 經白底核對後，依原圖三條解釋線、三義一因與往生利益結論完整重建。"
       }
     },
     {
@@ -127,8 +311,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/7 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/7 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

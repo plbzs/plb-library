@@ -9,24 +9,82 @@
       "id": "media-354f0fe554b602fb3a11920c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-table",
       "sourceArchive": {
         "path": "media-archive/originals/media-354f0fe554b602fb3a11920c.png",
         "sha256": "0e3743df41d1684ba2017f71c1ae1b3e52e3289de6819bb7abff406e61f867a5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《阿彌陀經》鳩摩羅什大師譯 | 《阿彌陀經》玄奘大師譯\n汝等眾生，當信是《稱讚不可思議功德一切諸佛所護念經》。《淨土宗聖教集》頁16 | 汝等有情，皆應信受如是《稱讚不可思議佛土功德一切諸佛攝受法門》。\n「舍利弗，於汝意云何？何故名為《一切諸佛所護念經》？」《淨土宗聖教集》頁41 | 「舍利子，何緣此經名為《稱讚不可思議佛土功德一切諸佛攝受法門》？」",
+      "reconstruction": {
+        "format": "table-v1",
+        "title": "《阿彌陀經》鳩摩羅什與玄奘譯本對照",
+        "headerRowIndex": 0,
+        "rows": [
+          {
+            "cells": [
+              {
+                "text": "《阿彌陀經》鳩摩羅什大師譯",
+                "kind": "th",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "《阿彌陀經》玄奘大師譯",
+                "kind": "th",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "汝等眾生，當信是《稱讚不可思議功德一切諸佛所護念經》。《淨土宗聖教集》頁16",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "汝等有情，皆應信受如是《稱讚不可思議佛土功德一切諸佛攝受法門》。",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "text": "舍利弗，於汝意云何？何故名為《一切諸佛所護念經》？《淨土宗聖教集》頁41",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              },
+              {
+                "text": "舍利子，何緣此經名為《稱讚不可思議佛土功德一切諸佛攝受法門》？",
+                "kind": "td",
+                "colspan": 1,
+                "rowspan": 1
+              }
+            ]
+          }
+        ],
+        "sourceCellCount": 6
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "6/6儲存格",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "透明底 PNG 經白底核對後，按原圖兩欄三列逐格轉錄，保留譯本對照與頁碼資訊。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
