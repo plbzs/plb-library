@@ -9,24 +9,27 @@
       "id": "media-a182aaf3e2e28e400c122f1c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-a182aaf3e2e28e400c122f1c.svg",
         "sha256": "ce3785c2b3962bd685c90adceea57694b97a87d2140aec70f8e045191176b116"
       },
-      "semanticDescription": null,
+      "semanticDescription": "文章〈唯有君家老松樹，春風來似未曾來〉中的內嵌 SVG 插圖，位於詩句之後、解釋牡丹、年少、尋芳、南鄰北舍與君家老松樹譬喻之前；屬詩文配圖／譬喻插圖，SVG 沒有可讀文字層，不適合硬重建成圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "no SVG text layer; article context retained",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "依圖片前後的詩句與譬喻說明建立保守描述，不把配圖臆造為流程圖。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

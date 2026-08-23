@@ -26,17 +26,69 @@
       "id": "media-a4aa535c727527dc865cd689",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a4aa535c727527dc865cd689.svg",
         "sha256": "e4d0e32d2477af1bdd265baad44ec54aae74d51e09f6b6eb74e98236b39804d2"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "正行：正定業與助業。正定業：稱名（一心專念彌陀名號）。助業：讀誦、觀想、禮拜、讚供。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正行的正定業與助業",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正行",
+            "kind": "root",
+            "position": {
+              "x": 400,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "正定業：稱名（一心專念彌陀名號）",
+            "kind": "practice",
+            "position": {
+              "x": 100,
+              "y": 220
+            }
+          },
+          {
+            "id": "assist",
+            "label": "助業：讀誦、觀想、禮拜、讚供",
+            "kind": "practice",
+            "position": {
+              "x": 700,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "dedicated",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "assist",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "29/29 source glyphs grouped into semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "合併分散字元，保留正行下的正定業／助業及各自的實踐內容。"
       }
     },
     {
@@ -224,17 +276,111 @@
       "id": "media-a76e7830886f5c6089d14df8",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a76e7830886f5c6089d14df8.svg",
         "sha256": "86c7ee9335757ee0fa0afa181a15d3feba82c614e0e2ddc2790134ba685e15a4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "五番相對：一、親疏對；二、近遠對；三、無間有間對；四、不迴向迴向對；五、純雜對。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "五番相對",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "五番相對",
+            "kind": "root",
+            "position": {
+              "x": 400,
+              "y": 0
+            }
+          },
+          {
+            "id": "one",
+            "label": "一、親疏對",
+            "kind": "contrast",
+            "position": {
+              "x": 0,
+              "y": 200
+            }
+          },
+          {
+            "id": "two",
+            "label": "二、近遠對",
+            "kind": "contrast",
+            "position": {
+              "x": 200,
+              "y": 200
+            }
+          },
+          {
+            "id": "three",
+            "label": "三、無間有間對",
+            "kind": "contrast",
+            "position": {
+              "x": 400,
+              "y": 200
+            }
+          },
+          {
+            "id": "four",
+            "label": "四、不迴向迴向對",
+            "kind": "contrast",
+            "position": {
+              "x": 620,
+              "y": 200
+            }
+          },
+          {
+            "id": "five",
+            "label": "五、純雜對",
+            "kind": "contrast",
+            "position": {
+              "x": 840,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "one",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "two",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "four",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "five",
+            "relation": "contains"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "16/16 source labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將五組對照整理成根節點下的平級清單，保留原始順序。"
       }
     },
     {
@@ -443,8 +589,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/6 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "4/6 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

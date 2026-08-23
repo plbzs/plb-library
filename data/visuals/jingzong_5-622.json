@@ -328,17 +328,125 @@
       "id": "media-a341d2c2894dbd99d2e5f9d9",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a341d2c2894dbd99d2e5f9d9.svg",
         "sha256": "7fabff50d24a619b705986d07e48de333a98e94c90bc8347a619892574b96b12"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "難行道、易行道；龍樹釋、曇鸞釋；諸、久、墮；一、速、必；總釋、別釋；二道分齊、二道勝劣、捨難取易。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "難行道與易行道",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "二道判",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難行道",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易行道",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 400
+            }
+          },
+          {
+            "id": "hard-detail",
+            "label": "諸、久、墮；凡夫不可行",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "easy-detail",
+            "label": "一、速、必；凡夫大光明",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 400
+            }
+          },
+          {
+            "id": "masters",
+            "label": "龍樹釋／曇鸞釋",
+            "kind": "source",
+            "position": {
+              "x": 800,
+              "y": 180
+            }
+          },
+          {
+            "id": "judgment",
+            "label": "總釋／別釋；二道分齊／二道勝劣／捨難取易",
+            "kind": "result",
+            "position": {
+              "x": 800,
+              "y": 400
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "easy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "hard",
+            "to": "hard-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "easy",
+            "to": "easy-detail",
+            "relation": "described-by"
+          },
+          {
+            "from": "masters",
+            "to": "root",
+            "relation": "interprets"
+          },
+          {
+            "from": "root",
+            "to": "judgment",
+            "relation": "concludes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "4/4 semantic groups",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留難／易二道的對照詞與總釋、別釋、分齊、勝劣、捨難取易等判釋標籤。"
       }
     },
     {
@@ -1388,8 +1496,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "10/14 approved-or-semantic",
-    "approvedReconstructionCount": 10,
+    "coverage": "11/14 approved-or-semantic",
+    "approvedReconstructionCount": 11,
     "semanticOnlyCount": 0
   }
 }

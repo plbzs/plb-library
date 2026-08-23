@@ -226,17 +226,172 @@
       "id": "media-a239e0dbd6a835976346e004",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a239e0dbd6a835976346e004.svg",
         "sha256": "48c56d8a05e3536c9cf4b4f7f4b7b15d24a025b7ebb944148234eac249867036"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "大判門、細判門、往生行；聖道門／難行道／自力；淨土門／易行道／他力。正行、雜行；正定業：專稱名（本願稱名）；助業：讀誦、觀想、禮拜、讚供；雜行：念餘佛、修餘行、讀誦、觀想、禮拜、讚供；心常親近、憶念不斷、名為無間；心常間斷，雖可迴向得生；專修正行、雜修雜行、助業助正兼行、正雜兼行、雜修；專名祈現、祈禱現世。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "往生行：正行與雜行",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "往生行",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門／難行道／自力",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門／易行道／他力",
+            "kind": "scheme",
+            "position": {
+              "x": 700,
+              "y": 180
+            }
+          },
+          {
+            "id": "right",
+            "label": "正行",
+            "kind": "scheme",
+            "position": {
+              "x": 440,
+              "y": 380
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行",
+            "kind": "scheme",
+            "position": {
+              "x": 800,
+              "y": 380
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "正定業：專稱名／本願稱名",
+            "kind": "practice",
+            "position": {
+              "x": 220,
+              "y": 580
+            }
+          },
+          {
+            "id": "assist",
+            "label": "助業：讀誦、觀想、禮拜、讚供",
+            "kind": "practice",
+            "position": {
+              "x": 520,
+              "y": 580
+            }
+          },
+          {
+            "id": "other",
+            "label": "念餘佛、修餘行及雜疏諸行",
+            "kind": "practice",
+            "position": {
+              "x": 860,
+              "y": 580
+            }
+          },
+          {
+            "id": "mind",
+            "label": "心常親近、憶念不斷、名為無間",
+            "kind": "condition",
+            "position": {
+              "x": 300,
+              "y": 780
+            }
+          },
+          {
+            "id": "result",
+            "label": "專修／雜修；專名祈現／祈禱現世",
+            "kind": "result",
+            "position": {
+              "x": 800,
+              "y": 780
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "pure",
+            "to": "right",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "mixed",
+            "relation": "divides-into"
+          },
+          {
+            "from": "right",
+            "to": "dedicated",
+            "relation": "includes"
+          },
+          {
+            "from": "right",
+            "to": "assist",
+            "relation": "includes"
+          },
+          {
+            "from": "mixed",
+            "to": "other",
+            "relation": "includes"
+          },
+          {
+            "from": "dedicated",
+            "to": "mind",
+            "relation": "supported-by"
+          },
+          {
+            "from": "mind",
+            "to": "result",
+            "relation": "classified-as"
+          },
+          {
+            "from": "other",
+            "to": "result",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "112/112 source glyphs grouped into semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將分散字元重組為聖道／淨土、正行／雜行、正定業／助業及專修／雜修的層級。"
       }
     },
     {
@@ -423,8 +578,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

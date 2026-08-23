@@ -193,17 +193,69 @@
       "id": "media-a4aa535c727527dc865cd689",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a4aa535c727527dc865cd689.svg",
         "sha256": "e4d0e32d2477af1bdd265baad44ec54aae74d51e09f6b6eb74e98236b39804d2"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "正行：正定業與助業。正定業：稱名（一心專念彌陀名號）。助業：讀誦、觀想、禮拜、讚供。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "正行的正定業與助業",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正行",
+            "kind": "root",
+            "position": {
+              "x": 400,
+              "y": 0
+            }
+          },
+          {
+            "id": "dedicated",
+            "label": "正定業：稱名（一心專念彌陀名號）",
+            "kind": "practice",
+            "position": {
+              "x": 100,
+              "y": 220
+            }
+          },
+          {
+            "id": "assist",
+            "label": "助業：讀誦、觀想、禮拜、讚供",
+            "kind": "practice",
+            "position": {
+              "x": 700,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "dedicated",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "assist",
+            "relation": "divides-into"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "29/29 source glyphs grouped into semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "合併分散字元，保留正行下的正定業／助業及各自的實踐內容。"
       }
     },
     {
@@ -593,8 +645,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "3/6 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "coverage": "4/6 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

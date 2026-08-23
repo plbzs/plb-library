@@ -92,17 +92,111 @@
       "id": "media-a90edcffd89e4226f55d8cd4",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a90edcffd89e4226f55d8cd4.svg",
         "sha256": "88c151626a912a3895e7f984afbf24746a3286bc754fa5b86c5997c43990885c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "南無阿彌陀佛之簡釋：1. 歸之命：阿彌陀佛招喚之敕命；2. 歸於命：歸順、信受阿彌陀佛之敕命；3. 敬禮：身業上之禮拜；4. 歸無量壽命：凡夫無常之命歸佛無量壽之命；5. 生命歸還本源：還源歸命。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "南無阿彌陀佛之五重歸命義",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "南無阿彌陀佛／歸命",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "one",
+            "label": "一、歸之命：阿彌陀佛招喚之敕命",
+            "kind": "meaning",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "two",
+            "label": "二、歸於命：歸順、信受阿彌陀佛之敕命",
+            "kind": "meaning",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "three",
+            "label": "三、敬禮：身業上之禮拜",
+            "kind": "meaning",
+            "position": {
+              "x": 0,
+              "y": 420
+            }
+          },
+          {
+            "id": "four",
+            "label": "四、歸無量壽命：凡夫無常之命歸佛無量壽之命",
+            "kind": "meaning",
+            "position": {
+              "x": 560,
+              "y": 240
+            }
+          },
+          {
+            "id": "five",
+            "label": "五、生命歸還本源：還源歸命",
+            "kind": "meaning",
+            "position": {
+              "x": 560,
+              "y": 420
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "one",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "two",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "three",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "four",
+            "relation": "means"
+          },
+          {
+            "from": "root",
+            "to": "five",
+            "relation": "means"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "73/73 source glyphs grouped into 5 meanings",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留五項歸命義，將分散的單字、數字與標點重組成可讀節點。"
       }
     },
     {
@@ -278,8 +372,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

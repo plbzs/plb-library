@@ -9,17 +9,107 @@
       "id": "media-a2480eef9cd6ef83cfed4896",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a2480eef9cd6ef83cfed4896.svg",
         "sha256": "41fa3238b4640a8dbc9a7a125a19974a064731b360b12ca2dce3020131e1c656"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "實相身與為物身的兩種判釋：一、實相身是理佛，即同法性法身；為物身是事佛，即同方便法身。二、實相身、為物身二身都是事佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "實相身與為物身",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "阿彌陀佛之佛身觀",
+            "kind": "root",
+            "position": {
+              "x": 420,
+              "y": 0
+            }
+          },
+          {
+            "id": "real",
+            "label": "實相身",
+            "kind": "concept",
+            "position": {
+              "x": 180,
+              "y": 170
+            }
+          },
+          {
+            "id": "for-beings",
+            "label": "為物身",
+            "kind": "concept",
+            "position": {
+              "x": 660,
+              "y": 170
+            }
+          },
+          {
+            "id": "case-1",
+            "label": "第一說：實相身＝理佛／法性法身；為物身＝事佛／方便法身",
+            "kind": "scheme",
+            "position": {
+              "x": 420,
+              "y": 360
+            }
+          },
+          {
+            "id": "case-2",
+            "label": "第二說（文中以此為正）：實相身、為物身二身皆是事佛",
+            "kind": "scheme",
+            "position": {
+              "x": 420,
+              "y": 560
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "real",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "root",
+            "to": "for-beings",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "real",
+            "to": "case-1",
+            "relation": "interpreted-by"
+          },
+          {
+            "from": "for-beings",
+            "to": "case-1",
+            "relation": "interpreted-by"
+          },
+          {
+            "from": "real",
+            "to": "case-2",
+            "relation": "interpreted-by"
+          },
+          {
+            "from": "for-beings",
+            "to": "case-2",
+            "relation": "interpreted-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "article-supported two-case reconstruction",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "SVG 內嵌點陣圖沒有文字層，但圖前後正文逐項說明兩種判釋；依同篇說明重建可核對的概念圖，未擴充未被正文支持的細節。"
       }
     },
     {
@@ -205,9 +295,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

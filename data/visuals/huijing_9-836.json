@@ -9,24 +9,156 @@
       "id": "media-a79b0fdbe97547ba59aa541a",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-a79b0fdbe97547ba59aa541a.svg",
         "sha256": "e4a23a96ff18c8bc3d4e04c796231d816c16d301edfa12a9a0f05228a6dad27d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "四十八大願中三願的往生因果：第十八願為念佛往生願，證明往相之因；第十一願為必至滅度願，證明往相之果；第二十二願為一生補處、還相迴向願，證明還相迴向及還相大悲之用。三願涵攝其他諸願。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "第十八、十一、二十二願的往生因果",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "四十八大願中的三願",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 260
+            }
+          },
+          {
+            "id": "v18",
+            "label": "第十八願：念佛往生願",
+            "kind": "vow",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "v11",
+            "label": "第十一願：必至滅度願",
+            "kind": "vow",
+            "position": {
+              "x": 260,
+              "y": 260
+            }
+          },
+          {
+            "id": "v22",
+            "label": "第二十二願：一生補處／還相迴向願",
+            "kind": "vow",
+            "position": {
+              "x": 260,
+              "y": 520
+            }
+          },
+          {
+            "id": "cause",
+            "label": "往相之因：念佛往生",
+            "kind": "result",
+            "position": {
+              "x": 640,
+              "y": 0
+            }
+          },
+          {
+            "id": "result",
+            "label": "往相之果：往生即得滅度、涅槃成佛",
+            "kind": "result",
+            "position": {
+              "x": 640,
+              "y": 260
+            }
+          },
+          {
+            "id": "return",
+            "label": "還相大悲之用：成佛迴入十方廣度眾生",
+            "kind": "result",
+            "position": {
+              "x": 640,
+              "y": 520
+            }
+          },
+          {
+            "id": "all",
+            "label": "其他諸願自然涵攝其中",
+            "kind": "synthesis",
+            "position": {
+              "x": 1040,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "v18",
+            "relation": "selects"
+          },
+          {
+            "from": "root",
+            "to": "v11",
+            "relation": "selects"
+          },
+          {
+            "from": "root",
+            "to": "v22",
+            "relation": "selects"
+          },
+          {
+            "from": "v18",
+            "to": "cause",
+            "relation": "proves"
+          },
+          {
+            "from": "v11",
+            "to": "result",
+            "relation": "proves"
+          },
+          {
+            "from": "v22",
+            "to": "return",
+            "relation": "proves"
+          },
+          {
+            "from": "cause",
+            "to": "all",
+            "relation": "涵攝"
+          },
+          {
+            "from": "result",
+            "to": "all",
+            "relation": "涵攝"
+          },
+          {
+            "from": "return",
+            "to": "all",
+            "relation": "涵攝"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "article-supported three-vow causal model",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "圖內沒有 SVG 文字層，但正文在圖片前逐項說明三願的名稱、因果位置與涵攝關係，據此重建。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
