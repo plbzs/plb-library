@@ -9,17 +9,20 @@
       "id": "media-b1206a5e425ed6404a05f561",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b1206a5e425ed6404a05f561.jpg",
         "sha256": "4cbb4dfcadbed0e1f2939bb14c9d7c6bd5e84548f799dbfeb965332cc02fa227"
       },
-      "semanticDescription": null,
+      "semanticDescription": "室內佛教活動照片：一名身穿橙色僧衣的僧人手持念珠，前景有人低頭合掌或禮拜，後方坐著多名參與者；背景可見窗戶與書法掛軸。屬於現場照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "背景掛軸文字過小，無可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "只描述可見人物、念珠、合掌姿勢與室內活動場景，不推定人物身份或儀式名稱。"
       }
     },
     {

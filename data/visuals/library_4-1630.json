@@ -9,17 +9,20 @@
       "id": "media-adc728e711e15225a4409c91",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-adc728e711e15225a4409c91.jpg",
         "sha256": "c3c6dddf4c1ab20c180330c8af594d46c779b00c0682b23faacfa0904dc99643"
       },
-      "semanticDescription": null,
+      "semanticDescription": "彩色宗教人物畫：畫面中央有一名身穿紅褐色衣物的人物，以倒掛或懸垂姿態出現在水草、樹枝與水面附近；畫面帶有古畫或故事插畫質感，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：未見可可靠轉錄的圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "描述人物姿態、服飾、自然場景與古畫質感，不替人物或故事情節作未經證實的身份判定。"
       }
     }
   ],

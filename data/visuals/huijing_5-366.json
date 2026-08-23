@@ -144,17 +144,274 @@
       "id": "media-ae947479a70779e9b4946719",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ae947479a70779e9b4946719.png",
         "sha256": "2fc82c384e5a665e99e7f5acb3dff6f2c606b83f6227d6555df994ab3d5ee335"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "善\n有漏（有為）\n不順法性有造作\n漏貪瞋癡\n顛倒、虛偽\n不實功德\n無漏（無為）\n隨順法性無造作\n彌陀名號\n法\n度生法體\n名號獨運\n機\n往生法體\n稱名獨達\n不斷煩惱\n得涅槃分",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善行的有漏與無漏及彌陀名號",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "good",
+            "label": "善",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "conditioned",
+            "label": "有漏（有為）",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 80
+            }
+          },
+          {
+            "id": "conditioned-nature",
+            "label": "不順法性有造作",
+            "kind": "concept",
+            "position": {
+              "x": 540,
+              "y": 80
+            }
+          },
+          {
+            "id": "defilements",
+            "label": "漏貪瞋癡",
+            "kind": "concept",
+            "position": {
+              "x": 820,
+              "y": 80
+            }
+          },
+          {
+            "id": "inversion",
+            "label": "顛倒、虛偽",
+            "kind": "concept",
+            "position": {
+              "x": 1060,
+              "y": 80
+            }
+          },
+          {
+            "id": "false-merit",
+            "label": "不實功德",
+            "kind": "result",
+            "position": {
+              "x": 1300,
+              "y": 80
+            }
+          },
+          {
+            "id": "unconditioned",
+            "label": "無漏（無為）",
+            "kind": "branch",
+            "position": {
+              "x": 260,
+              "y": 360
+            }
+          },
+          {
+            "id": "unconditioned-nature",
+            "label": "隨順法性無造作",
+            "kind": "concept",
+            "position": {
+              "x": 540,
+              "y": 360
+            }
+          },
+          {
+            "id": "amita-name",
+            "label": "彌陀名號",
+            "kind": "concept",
+            "position": {
+              "x": 820,
+              "y": 360
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "法",
+            "kind": "branch",
+            "position": {
+              "x": 1040,
+              "y": 280
+            }
+          },
+          {
+            "id": "dharma-body",
+            "label": "度生法體",
+            "kind": "concept",
+            "position": {
+              "x": 1240,
+              "y": 280
+            }
+          },
+          {
+            "id": "name-alone",
+            "label": "名號獨運",
+            "kind": "concept",
+            "position": {
+              "x": 1450,
+              "y": 280
+            }
+          },
+          {
+            "id": "capacity",
+            "label": "機",
+            "kind": "branch",
+            "position": {
+              "x": 1040,
+              "y": 440
+            }
+          },
+          {
+            "id": "rebirth-body",
+            "label": "往生法體",
+            "kind": "concept",
+            "position": {
+              "x": 1240,
+              "y": 440
+            }
+          },
+          {
+            "id": "recitation-alone",
+            "label": "稱名獨達",
+            "kind": "concept",
+            "position": {
+              "x": 1450,
+              "y": 440
+            }
+          },
+          {
+            "id": "no-affliction",
+            "label": "不斷煩惱",
+            "kind": "result",
+            "position": {
+              "x": 1690,
+              "y": 280
+            }
+          },
+          {
+            "id": "nirvana-share",
+            "label": "得涅槃分",
+            "kind": "result",
+            "position": {
+              "x": 1690,
+              "y": 440
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "good",
+            "to": "conditioned",
+            "relation": "divides-into"
+          },
+          {
+            "from": "conditioned",
+            "to": "conditioned-nature",
+            "relation": "explains"
+          },
+          {
+            "from": "conditioned-nature",
+            "to": "defilements",
+            "relation": "leads-to"
+          },
+          {
+            "from": "defilements",
+            "to": "inversion",
+            "relation": "leads-to"
+          },
+          {
+            "from": "inversion",
+            "to": "false-merit",
+            "relation": "leads-to"
+          },
+          {
+            "from": "good",
+            "to": "unconditioned",
+            "relation": "divides-into"
+          },
+          {
+            "from": "unconditioned",
+            "to": "unconditioned-nature",
+            "relation": "explains"
+          },
+          {
+            "from": "unconditioned-nature",
+            "to": "amita-name",
+            "relation": "leads-to"
+          },
+          {
+            "from": "amita-name",
+            "to": "dharma",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "dharma",
+            "to": "dharma-body",
+            "relation": "explains"
+          },
+          {
+            "from": "dharma-body",
+            "to": "name-alone",
+            "relation": "leads-to"
+          },
+          {
+            "from": "amita-name",
+            "to": "capacity",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "capacity",
+            "to": "rebirth-body",
+            "relation": "explains"
+          },
+          {
+            "from": "rebirth-body",
+            "to": "recitation-alone",
+            "relation": "leads-to"
+          },
+          {
+            "from": "name-alone",
+            "to": "no-affliction",
+            "relation": "results-in"
+          },
+          {
+            "from": "recitation-alone",
+            "to": "nirvana-share",
+            "relation": "results-in"
+          }
+        ],
+        "groups": [
+          {
+            "id": "name-as-dharma-and-capacity",
+            "label": "彌陀名號的法與機",
+            "members": [
+              "dharma",
+              "capacity"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "17/17主要標籤與兩條鏈結關係",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖由左至右重建善分有漏、無漏的兩條鏈；無漏支線保留法／機、各自法體與獨運／獨達，並連到不斷煩惱與得涅槃分。"
       }
     },
     {

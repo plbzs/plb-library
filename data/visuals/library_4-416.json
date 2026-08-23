@@ -9,17 +9,20 @@
       "id": "media-acf7d04945803fa5800a2e29",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-acf7d04945803fa5800a2e29.jpg",
         "sha256": "fca6d5d7e7dd6dae32a4b598eead486a59673cbd5f6c4b81b9ce97a4ec7ff403"
       },
-      "semanticDescription": null,
+      "semanticDescription": "生活紀錄照片：一本攤開的手寫記事簿，頁面有多行日期、姓名或聯絡紀錄，右下方放著一串佛珠。手寫內容解析度有限，無法可靠逐字轉錄；不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "手寫字跡過小且模糊，無可靠逐字轉錄",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留記事簿、手寫紀錄與佛珠等可見語意，不臆測姓名、日期或數字。"
       }
     }
   ],

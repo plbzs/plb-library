@@ -9,17 +9,20 @@
       "id": "media-b13642bf7641a266a830ab00",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b13642bf7641a266a830ab00.jpg",
         "sha256": "c0e7df699de386f83b759a95dcb81d74c747a83c76ca7ff66c27fd54c45ece62"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "佛像照片：一尊坐姿佛像，右手結印，背景為淺色平面；上方有「南無阿彌陀佛」字樣，下方可見「淨土宗facebook」字樣。屬於佛像與題字圖片，不是結構化圖表。",
+      "transcript": "南無阿彌陀佛\n淨土宗facebook",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "2/2可辨識題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留佛像姿態、手印與兩處可辨識題字，不將佛像照片轉為抽象結構。"
       }
     }
   ],

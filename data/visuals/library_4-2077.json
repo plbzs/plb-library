@@ -29,17 +29,20 @@
       "id": "media-b16f8de37b60148010e2a0cf",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b16f8de37b60148010e2a0cf.jpg",
         "sha256": "9597e4c2993cacbacf9598c305238516eef4447a14d953499c5d4e38e9c906c9"
       },
-      "semanticDescription": null,
+      "semanticDescription": "紅色直幅書法海報：上、下有金色波紋裝飾，中間以黑色毛筆字分列書寫佛教勸勉語，畫面可辨識與「捨身求法」「成佛道」「度眾生」等詞語相關，但完整直排順序與部分字形不夠清楚。不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "可辨識部分詞語；完整書法逐字排序不可靠",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留紅色海報、金色裝飾與可辨識佛教語句範圍，不把不清楚的書法補寫成確定全文。"
       }
     }
   ],

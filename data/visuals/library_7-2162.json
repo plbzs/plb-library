@@ -29,17 +29,20 @@
       "id": "media-b1dade3e0f18f2837286b775",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b1dade3e0f18f2837286b775.jpg",
         "sha256": "a01c2c5747fcd5a3e6d6905ca25b6c8ad3fa0202d4aa28de1ffae1b00849251e"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "傳統佛教人物畫：一尊身穿金色衣飾的菩薩立於雲氣之上，畫面有古畫絹本與花瓣元素；右上可見題字「大勢至菩薩」。屬於宗教畫，不是結構化圖表。",
+      "transcript": "大勢至菩薩",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1主要題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留菩薩、金色衣飾、雲氣、花瓣與古畫質感；不把人物畫猜成可計算的關係圖。"
       }
     },
     {
@@ -236,17 +239,20 @@
       "id": "media-b18cfa21ace9bd2d10678591",
       "position": 13,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b18cfa21ace9bd2d10678591.jpg",
         "sha256": "d904a2233476523b247a42cc9421a4e5764a699ef3e7aec3eb5a74999f5bf32a"
       },
-      "semanticDescription": null,
-      "transcript": null,
+      "semanticDescription": "傳統佛教人物畫：一尊菩薩或佛教人物立於雲氣之上，旁邊有大型圓形法輪或莊嚴圖像，背景為古畫絹本質感；左上可見直排題字「定自在菩薩」。屬於宗教畫，不是結構化圖表。",
+      "transcript": "定自在菩薩",
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "1/1主要題字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留人物、雲氣、圓形法器或圖像與古畫質感；題字以可辨識範圍轉錄，不重建宗教畫的非文字細節。"
       }
     },
     {
