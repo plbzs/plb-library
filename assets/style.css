@@ -1254,13 +1254,15 @@ main {
     gap: 0.45rem;
     padding: 0.55rem 0.75rem;
     position: sticky;
-    overflow-x: auto;
+    overflow-x: hidden;
     white-space: nowrap;
   }
 
   .brand {
     flex: 0 0 auto;
     min-width: 0;
+    padding: 0.25rem 0.45rem;
+    font-size: 0.92rem;
   }
 
   .brand small {
@@ -1268,16 +1270,26 @@ main {
   }
 
   .global-search {
-    flex: 1 0 12rem;
+    flex: 1 1 8rem;
     grid-template-columns: minmax(0, 1fr) auto;
     max-width: none;
-    min-width: 12rem;
+    min-width: 0;
     width: auto;
+    gap: 0.25rem;
+  }
+
+  .global-search input {
+    min-width: 0;
+    padding-inline: 0.45rem;
+  }
+
+  .global-search button {
+    padding-inline: 0.45rem;
   }
 
   .header-section-filter {
-    flex: 0 0 7rem;
-    width: 7rem;
+    flex: 0 1 5rem;
+    width: 5rem;
     min-height: 2.2rem;
     padding: 0.3rem 0.5rem;
   }
@@ -1297,15 +1309,17 @@ main {
   .reader-controls {
     flex: 0 0 auto;
     width: auto;
+    gap: 0.2rem;
   }
 
   .reader-controls button {
-    min-width: 2.15rem;
-    padding: 0.25rem 0.45rem;
+    min-width: 0;
+    padding: 0.25rem 0.35rem;
+    font-size: 0.88rem;
   }
 
   .reader-controls [data-setting="font-reset"] {
-    min-width: 3rem;
+    min-width: 2.8rem;
   }
 
   .search-box {
