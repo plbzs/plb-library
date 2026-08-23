@@ -9,17 +9,293 @@
       "id": "media-ec87b57abe23fabedb30cdb2",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ec87b57abe23fabedb30cdb2.svg",
         "sha256": "a3ac91e8b9e275d1b2861b45faa1c01404b30acad4874e88df7689bf90d21af9"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土開宗\n正明開宗\n比較顯勝\n總結定論\n開宗祖師：善導大師\n開宗時間：貞觀十九年到總章元年\n開宗祖庭：悟真寺\n開宗利益：普濟時眾\n開宗傳承：楷定古今、垂範未來\n諸師解釋不具備上述特點\n專依善導\n約人、約法\n龍樹、天親、曇鸞、道綽、善導\n統一完備的淨土宗教判理論\n一脈相承的法義師承關係\n依阿彌陀佛本願為立宗根本\n不夾雜聖道諸宗理念\n教行完備，淨土宗規模嚴整",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土開宗：祖師、時間、祖庭與傳承",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土開宗",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "establish",
+            "label": "正明開宗",
+            "kind": "section",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "compare",
+            "label": "比較顯勝",
+            "kind": "section",
+            "position": {
+              "x": 320,
+              "y": 260
+            }
+          },
+          {
+            "id": "summary",
+            "label": "總結定論",
+            "kind": "section",
+            "position": {
+              "x": 320,
+              "y": 520
+            }
+          },
+          {
+            "id": "master",
+            "label": "開宗祖師：善導大師",
+            "kind": "fact",
+            "position": {
+              "x": 680,
+              "y": 0
+            }
+          },
+          {
+            "id": "time",
+            "label": "開宗時間：貞觀十九年到總章元年",
+            "kind": "fact",
+            "position": {
+              "x": 680,
+              "y": 60
+            }
+          },
+          {
+            "id": "temple",
+            "label": "開宗祖庭：悟真寺",
+            "kind": "fact",
+            "position": {
+              "x": 680,
+              "y": 120
+            }
+          },
+          {
+            "id": "benefit",
+            "label": "開宗利益：普濟時眾",
+            "kind": "fact",
+            "position": {
+              "x": 680,
+              "y": 180
+            }
+          },
+          {
+            "id": "legacy",
+            "label": "開宗傳承：楷定古今、垂範未來",
+            "kind": "fact",
+            "position": {
+              "x": 680,
+              "y": 240
+            }
+          },
+          {
+            "id": "other",
+            "label": "諸師解釋不具備上述特點",
+            "kind": "contrast",
+            "position": {
+              "x": 680,
+              "y": 330
+            }
+          },
+          {
+            "id": "only-shandao",
+            "label": "專依善導",
+            "kind": "contrast",
+            "position": {
+              "x": 680,
+              "y": 390
+            }
+          },
+          {
+            "id": "people",
+            "label": "約人",
+            "kind": "scope",
+            "position": {
+              "x": 1000,
+              "y": 330
+            }
+          },
+          {
+            "id": "dharma",
+            "label": "約法",
+            "kind": "scope",
+            "position": {
+              "x": 1000,
+              "y": 390
+            }
+          },
+          {
+            "id": "lineage",
+            "label": "龍樹、天親、曇鸞、道綽、善導",
+            "kind": "lineage",
+            "position": {
+              "x": 1000,
+              "y": 450
+            }
+          },
+          {
+            "id": "theory",
+            "label": "統一完備的淨土宗教判理論",
+            "kind": "principle",
+            "position": {
+              "x": 1000,
+              "y": 510
+            }
+          },
+          {
+            "id": "transmission",
+            "label": "一脈相承的法義師承關係",
+            "kind": "principle",
+            "position": {
+              "x": 1000,
+              "y": 570
+            }
+          },
+          {
+            "id": "vow",
+            "label": "依阿彌陀佛本願為立宗根本",
+            "kind": "principle",
+            "position": {
+              "x": 1000,
+              "y": 630
+            }
+          },
+          {
+            "id": "pure",
+            "label": "不夾雜聖道諸宗理念",
+            "kind": "principle",
+            "position": {
+              "x": 1000,
+              "y": 690
+            }
+          },
+          {
+            "id": "complete",
+            "label": "教行完備，淨土宗規模嚴整",
+            "kind": "conclusion",
+            "position": {
+              "x": 1360,
+              "y": 570
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "establish",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "compare",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "summary",
+            "relation": "divides-into"
+          },
+          {
+            "from": "establish",
+            "to": "master",
+            "relation": "describes"
+          },
+          {
+            "from": "establish",
+            "to": "time",
+            "relation": "describes"
+          },
+          {
+            "from": "establish",
+            "to": "temple",
+            "relation": "describes"
+          },
+          {
+            "from": "establish",
+            "to": "benefit",
+            "relation": "describes"
+          },
+          {
+            "from": "establish",
+            "to": "legacy",
+            "relation": "describes"
+          },
+          {
+            "from": "compare",
+            "to": "other",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "compare",
+            "to": "only-shandao",
+            "relation": "contrasts-with"
+          },
+          {
+            "from": "compare",
+            "to": "people",
+            "relation": "classifies-by"
+          },
+          {
+            "from": "compare",
+            "to": "dharma",
+            "relation": "classifies-by"
+          },
+          {
+            "from": "summary",
+            "to": "lineage",
+            "relation": "summarizes"
+          },
+          {
+            "from": "summary",
+            "to": "theory",
+            "relation": "summarizes"
+          },
+          {
+            "from": "summary",
+            "to": "transmission",
+            "relation": "summarizes"
+          },
+          {
+            "from": "summary",
+            "to": "vow",
+            "relation": "summarizes"
+          },
+          {
+            "from": "summary",
+            "to": "pure",
+            "relation": "summarizes"
+          },
+          {
+            "from": "pure",
+            "to": "complete",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "全部主幹與主要事實節點保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖三段式架構整理正明開宗、比較顯勝與總結定論，保留祖師、時間、祖庭、傳承與五項宗派特點。"
       }
     },
     {
@@ -446,8 +722,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "2/4 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "coverage": "3/4 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

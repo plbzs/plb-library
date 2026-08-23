@@ -9,17 +9,144 @@
       "id": "media-ee3b8adaeb7224ae4080f6aa",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ee3b8adaeb7224ae4080f6aa.svg",
         "sha256": "aa06305ce22b47b07e221e51d1263f05afbe88e9160691febcb93713eb91227d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "願我作佛，齊聖法王\n吾誓得佛，普行此願\n一切恐懼，為作大安\n令我作佛，國土第一\n攝法身願\n攝眾生願\n攝淨土願",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀願心的三類願",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "彌陀願心",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "v1",
+            "label": "願我作佛，齊聖法王",
+            "kind": "vow",
+            "position": {
+              "x": 280,
+              "y": 0
+            }
+          },
+          {
+            "id": "v2",
+            "label": "吾誓得佛，普行此願",
+            "kind": "vow",
+            "position": {
+              "x": 280,
+              "y": 70
+            }
+          },
+          {
+            "id": "v3",
+            "label": "一切恐懼，為作大安",
+            "kind": "vow",
+            "position": {
+              "x": 280,
+              "y": 140
+            }
+          },
+          {
+            "id": "v4",
+            "label": "令我作佛，國土第一",
+            "kind": "vow",
+            "position": {
+              "x": 280,
+              "y": 210
+            }
+          },
+          {
+            "id": "body",
+            "label": "攝法身願",
+            "kind": "category",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "beings",
+            "label": "攝眾生願",
+            "kind": "category",
+            "position": {
+              "x": 700,
+              "y": 140
+            }
+          },
+          {
+            "id": "land",
+            "label": "攝淨土願",
+            "kind": "category",
+            "position": {
+              "x": 700,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "v1",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "v2",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "v3",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "v4",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "v1",
+            "to": "body",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "v2",
+            "to": "body",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "v3",
+            "to": "beings",
+            "relation": "belongs-to"
+          },
+          {
+            "from": "v4",
+            "to": "land",
+            "relation": "belongs-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留四句願文與攝法身、攝眾生、攝淨土三類標籤，依原圖的括線關係分組。"
       }
     },
     {
@@ -316,9 +443,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,217 @@
       "id": "media-f50bb179239d563294d3f042",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f50bb179239d563294d3f042.svg",
         "sha256": "dce7f8e57ae6d31bdb31b41c12bd58ddaf428c217c2d01c7d3b7e234212e3ce9"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《安樂集》章節架構：上卷、第一章（第一大門）淨土教概論；第一節淨土教的成立、第二節淨土教的所依、第三節淨土論；教興所由、說聽方軌、眾生發心久近、觀經的宗旨、觀經的得名、觀經的說人、三身三土義、凡聖通往、三界不攝；菩提心的功用、菩提心的名體、發心的三因、問答解釋；破邪顯正及其九項問答；第三章淨土往生的踐行；總說二種道、問答解釋、一相三昧、念佛三昧；難行道與易行道、時劫大小、輪迴無窮、勸信求生、諸大德歎歸淨土、念佛三昧的功德利益、修道延促比較、禪觀比較、淨穢比較；第四至第十二大門：力勸修淨往生、西方淨土最為殊勝、比較此界與極樂明生西方利益、普勸同歸、比較三種差別、勸捨此土求生西方、西方不可思議十方諸佛勸生、勸早作生西準備、引經說明往生行業普願同生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《安樂集》上卷與下卷的章門架構",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "《安樂集》章節架構",
+            "kind": "root",
+            "position": {
+              "x": 620,
+              "y": 0
+            }
+          },
+          {
+            "id": "upper",
+            "label": "上卷",
+            "kind": "volume",
+            "position": {
+              "x": 260,
+              "y": 120
+            }
+          },
+          {
+            "id": "lower",
+            "label": "下卷",
+            "kind": "volume",
+            "position": {
+              "x": 980,
+              "y": 120
+            }
+          },
+          {
+            "id": "door-one",
+            "label": "第一章（第一大門）淨土教概論",
+            "kind": "chapter",
+            "position": {
+              "x": 0,
+              "y": 280
+            }
+          },
+          {
+            "id": "door-two",
+            "label": "第二章（第二大門）破邪顯正",
+            "kind": "chapter",
+            "position": {
+              "x": 360,
+              "y": 280
+            }
+          },
+          {
+            "id": "door-three",
+            "label": "第三章（第三大門）淨土往生的踐行",
+            "kind": "chapter",
+            "position": {
+              "x": 720,
+              "y": 280
+            }
+          },
+          {
+            "id": "door-four",
+            "label": "第四大門：力勸修淨往生",
+            "kind": "chapter",
+            "position": {
+              "x": 1080,
+              "y": 280
+            }
+          },
+          {
+            "id": "first-sections",
+            "label": "第一節淨土教的成立／第二節淨土教的所依／第三節淨土論",
+            "kind": "section",
+            "position": {
+              "x": 0,
+              "y": 480
+            }
+          },
+          {
+            "id": "first-topics",
+            "label": "教興所由、說聽方軌、眾生發心久近、觀經的宗旨、觀經的得名、觀經的說人、三身三土義、凡聖通往、三界不攝",
+            "kind": "topics",
+            "position": {
+              "x": 0,
+              "y": 620
+            }
+          },
+          {
+            "id": "second-topics",
+            "label": "菩提心四項、破妄計大乘無相、會通菩薩愛見大悲、破心外無法、破願生穢土、破往生耽著歡樂說、破求生淨土為小乘法、破不生彌陀淨土、會通求生十方淨土、料簡別時之意",
+            "kind": "topics",
+            "position": {
+              "x": 360,
+              "y": 480
+            }
+          },
+          {
+            "id": "third-topics",
+            "label": "總說二種道、問答解釋、一相三昧、念佛三昧；難行道與易行道、時劫大小、輪迴無窮、勸信求生、諸大德歎歸淨土、念佛三昧功德利益、修道延促比較、禪觀比較、淨穢比較",
+            "kind": "topics",
+            "position": {
+              "x": 720,
+              "y": 480
+            }
+          },
+          {
+            "id": "doors-six-twelve",
+            "label": "第六大門西方淨土最為殊勝；第七大門對比勸生；第八大門勸捨此土求生西方；第九大門比較三種差別；第十大門西方不可思議；第十一大門勸早作生西準備；第十二大門引經說明往生行業、普願同生",
+            "kind": "topics",
+            "position": {
+              "x": 1080,
+              "y": 480
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "upper",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "lower",
+            "relation": "divides-into"
+          },
+          {
+            "from": "upper",
+            "to": "door-one",
+            "relation": "contains"
+          },
+          {
+            "from": "upper",
+            "to": "door-two",
+            "relation": "contains"
+          },
+          {
+            "from": "upper",
+            "to": "door-three",
+            "relation": "contains"
+          },
+          {
+            "from": "upper",
+            "to": "door-four",
+            "relation": "contains"
+          },
+          {
+            "from": "door-one",
+            "to": "first-sections",
+            "relation": "contains"
+          },
+          {
+            "from": "door-one",
+            "to": "first-topics",
+            "relation": "expands-to"
+          },
+          {
+            "from": "door-two",
+            "to": "second-topics",
+            "relation": "expands-to"
+          },
+          {
+            "from": "door-three",
+            "to": "third-topics",
+            "relation": "expands-to"
+          },
+          {
+            "from": "lower",
+            "to": "doors-six-twelve",
+            "relation": "contains"
+          }
+        ],
+        "groups": [
+          {
+            "id": "first-nine-topics",
+            "label": "第一大門九項",
+            "members": [
+              "first-topics"
+            ]
+          },
+          {
+            "id": "later-doors",
+            "label": "後續大門",
+            "members": [
+              "doors-six-twelve"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "章、節、九項與主要子題全部保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "大型章節圖以卷／章／節／主題四層重建；保留原圖的上卷、下卷、第一至第四章與第六至第十二大門，避免把大量章節文字壓成不可搜尋的圖片摘要。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

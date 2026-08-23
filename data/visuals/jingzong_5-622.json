@@ -550,17 +550,125 @@
       "id": "media-f28cfc7644ef0f8db7626837",
       "position": 6,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f28cfc7644ef0f8db7626837.svg",
         "sha256": "6515d5bf4d9647c354517b3b9e38227796f73695cbb96b4b75303c8d631c42f5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n聖道門\n淨土門\n修行之教\n救度之教\n自力\n他力\n難行道\n易行道\n苦\n樂\n六度萬行為宗\n一向專念為宗",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "聖道門與淨土門的教法對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 40
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 280
+            }
+          },
+          {
+            "id": "holy-teaching",
+            "label": "修行之教",
+            "kind": "teaching",
+            "position": {
+              "x": 560,
+              "y": 40
+            }
+          },
+          {
+            "id": "pure-teaching",
+            "label": "救度之教",
+            "kind": "teaching",
+            "position": {
+              "x": 560,
+              "y": 280
+            }
+          },
+          {
+            "id": "self",
+            "label": "自力／難行道／苦／六度萬行為宗",
+            "kind": "character",
+            "position": {
+              "x": 900,
+              "y": 40
+            }
+          },
+          {
+            "id": "other",
+            "label": "他力／易行道／樂／一向專念為宗",
+            "kind": "character",
+            "position": {
+              "x": 900,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "holy-teaching",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "pure",
+            "to": "pure-teaching",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "holy-teaching",
+            "to": "self",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "pure-teaching",
+            "to": "other",
+            "relation": "characterized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留兩門的教法、自他力、難易苦樂與修行宗旨，適合以兩列對照重建。"
       }
     },
     {
@@ -1851,9 +1959,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "13/14 approved-or-semantic",
-    "approvedReconstructionCount": 13,
+    "status": "approved",
+    "coverage": "14/14 approved-or-semantic",
+    "approvedReconstructionCount": 14,
     "semanticOnlyCount": 0
   }
 }

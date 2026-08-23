@@ -9,24 +9,132 @@
       "id": "media-f0f3dc8749a559773610ab5d",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f0f3dc8749a559773610ab5d.svg",
         "sha256": "ffa8cbe5767585b36cb0bd047817c5b89115c47f4f069c2da8f2738826799f6c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "機法一體\n往生正覺：機法一體\n身心功德：機法一體\n生佛三業：機法一體\n彼此相靠\n互相包容\n不相捨離",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "機法一體的三種相應",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "機法一體",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "birth",
+            "label": "往生正覺：機法一體",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 0
+            }
+          },
+          {
+            "id": "merit",
+            "label": "身心功德：機法一體",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 120
+            }
+          },
+          {
+            "id": "three-karma",
+            "label": "生佛三業：機法一體",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 240
+            }
+          },
+          {
+            "id": "rely",
+            "label": "彼此相靠",
+            "kind": "relation",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "contain",
+            "label": "互相包容",
+            "kind": "relation",
+            "position": {
+              "x": 700,
+              "y": 120
+            }
+          },
+          {
+            "id": "not-abandon",
+            "label": "不相捨離",
+            "kind": "relation",
+            "position": {
+              "x": 700,
+              "y": 240
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "birth",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "merit",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "three-karma",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "birth",
+            "to": "rely",
+            "relation": "explained-by"
+          },
+          {
+            "from": "merit",
+            "to": "contain",
+            "relation": "explained-by"
+          },
+          {
+            "from": "three-karma",
+            "to": "not-abandon",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留機法一體的總題、三組機法關係與彼此相靠／包容／不捨離的對應語意。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,104 @@
       "id": "media-f6d14ac58ed34edec6922b04",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f6d14ac58ed34edec6922b04.svg",
         "sha256": "2f0250769bb5c11b7beb126e9a327c3daac9270e31a3fa01abd660cc23c71be1"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n有請之法\n不請之法\n淺\n深\n隨眾生意\n隨佛自意",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法的有請之法與不請之法",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 130
+            }
+          },
+          {
+            "id": "requested",
+            "label": "有請之法",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 40
+            }
+          },
+          {
+            "id": "unrequested",
+            "label": "不請之法",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 220
+            }
+          },
+          {
+            "id": "shallow",
+            "label": "淺／隨眾生意",
+            "kind": "character",
+            "position": {
+              "x": 650,
+              "y": 40
+            }
+          },
+          {
+            "id": "deep",
+            "label": "深／隨佛自意",
+            "kind": "character",
+            "position": {
+              "x": 650,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "requested",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "unrequested",
+            "relation": "divides-into"
+          },
+          {
+            "from": "requested",
+            "to": "shallow",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "unrequested",
+            "to": "deep",
+            "relation": "characterized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留佛法兩分、淺深與隨眾生意／隨佛自意的對照。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

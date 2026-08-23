@@ -209,17 +209,200 @@
       "id": "media-f020656df93d380d13218491",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f020656df93d380d13218491.svg",
         "sha256": "634dc6050e12b4af216ebe6a5c8892cb3f07096781a002d2966fa2f968ad6c59"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n聖道門\n淨土門\n要門\n弘願\n定善：息慮凝心之十三觀\n散善：廢惡修善之三福九品\n大願：五劫思惟之本願（為我發）\n大業：兆載永劫之萬行（為我修）\n大力：名號無上功德力、光明無礙攝取力（為我成）\n自力迴向\n他力迴向",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土門的要門與弘願、自力與他力迴向",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "dharma",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 240
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 60
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 360
+            }
+          },
+          {
+            "id": "essential",
+            "label": "要門",
+            "kind": "scheme",
+            "position": {
+              "x": 560,
+              "y": 220
+            }
+          },
+          {
+            "id": "vow",
+            "label": "弘願",
+            "kind": "scheme",
+            "position": {
+              "x": 560,
+              "y": 500
+            }
+          },
+          {
+            "id": "meditation",
+            "label": "定善：息慮凝心之十三觀",
+            "kind": "practice",
+            "position": {
+              "x": 860,
+              "y": 140
+            }
+          },
+          {
+            "id": "scattered",
+            "label": "散善：廢惡修善之三福九品",
+            "kind": "practice",
+            "position": {
+              "x": 860,
+              "y": 230
+            }
+          },
+          {
+            "id": "great-vow",
+            "label": "大願：五劫思惟之本願（為我發）",
+            "kind": "cause",
+            "position": {
+              "x": 860,
+              "y": 390
+            }
+          },
+          {
+            "id": "great-work",
+            "label": "大業：兆載永劫之萬行（為我修）",
+            "kind": "cause",
+            "position": {
+              "x": 860,
+              "y": 480
+            }
+          },
+          {
+            "id": "great-power",
+            "label": "大力：名號無上功德力、光明無礙攝取力（為我成）",
+            "kind": "result",
+            "position": {
+              "x": 860,
+              "y": 570
+            }
+          },
+          {
+            "id": "self",
+            "label": "自力迴向",
+            "kind": "orientation",
+            "position": {
+              "x": 1220,
+              "y": 220
+            }
+          },
+          {
+            "id": "other",
+            "label": "他力迴向",
+            "kind": "orientation",
+            "position": {
+              "x": 1220,
+              "y": 520
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "dharma",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "dharma",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "essential",
+            "relation": "divides-into"
+          },
+          {
+            "from": "pure",
+            "to": "vow",
+            "relation": "divides-into"
+          },
+          {
+            "from": "essential",
+            "to": "meditation",
+            "relation": "includes"
+          },
+          {
+            "from": "essential",
+            "to": "scattered",
+            "relation": "includes"
+          },
+          {
+            "from": "meditation",
+            "to": "self",
+            "relation": "returns-to"
+          },
+          {
+            "from": "scattered",
+            "to": "self",
+            "relation": "returns-to"
+          },
+          {
+            "from": "vow",
+            "to": "great-vow",
+            "relation": "includes"
+          },
+          {
+            "from": "vow",
+            "to": "great-work",
+            "relation": "includes"
+          },
+          {
+            "from": "vow",
+            "to": "great-power",
+            "relation": "includes"
+          },
+          {
+            "from": "great-power",
+            "to": "other",
+            "relation": "returns-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "12/12 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留佛法、聖道／淨土、要門／弘願及兩種迴向；將原圖逐字拆開的字元重新組成可讀的完整概念。"
       }
     },
     {
@@ -577,9 +760,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

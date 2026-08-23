@@ -9,17 +9,187 @@
       "id": "media-f1fe31ef9b621cc6738289b0",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-f1fe31ef9b621cc6738289b0.svg",
         "sha256": "a48d3a2d8337d8d9af65983186766f0a75ca9bf7f44eeb5a625cee8a5b360c72"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "九品\n上三品\n中上品\n中中品\n中下品\n下三品\n積大乘修行之聖者\n積小乘修行之聖者\n積世間善根之聖者\n始學大乘凡夫，隨過輕重分為三品",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "九品往生與聖凡根機分類",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "九品",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "upper",
+            "label": "上三品",
+            "kind": "group",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "middle-upper",
+            "label": "中上品",
+            "kind": "grade",
+            "position": {
+              "x": 300,
+              "y": 120
+            }
+          },
+          {
+            "id": "middle-middle",
+            "label": "中中品",
+            "kind": "grade",
+            "position": {
+              "x": 300,
+              "y": 200
+            }
+          },
+          {
+            "id": "middle-lower",
+            "label": "中下品",
+            "kind": "grade",
+            "position": {
+              "x": 300,
+              "y": 280
+            }
+          },
+          {
+            "id": "lower",
+            "label": "下三品",
+            "kind": "group",
+            "position": {
+              "x": 300,
+              "y": 400
+            }
+          },
+          {
+            "id": "great-vehicle",
+            "label": "積大乘修行之聖者",
+            "kind": "classification",
+            "position": {
+              "x": 700,
+              "y": 0
+            }
+          },
+          {
+            "id": "small-vehicle",
+            "label": "積小乘修行之聖者",
+            "kind": "classification",
+            "position": {
+              "x": 700,
+              "y": 200
+            }
+          },
+          {
+            "id": "worldly",
+            "label": "積世間善根之聖者",
+            "kind": "classification",
+            "position": {
+              "x": 700,
+              "y": 400
+            }
+          },
+          {
+            "id": "beginner",
+            "label": "始學大乘凡夫，隨過輕重分為三品",
+            "kind": "classification",
+            "position": {
+              "x": 1050,
+              "y": 400
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "upper",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle-upper",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle-middle",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "middle-lower",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "lower",
+            "relation": "divides-into"
+          },
+          {
+            "from": "upper",
+            "to": "great-vehicle",
+            "relation": "classified-as"
+          },
+          {
+            "from": "middle-upper",
+            "to": "small-vehicle",
+            "relation": "classified-as"
+          },
+          {
+            "from": "middle-middle",
+            "to": "small-vehicle",
+            "relation": "classified-as"
+          },
+          {
+            "from": "middle-lower",
+            "to": "small-vehicle",
+            "relation": "classified-as"
+          },
+          {
+            "from": "lower",
+            "to": "worldly",
+            "relation": "classified-as"
+          },
+          {
+            "from": "lower",
+            "to": "beginner",
+            "relation": "classified-as"
+          }
+        ],
+        "groups": [
+          {
+            "id": "middle-three",
+            "label": "中三品",
+            "members": [
+              "middle-upper",
+              "middle-middle",
+              "middle-lower"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留九品、上中下三組與中上／中中／中下的細分，並將原圖右側四種根機說明連回相應品類。"
       }
     },
     {
@@ -317,9 +487,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "2/3 approved-or-semantic",
-    "approvedReconstructionCount": 2,
+    "status": "approved",
+    "coverage": "3/3 approved-or-semantic",
+    "approvedReconstructionCount": 3,
     "semanticOnlyCount": 0
   }
 }
