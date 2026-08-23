@@ -9,24 +9,165 @@
       "id": "media-7ab75f0384297a92dfad4581",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-7ab75f0384297a92dfad4581.svg",
         "sha256": "d156e9349e75e44d3a2929792bccd7edb3fc53ba147272c199357cc2fae032e2"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "十方眾生不分聖凡善惡男女老少；起行為意業憶念彌陀佛名、口業稱念彌陀佛名、自歸歸命；安心為信受彌陀救度；彌陀本願如是，因為平生業成、現生不退，果為入必定、當得等正覺、往生成佛。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "十方眾生的起行、安心與往生成佛",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "十方眾生：聖凡善惡、男女老少",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 160
+            }
+          },
+          {
+            "id": "practice",
+            "label": "起行",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "mind",
+            "label": "意業：心中憶念彌陀佛名",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "speech",
+            "label": "口業：口中稱念彌陀佛名",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 100
+            }
+          },
+          {
+            "id": "refuge",
+            "label": "自歸／歸命",
+            "kind": "detail",
+            "position": {
+              "x": 540,
+              "y": 200
+            }
+          },
+          {
+            "id": "安心",
+            "label": "安心：信受彌陀救度",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 320
+            }
+          },
+          {
+            "id": "vow",
+            "label": "彌陀本願如是",
+            "kind": "scheme",
+            "position": {
+              "x": 780,
+              "y": 150
+            }
+          },
+          {
+            "id": "present",
+            "label": "平生業成／現生不退",
+            "kind": "result",
+            "position": {
+              "x": 1020,
+              "y": 0
+            }
+          },
+          {
+            "id": "future",
+            "label": "入必定／當得等正覺／往生成佛",
+            "kind": "result",
+            "position": {
+              "x": 1020,
+              "y": 260
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "practice",
+            "relation": "responds-with"
+          },
+          {
+            "from": "root",
+            "to": "安心",
+            "relation": "responds-with"
+          },
+          {
+            "from": "practice",
+            "to": "mind",
+            "relation": "includes"
+          },
+          {
+            "from": "practice",
+            "to": "speech",
+            "relation": "includes"
+          },
+          {
+            "from": "practice",
+            "to": "refuge",
+            "relation": "includes"
+          },
+          {
+            "from": "practice",
+            "to": "vow",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "安心",
+            "to": "vow",
+            "relation": "grounded-in"
+          },
+          {
+            "from": "vow",
+            "to": "present",
+            "relation": "results-in"
+          },
+          {
+            "from": "vow",
+            "to": "future",
+            "relation": "results-in"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "137/137 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將重複的單字 tspan 合併，保留根機、起行、安心、本願與現當二益的流程。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

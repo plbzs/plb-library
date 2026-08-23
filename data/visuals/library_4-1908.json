@@ -9,24 +9,27 @@
       "id": "media-739bd40ccb203ef5071a3eb0",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-739bd40ccb203ef5071a3eb0.svg",
         "sha256": "a51f706b6ba9c5f69cc2a808b1c232a463ea94db4ec5d4517a82052ccf0bb4f7"
       },
-      "semanticDescription": null,
+      "semanticDescription": "一張以棒球場看台為背景的四格教育插圖，上半部以不同高度的箱子示範平等（Equality）與公平／實質平等（Equity）的差別，下半部以中文「平等」「公平」呈現相同概念，並包含孩童、成人、輪椅使用者與無障礙坡道。此圖是概念插圖，不是可可靠反向重建的資料表或流程圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "visual illustration; no reliable structural data",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "已解開內嵌 PNG 確認為平等／公平概念插圖，依原則不強行轉為 graph-v1。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

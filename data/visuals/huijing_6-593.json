@@ -9,17 +9,97 @@
       "id": "media-71a3263f6e59adb37c966f9f",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-71a3263f6e59adb37c966f9f.svg",
         "sha256": "50a55d417b163be5b394aabe1f8747617371c5d1841b357f758f772e6c6f55e4"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "無明有總別二義：總為一切無明，眾生生死之因；別為疑彌陀本願、不了佛智之無明，稱疑無明。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "無明的總義與別義",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "無明",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 100
+            }
+          },
+          {
+            "id": "general",
+            "label": "總：一切無明",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "general-detail",
+            "label": "眾生生死之因／業煩惱癡",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "specific",
+            "label": "別：疑彌陀本願",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 200
+            }
+          },
+          {
+            "id": "specific-detail",
+            "label": "不了佛智之無明／疑無明",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 200
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "divides-into"
+          },
+          {
+            "from": "general",
+            "to": "general-detail",
+            "relation": "defined-by"
+          },
+          {
+            "from": "root",
+            "to": "specific",
+            "relation": "divides-into"
+          },
+          {
+            "from": "specific",
+            "to": "specific-detail",
+            "relation": "defined-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "38/38 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留總義／別義與疑無明的定義。"
       }
     },
     {
@@ -60,24 +140,104 @@
       "id": "media-71c2cf804fab18a360e817a3",
       "position": 4,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-71c2cf804fab18a360e817a3.svg",
         "sha256": "0ffd3ff9ad58f6a32b9413f26eba9df68ccd7642ba4e9c9db9ec11448357aeef"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "純不雜；疑蓋無雜，若存若亡，且信且疑；樸非常堅厚，對不堅（雖信而不堅）。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "純信與疑蓋、堅信與不堅的對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "信心與疑心",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 120
+            }
+          },
+          {
+            "id": "pure",
+            "label": "純不雜",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "疑蓋無雜：若存若亡／且信且疑",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "firm",
+            "label": "樸非常堅厚",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 220
+            }
+          },
+          {
+            "id": "not-firm",
+            "label": "對不堅：雖信而不堅",
+            "kind": "detail",
+            "position": {
+              "x": 520,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "pure",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "pure",
+            "to": "mixed",
+            "relation": "explained-by"
+          },
+          {
+            "from": "root",
+            "to": "firm",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "firm",
+            "to": "not-firm",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "38/38 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖對照語句合併重複單字節點，保留純、不雜與堅、不堅兩組對比。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/4 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

@@ -9,24 +9,123 @@
       "id": "media-72c1213bfd37298a947bee6a",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-72c1213bfd37298a947bee6a.svg",
         "sha256": "76dc10c551507450a6e27365d1b15ef2d3fb5af2083b6af99ad8f1920cca3eeb"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《阿彌陀經》正宗分：略讚與廣讚；略讚包括念佛往生、證誠勸信；廣讚包括依報、正報、願生彼國、少善不生、念佛必生、自證、他講、勸信；總為讚極樂淨土、勸念佛往生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《阿彌陀經》正宗分的略讚與廣讚",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "正宗分",
+            "kind": "root",
+            "position": {
+              "x": 350,
+              "y": 0
+            }
+          },
+          {
+            "id": "brief",
+            "label": "略讚",
+            "kind": "scheme",
+            "position": {
+              "x": 80,
+              "y": 130
+            }
+          },
+          {
+            "id": "brief-detail",
+            "label": "念佛往生／證誠勸信",
+            "kind": "detail",
+            "position": {
+              "x": 80,
+              "y": 280
+            }
+          },
+          {
+            "id": "wide",
+            "label": "廣讚",
+            "kind": "scheme",
+            "position": {
+              "x": 600,
+              "y": 130
+            }
+          },
+          {
+            "id": "wide-detail",
+            "label": "依報／正報／願生彼國／少善不生／念佛必生／自證／他講／勸信",
+            "kind": "detail",
+            "position": {
+              "x": 600,
+              "y": 280
+            }
+          },
+          {
+            "id": "summary",
+            "label": "讚極樂淨土／勸念佛往生",
+            "kind": "result",
+            "position": {
+              "x": 350,
+              "y": 430
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "brief",
+            "relation": "divides-into"
+          },
+          {
+            "from": "brief",
+            "to": "brief-detail",
+            "relation": "contains"
+          },
+          {
+            "from": "root",
+            "to": "wide",
+            "relation": "divides-into"
+          },
+          {
+            "from": "wide",
+            "to": "wide-detail",
+            "relation": "contains"
+          },
+          {
+            "from": "brief",
+            "to": "summary",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "wide",
+            "to": "summary",
+            "relation": "summarized-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "20/20 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留正宗分、略讚／廣讚與各自的內容節點。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

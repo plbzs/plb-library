@@ -9,17 +9,125 @@
       "id": "media-6e40749252c71d87883d4855",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-6e40749252c71d87883d4855.svg",
         "sha256": "f8faa9b8cb4e3de636c701863ea93f2314233cc9daac5513aa4610834354d059"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三師教判：曇鸞大師難易二道判、道綽大師聖淨二門判、善導大師二藏二教判、善導大師要弘二門判；總判一代教，別判淨土教。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三師教判與淨土教判",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "三師教判",
+            "kind": "root",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "tanluan",
+            "label": "曇鸞大師：難易二道判",
+            "kind": "scheme",
+            "position": {
+              "x": 0,
+              "y": 140
+            }
+          },
+          {
+            "id": "daocho",
+            "label": "道綽大師：聖淨二門判",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 140
+            }
+          },
+          {
+            "id": "shandao-1",
+            "label": "善導大師：二藏二教判",
+            "kind": "scheme",
+            "position": {
+              "x": 520,
+              "y": 140
+            }
+          },
+          {
+            "id": "shandao-2",
+            "label": "善導大師：要弘二門判",
+            "kind": "scheme",
+            "position": {
+              "x": 780,
+              "y": 140
+            }
+          },
+          {
+            "id": "general",
+            "label": "總判一代教",
+            "kind": "detail",
+            "position": {
+              "x": 260,
+              "y": 300
+            }
+          },
+          {
+            "id": "pure",
+            "label": "別判淨土教",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 300
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "tanluan",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "daocho",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "shandao-1",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "shandao-2",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "general",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "general",
+            "to": "pure",
+            "relation": "narrows-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "將四個教判與總判／別判兩層整理為樹狀結構。"
       }
     },
     {
@@ -670,17 +778,126 @@
       "id": "media-784036e07653fe6b094612e3",
       "position": 12,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-784036e07653fe6b094612e3.svg",
         "sha256": "fd853f224a8e7ccc6007d1640e0e9620bc2fa1fdf195febc0c9b8f35def6f8e5"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "三師教判與二組對應：曇鸞難行／易行，道綽聖道／淨土，並以二藏（聲聞藏／菩薩藏）、二教（漸教／頓教）說明善導大師判教，最後歸入淨土宗正用教判。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "難易二道、聖淨二門與二藏二教",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土宗正用教判",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 170
+            }
+          },
+          {
+            "id": "hard-easy",
+            "label": "曇鸞：難行／易行",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy-pure",
+            "label": "道綽：聖道／淨土",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 170
+            }
+          },
+          {
+            "id": "two-store",
+            "label": "善導：二藏／聲聞藏、菩薩藏",
+            "kind": "scheme",
+            "position": {
+              "x": 540,
+              "y": 0
+            }
+          },
+          {
+            "id": "two-teach",
+            "label": "善導：二教／漸教、頓教",
+            "kind": "scheme",
+            "position": {
+              "x": 540,
+              "y": 220
+            }
+          },
+          {
+            "id": "summary",
+            "label": "三師教判",
+            "kind": "result",
+            "position": {
+              "x": 840,
+              "y": 120
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "hard-easy",
+            "relation": "uses"
+          },
+          {
+            "from": "root",
+            "to": "holy-pure",
+            "relation": "uses"
+          },
+          {
+            "from": "root",
+            "to": "two-store",
+            "relation": "uses"
+          },
+          {
+            "from": "root",
+            "to": "two-teach",
+            "relation": "uses"
+          },
+          {
+            "from": "hard-easy",
+            "to": "summary",
+            "relation": "contributes-to"
+          },
+          {
+            "from": "holy-pure",
+            "to": "summary",
+            "relation": "contributes-to"
+          },
+          {
+            "from": "two-store",
+            "to": "summary",
+            "relation": "contributes-to"
+          },
+          {
+            "from": "two-teach",
+            "to": "summary",
+            "relation": "contributes-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "20/20 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "重建四組教判對應與最後歸入淨土宗正用教判的關係。"
       }
     },
     {
@@ -964,8 +1181,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "6/14 approved-or-semantic",
-    "approvedReconstructionCount": 6,
+    "coverage": "8/14 approved-or-semantic",
+    "approvedReconstructionCount": 8,
     "semanticOnlyCount": 0
   }
 }

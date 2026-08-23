@@ -9,17 +9,144 @@
       "id": "media-7406afb8cb46ac1469f84f5c",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-7406afb8cb46ac1469f84f5c.svg",
         "sha256": "0cd6533ade748d165dac0ef499a26ae73e3b6fe2216ca036d6ee71139429bd09"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "《阿彌陀經》的目標與方法：極樂無為涅槃；眾生涅槃；少善福不生（非往生之因）；唯持名得生（往生之正因）；目標為國土涅槃、眾生涅槃，方法為念佛；依正主伴同一妙境界。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《阿彌陀經》的目標、方法與涅槃",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "《阿彌陀經》",
+            "kind": "root",
+            "position": {
+              "x": 20,
+              "y": 140
+            }
+          },
+          {
+            "id": "goal",
+            "label": "目標",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 0
+            }
+          },
+          {
+            "id": "land",
+            "label": "國土涅槃／極樂無為涅槃",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "beings",
+            "label": "眾生涅槃",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 100
+            }
+          },
+          {
+            "id": "method",
+            "label": "方法",
+            "kind": "scheme",
+            "position": {
+              "x": 250,
+              "y": 260
+            }
+          },
+          {
+            "id": "name",
+            "label": "唯持名得生：往生之正因",
+            "kind": "result",
+            "position": {
+              "x": 500,
+              "y": 220
+            }
+          },
+          {
+            "id": "not-cause",
+            "label": "少善福不生：非往生之因",
+            "kind": "detail",
+            "position": {
+              "x": 500,
+              "y": 340
+            }
+          },
+          {
+            "id": "unity",
+            "label": "依正主伴，同一妙境界",
+            "kind": "detail",
+            "position": {
+              "x": 800,
+              "y": 100
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "goal",
+            "relation": "has"
+          },
+          {
+            "from": "goal",
+            "to": "land",
+            "relation": "includes"
+          },
+          {
+            "from": "goal",
+            "to": "beings",
+            "relation": "includes"
+          },
+          {
+            "from": "root",
+            "to": "method",
+            "relation": "has"
+          },
+          {
+            "from": "method",
+            "to": "name",
+            "relation": "uses"
+          },
+          {
+            "from": "method",
+            "to": "not-cause",
+            "relation": "contrasted-with"
+          },
+          {
+            "from": "land",
+            "to": "unity",
+            "relation": "described-as"
+          },
+          {
+            "from": "beings",
+            "to": "unity",
+            "relation": "described-as"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "83/83 semantic labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留目標／方法／三種涅槃與少善福、持名得生的對比。"
       }
     },
     {
@@ -42,8 +169,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
