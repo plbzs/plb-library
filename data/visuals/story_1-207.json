@@ -9,24 +9,27 @@
       "id": "media-b323ded69010ffa3ac428f59",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b323ded69010ffa3ac428f59.jpg",
         "sha256": "c0e323e51a4821f959a815c7c53585efdd68cff838cdc104d817caf5e6db6185"
       },
-      "semanticDescription": null,
+      "semanticDescription": "人物生活照片：一名年長女性站在鄉村院落中，穿著紫色外套與紅紫色帽子，背景有土牆、簡易屋舍、樹木與水溝。屬於人物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無可靠圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "描述年長女性、服裝與鄉村環境，不由照片推定姓名、年齡或故事真實性。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

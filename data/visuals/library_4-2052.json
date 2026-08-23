@@ -9,24 +9,183 @@
       "id": "media-bb3ff70de970016ee39cbd48",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-bb3ff70de970016ee39cbd48.png",
         "sha256": "6d60233942aeddf2b113fc942a8d909f45df7f94cc8050a809dce67cf8df9c98"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "罪惡生死凡夫，曠劫以來，常沒常流轉，無有出離之緣。\n宗風\n俗諦（虛妄之道—敦倫盡分／來生做人）\n自力—勉為其難（機深信）\n真諦（往生之道—老實念佛／臨終往生）\n他力—信行易成（法深信）\n阿彌陀佛48願攝受眾生，無疑無慮，乘彼願力，定得往生。",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "宗風的俗諦與真諦",
+        "layout": {
+          "direction": "TB",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "ordinary-being",
+            "label": "罪惡生死凡夫，曠劫以來，常沒常流轉，無有出離之緣。",
+            "kind": "context",
+            "position": {
+              "x": 520,
+              "y": 0
+            }
+          },
+          {
+            "id": "religious-style",
+            "label": "宗風",
+            "kind": "root",
+            "position": {
+              "x": 520,
+              "y": 140
+            }
+          },
+          {
+            "id": "worldly-truth",
+            "label": "俗諦",
+            "kind": "branch",
+            "position": {
+              "x": 220,
+              "y": 300
+            }
+          },
+          {
+            "id": "worldly-path",
+            "label": "虛妄之道—敦倫盡分／來生做人",
+            "kind": "concept",
+            "position": {
+              "x": 220,
+              "y": 450
+            }
+          },
+          {
+            "id": "self-power",
+            "label": "自力—勉為其難（機深信）",
+            "kind": "result",
+            "position": {
+              "x": 220,
+              "y": 600
+            }
+          },
+          {
+            "id": "true-truth",
+            "label": "真諦",
+            "kind": "branch",
+            "position": {
+              "x": 820,
+              "y": 300
+            }
+          },
+          {
+            "id": "rebirth-path",
+            "label": "往生之道—老實念佛／臨終往生",
+            "kind": "concept",
+            "position": {
+              "x": 820,
+              "y": 450
+            }
+          },
+          {
+            "id": "other-power",
+            "label": "他力—信行易成（法深信）",
+            "kind": "result",
+            "position": {
+              "x": 820,
+              "y": 600
+            }
+          },
+          {
+            "id": "amitabha-vows",
+            "label": "阿彌陀佛48願攝受眾生",
+            "kind": "support",
+            "position": {
+              "x": 520,
+              "y": 760
+            }
+          },
+          {
+            "id": "rebirth-result",
+            "label": "無疑無慮，乘彼願力，定得往生。",
+            "kind": "result",
+            "position": {
+              "x": 520,
+              "y": 900
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "ordinary-being",
+            "to": "religious-style",
+            "relation": "contextualizes"
+          },
+          {
+            "from": "religious-style",
+            "to": "worldly-truth",
+            "relation": "divides-into"
+          },
+          {
+            "from": "religious-style",
+            "to": "true-truth",
+            "relation": "divides-into"
+          },
+          {
+            "from": "worldly-truth",
+            "to": "worldly-path",
+            "relation": "explains"
+          },
+          {
+            "from": "worldly-path",
+            "to": "self-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "true-truth",
+            "to": "rebirth-path",
+            "relation": "explains"
+          },
+          {
+            "from": "rebirth-path",
+            "to": "other-power",
+            "relation": "leads-to"
+          },
+          {
+            "from": "amitabha-vows",
+            "to": "rebirth-result",
+            "relation": "supports"
+          },
+          {
+            "from": "other-power",
+            "to": "rebirth-result",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": [
+          {
+            "id": "two-truths",
+            "label": "俗諦／真諦",
+            "members": [
+              "worldly-truth",
+              "true-truth"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "10/10主要標籤與兩諦分支",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留宗風分為俗諦與真諦、各自道路與自力／他力結論，以及阿彌陀佛48願攝受眾生的收束關係；模糊裝飾線不另造節點。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -26,24 +26,27 @@
       "id": "media-c033c14772f874c66ac06944",
       "position": 2,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-c033c14772f874c66ac06944.jpg",
         "sha256": "361da0a021c7ff77c3c8a954f1395e6ff3a1b69fef54b7405da28ee9f17cc69b"
       },
-      "semanticDescription": null,
+      "semanticDescription": "鳥類照片：一隻鳥側躺在室內或平面表面上，翅膀與尾羽張開，畫面為低光與近距離拍攝。屬於動物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "只描述鳥、翅膀與拍攝表面，不由照片推定死亡原因或宗教意義。"
       }
     }
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

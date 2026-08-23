@@ -9,17 +9,20 @@
       "id": "media-b627525a8c3e0757f432a58e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-b627525a8c3e0757f432a58e.jpg",
         "sha256": "aedd7f479cb1c77a341143c85141d920a207b85da28dca0da0cfd2c02eca41fb"
       },
-      "semanticDescription": null,
+      "semanticDescription": "動物照片：一隻小型犬或幼犬躺在室內地面或軟墊上，畫面帶有低解析度與顆粒感。屬於動物照片，不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無圖中文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留小狗與室內場景語意，不對動物的品種、健康或往生狀態作推定。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

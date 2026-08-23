@@ -9,24 +9,27 @@
       "id": "media-bdabac554ea3175aa9b8f793",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-bdabac554ea3175aa9b8f793.jpg",
         "sha256": "3381a9cb4fd65256dcd9c5efd790c8d395d23203189249801e2186b4e7697edb"
       },
-      "semanticDescription": null,
+      "semanticDescription": "紫色幾何放射圖：一個實心圓形中心向外放射大量等距直線，外圍形成完整圓周，沒有可辨識文字或分類標籤。可視為圓心與周邊的象徵性幾何圖，不足以重建成帶語意的文字架構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：無文字標籤",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留中心圓、放射線與圓周的幾何語意，不臆測每條線的意義。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

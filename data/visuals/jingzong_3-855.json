@@ -9,17 +9,20 @@
       "id": "media-bf6f064ba22394769f781fe9",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-bf6f064ba22394769f781fe9.jpg",
         "sha256": "c13fc24a70e8d1d820632db934c931669da1e91d7b6f4fda2b9f5da55d2251ae"
       },
-      "semanticDescription": null,
+      "semanticDescription": "水墨風格佛教插畫：一名人物划船穿過荷花池，右上有直排毛筆字，畫面下方與左側有荷葉、荷花、水面及題款。可辨識部分題字與「荷花」「念佛」等語意相關，但完整書法內容不宜猜補；不是結構化圖表。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "書法字樣部分可辨識，完整逐字轉錄不可靠",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留划船人物、荷花池、水墨畫面與書法位置，不把藝術插畫誤轉成流程圖。"
       }
     },
     {
@@ -44,9 +47,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 1
+    "semanticOnlyCount": 2
   }
 }

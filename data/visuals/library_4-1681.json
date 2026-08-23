@@ -120,24 +120,151 @@
       "id": "media-b66b816a603080de69c1c109",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-b66b816a603080de69c1c109.jpg",
         "sha256": "bccfbe56d2208f71e184156ed1caf46fa14eb62e39b80d5f66c408ec1d373c3c"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "過去世\n現在世\n未來世\n生\n死\n因\n果",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "三世因果與生死",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "past-life",
+            "label": "過去世",
+            "kind": "timeline",
+            "position": {
+              "x": 920,
+              "y": 0
+            }
+          },
+          {
+            "id": "present-life",
+            "label": "現在世",
+            "kind": "timeline",
+            "position": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": "future-life",
+            "label": "未來世",
+            "kind": "timeline",
+            "position": {
+              "x": 80,
+              "y": 0
+            }
+          },
+          {
+            "id": "birth",
+            "label": "生",
+            "kind": "event",
+            "position": {
+              "x": 500,
+              "y": 110
+            }
+          },
+          {
+            "id": "death",
+            "label": "死",
+            "kind": "event",
+            "position": {
+              "x": 160,
+              "y": 110
+            }
+          },
+          {
+            "id": "cause",
+            "label": "因",
+            "kind": "concept",
+            "position": {
+              "x": 920,
+              "y": 300
+            }
+          },
+          {
+            "id": "effect",
+            "label": "果",
+            "kind": "concept",
+            "position": {
+              "x": 570,
+              "y": 300
+            }
+          },
+          {
+            "id": "next-effect",
+            "label": "果",
+            "kind": "concept",
+            "position": {
+              "x": 160,
+              "y": 420
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "past-life",
+            "to": "birth",
+            "relation": "leads-to"
+          },
+          {
+            "from": "birth",
+            "to": "present-life",
+            "relation": "marks"
+          },
+          {
+            "from": "present-life",
+            "to": "death",
+            "relation": "ends-with"
+          },
+          {
+            "from": "death",
+            "to": "future-life",
+            "relation": "leads-to"
+          },
+          {
+            "from": "cause",
+            "to": "effect",
+            "relation": "produces"
+          },
+          {
+            "from": "effect",
+            "to": "next-effect",
+            "relation": "continues-as"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-world-line",
+            "label": "過去世／現在世／未來世",
+            "members": [
+              "past-life",
+              "present-life",
+              "future-life"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "7/7可辨識標籤；時間線與因果箭頭已保留",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留過去世、現在世、未來世、生、死、因、果等主要標籤；以圖模型表達原圖的時間線與因果延續。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "1/2 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "status": "approved",
+    "coverage": "2/2 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

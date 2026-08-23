@@ -9,17 +9,214 @@
       "id": "media-bdcbfc8fd35f0e753dc3e3ae",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-bdcbfc8fd35f0e753dc3e3ae.jpg",
         "sha256": "09838aac21798952fad12afaf8647236715d0a5b231dc0b31729db160eab6f71"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "媽媽，阿彌陀佛一定會來的\n人生目的：極樂淨土\n應當發願\n願生彼國\n聞是說者\n應當發願\n生彼國土\n信者\n應當發願\n生彼國土\n阿彌陀佛\n極樂世界\n南無阿彌陀佛",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "發願往生極樂淨土的三行說明",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "poster-title",
+            "label": "媽媽，阿彌陀佛一定會來的",
+            "kind": "title",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": "goal",
+            "label": "人生目的：極樂淨土",
+            "kind": "goal",
+            "position": {
+              "x": 0,
+              "y": 100
+            }
+          },
+          {
+            "id": "line-one",
+            "label": "應當發願",
+            "kind": "instruction",
+            "position": {
+              "x": 360,
+              "y": 220
+            }
+          },
+          {
+            "id": "country-one",
+            "label": "願生彼國",
+            "kind": "result",
+            "position": {
+              "x": 650,
+              "y": 220
+            }
+          },
+          {
+            "id": "hearer",
+            "label": "聞是說者",
+            "kind": "audience",
+            "position": {
+              "x": 360,
+              "y": 360
+            }
+          },
+          {
+            "id": "line-two",
+            "label": "應當發願",
+            "kind": "instruction",
+            "position": {
+              "x": 650,
+              "y": 360
+            }
+          },
+          {
+            "id": "country-two",
+            "label": "生彼國土",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 360
+            }
+          },
+          {
+            "id": "believer",
+            "label": "信者",
+            "kind": "audience",
+            "position": {
+              "x": 360,
+              "y": 500
+            }
+          },
+          {
+            "id": "line-three",
+            "label": "應當發願",
+            "kind": "instruction",
+            "position": {
+              "x": 650,
+              "y": 500
+            }
+          },
+          {
+            "id": "country-three",
+            "label": "生彼國土",
+            "kind": "result",
+            "position": {
+              "x": 940,
+              "y": 500
+            }
+          },
+          {
+            "id": "amitabha",
+            "label": "阿彌陀佛",
+            "kind": "support",
+            "position": {
+              "x": 1240,
+              "y": 300
+            }
+          },
+          {
+            "id": "pure-land",
+            "label": "極樂世界",
+            "kind": "result",
+            "position": {
+              "x": 1530,
+              "y": 300
+            }
+          },
+          {
+            "id": "homage",
+            "label": "南無阿彌陀佛",
+            "kind": "invocation",
+            "position": {
+              "x": 1240,
+              "y": 620
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "poster-title",
+            "to": "goal",
+            "relation": "states"
+          },
+          {
+            "from": "line-one",
+            "to": "country-one",
+            "relation": "leads-to"
+          },
+          {
+            "from": "hearer",
+            "to": "line-two",
+            "relation": "is-addressed-by"
+          },
+          {
+            "from": "line-two",
+            "to": "country-two",
+            "relation": "leads-to"
+          },
+          {
+            "from": "believer",
+            "to": "line-three",
+            "relation": "is-addressed-by"
+          },
+          {
+            "from": "line-three",
+            "to": "country-three",
+            "relation": "leads-to"
+          },
+          {
+            "from": "country-one",
+            "to": "pure-land",
+            "relation": "points-to"
+          },
+          {
+            "from": "country-two",
+            "to": "pure-land",
+            "relation": "points-to"
+          },
+          {
+            "from": "country-three",
+            "to": "pure-land",
+            "relation": "points-to"
+          },
+          {
+            "from": "amitabha",
+            "to": "pure-land",
+            "relation": "presides-over"
+          },
+          {
+            "from": "homage",
+            "to": "amitabha",
+            "relation": "invokes"
+          }
+        ],
+        "groups": [
+          {
+            "id": "three-vow-lines",
+            "label": "三行發願說明",
+            "members": [
+              "line-one",
+              "line-two",
+              "line-three"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "13/13主要印刷標籤；部分手寫身份字樣未採用",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留標題、人生目的、三行應當發願與生彼國土、阿彌陀佛及極樂世界的流程；對彩帶上的模糊手寫字不臆測。"
       }
     },
     {
@@ -42,8 +239,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "coverage": "1/2 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
