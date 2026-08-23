@@ -9,17 +9,170 @@
       "id": "media-e416cf0ce350d659a7be4abe",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e416cf0ce350d659a7be4abe.svg",
         "sha256": "8bebd7bfcdf4e0abf193e3145557f20c6a8ad68b4e68f247460d9a0f14053e61"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "淨土宗教判\n大判\n細判\n約一代教\n約淨土門\n難易二道判\n聖淨二門判\n二藏二教判\n要弘二門判",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "淨土宗教判的大判與細判",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "淨土宗教判",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "broad",
+            "label": "大判",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 40
+            }
+          },
+          {
+            "id": "fine",
+            "label": "細判",
+            "kind": "scheme",
+            "position": {
+              "x": 260,
+              "y": 320
+            }
+          },
+          {
+            "id": "one-generation",
+            "label": "約一代教",
+            "kind": "scope",
+            "position": {
+              "x": 520,
+              "y": 40
+            }
+          },
+          {
+            "id": "pure-land",
+            "label": "約淨土門",
+            "kind": "scope",
+            "position": {
+              "x": 520,
+              "y": 320
+            }
+          },
+          {
+            "id": "difficulty",
+            "label": "難易二道判",
+            "kind": "judgment",
+            "position": {
+              "x": 820,
+              "y": 0
+            }
+          },
+          {
+            "id": "holy-pure",
+            "label": "聖淨二門判",
+            "kind": "judgment",
+            "position": {
+              "x": 820,
+              "y": 60
+            }
+          },
+          {
+            "id": "two-canons",
+            "label": "二藏二教判",
+            "kind": "judgment",
+            "position": {
+              "x": 820,
+              "y": 120
+            }
+          },
+          {
+            "id": "essential-vow",
+            "label": "要弘二門判",
+            "kind": "judgment",
+            "position": {
+              "x": 820,
+              "y": 320
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "broad",
+            "relation": "divides-into"
+          },
+          {
+            "from": "root",
+            "to": "fine",
+            "relation": "divides-into"
+          },
+          {
+            "from": "broad",
+            "to": "one-generation",
+            "relation": "scopes"
+          },
+          {
+            "from": "fine",
+            "to": "pure-land",
+            "relation": "scopes"
+          },
+          {
+            "from": "one-generation",
+            "to": "difficulty",
+            "relation": "includes"
+          },
+          {
+            "from": "one-generation",
+            "to": "holy-pure",
+            "relation": "includes"
+          },
+          {
+            "from": "one-generation",
+            "to": "two-canons",
+            "relation": "includes"
+          },
+          {
+            "from": "pure-land",
+            "to": "essential-vow",
+            "relation": "includes"
+          }
+        ],
+        "groups": [
+          {
+            "id": "broad-judgments",
+            "label": "總判一代教",
+            "members": [
+              "difficulty",
+              "holy-pure",
+              "two-canons"
+            ]
+          },
+          {
+            "id": "fine-judgment",
+            "label": "別判淨土教",
+            "members": [
+              "essential-vow"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "9/9 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "依原圖括線與文章上下文重建：難易二道、聖淨二門、二藏二教屬約一代教的大判；要弘二門屬約淨土門的細判。"
       }
     },
     {
@@ -525,9 +678,9 @@
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "3/4 approved-or-semantic",
-    "approvedReconstructionCount": 3,
+    "status": "approved",
+    "coverage": "4/4 approved-or-semantic",
+    "approvedReconstructionCount": 4,
     "semanticOnlyCount": 0
   }
 }

@@ -263,17 +263,167 @@
       "id": "media-e7b74f2faac9bd57b28759cb",
       "position": 3,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e7b74f2faac9bd57b28759cb.svg",
         "sha256": "64d156ea2f55ef5b5ef4aa8ba05cdac6b2c7d71022aef747489962da5e51e03d"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "本書簡介\n一、概要／概括／概略\n依準目的\n全貌整體\n不暇細釋\n二、論述 第一章\n總論證\n三、論證 二至九章\n分論定\n四、論定 第十章\n結論綜合\n概論",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "《淨土宗概論》的四部分架構",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "intro",
+            "label": "本書簡介",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "overview",
+            "label": "一、概要／概括／概略",
+            "kind": "section",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "purpose",
+            "label": "依準目的／全貌整體／不暇細釋",
+            "kind": "summary",
+            "position": {
+              "x": 650,
+              "y": 0
+            }
+          },
+          {
+            "id": "discussion",
+            "label": "二、論述 第一章",
+            "kind": "section",
+            "position": {
+              "x": 300,
+              "y": 150
+            }
+          },
+          {
+            "id": "general",
+            "label": "總論證",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 150
+            }
+          },
+          {
+            "id": "argument",
+            "label": "三、論證 二至九章",
+            "kind": "section",
+            "position": {
+              "x": 300,
+              "y": 300
+            }
+          },
+          {
+            "id": "middle",
+            "label": "分論定",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 300
+            }
+          },
+          {
+            "id": "conclusion",
+            "label": "四、論定 第十章",
+            "kind": "section",
+            "position": {
+              "x": 300,
+              "y": 450
+            }
+          },
+          {
+            "id": "synthesis",
+            "label": "結論綜合",
+            "kind": "aspect",
+            "position": {
+              "x": 650,
+              "y": 450
+            }
+          },
+          {
+            "id": "book",
+            "label": "概論",
+            "kind": "title",
+            "position": {
+              "x": 980,
+              "y": 220
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "intro",
+            "to": "overview",
+            "relation": "divides-into"
+          },
+          {
+            "from": "overview",
+            "to": "purpose",
+            "relation": "described-by"
+          },
+          {
+            "from": "intro",
+            "to": "discussion",
+            "relation": "divides-into"
+          },
+          {
+            "from": "discussion",
+            "to": "general",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "intro",
+            "to": "argument",
+            "relation": "divides-into"
+          },
+          {
+            "from": "argument",
+            "to": "middle",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "intro",
+            "to": "conclusion",
+            "relation": "divides-into"
+          },
+          {
+            "from": "conclusion",
+            "to": "synthesis",
+            "relation": "summarized-as"
+          },
+          {
+            "from": "intro",
+            "to": "book",
+            "relation": "describes"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "14/14 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留本書簡介、概要與三段論述／論證／論定的章節位置，並保留總、分、結及概論標記。"
       }
     },
     {
@@ -296,8 +446,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "1/4 approved-or-semantic",
-    "approvedReconstructionCount": 1,
+    "coverage": "2/4 approved-or-semantic",
+    "approvedReconstructionCount": 2,
     "semanticOnlyCount": 0
   }
 }

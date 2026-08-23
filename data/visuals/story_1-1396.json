@@ -9,17 +9,20 @@
       "id": "media-e85f614d6c94d7e981cc4947",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "semantic-only",
       "sourceArchive": {
         "path": "media-archive/originals/media-e85f614d6c94d7e981cc4947.svg",
         "sha256": "6fa003b74ee0b4bdc6ae7335f3052ad54fd65248dbdcf28921a8d663356b11e2"
       },
-      "semanticDescription": null,
+      "semanticDescription": "文章〈貓咪泡泡往生記〉中的內嵌 PNG 照片：灰白短毛貓趴在綠色墊面上，前方有黃色祈福卡與紅色小物，背景可見室內物件。這是故事配圖，沒有可可靠抽取的表格、流程或分類結構，因此只保留影像語意，不臆造結構圖。",
       "transcript": null,
       "reconstruction": null,
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "semantic-only",
+        "sourceVerified": true,
+        "textCoverage": "不適用：照片無結構文字",
+        "visualReview": "semantic-reviewed",
+        "reviewNote": "保留照片主體、祈福物件與場景資訊；依文字資料庫原則不將照片轉為虛構圖表。"
       }
     },
     {
@@ -42,8 +45,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "0/2 approved-or-semantic",
+    "coverage": "1/2 approved-or-semantic",
     "approvedReconstructionCount": 0,
-    "semanticOnlyCount": 0
+    "semanticOnlyCount": 1
   }
 }

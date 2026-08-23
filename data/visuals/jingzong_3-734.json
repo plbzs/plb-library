@@ -9,24 +9,90 @@
       "id": "media-ec303f8a85dedecbf37b487e",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-ec303f8a85dedecbf37b487e.svg",
         "sha256": "8fc90e6dfc9a427d40bf7c3e1203cd5bbec1d475d3fc4b2133a52c11fb3524b1"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "善導（613–681）\n慧遠（淨影 523–592）：《觀經義疏》二卷、《大經義疏》二卷\n智者（天臺 538–597）：《觀經疏》二卷、《彌陀經義記》一卷\n吉藏（嘉祥 549–623）：《觀經義疏》二卷、《大經義疏》一卷",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "善導大師與前代三師著作對照",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "shandao",
+            "label": "善導（613–681）",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 180
+            }
+          },
+          {
+            "id": "huiyuan",
+            "label": "慧遠（淨影 523–592）\n《觀經義疏》二卷；《大經義疏》二卷",
+            "kind": "predecessor",
+            "position": {
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "id": "zhizhe",
+            "label": "智者（天臺 538–597）\n《觀經疏》二卷；《彌陀經義記》一卷",
+            "kind": "predecessor",
+            "position": {
+              "x": 360,
+              "y": 180
+            }
+          },
+          {
+            "id": "jizang",
+            "label": "吉藏（嘉祥 549–623）\n《觀經義疏》二卷；《大經義疏》一卷",
+            "kind": "predecessor",
+            "position": {
+              "x": 360,
+              "y": 360
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "shandao",
+            "to": "huiyuan",
+            "relation": "楷定古今之對照"
+          },
+          {
+            "from": "shandao",
+            "to": "zhizhe",
+            "relation": "楷定古今之對照"
+          },
+          {
+            "from": "shandao",
+            "to": "jizang",
+            "relation": "楷定古今之對照"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "4/4 main labels and work lists",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留善導年代、三位前代法師年代與各自著作，將 SVG 內以 path 拆散的善導年代還原為完整文字。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

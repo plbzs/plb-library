@@ -9,24 +9,104 @@
       "id": "media-e47c616bdf6fb8557998aeff",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e47c616bdf6fb8557998aeff.svg",
         "sha256": "296316a144e11faa9733e7a53e7f5289ffe6c55b5a707b699a82bcbde6abe467"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "一切行\n雜行（無量權）\n正行（五種實）\n助業（四權）\n正定業（一實）",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "一切行分為雜行與正行",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "all",
+            "label": "一切行",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "mixed",
+            "label": "雜行（無量權）",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 40
+            }
+          },
+          {
+            "id": "correct",
+            "label": "正行（五種實）",
+            "kind": "scheme",
+            "position": {
+              "x": 300,
+              "y": 280
+            }
+          },
+          {
+            "id": "support",
+            "label": "助業（四權）",
+            "kind": "aspect",
+            "position": {
+              "x": 640,
+              "y": 40
+            }
+          },
+          {
+            "id": "definite",
+            "label": "正定業（一實）",
+            "kind": "aspect",
+            "position": {
+              "x": 640,
+              "y": 280
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "all",
+            "to": "mixed",
+            "relation": "divides-into"
+          },
+          {
+            "from": "all",
+            "to": "correct",
+            "relation": "divides-into"
+          },
+          {
+            "from": "mixed",
+            "to": "support",
+            "relation": "has-aspect"
+          },
+          {
+            "from": "correct",
+            "to": "definite",
+            "relation": "has-aspect"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5/5 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留一切行、雜行／正行及其助業／正定業的二層分支與原圖權實標記。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

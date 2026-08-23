@@ -9,24 +9,319 @@
       "id": "media-e9cd6d757f1f2bcece91d61b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e9cd6d757f1f2bcece91d61b.svg",
         "sha256": "0e9c80239e54bc7db9862ec739316997bc6c120ec12d35808194bc3b13c91b21"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "彌陀在我心內住\n彌陀在我頂上坐\n彌陀在我身中現\n彌陀與我同時行\n彌陀在我身心內\n我在彌陀光明中\n佛入我心我入佛\n我與彌陀一體融\n彌陀功德盈我心\n彌陀光明照我身\n時處諸緣皆護我\n攝取不捨迎接我\n名體不離故\n光明攝取故",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "彌陀與我一體不離的條列與理由",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "root",
+            "label": "彌陀與我一體融",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 300
+            }
+          },
+          {
+            "id": "s1",
+            "label": "彌陀在我心內住",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 0
+            }
+          },
+          {
+            "id": "s2",
+            "label": "彌陀在我頂上坐",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 45
+            }
+          },
+          {
+            "id": "s3",
+            "label": "彌陀在我身中現",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 90
+            }
+          },
+          {
+            "id": "s4",
+            "label": "彌陀與我同時行",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 135
+            }
+          },
+          {
+            "id": "s5",
+            "label": "彌陀在我身心內",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 180
+            }
+          },
+          {
+            "id": "s6",
+            "label": "我在彌陀光明中",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 225
+            }
+          },
+          {
+            "id": "s7",
+            "label": "佛入我心我入佛",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 270
+            }
+          },
+          {
+            "id": "s8",
+            "label": "我與彌陀一體融",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 315
+            }
+          },
+          {
+            "id": "s9",
+            "label": "彌陀功德盈我心",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 360
+            }
+          },
+          {
+            "id": "s10",
+            "label": "彌陀光明照我身",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 405
+            }
+          },
+          {
+            "id": "s11",
+            "label": "時處諸緣皆護我",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 450
+            }
+          },
+          {
+            "id": "s12",
+            "label": "攝取不捨迎接我",
+            "kind": "statement",
+            "position": {
+              "x": 300,
+              "y": 495
+            }
+          },
+          {
+            "id": "name-body",
+            "label": "名體不離故",
+            "kind": "reason",
+            "position": {
+              "x": 780,
+              "y": 170
+            }
+          },
+          {
+            "id": "light",
+            "label": "光明攝取故",
+            "kind": "reason",
+            "position": {
+              "x": 780,
+              "y": 430
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "root",
+            "to": "s1",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s2",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s3",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s4",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s5",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s6",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s7",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s8",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s9",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s10",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s11",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "root",
+            "to": "s12",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "s1",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s2",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s3",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s4",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s5",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s6",
+            "to": "light",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s7",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s8",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s9",
+            "to": "name-body",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s10",
+            "to": "light",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s11",
+            "to": "light",
+            "relation": "explained-by"
+          },
+          {
+            "from": "s12",
+            "to": "light",
+            "relation": "explained-by"
+          }
+        ],
+        "groups": [
+          {
+            "id": "name-group",
+            "label": "名體不離故的條列",
+            "members": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "id": "light-group",
+            "label": "光明攝取故的條列",
+            "members": [
+              "s6",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          }
+        ]
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "14/14 unique labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "完整保留 12 條主句與兩種理由；將原圖重複出現的理由合併為可搜尋節點，並以群組保留括線的語意分組。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }

@@ -1087,17 +1087,237 @@
       "id": "media-e63e9b1acfcfa1a862728a2e",
       "position": 10,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e63e9b1acfcfa1a862728a2e.svg",
         "sha256": "2ed3307aa03c808cebb9799702fec037f05c905d7cfd7b9b4c5d13d3043a1f97"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "佛法\n小乘\n大乘\n聖道門\n依行者心行\n菩提心\n六度萬行\n難\n自力\n因地\n歷劫證果不定\n淨土門\n依法門利益\n願生心\n念佛一行\n易\n他力\n果地\n一生成佛決定",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "佛法中的小乘、大乘與聖道／淨土門",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "dharma",
+            "label": "佛法",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 220
+            }
+          },
+          {
+            "id": "small",
+            "label": "小乘",
+            "kind": "vehicle",
+            "position": {
+              "x": 270,
+              "y": 40
+            }
+          },
+          {
+            "id": "great",
+            "label": "大乘",
+            "kind": "vehicle",
+            "position": {
+              "x": 270,
+              "y": 360
+            }
+          },
+          {
+            "id": "holy",
+            "label": "聖道門",
+            "kind": "scheme",
+            "position": {
+              "x": 560,
+              "y": 160
+            }
+          },
+          {
+            "id": "pure",
+            "label": "淨土門",
+            "kind": "scheme",
+            "position": {
+              "x": 560,
+              "y": 480
+            }
+          },
+          {
+            "id": "holy-mind",
+            "label": "依行者心行",
+            "kind": "basis",
+            "position": {
+              "x": 850,
+              "y": 100
+            }
+          },
+          {
+            "id": "bodhi",
+            "label": "菩提心",
+            "kind": "practice",
+            "position": {
+              "x": 1110,
+              "y": 20
+            }
+          },
+          {
+            "id": "six",
+            "label": "六度萬行",
+            "kind": "practice",
+            "position": {
+              "x": 1110,
+              "y": 100
+            }
+          },
+          {
+            "id": "hard",
+            "label": "難／自力／因地",
+            "kind": "character",
+            "position": {
+              "x": 1370,
+              "y": 60
+            }
+          },
+          {
+            "id": "uncertain",
+            "label": "歷劫證果不定",
+            "kind": "result",
+            "position": {
+              "x": 1630,
+              "y": 60
+            }
+          },
+          {
+            "id": "pure-benefit",
+            "label": "依法門利益",
+            "kind": "basis",
+            "position": {
+              "x": 850,
+              "y": 460
+            }
+          },
+          {
+            "id": "birth-mind",
+            "label": "願生心",
+            "kind": "practice",
+            "position": {
+              "x": 1110,
+              "y": 400
+            }
+          },
+          {
+            "id": "name",
+            "label": "念佛一行",
+            "kind": "practice",
+            "position": {
+              "x": 1110,
+              "y": 480
+            }
+          },
+          {
+            "id": "easy",
+            "label": "易／他力／果地",
+            "kind": "character",
+            "position": {
+              "x": 1370,
+              "y": 440
+            }
+          },
+          {
+            "id": "certain",
+            "label": "一生成佛決定",
+            "kind": "result",
+            "position": {
+              "x": 1630,
+              "y": 440
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "dharma",
+            "to": "small",
+            "relation": "divides-into"
+          },
+          {
+            "from": "dharma",
+            "to": "great",
+            "relation": "divides-into"
+          },
+          {
+            "from": "great",
+            "to": "holy",
+            "relation": "divides-into"
+          },
+          {
+            "from": "great",
+            "to": "pure",
+            "relation": "divides-into"
+          },
+          {
+            "from": "holy",
+            "to": "holy-mind",
+            "relation": "based-on"
+          },
+          {
+            "from": "holy-mind",
+            "to": "bodhi",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "holy-mind",
+            "to": "six",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "six",
+            "to": "hard",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "hard",
+            "to": "uncertain",
+            "relation": "leads-to"
+          },
+          {
+            "from": "pure",
+            "to": "pure-benefit",
+            "relation": "based-on"
+          },
+          {
+            "from": "pure-benefit",
+            "to": "birth-mind",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "pure-benefit",
+            "to": "name",
+            "relation": "expressed-as"
+          },
+          {
+            "from": "name",
+            "to": "easy",
+            "relation": "characterized-as"
+          },
+          {
+            "from": "easy",
+            "to": "certain",
+            "relation": "leads-to"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "19/19 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "保留佛法至小乘／大乘、聖道／淨土兩條路徑，以及心行／法門利益、因地／果地與證果結果的對照。"
       }
     },
     {
@@ -1632,8 +1852,8 @@
   ],
   "validation": {
     "status": "in-review",
-    "coverage": "12/14 approved-or-semantic",
-    "approvedReconstructionCount": 12,
+    "coverage": "13/14 approved-or-semantic",
+    "approvedReconstructionCount": 13,
     "semanticOnlyCount": 0
   }
 }

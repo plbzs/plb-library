@@ -9,24 +9,114 @@
       "id": "media-e630dbcf2bfc2b400be9097b",
       "position": 1,
       "sourceType": "image",
-      "classification": "needs-classification",
+      "classification": "reconstructable-diagram",
       "sourceArchive": {
         "path": "media-archive/originals/media-e630dbcf2bfc2b400be9097b.svg",
         "sha256": "e95072ed02aceb69518c73cc715a653fcd31f655a1299f594d79a5bfc84675d0"
       },
       "semanticDescription": null,
-      "transcript": null,
-      "reconstruction": null,
+      "transcript": "極樂涅槃界\n（1）彌陀涅槃\n（2）國土涅槃\n（3）聖眾涅槃\n依正主伴，同一涅槃，妙境界相",
+      "reconstruction": {
+        "format": "graph-v1",
+        "title": "極樂涅槃界的三種涅槃",
+        "layout": {
+          "direction": "LR",
+          "semanticEquivalent": true
+        },
+        "nodes": [
+          {
+            "id": "pure-nirvana",
+            "label": "極樂涅槃界",
+            "kind": "root",
+            "position": {
+              "x": 0,
+              "y": 160
+            }
+          },
+          {
+            "id": "amida-nirvana",
+            "label": "（1）彌陀涅槃",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 40
+            }
+          },
+          {
+            "id": "land-nirvana",
+            "label": "（2）國土涅槃",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 160
+            }
+          },
+          {
+            "id": "assembly-nirvana",
+            "label": "（3）聖眾涅槃",
+            "kind": "aspect",
+            "position": {
+              "x": 320,
+              "y": 280
+            }
+          },
+          {
+            "id": "same境",
+            "label": "依正主伴，同一涅槃，妙境界相",
+            "kind": "summary",
+            "position": {
+              "x": 700,
+              "y": 160
+            }
+          }
+        ],
+        "edges": [
+          {
+            "from": "pure-nirvana",
+            "to": "amida-nirvana",
+            "relation": "includes"
+          },
+          {
+            "from": "pure-nirvana",
+            "to": "land-nirvana",
+            "relation": "includes"
+          },
+          {
+            "from": "pure-nirvana",
+            "to": "assembly-nirvana",
+            "relation": "includes"
+          },
+          {
+            "from": "amida-nirvana",
+            "to": "same境",
+            "relation": "forms"
+          },
+          {
+            "from": "land-nirvana",
+            "to": "same境",
+            "relation": "forms"
+          },
+          {
+            "from": "assembly-nirvana",
+            "to": "same境",
+            "relation": "forms"
+          }
+        ],
+        "groups": []
+      },
       "validation": {
-        "status": "needs-review",
-        "sourceVerified": true
+        "status": "approved",
+        "sourceVerified": true,
+        "textCoverage": "5/5 labels",
+        "visualReview": "structure-reviewed",
+        "reviewNote": "SVG 內嵌 PNG 已實際檢視；原圖是清楚的三分支分類圖，完整保留三種涅槃與總結語。"
       }
     }
   ],
   "validation": {
-    "status": "in-review",
-    "coverage": "0/1 approved-or-semantic",
-    "approvedReconstructionCount": 0,
+    "status": "approved",
+    "coverage": "1/1 approved-or-semantic",
+    "approvedReconstructionCount": 1,
     "semanticOnlyCount": 0
   }
 }
