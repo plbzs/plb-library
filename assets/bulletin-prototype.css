@@ -1950,6 +1950,7 @@ body.bulletin-mode .mode-reading .article-content li {
 body.bulletin-mode .mode-reading .article-content .article-title {
   max-width: 100%;
   font-size: 24px !important;
+  font-weight: 600 !important;
   line-height: 1.35 !important;
 }
 
