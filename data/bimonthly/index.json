@@ -2,7 +2,7 @@
   "version": 1,
   "generatedAt": "2026-08-25T02:52:35.9658806Z",
   "issueCount": 81,
-  "articleCount": 1899,
+  "articleCount": 1897,
   "source": "prototype-site/static/batch-issues plus prototype-site/static/pilot-articles.json for formal issue 002",
   "issues": [
     {
@@ -1502,7 +1502,7 @@
     },
     {
       "issue": "081",
-      "recordCount": 26,
+      "recordCount": 24,
       "file": "081.json",
       "categories": [
         "宗學理論",
@@ -1515,7 +1515,7 @@
         "問答釋疑",
         "修學園地",
         "念佛感應",
-        "漫畫專欄",
+        "佳文欣賞",
         "因果紀實",
         "環保慈善"
       ],
