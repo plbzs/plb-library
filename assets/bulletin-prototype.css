@@ -1954,6 +1954,14 @@ body.bulletin-mode .mode-reading .article-content .article-title {
   line-height: 1.35 !important;
 }
 
+/* PDF conversion can leave subtitles as additional h1 elements. Keep them
+   within the compact reading scale instead of exposing the browser default. */
+body.bulletin-mode .mode-reading .article-content h1:not(.article-title) {
+  margin: 1em 0 0.45em !important;
+  font-size: 24px !important;
+  line-height: 1.45 !important;
+}
+
 body.bulletin-mode .mode-reading .article-content h2 {
   font-size: 22px !important;
   line-height: 1.45 !important;

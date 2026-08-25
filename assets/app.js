@@ -766,7 +766,7 @@ let bulletinOverrideStyle;
     bulletinStyleLink.id = "bulletin-prototype-style";
     bulletinStyleLink.rel = "stylesheet";
     // Bump this when shared bulletin styles change so GitHub Pages does not keep an older CSS cache.
-    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=6`;
+    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=7`;
     document.head.append(bulletinStyleLink);
   }
   if (!bulletinOverrideStyle) {
