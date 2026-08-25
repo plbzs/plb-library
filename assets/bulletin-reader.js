@@ -349,11 +349,26 @@ function renderDirectory() {
     return;
   }
 
-  elements.directoryIssue.textContent = `第 ${current.issue} 期`;
-  const sameIssue = state.articles.filter((article) => article.issue === current.issue);
-  elements.directoryList.innerHTML = sameIssue
-    .map(
-      (article) => `
+  const hasActiveFilter = Boolean(
+    elements.issueFilter.value ||
+    elements.categoryFilter.value ||
+    elements.search.value.trim(),
+  );
+  const directoryArticles = hasActiveFilter
+    ? state.filtered
+    : state.articles.filter((article) => article.issue === current.issue);
+  const directoryIssues = [...new Set(directoryArticles.map((article) => article.issue))];
+  elements.directoryIssue.textContent = directoryIssues.length === 1
+    ? `第 ${directoryIssues[0]} 期`
+    : `篩選結果 ${directoryArticles.length} 篇`;
+  let previousIssue = "";
+  elements.directoryList.innerHTML = directoryArticles
+    .map((article) => {
+      const issueHeading = directoryIssues.length > 1 && article.issue !== previousIssue
+        ? `<div class="directory-issue-label">第 ${escapeHtml(article.issue)} 期</div>`
+        : "";
+      previousIssue = article.issue;
+      return `${issueHeading}
         <div class="directory-item ${article.id === state.currentId ? "is-current" : ""} ${state.selected.has(article.id) ? "is-selected" : ""}" data-id="${escapeHtml(article.id)}">
           <button
             type="button"
@@ -364,8 +379,8 @@ function renderDirectory() {
           >
             <span class="directory-title-text">${escapeHtml(article.title)}</span>
           </button>
-        </div>`,
-    )
+        </div>`;
+    })
     .join("");
   updateIssueJumps(current.issue);
 }

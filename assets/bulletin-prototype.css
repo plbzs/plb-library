@@ -1390,6 +1390,18 @@ svg {
   margin-top: 4px;
 }
 
+.directory-issue-label {
+  margin: 5px 3px 1px;
+  color: #633424;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.directory-issue-label:not(:first-child) {
+  border-top: 1px solid #e1d7ce;
+  padding-top: 5px;
+}
+
 .directory-item {
   display: block;
   overflow: hidden;
