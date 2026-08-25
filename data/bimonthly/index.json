@@ -67,7 +67,7 @@
     },
     {
       "issue": "004",
-      "recordCount": 5,
+      "recordCount": 6,
       "file": "004.json",
       "categories": [
         "淨土宗藝術",
@@ -135,11 +135,14 @@
     },
     {
       "issue": "008",
-      "recordCount": 19,
+      "recordCount": 24,
       "file": "008.json",
       "categories": [
         "宗學理論",
         "待整理",
+        "法義闡釋",
+        "祖庭故事",
+        "淨土宗譬喻",
         "問答釋疑",
         "修學園地",
         "念佛感應"
@@ -186,7 +189,7 @@
     },
     {
       "issue": "011",
-      "recordCount": 21,
+      "recordCount": 22,
       "file": "011.json",
       "categories": [
         "宗學理論",
@@ -319,13 +322,14 @@
     },
     {
       "issue": "018",
-      "recordCount": 20,
+      "recordCount": 25,
       "file": "018.json",
       "categories": [
         "宗學理論",
         "法義闡釋",
         "待整理",
         "淨宗俗諦",
+        "問答釋疑",
         "修學園地",
         "淨土宗藝術",
         "念佛感應",
@@ -354,7 +358,7 @@
     },
     {
       "issue": "020",
-      "recordCount": 21,
+      "recordCount": 22,
       "file": "020.json",
       "categories": [
         "宗學理論",
@@ -433,7 +437,7 @@
     },
     {
       "issue": "024",
-      "recordCount": 29,
+      "recordCount": 30,
       "file": "024.json",
       "categories": [
         "宗學理論",
@@ -448,7 +452,8 @@
         "念佛感應",
         "漫畫專欄",
         "因果紀實",
-        "佳文欣賞"
+        "佳文欣賞",
+        "環保慈善"
       ],
       "months": []
     },
@@ -505,7 +510,7 @@
     },
     {
       "issue": "028",
-      "recordCount": 31,
+      "recordCount": 33,
       "file": "028.json",
       "categories": [
         "宗學理論",
@@ -523,7 +528,7 @@
     },
     {
       "issue": "029",
-      "recordCount": 24,
+      "recordCount": 25,
       "file": "029.json",
       "categories": [
         "待整理",
@@ -540,7 +545,7 @@
     },
     {
       "issue": "030",
-      "recordCount": 30,
+      "recordCount": 31,
       "file": "030.json",
       "categories": [
         "宗學理論",
@@ -576,7 +581,7 @@
     },
     {
       "issue": "032",
-      "recordCount": 28,
+      "recordCount": 29,
       "file": "032.json",
       "categories": [
         "宗學理論",
@@ -618,7 +623,7 @@
     },
     {
       "issue": "034",
-      "recordCount": 19,
+      "recordCount": 20,
       "file": "034.json",
       "categories": [
         "宗學理論",
@@ -666,7 +671,7 @@
     },
     {
       "issue": "037",
-      "recordCount": 29,
+      "recordCount": 30,
       "file": "037.json",
       "categories": [
         "宗學理論",
@@ -687,7 +692,7 @@
     },
     {
       "issue": "038",
-      "recordCount": 23,
+      "recordCount": 27,
       "file": "038.json",
       "categories": [
         "宗學理論",
@@ -697,7 +702,10 @@
         "淨土宗譬喻",
         "淨土常識",
         "問答釋疑",
-        "修學園地"
+        "修學園地",
+        "念佛感應",
+        "因果紀實",
+        "佳文欣賞"
       ],
       "months": []
     },
@@ -779,7 +787,7 @@
     },
     {
       "issue": "043",
-      "recordCount": 15,
+      "recordCount": 23,
       "file": "043.json",
       "categories": [
         "宗學理論",
@@ -788,13 +796,15 @@
         "淨土宗妙喻",
         "淨土常識",
         "問答釋疑",
-        "修學園地"
+        "修學園地",
+        "念佛感應",
+        "因果紀實"
       ],
       "months": []
     },
     {
       "issue": "044",
-      "recordCount": 33,
+      "recordCount": 34,
       "file": "044.json",
       "categories": [
         "宗學理論",
@@ -816,7 +826,7 @@
     },
     {
       "issue": "045",
-      "recordCount": 30,
+      "recordCount": 32,
       "file": "045.json",
       "categories": [
         "宗學理論",
@@ -838,7 +848,7 @@
     },
     {
       "issue": "046",
-      "recordCount": 19,
+      "recordCount": 20,
       "file": "046.json",
       "categories": [
         "宗學理論",
@@ -933,7 +943,7 @@
     },
     {
       "issue": "051",
-      "recordCount": 25,
+      "recordCount": 31,
       "file": "051.json",
       "categories": [
         "宗學理論",
@@ -946,6 +956,8 @@
         "修學園地",
         "淨土宗藝術",
         "念佛感應",
+        "佳文欣賞",
+        "因果紀實",
         "出版訊息"
       ],
       "months": []
@@ -967,7 +979,7 @@
     },
     {
       "issue": "053",
-      "recordCount": 26,
+      "recordCount": 27,
       "file": "053.json",
       "categories": [
         "宗學理論",
@@ -984,7 +996,7 @@
     },
     {
       "issue": "054",
-      "recordCount": 10,
+      "recordCount": 11,
       "file": "054.json",
       "categories": [
         "別 頁",
@@ -1019,16 +1031,17 @@
     },
     {
       "issue": "056",
-      "recordCount": 21,
+      "recordCount": 22,
       "file": "056.json",
       "categories": [
-        "待整理"
+        "待整理",
+        "念佛感應"
       ],
       "months": []
     },
     {
       "issue": "057",
-      "recordCount": 30,
+      "recordCount": 31,
       "file": "057.json",
       "categories": [
         "宗學理論",
@@ -1051,7 +1064,7 @@
     },
     {
       "issue": "058",
-      "recordCount": 34,
+      "recordCount": 37,
       "file": "058.json",
       "categories": [
         "宗學理論",
@@ -1059,6 +1072,7 @@
         "法義闡釋",
         "淨宗俗諦",
         "淨土宗妙喻",
+        "淨土常識",
         "問答釋疑",
         "修學園地",
         "別 頁",
@@ -1117,7 +1131,7 @@
     },
     {
       "issue": "061",
-      "recordCount": 25,
+      "recordCount": 27,
       "file": "061.json",
       "categories": [
         "宗學理論",
@@ -1125,6 +1139,7 @@
         "法義闡釋",
         "淨宗俗諦",
         "淨土宗妙喻",
+        "淨土常識",
         "問答釋疑",
         "修學園地",
         "別 頁",
@@ -1182,7 +1197,7 @@
     },
     {
       "issue": "064",
-      "recordCount": 24,
+      "recordCount": 25,
       "file": "064.json",
       "categories": [
         "宗學理論",
@@ -1195,13 +1210,14 @@
         "問答釋疑",
         "修學園地",
         "念佛感應",
+        "佳文欣賞",
         "環保慈善"
       ],
       "months": []
     },
     {
       "issue": "065",
-      "recordCount": 19,
+      "recordCount": 22,
       "file": "065.json",
       "categories": [
         "宗學理論",
@@ -1211,6 +1227,7 @@
         "淨土宗妙喻",
         "淨土常識",
         "別 頁",
+        "問答釋疑",
         "修學園地",
         "淨土宗藝術",
         "念佛感應",
@@ -1241,13 +1258,14 @@
     },
     {
       "issue": "067",
-      "recordCount": 25,
+      "recordCount": 26,
       "file": "067.json",
       "categories": [
         "宗學理論",
         "待整理",
         "法義闡釋",
         "淨宗俗諦",
+        "淨土常識",
         "問答釋疑",
         "修學園地",
         "別 頁",
@@ -1262,7 +1280,7 @@
     },
     {
       "issue": "068",
-      "recordCount": 21,
+      "recordCount": 22,
       "file": "068.json",
       "categories": [
         "宗學理論",
@@ -1284,7 +1302,7 @@
     },
     {
       "issue": "069",
-      "recordCount": 26,
+      "recordCount": 27,
       "file": "069.json",
       "categories": [
         "宗學理論",
@@ -1367,7 +1385,7 @@
     },
     {
       "issue": "073",
-      "recordCount": 20,
+      "recordCount": 22,
       "file": "073.json",
       "categories": [
         "宗學理論",
@@ -1410,19 +1428,21 @@
     },
     {
       "issue": "075",
-      "recordCount": 19,
+      "recordCount": 20,
       "file": "075.json",
       "categories": [
-        "待整理"
+        "待整理",
+        "淨土常識"
       ],
       "months": []
     },
     {
       "issue": "076",
-      "recordCount": 17,
+      "recordCount": 18,
       "file": "076.json",
       "categories": [
-        "待整理"
+        "待整理",
+        "淨土宗藝術"
       ],
       "months": []
     },
@@ -1458,7 +1478,7 @@
     },
     {
       "issue": "079",
-      "recordCount": 27,
+      "recordCount": 28,
       "file": "079.json",
       "categories": [
         "宗學理論",
@@ -1473,6 +1493,7 @@
         "別 頁",
         "淨土宗藝術",
         "念佛感應",
+        "因果紀實",
         "環保慈善"
       ],
       "months": []
