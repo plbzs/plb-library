@@ -312,10 +312,12 @@ function issueJumpTemplate(issue) {
 
 function renderIssueJumpList(container, issues) {
   if (!issues.length) {
-    container.innerHTML = '<div class="issue-jump is-boundary"><strong>沒有更多內容</strong></div>';
+    container.hidden = true;
+    container.replaceChildren();
     return;
   }
 
+  container.hidden = false;
   container.innerHTML = issues
     .map((issue) => {
       const [label, summary] = issueJumpTemplate(issue);

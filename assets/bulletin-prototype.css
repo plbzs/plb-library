@@ -1698,6 +1698,34 @@ body.bulletin-mode .directory-panel .directory-title {
   text-align: left;
 }
 
+html.bulletin-mode-root body.bulletin-mode .directory-panel .issue-jump {
+  background: #f7f2eb !important;
+  color: #61564e !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-item:not(.is-selected),
+html.bulletin-mode-root body.bulletin-mode .directory-item:not(.is-selected) .directory-title {
+  background: #fff !important;
+  color: #302b27 !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-item:not(.is-selected) .directory-title small {
+  color: #8b4f39 !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-item:not(.is-selected) .directory-title strong {
+  color: #302b27 !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-item.is-selected {
+  background: #8b4f39 !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-item.is-selected .directory-title small,
+html.bulletin-mode-root body.bulletin-mode .directory-item.is-selected .directory-title strong {
+  color: #fff !important;
+}
+
 body.bulletin-mode .directory-panel .issue-jump {
   min-height: 44px;
   padding: 9px 12px;
