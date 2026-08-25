@@ -2,7 +2,7 @@
   "version": 1,
   "generatedAt": "2026-08-25T02:52:35.9658806Z",
   "issueCount": 81,
-  "articleCount": 1937,
+  "articleCount": 1899,
   "source": "prototype-site/static/batch-issues plus prototype-site/static/pilot-articles.json for formal issue 002",
   "issues": [
     {
@@ -1502,7 +1502,7 @@
     },
     {
       "issue": "081",
-      "recordCount": 28,
+      "recordCount": 26,
       "file": "081.json",
       "categories": [
         "宗學理論",
