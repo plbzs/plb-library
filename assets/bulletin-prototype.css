@@ -1618,12 +1618,15 @@ svg {
 }
 
 @media (max-width: 480px) {
-  .command-brand {
-    display: none;
+  .command-brand.bulletin-home-button {
+    display: inline-flex;
+    min-width: 48px;
+    padding-inline: 8px;
+    justify-content: center;
   }
 
   .filter-row {
-    grid-template-columns: 90px 72px minmax(0, 1fr);
+    grid-template-columns: 76px 56px minmax(0, 1fr);
     flex: 1 1 auto;
   }
 
@@ -1646,6 +1649,75 @@ svg {
   .command-actions .primary-button span {
     display: none;
   }
+}
+
+/* The bimonthly reader stays light even when the main site is in dark mode. */
+html.bulletin-mode-root,
+body.bulletin-mode {
+  color-scheme: light !important;
+}
+
+body.bulletin-mode {
+  --ink: #302b27 !important;
+  --muted: #746c64 !important;
+  --paper: #fffefb !important;
+  --canvas: #efe9e0 !important;
+  --line: #ddd3c6 !important;
+  --accent: #8b4f39 !important;
+  --accent-dark: #633424 !important;
+  --accent-soft: #f4e4d6 !important;
+  background: var(--canvas) !important;
+  color: var(--ink) !important;
+}
+
+body.bulletin-mode .command-brand.bulletin-home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 13px;
+  border: 1px solid #dacfc4;
+  border-radius: 9px;
+  background: #fffefb;
+  color: #5d5047;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body.bulletin-mode .command-brand.bulletin-home-button:hover,
+body.bulletin-mode .command-brand.bulletin-home-button:focus-visible {
+  border-color: #8b4f39;
+  background: #f4e4d6;
+  color: #633424;
+}
+
+body.bulletin-mode .directory-panel .issue-jump,
+body.bulletin-mode .directory-panel .directory-title {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+body.bulletin-mode .directory-panel .issue-jump {
+  min-height: 44px;
+  padding: 9px 12px;
+  gap: 8px;
+}
+
+body.bulletin-mode .directory-panel .issue-jump span,
+body.bulletin-mode .directory-panel .issue-jump strong {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+body.bulletin-mode .directory-panel .directory-title {
+  padding: 8px 12px;
+}
+
+body.bulletin-mode .directory-panel .directory-title strong,
+body.bulletin-mode .directory-panel .directory-title span {
+  text-align: left;
 }
 
 @media print {

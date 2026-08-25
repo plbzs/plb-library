@@ -753,8 +753,9 @@ function renderHome() {
 let bulletinStyleLink;
 let bulletinOverrideStyle;
 
-function enterBulletinMode() {
-  document.body.classList.add("bulletin-mode");
+  function enterBulletinMode() {
+    document.body.classList.add("bulletin-mode");
+    document.documentElement.classList.add("bulletin-mode-root");
   if (!bulletinStyleLink) {
     bulletinStyleLink = document.createElement("link");
     bulletinStyleLink.id = "bulletin-prototype-style";
@@ -765,18 +766,36 @@ function enterBulletinMode() {
   if (!bulletinOverrideStyle) {
     bulletinOverrideStyle = document.createElement("style");
     bulletinOverrideStyle.id = "bulletin-prototype-overrides";
-    bulletinOverrideStyle.textContent = `
-      body.bulletin-mode > .site-header { display: none !important; }
-      body.bulletin-mode > #app { max-width: none !important; margin: 0 !important; padding: 0 !important; }
-      body.bulletin-mode .reader-layout { max-width: 1320px; }
+      bulletinOverrideStyle.textContent = `
+        html.bulletin-mode-root {
+          color-scheme: light !important;
+          background: #efe9e0 !important;
+        }
+        body.bulletin-mode {
+          color-scheme: light !important;
+          --ink: #302b27 !important;
+          --muted: #746c64 !important;
+          --paper: #fffefb !important;
+          --canvas: #efe9e0 !important;
+          --line: #ddd3c6 !important;
+          --accent: #8b4f39 !important;
+          --accent-dark: #633424 !important;
+          --accent-soft: #f4e4d6 !important;
+          background: #efe9e0 !important;
+          color: #302b27 !important;
+        }
+        body.bulletin-mode > .site-header { display: none !important; }
+        body.bulletin-mode > #app { max-width: none !important; margin: 0 !important; padding: 0 !important; }
+        body.bulletin-mode .reader-layout { max-width: 1320px; }
     `;
     document.head.append(bulletinOverrideStyle);
   }
 }
 
-function leaveBulletinMode() {
-  window.__PLB_BULLETIN_CLEANUP?.();
-  document.body.classList.remove("bulletin-mode", "reader-body", "printing", "orientation-landscape");
+  function leaveBulletinMode() {
+    window.__PLB_BULLETIN_CLEANUP?.();
+    document.body.classList.remove("bulletin-mode", "reader-body", "printing", "orientation-landscape");
+    document.documentElement.classList.remove("bulletin-mode-root");
   bulletinStyleLink?.remove();
   bulletinStyleLink = null;
   bulletinOverrideStyle?.remove();
@@ -784,10 +803,10 @@ function leaveBulletinMode() {
   delete window.__PLB_BULLETIN_PREFERRED_ID;
 }
 
-function renderBulletinShell() {
-  app.innerHTML = `
-    <header class="app-header command-bar no-print">
-      <div class="command-brand"><strong class="brand-wordmark">雙月刊</strong></div>
+  function renderBulletinShell() {
+    app.innerHTML = `
+      <header class="app-header command-bar no-print">
+        <a class="command-brand bulletin-home-button" href="#/" aria-label="返回首頁"><strong class="brand-wordmark">首頁</strong></a>
       <div class="filter-row" aria-label="文章篩選">
         <label class="compact-field"><span>期數</span><select id="issue-filter"><option value="">全部</option></select></label>
         <label class="compact-field"><span>類別</span><select id="category-filter"><option value="">全部</option></select></label>
