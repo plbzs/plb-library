@@ -1951,6 +1951,34 @@ body.bulletin-mode .article-content > p.md-body {
   letter-spacing: normal !important;
 }
 
+/* Do not let PDF source font metrics turn full-width CJK punctuation into narrow glyphs. */
+body.bulletin-mode .article-content,
+body.bulletin-mode .article-content p,
+body.bulletin-mode .article-content h1,
+body.bulletin-mode .article-content h2,
+body.bulletin-mode .article-content h3,
+body.bulletin-mode .article-content h4,
+body.bulletin-mode .article-content h5,
+body.bulletin-mode .article-content h6 {
+  font-family: var(--heading-font) !important;
+  font-kerning: none;
+  font-variant-east-asian: full-width;
+  font-variant-ligatures: none;
+  font-feature-settings: "palt" 0, "pkna" 0, "halt" 0, "vpal" 0, "vhal" 0;
+  font-stretch: normal;
+}
+
+body.bulletin-mode .article-content > p,
+body.bulletin-mode .article-content > h1,
+body.bulletin-mode .article-content > h2,
+body.bulletin-mode .article-content > h3,
+body.bulletin-mode .article-content > h4,
+body.bulletin-mode .article-content > h5,
+body.bulletin-mode .article-content > h6 {
+  text-align: left !important;
+  text-justify: none !important;
+}
+
 /* Reading mode is deliberately compact; faithful mode keeps the PDF scale. */
 body.bulletin-mode .mode-reading .article-content,
 body.bulletin-mode .mode-reading .article-content p,
