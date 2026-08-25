@@ -1702,6 +1702,9 @@ body.bulletin-mode .directory-panel .issue-jump {
   min-height: 44px;
   padding: 9px 12px;
   gap: 8px;
+  border-color: #ddd1c7 !important;
+  background: #f7f2eb !important;
+  color: #61564e !important;
 }
 
 body.bulletin-mode .directory-panel .issue-jump span,
@@ -1709,6 +1712,41 @@ body.bulletin-mode .directory-panel .issue-jump strong {
   text-align: left;
   font-size: 16px;
   line-height: 1.25;
+}
+
+body.bulletin-mode .directory-panel .issue-jump span {
+  color: #8b4f39 !important;
+}
+
+body.bulletin-mode .directory-panel .issue-jump strong {
+  color: #302b27 !important;
+}
+
+body.bulletin-mode .directory-panel .selected-summary {
+  background: #faeee8 !important;
+  color: #302b27 !important;
+}
+
+body.bulletin-mode .directory-panel .selected-summary-item {
+  background: #fffefb !important;
+}
+
+body.bulletin-mode .directory-panel .directory-item {
+  background: #fff !important;
+  color: #302b27 !important;
+}
+
+body.bulletin-mode .directory-panel .directory-title {
+  color: #302b27 !important;
+}
+
+body.bulletin-mode .directory-panel .directory-title small {
+  color: #8b4f39 !important;
+}
+
+body.bulletin-mode .primary-button {
+  background: #8b4f39 !important;
+  color: #fff !important;
 }
 
 body.bulletin-mode .directory-panel .directory-title {

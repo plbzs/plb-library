@@ -723,14 +723,19 @@ async function render() {
 
 function renderHome() {
   const items = readingItems();
-  const homeTree = [...state.tree, {
+  const bulletinNode = {
     type: "path",
     title: "淨土宗雙月刊",
     href: "#/bulletin",
     count: 81,
     countLabel: "期",
     children: []
-  }];
+  };
+  const homeTree = state.tree.map((node) =>
+    node.title === "書籍下載"
+      ? { ...node, children: [...(node.children || []), bulletinNode] }
+      : node,
+  );
   app.innerHTML = `
     <section class="map-shell">
       <div class="section-title">
@@ -760,7 +765,7 @@ let bulletinOverrideStyle;
     bulletinStyleLink = document.createElement("link");
     bulletinStyleLink.id = "bulletin-prototype-style";
     bulletinStyleLink.rel = "stylesheet";
-    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=1`;
+    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=2`;
     document.head.append(bulletinStyleLink);
   }
   if (!bulletinOverrideStyle) {
