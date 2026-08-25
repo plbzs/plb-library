@@ -1119,8 +1119,8 @@ svg {
   position: absolute;
   z-index: 4;
   inset: 0;
-  background-color: rgb(130 57 36 / 13%);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='280' viewBox='0 0 360 280'%3E%3Cg transform='translate(180 140) rotate(-16)'%3E%3Ctext x='0' y='0' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='58' font-weight='700' fill='%23000000' fill-opacity='.5'%3E%E5%88%97%E5%8D%B0%3C/text%3E%3C/g%3E%3C/svg%3E");
+  background-color: rgb(0 0 0 / 50%);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='280' viewBox='0 0 360 280'%3E%3Cg transform='translate(180 140) rotate(-16)'%3E%3Ctext x='0' y='0' text-anchor='middle' dominant-baseline='middle' font-family='serif' font-size='58' font-weight='700' fill='%237a2e25' fill-opacity='.78'%3E%E5%88%97%E5%8D%B0%3C/text%3E%3C/g%3E%3C/svg%3E");
   background-position: center top 90px;
   background-repeat: repeat;
   background-size: 360px 280px;
@@ -1773,7 +1773,7 @@ body.bulletin-mode .directory-panel .directory-title small {
 }
 
 body.bulletin-mode .primary-button {
-  background: #8b4f39 !important;
+  background: #7a2e25 !important;
   color: #fff !important;
 }
 
@@ -1797,6 +1797,45 @@ body.bulletin-mode .article-content > p.md-body {
   text-align: start !important;
   text-justify: none !important;
   letter-spacing: normal !important;
+}
+
+/* Reading mode is deliberately compact; faithful mode keeps the PDF scale. */
+body.bulletin-mode .mode-reading .article-content,
+body.bulletin-mode .mode-reading .article-content p,
+body.bulletin-mode .mode-reading .article-content li {
+  font-size: 18px !important;
+  line-height: 1.72 !important;
+}
+
+body.bulletin-mode .mode-reading .article-content .article-title {
+  max-width: 100%;
+  font-size: 24px !important;
+  line-height: 1.35 !important;
+}
+
+body.bulletin-mode .mode-reading .article-content h2 {
+  font-size: 22px !important;
+  line-height: 1.45 !important;
+}
+
+body.bulletin-mode .mode-reading .article-content h3 {
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+body.bulletin-mode .mode-reading .article-content h4,
+body.bulletin-mode .mode-reading .article-content h5,
+body.bulletin-mode .mode-reading .article-content h6 {
+  font-size: 18px !important;
+  line-height: 1.55 !important;
+}
+
+body.bulletin-mode .mode-faithful .article-content p.md-body {
+  font-size: max(18px, 1em) !important;
+}
+
+body.bulletin-mode .print-article.is-selected .selection-watermark {
+  color: #7a2e25 !important;
 }
 
 @media print {
