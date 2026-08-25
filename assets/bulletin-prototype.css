@@ -1102,11 +1102,11 @@ svg {
 
 .article-feed .print-article.is-selected,
 .article-feed .print-article.is-current.is-selected {
-  border: 6px solid #98452f;
+  border: 6px solid #000;
   background: #f2d7ca;
   box-shadow:
     0 0 0 6px rgb(255 238 225 / 92%),
-    0 0 0 11px rgb(152 69 47 / 68%),
+    0 0 0 11px rgb(0 0 0 / 72%),
     0 24px 64px rgb(88 44 28 / 26%);
 }
 
@@ -1784,6 +1784,86 @@ body.bulletin-mode .directory-panel .directory-title {
 body.bulletin-mode .directory-panel .directory-title strong,
 body.bulletin-mode .directory-panel .directory-title span {
   text-align: left;
+}
+
+/* The part marker and byline are supporting metadata, not primary headings. */
+body.bulletin-mode .article-content > h1.article-title + h2 + h3.md-h3 {
+  margin: 0 0 0.7em !important;
+  color: #53463e !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+body.bulletin-mode .article-content > h1.article-title + h2 + h3.md-h3 + p.article-byline {
+  margin-bottom: 1.05em !important;
+  color: #6b5a50 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+/* Keep selected controls readable while preserving the light directory surface. */
+body.bulletin-mode .directory-panel .selected-summary-item,
+body.bulletin-mode .directory-panel .selected-summary-link {
+  background: #7a2e25 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+body.bulletin-mode .directory-panel .selected-summary-link span,
+body.bulletin-mode .directory-panel .selected-summary-link strong {
+  color: #fff !important;
+}
+
+body.bulletin-mode .directory-panel .selected-summary-remove {
+  border-left-color: rgb(255 255 255 / 48%) !important;
+  background: #5b221c !important;
+  color: #fff !important;
+}
+
+body.bulletin-mode .directory-panel .directory-item.is-selected,
+body.bulletin-mode .directory-panel .directory-item.is-selected .directory-title {
+  border-color: #000 !important;
+  background: #7a2e25 !important;
+}
+
+body.bulletin-mode .directory-panel .directory-list {
+  gap: 2px;
+  margin-top: 3px;
+}
+
+body.bulletin-mode .directory-panel .directory-item {
+  border-width: 1px;
+  border-radius: 7px;
+}
+
+body.bulletin-mode .directory-panel .directory-title {
+  padding: 4px 9px;
+}
+
+body.bulletin-mode .directory-panel .directory-title small {
+  font-size: 10px;
+  line-height: 1.05;
+}
+
+body.bulletin-mode .directory-panel .directory-title strong {
+  font-size: 14px;
+  line-height: 1.12;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-panel .directory-item.is-selected {
+  border-color: #000 !important;
+  background: #7a2e25 !important;
+  background-color: #7a2e25 !important;
+  background-image: none !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-panel .directory-item.is-selected .directory-title {
+  background: #7a2e25 !important;
+  background-color: #7a2e25 !important;
+  background-image: none !important;
+  color: #fff !important;
 }
 
 /* Keep the first subtitle close to the article title and preserve full-width punctuation. */
