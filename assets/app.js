@@ -765,7 +765,7 @@ let bulletinOverrideStyle;
     bulletinStyleLink = document.createElement("link");
     bulletinStyleLink.id = "bulletin-prototype-style";
     bulletinStyleLink.rel = "stylesheet";
-    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=3`;
+    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=4`;
     document.head.append(bulletinStyleLink);
   }
   if (!bulletinOverrideStyle) {

@@ -1786,6 +1786,19 @@ body.bulletin-mode .directory-panel .directory-title span {
   text-align: left;
 }
 
+/* Keep the first subtitle close to the article title and preserve full-width punctuation. */
+body.bulletin-mode .article-content > h1.article-title + h2 {
+  margin-top: 0.28em !important;
+  margin-bottom: 0.34em !important;
+  line-height: 1.28 !important;
+}
+
+body.bulletin-mode .article-content > p.md-body {
+  text-align: start !important;
+  text-justify: none !important;
+  letter-spacing: normal !important;
+}
+
 @media print {
   .reader-body,
   .reader-layout {
