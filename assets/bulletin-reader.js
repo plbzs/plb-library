@@ -378,14 +378,30 @@ function renderSelectedSummary() {
     .map(
       (article) => `
         <div class="selected-summary-item">
-          <button type="button" class="selected-summary-link" data-selected-scroll-id="${escapeHtml(article.id)}">
+          <button type="button" class="selected-summary-link" data-selected-scroll-id="${escapeHtml(article.id)}" aria-label="前往：${escapeHtml(article.title)}" title="${escapeHtml(article.title)}">
             <span>${escapeHtml(article.issue.padStart(3, "0"))}</span>
-            <strong>${escapeHtml(article.title)}</strong>
+            <span class="selected-summary-title">${escapeHtml(article.title)}</span>
           </button>
           <button type="button" class="selected-summary-remove" data-selected-remove-id="${escapeHtml(article.id)}" aria-label="取消選取：${escapeHtml(article.title)}" title="取消選取">×</button>
         </div>`,
     )
     .join("");
+  refreshSelectedSummaryMarquees();
+}
+
+function refreshSelectedSummaryMarquees() {
+  document.querySelectorAll(".selected-summary-title").forEach((title) => {
+    const viewport = title.parentElement;
+    if (!viewport) return;
+    const measure = title.cloneNode(true);
+    measure.removeAttribute("class");
+    measure.style.cssText = "position:absolute;left:-9999px;top:-9999px;display:block;width:max-content;max-width:none;white-space:nowrap;font-size:18px;font-weight:400;line-height:1.18;";
+    document.body.append(measure);
+    const distance = Math.max(0, measure.getBoundingClientRect().width - viewport.clientWidth);
+    measure.remove();
+    title.classList.toggle("is-marquee", distance > 4);
+    title.style.setProperty("--marquee-distance", `${distance}px`);
+  });
 }
 
 function updateSelectionUi() {

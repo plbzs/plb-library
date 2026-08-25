@@ -1194,17 +1194,19 @@ svg {
 .selected-summary-link {
   display: grid;
   grid-template-columns: 29px minmax(0, 1fr);
-  align-items: start;
+  align-items: center;
   gap: 5px;
   min-width: 0;
-  padding: 5px 4px 5px 6px;
+  min-height: 42px;
+  padding: 4px 4px 4px 6px;
   border: 0;
   background: transparent;
   color: var(--ink);
+  overflow: hidden;
   text-align: left;
 }
 
-.selected-summary-link span {
+.selected-summary-link > span:first-child {
   color: var(--accent);
   font-size: 9px;
   font-weight: 600;
@@ -1214,11 +1216,50 @@ svg {
 .selected-summary-link strong {
   display: -webkit-box;
   overflow: hidden;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1.35;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.selected-summary-title {
+  display: -webkit-box;
+  min-width: 0;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.18;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.selected-summary-link:hover .selected-summary-title.is-marquee,
+.selected-summary-link:focus-visible .selected-summary-title.is-marquee {
+  display: block;
+  width: max-content;
+  max-width: none;
+  white-space: nowrap;
+  animation: selected-summary-marquee 7s ease-in-out infinite alternate;
+}
+
+@keyframes selected-summary-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-1 * var(--marquee-distance)));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .selected-summary-link:hover .selected-summary-title.is-marquee,
+  .selected-summary-link:focus-visible .selected-summary-title.is-marquee {
+    animation: none;
+    width: auto;
+    max-width: 100%;
+    white-space: normal;
+  }
 }
 
 .selected-summary-remove {
@@ -1811,9 +1852,16 @@ body.bulletin-mode .directory-panel .selected-summary-link {
   color: #fff !important;
 }
 
-body.bulletin-mode .directory-panel .selected-summary-link span,
-body.bulletin-mode .directory-panel .selected-summary-link strong {
+body.bulletin-mode .directory-panel .selected-summary-link > span:first-child,
+body.bulletin-mode .directory-panel .selected-summary-link strong,
+body.bulletin-mode .directory-panel .selected-summary-title {
   color: #fff !important;
+}
+
+body.bulletin-mode .directory-panel .selected-summary-title {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 1.18 !important;
 }
 
 body.bulletin-mode .directory-panel .selected-summary-remove {
@@ -1839,7 +1887,11 @@ body.bulletin-mode .directory-panel .directory-item {
 }
 
 body.bulletin-mode .directory-panel .directory-title {
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 40px;
   padding: 3px 9px;
+  text-align: left;
 }
 
 body.bulletin-mode .directory-panel .directory-title small {
