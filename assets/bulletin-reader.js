@@ -362,8 +362,7 @@ function renderDirectory() {
             aria-pressed="${state.selected.has(article.id)}"
             aria-label="${state.selected.has(article.id) ? "取消列印" : "選取列印"}並前往：${escapeHtml(article.title)}"
           >
-            <small>${escapeHtml(article.category)}</small>
-            <strong>${escapeHtml(article.title)}</strong>
+            <span class="directory-title-text">${escapeHtml(article.title)}</span>
           </button>
         </div>`,
     )

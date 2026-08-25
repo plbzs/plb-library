@@ -1839,17 +1839,20 @@ body.bulletin-mode .directory-panel .directory-item {
 }
 
 body.bulletin-mode .directory-panel .directory-title {
-  padding: 4px 9px;
+  padding: 3px 9px;
 }
 
 body.bulletin-mode .directory-panel .directory-title small {
-  font-size: 10px;
-  line-height: 1.05;
+  display: none;
 }
 
-body.bulletin-mode .directory-panel .directory-title strong {
-  font-size: 14px;
-  line-height: 1.12;
+body.bulletin-mode .directory-panel .directory-title-text {
+  display: block;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0;
 }
 
 html.bulletin-mode-root body.bulletin-mode .directory-panel .directory-item.is-selected {
@@ -1864,6 +1867,11 @@ html.bulletin-mode-root body.bulletin-mode .directory-panel .directory-item.is-s
   background-color: #7a2e25 !important;
   background-image: none !important;
   color: #fff !important;
+}
+
+html.bulletin-mode-root body.bulletin-mode .directory-panel .directory-item.is-selected .directory-title-text {
+  color: #fff !important;
+  font-weight: 400 !important;
 }
 
 /* Keep the first subtitle close to the article title and preserve full-width punctuation. */
