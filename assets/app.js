@@ -21,7 +21,7 @@ const state = {
 };
 
 const app = document.querySelector("#app");
-const HOME_SECTION_ORDER = ["認識淨土宗", "法師著作", "感應故事", "淨土文庫", "書籍下載"];
+const HOME_SECTION_ORDER = ["認識淨土宗", "法師著作", "感應故事", "淨土文庫", "書籍下載", "淨土宗雙月刊"];
 const HOME_PATH_ORDER = [
   "認識淨土宗",
   "法師著作/慧淨法師",
@@ -35,7 +35,8 @@ const HOME_PATH_ORDER = [
   "淨土文庫/淨土宗法語",
   "淨土文庫/淨土宗妙喻",
   "淨土文庫/淨土小常識",
-  "書籍下載"
+  "書籍下載",
+  "淨土宗雙月刊"
 ];
 const HOME_COLLAPSED_PATHS = new Set([
   "淨土文庫/宗道法師文章"
@@ -706,10 +707,10 @@ async function render() {
   setHeaderSectionFilterVisible(route === "search", searchPath[0] || params.get("section") || "all");
   resetHeaderArticleNav();
   resetDirectoryDrawer();
+  if (route !== "bulletin") leaveBulletinMode();
   if (!route) return renderHome();
   if (route === "bulletin") {
-    if (id === "article") return renderBulletinArticle(decodeURIComponent(routeText.split("/").slice(2).join("/")));
-    return renderBulletin();
+    return renderBulletinPrototype(id === "article" ? decodeURIComponent(routeText.split("/").slice(2).join("/")) : null);
   }
   if (route === "article") return renderArticle(id);
   if (route === "section") return renderSection(decodeURIComponent(id));
@@ -722,20 +723,20 @@ async function render() {
 
 function renderHome() {
   const items = readingItems();
+  const homeTree = [...state.tree, {
+    type: "path",
+    title: "淨土宗雙月刊",
+    href: "#/bulletin",
+    count: 81,
+    countLabel: "期",
+    children: []
+  }];
   app.innerHTML = `
     <section class="map-shell">
       <div class="section-title">
         <h1>首頁</h1>
       </div>
-      ${renderTree(state.tree)}
-    </section>
-    <section class="panel bulletin-home-entry">
-      <div class="section-title">
-        <h2><a href="#/bulletin">淨土宗雙月刊</a></h2>
-        <span class="meta">001–081，共 81 期</span>
-      </div>
-      <p class="meta">獨立整理的期刊文章資料，可依期數、類別、月份或全文搜尋。</p>
-      <a class="chip" href="#/bulletin">瀏覽雙月刊</a>
+      ${renderTree(homeTree)}
     </section>
     <section class="panel">
       <div class="section-title">
@@ -747,6 +748,91 @@ function renderHome() {
     </section>
   `;
   wireMapRowLinks();
+}
+
+let bulletinStyleLink;
+let bulletinOverrideStyle;
+
+function enterBulletinMode() {
+  document.body.classList.add("bulletin-mode");
+  if (!bulletinStyleLink) {
+    bulletinStyleLink = document.createElement("link");
+    bulletinStyleLink.id = "bulletin-prototype-style";
+    bulletinStyleLink.rel = "stylesheet";
+    bulletinStyleLink.href = `./assets/bulletin-prototype.css?v=1`;
+    document.head.append(bulletinStyleLink);
+  }
+  if (!bulletinOverrideStyle) {
+    bulletinOverrideStyle = document.createElement("style");
+    bulletinOverrideStyle.id = "bulletin-prototype-overrides";
+    bulletinOverrideStyle.textContent = `
+      body.bulletin-mode > .site-header { display: none !important; }
+      body.bulletin-mode > #app { max-width: none !important; margin: 0 !important; padding: 0 !important; }
+      body.bulletin-mode .reader-layout { max-width: 1320px; }
+    `;
+    document.head.append(bulletinOverrideStyle);
+  }
+}
+
+function leaveBulletinMode() {
+  window.__PLB_BULLETIN_CLEANUP?.();
+  document.body.classList.remove("bulletin-mode", "reader-body", "printing", "orientation-landscape");
+  bulletinStyleLink?.remove();
+  bulletinStyleLink = null;
+  bulletinOverrideStyle?.remove();
+  bulletinOverrideStyle = null;
+  delete window.__PLB_BULLETIN_PREFERRED_ID;
+}
+
+function renderBulletinShell() {
+  app.innerHTML = `
+    <header class="app-header command-bar no-print">
+      <div class="command-brand"><strong class="brand-wordmark">雙月刊</strong></div>
+      <div class="filter-row" aria-label="文章篩選">
+        <label class="compact-field"><span>期數</span><select id="issue-filter"><option value="">全部</option></select></label>
+        <label class="compact-field"><span>類別</span><select id="category-filter"><option value="">全部</option></select></label>
+        <label class="command-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+          <input id="article-search" type="search" placeholder="搜尋標題或全文…" />
+        </label>
+      </div>
+      <div class="command-actions">
+        <details class="display-settings">
+          <summary>設定</summary>
+          <div class="settings-popover">
+            <label class="mini-select"><span>顯示</span><select id="mode-control"><option value="reading" selected>簡約</option><option value="faithful">忠實</option></select></label>
+            <label class="mini-select"><span>版面</span><select id="orientation-control"><option value="portrait">直式</option><option value="landscape">橫式</option></select></label>
+          </div>
+        </details>
+        <button class="primary-button" id="print-button" type="button" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5h-2"></path><path d="M7 14h10v7H7z"></path></svg>
+          <span id="print-label">列印目前文章</span>
+        </button>
+      </div>
+    </header>
+    <style id="page-style"></style>
+    <main class="reader-layout">
+      <section class="article-feed" id="article-feed" aria-live="polite"><div class="feed-loading no-print">正在載入第一部分文章…</div></section>
+      <aside class="directory-panel no-print" aria-label="文章目錄">
+        <section class="selected-summary" id="selected-summary" aria-label="已選文章" hidden>
+          <div class="selected-summary-heading"><strong>已選 <span id="selected-summary-count">0</span> 篇</strong></div>
+          <div class="selected-summary-list" id="selected-summary-list"></div>
+        </section>
+        <div class="issue-jumps previous-issues" id="previous-issue" aria-label="前面期數"><div class="issue-jump is-boundary"><strong>沒有更多內容</strong></div></div>
+        <div class="directory-heading"><h2 id="directory-issue">尚未定位</h2></div>
+        <div class="directory-list" id="directory-list"><p class="directory-empty">文章載入後會顯示於此。</p></div>
+        <div class="issue-jumps next-issues" id="next-issue" aria-label="後面期數"><div class="issue-jump is-boundary"><strong>沒有更多內容</strong></div></div>
+      </aside>
+    </main>
+  `;
+}
+
+async function renderBulletinPrototype(preferredId) {
+  enterBulletinMode();
+  window.__PLB_BULLETIN_CLEANUP?.();
+  window.__PLB_BULLETIN_PREFERRED_ID = preferredId || null;
+  renderBulletinShell();
+  await import(`./bulletin-reader.js?v=${state.renderToken}`);
 }
 
 async function loadBulletinIndex() {
@@ -1595,11 +1681,11 @@ function renderTree(nodes, depth = 1) {
         const shouldShowChildren = depth < 3 && !HOME_COLLAPSED_PATHS.has(parts.join("/"));
         const children = shouldShowChildren ? renderTree(node.children || [], childDepth) : "";
         const hiddenChildCount = shouldShowChildren ? 0 : pathChildCount(node);
-        const count = countPathItems(node);
+        const count = node.count ?? countPathItems(node);
         return `
         <li${href ? ` data-map-row-href="${esc(href)}" tabindex="0" role="link"` : ""}>
           ${href ? `<a class="tree-link" href="${esc(href)}">${esc(displayPathLeaf(parts))}</a>` : `<strong>${esc(displayPathLeaf(parts))}</strong>`}
-          ${count ? `<span class="meta"> ${count} 篇</span>` : ""}
+          ${count ? `<span class="meta"> ${count} ${esc(node.countLabel || "篇")}</span>` : ""}
           ${hiddenChildCount ? `<span class="meta child-summary">另有 ${hiddenChildCount} 類</span>` : ""}
           ${children}
         </li>
@@ -1718,6 +1804,7 @@ function mapNodeParts(node) {
 }
 
 function nodePathHref(node) {
+  if (node.href && !node.href.startsWith("#/p/") && !node.href.startsWith("#/path/")) return node.href;
   const parts = mapNodeParts(node);
   return parts.length ? pathHref(parts) : node.href;
 }
