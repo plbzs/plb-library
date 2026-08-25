@@ -1,0 +1,362 @@
+/* 雙月刊專用版面；來源文章的字級、色彩與字型由 bulletin-source.css 保留。 */
+.header-bulletin-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--paper);
+}
+
+.header-bulletin-link:hover,
+.header-bulletin-link:focus-visible {
+  border-color: var(--accent);
+}
+
+.bulletin-page {
+  display: grid;
+  gap: 1rem;
+  --heading-font: "Noto Serif TC", "Source Han Serif TC", "Microsoft JhengHei", serif;
+  --kai-font: "標楷體", "BiauKai", "DFKai-SB", "KaiTi", serif;
+}
+
+.bulletin-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.bulletin-head h1,
+.bulletin-article h1 {
+  margin: 0;
+}
+
+.bulletin-head p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+}
+
+.bulletin-filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
+  gap: 0.65rem;
+  align-items: end;
+}
+
+.bulletin-filter {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.bulletin-filter label {
+  color: var(--muted);
+  font-size: 0.86em;
+}
+
+.bulletin-filter input,
+.bulletin-filter select {
+  min-width: 0;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.55rem 0.65rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+
+.bulletin-filters > button {
+  align-self: end;
+  white-space: nowrap;
+}
+
+.bulletin-toolbar,
+.bulletin-meta,
+.bulletin-nav,
+.bulletin-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+}
+
+.bulletin-toolbar {
+  justify-content: space-between;
+  min-height: 2.5rem;
+}
+
+.bulletin-meta {
+  color: var(--muted);
+}
+
+.bulletin-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 0.85rem;
+  align-items: stretch;
+}
+
+.bulletin-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.bulletin-card.is-selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 24%, transparent);
+}
+
+.bulletin-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.bulletin-card-title {
+  color: var(--ink);
+  font-size: 1.12em;
+  font-weight: 700;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.bulletin-card-title:hover,
+.bulletin-card-title:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.bulletin-card-excerpt {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.bulletin-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.3rem;
+}
+
+.bulletin-card-actions label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.bulletin-card-actions input {
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: var(--accent-2);
+}
+
+.bulletin-article {
+  display: grid;
+  gap: 1rem;
+}
+
+.bulletin-article-shell {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdf8;
+  color: #24221c;
+}
+
+.bulletin-article-head {
+  display: grid;
+  gap: 0.45rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-bottom: 1px solid #ded6c7;
+  background: #fffdf8;
+  color: #24221c;
+}
+
+.bulletin-article-head h1 {
+  color: #24221c;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.35;
+}
+
+.bulletin-article-content {
+  overflow-x: auto;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  background: #fffdf8;
+  color: #24221c;
+  font-family: var(--heading-font);
+  font-size: 18pt;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.bulletin-article-content p {
+  margin: 0 0 0.48em;
+  font-size: 18pt;
+  line-height: inherit;
+}
+
+.bulletin-article-content p[style*="justify"] {
+  text-align: justify !important;
+  text-justify: inter-ideograph;
+}
+
+.bulletin-article-content strong,
+.bulletin-article-content b {
+  font-weight: 700;
+}
+
+.bulletin-article-content sub,
+.bulletin-article-content sup {
+  font-size: 0.72em;
+  line-height: 0;
+}
+
+.bulletin-article-content img,
+.bulletin-article-content svg,
+.bulletin-article-content table {
+  max-width: 100%;
+}
+
+.bulletin-article-content img,
+.bulletin-article-content svg {
+  height: auto;
+}
+
+.bulletin-article-content table {
+  border-collapse: collapse;
+}
+
+.bulletin-article-content td,
+.bulletin-article-content th {
+  border: 1px solid #bdb5a5;
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+}
+
+.bulletin-directory {
+  max-height: 18rem;
+  overflow: auto;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.bulletin-directory summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.bulletin-directory ol {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.65rem 0 0;
+  padding-left: 1.8rem;
+}
+
+.bulletin-directory a {
+  overflow-wrap: anywhere;
+}
+
+.bulletin-empty {
+  grid-column: 1 / -1;
+  padding: 2rem 1rem;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.bulletin-print-bundle {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .bulletin-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .bulletin-filters > button {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 460px) {
+  .bulletin-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .bulletin-filters > button {
+    grid-column: auto;
+  }
+}
+
+@media print {
+  .site-header,
+  .directory-drawer,
+  .bulletin-filters,
+  .bulletin-toolbar,
+  .bulletin-nav,
+  .bulletin-actions,
+  .crumbs {
+    display: none !important;
+  }
+
+  body,
+  main,
+  .bulletin-page,
+  .bulletin-article-shell,
+  .bulletin-article-content {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  .bulletin-print-bundle {
+    display: block;
+  }
+
+  body.bulletin-printing #app > * {
+    display: none !important;
+  }
+
+  body.bulletin-printing #app > .bulletin-print-bundle {
+    display: block !important;
+  }
+
+  .bulletin-card {
+    break-inside: avoid;
+    border-color: #aaa;
+  }
+
+  .bulletin-article-content {
+    overflow: visible;
+  }
+}

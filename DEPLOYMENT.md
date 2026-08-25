@@ -1,6 +1,6 @@
 # GitHub Pages Deployment
 
-產生時間：2026-08-23T17:43:07.144Z
+產生時間：2026-08-25T02:46:35.797Z
 
 此資料夾是乾淨部署版，只保留網站執行需要的靜態檔案。
 
@@ -17,7 +17,8 @@
 - data/articles
 - data/visuals_manifest.json
 - data/visuals
+- data/bimonthly
 
-總大小：94.6 MB
+總大小：113.9 MB
 
 正式上傳 GitHub Pages 時，可使用此 dist 資料夾內容；工作用的 raw、screenshots、scripts 與稽核報告不需要一起部署。

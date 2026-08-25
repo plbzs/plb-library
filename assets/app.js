@@ -10,7 +10,14 @@ const state = {
   categoryMax: new Map(),
   categoryRanks: new Map(),
   seriesRanks: new Map(),
-  renderToken: 0
+  renderToken: 0,
+  bulletinIndex: null,
+  bulletinIssueCache: new Map(),
+  bulletinArticles: [],
+  bulletinLoadedAll: false,
+  bulletinLoadPromise: null,
+  bulletinSelected: new Set(),
+  bulletinLoading: false
 };
 
 const app = document.querySelector("#app");
@@ -165,6 +172,7 @@ const CONTENT_FONT_STEP = 2;
 const INITIAL_SEARCH_RENDER_SIZE = 20;
 const BACKGROUND_SEARCH_BATCH_SIZE = 20;
 const DIRECTORY_PAGE_SIZE = 120;
+const BULLETIN_PAGE_SIZE = 60;
 const ASSET_VERSION = new URL(import.meta.url).searchParams.get("v") || "dev";
 const CACHE_VERSION = new URLSearchParams(location.search).get("v") || ASSET_VERSION;
 const settings = {
@@ -699,6 +707,10 @@ async function render() {
   resetHeaderArticleNav();
   resetDirectoryDrawer();
   if (!route) return renderHome();
+  if (route === "bulletin") {
+    if (id === "article") return renderBulletinArticle(decodeURIComponent(routeText.split("/").slice(2).join("/")));
+    return renderBulletin();
+  }
   if (route === "article") return renderArticle(id);
   if (route === "section") return renderSection(decodeURIComponent(id));
   if (route === "p") return renderPathPage(parsePathSlug(id));
@@ -717,6 +729,14 @@ function renderHome() {
       </div>
       ${renderTree(state.tree)}
     </section>
+    <section class="panel bulletin-home-entry">
+      <div class="section-title">
+        <h2><a href="#/bulletin">淨土宗雙月刊</a></h2>
+        <span class="meta">001–081，共 81 期</span>
+      </div>
+      <p class="meta">獨立整理的期刊文章資料，可依期數、類別、月份或全文搜尋。</p>
+      <a class="chip" href="#/bulletin">瀏覽雙月刊</a>
+    </section>
     <section class="panel">
       <div class="section-title">
         <h2>最新</h2>
@@ -727,6 +747,257 @@ function renderHome() {
     </section>
   `;
   wireMapRowLinks();
+}
+
+async function loadBulletinIndex() {
+  if (state.bulletinIndex) return state.bulletinIndex;
+  const response = await fetch(dataUrl("./data/bimonthly/index.json"));
+  if (!response.ok) throw new Error("雙月刊索引載入失敗");
+  state.bulletinIndex = await response.json();
+  return state.bulletinIndex;
+}
+
+function bulletinIssueEntry(issue) {
+  return state.bulletinIndex?.issues?.find((entry) => String(entry.issue).padStart(3, "0") === String(issue).padStart(3, "0"));
+}
+
+async function loadBulletinIssue(issue) {
+  const key = String(issue).padStart(3, "0");
+  if (state.bulletinIssueCache.has(key)) return state.bulletinIssueCache.get(key);
+  const entry = bulletinIssueEntry(key);
+  if (!entry) return null;
+  const response = await fetch(dataUrl(`./data/bimonthly/issues/${encodeURIComponent(entry.file)}`));
+  if (!response.ok) return null;
+  const payload = await response.json();
+  const articles = (payload.articles || []).map((article) => ({
+    ...article,
+    issue: String(article.issue || key).padStart(3, "0"),
+    category: article.category || "未分類",
+    title: article.title || "未命名文章"
+  }));
+  const normalized = { ...payload, issue: key, articles };
+  state.bulletinIssueCache.set(key, normalized);
+  return normalized;
+}
+
+async function loadAllBulletinIssues() {
+  if (state.bulletinLoadedAll) return state.bulletinArticles;
+  if (state.bulletinLoadPromise) return state.bulletinLoadPromise;
+  state.bulletinLoading = true;
+  state.bulletinLoadPromise = (async () => {
+    const entries = [...(state.bulletinIndex?.issues || [])];
+    const articles = [];
+    for (let offset = 0; offset < entries.length; offset += 8) {
+      const batch = await Promise.all(entries.slice(offset, offset + 8).map((entry) => loadBulletinIssue(entry.issue)));
+      batch.filter(Boolean).forEach((payload) => articles.push(...payload.articles));
+    }
+    const seen = new Set();
+    state.bulletinArticles = articles.filter((article) => {
+      if (seen.has(article.id)) return false;
+      seen.add(article.id);
+      return true;
+    });
+    state.bulletinLoadedAll = true;
+    state.bulletinLoading = false;
+    return state.bulletinArticles;
+  })();
+  try {
+    return await state.bulletinLoadPromise;
+  } finally {
+    state.bulletinLoadPromise = null;
+  }
+}
+
+function bulletinMonth(article) {
+  const value = article.date || article.publicationDate || "";
+  return String(value).match(/^\d{4}-\d{2}/)?.[0] || "未標日期";
+}
+
+function bulletinPlainText(article) {
+  return htmlToPlainText(article.html || article.bodyHtml || article.bodyText || "");
+}
+
+function bulletinSorted(items) {
+  return [...items].sort((a, b) => {
+    const issueCompare = Number(b.issue || 0) - Number(a.issue || 0);
+    if (issueCompare !== 0) return issueCompare;
+    const idCompare = String(a.id).localeCompare(String(b.id), "en", { numeric: true });
+    return idCompare;
+  });
+}
+
+function bulletinOptions(values, selected, allLabel) {
+  return [`<option value="all">${esc(allLabel)}</option>`, ...values.map((value) => `<option value="${esc(value)}"${value === selected ? " selected" : ""}>${esc(value)}</option>`)].join("");
+}
+
+function bulletinFilteredArticles(items, params) {
+  const issue = params.get("issue") || "all";
+  const category = params.get("category") || "all";
+  const month = params.get("month") || "all";
+  const q = (params.get("q") || "").trim().toLocaleLowerCase();
+  return bulletinSorted(items.filter((article) => {
+    if (issue !== "all" && article.issue !== issue) return false;
+    if (category !== "all" && article.category !== category) return false;
+    if (month !== "all" && bulletinMonth(article) !== month) return false;
+    if (!q) return true;
+    return [article.title, article.category, article.author, article.issue, bulletinPlainText(article)].join(" ").toLocaleLowerCase().includes(q);
+  }));
+}
+
+function renderBulletinCard(article) {
+  const selected = state.bulletinSelected.has(article.id);
+  const excerpt = article.excerpt || bulletinPlainText(article).slice(0, 260);
+  return `
+    <article class="bulletin-card${selected ? " is-selected" : ""}" data-bulletin-card="${esc(article.id)}">
+      <div class="bulletin-card-head">
+        <span class="order-badge">#${esc(article.issue)}</span>
+        <span class="meta">${esc(article.category)}</span>
+      </div>
+      <a class="bulletin-card-title" href="#/bulletin/article/${encodeURIComponent(article.id)}">${esc(article.title)}</a>
+      <span class="meta">${esc(article.author || "")}${article.date ? ` · ${esc(article.date)}` : ""}</span>
+      <span class="bulletin-card-excerpt">${esc(excerpt)}</span>
+      <div class="bulletin-card-actions">
+        <label><input type="checkbox" data-bulletin-select="${esc(article.id)}"${selected ? " checked" : ""} />選取列印</label>
+        <a class="chip" href="#/bulletin/article/${encodeURIComponent(article.id)}">閱讀</a>
+      </div>
+    </article>
+  `;
+}
+
+async function renderBulletin() {
+  const token = state.renderToken;
+  try {
+    const index = await loadBulletinIndex();
+    if (token !== state.renderToken) return;
+    if (!state.bulletinLoadedAll) {
+      app.innerHTML = `
+        <section class="bulletin-page">
+          ${renderCrumbs([], { trailing: "雙月刊" })}
+          <div class="bulletin-head"><div><h1>淨土宗雙月刊</h1><p>正在載入 001–081 期文章資料…</p></div></div>
+        </section>
+      `;
+      await loadAllBulletinIssues();
+      if (token !== state.renderToken) return;
+    }
+    const params = hashParams();
+    const issues = [...index.issues].sort((a, b) => Number(a.issue) - Number(b.issue)).map((entry) => String(entry.issue).padStart(3, "0"));
+    const categories = [...new Set(state.bulletinArticles.map((article) => article.category))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    const months = [...new Set(state.bulletinArticles.map(bulletinMonth))].sort().reverse();
+    const results = bulletinFilteredArticles(state.bulletinArticles, params);
+    const visibleLimit = Math.max(BULLETIN_PAGE_SIZE, Number(params.get("limit")) || BULLETIN_PAGE_SIZE);
+    const visibleResults = results.slice(0, visibleLimit);
+    const selectedCount = state.bulletinSelected.size;
+    app.innerHTML = `
+      <section class="bulletin-page">
+        ${renderCrumbs([], { trailing: `雙月刊 · 共 ${state.bulletinArticles.length} 篇` })}
+        <div class="bulletin-head">
+          <div><h1>淨土宗雙月刊</h1><p>001–081 期，文章資料獨立於官網文章庫。</p></div>
+          <div class="bulletin-actions"><button type="button" data-bulletin-print-selected${selectedCount ? "" : " disabled"}>列印已選 ${selectedCount} 篇</button></div>
+        </div>
+        <form class="panel bulletin-filters" data-bulletin-filter-form>
+          <div class="bulletin-filter"><label for="bulletin-issue">期數</label><select id="bulletin-issue" name="issue">${bulletinOptions(issues, params.get("issue") || "all", "全部期數")}</select></div>
+          <div class="bulletin-filter"><label for="bulletin-category">類別</label><select id="bulletin-category" name="category">${bulletinOptions(categories, params.get("category") || "all", "全部類別")}</select></div>
+          <div class="bulletin-filter"><label for="bulletin-month">月份</label><select id="bulletin-month" name="month">${bulletinOptions(months, params.get("month") || "all", "全部月份")}</select></div>
+          <div class="bulletin-filter"><label for="bulletin-query">全文搜尋</label><input id="bulletin-query" name="q" type="search" value="${esc(params.get("q") || "")}" placeholder="搜尋雙月刊" /></div>
+          <button type="submit">套用篩選</button>
+        </form>
+        <div class="bulletin-toolbar"><span class="bulletin-meta">找到 ${results.length} 篇${results.length > visibleResults.length ? `，目前顯示 ${visibleResults.length} 篇` : ""}</span><span class="meta">勾選文章後可列印或另存 PDF</span></div>
+        <div class="bulletin-feed" data-bulletin-feed>${visibleResults.map(renderBulletinCard).join("") || `<div class="bulletin-empty">沒有符合條件的文章。</div>`}</div>
+        ${results.length > visibleResults.length ? `<div class="bulletin-toolbar"><button type="button" data-bulletin-more>顯示更多</button></div>` : ""}
+      </section>
+    `;
+    wireBulletinList(visibleResults, visibleLimit);
+  } catch (error) {
+    app.innerHTML = `<section class="empty"><h1>雙月刊載入失敗</h1><p>${esc(error.message)}</p></section>`;
+  }
+}
+
+function wireBulletinList(results, visibleLimit) {
+  const form = app.querySelector("[data-bulletin-filter-form]");
+  form?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const values = new FormData(form);
+    const query = new URLSearchParams();
+    for (const key of ["issue", "category", "month", "q"]) {
+      const value = String(values.get(key) || "").trim();
+      if (value && value !== "all") query.set(key, value);
+    }
+    location.hash = `#/bulletin${query.toString() ? `?${query}` : ""}`;
+  });
+  app.querySelectorAll("[data-bulletin-select]").forEach((input) => {
+    input.addEventListener("change", () => {
+      const id = input.dataset.bulletinSelect;
+      if (input.checked) state.bulletinSelected.add(id);
+      else state.bulletinSelected.delete(id);
+      input.closest(".bulletin-card")?.classList.toggle("is-selected", input.checked);
+      const button = app.querySelector("[data-bulletin-print-selected]");
+      if (button) {
+        button.disabled = state.bulletinSelected.size === 0;
+        button.textContent = `列印已選 ${state.bulletinSelected.size} 篇`;
+      }
+    });
+  });
+  app.querySelector("[data-bulletin-print-selected]")?.addEventListener("click", () => {
+    const selected = results.filter((article) => state.bulletinSelected.has(article.id));
+    printBulletinArticles(selected);
+  });
+  app.querySelector("[data-bulletin-more]")?.addEventListener("click", () => {
+    const params = hashParams();
+    params.set("limit", String(visibleLimit + BULLETIN_PAGE_SIZE));
+    location.hash = `#/bulletin?${params}`;
+  });
+}
+
+function printBulletinArticles(articles) {
+  if (!articles.length) return;
+  const bundle = document.createElement("section");
+  bundle.className = "bulletin-print-bundle";
+  bundle.innerHTML = articles.map((article) => `
+    <article class="bulletin-article-shell source-${esc(article.issue)}">
+      <header class="bulletin-article-head"><h1>${esc(article.title)}</h1><div class="meta">第 ${esc(article.issue)} 期 · ${esc(article.category)}</div></header>
+      <div class="bulletin-article-content article-content">${article.html || esc(bulletinPlainText(article))}</div>
+    </article>
+  `).join("");
+  app.append(bundle);
+  document.body.classList.add("bulletin-printing");
+  window.print();
+  window.setTimeout(() => {
+    document.body.classList.remove("bulletin-printing");
+    bundle.remove();
+  }, 1000);
+}
+
+async function renderBulletinArticle(id) {
+  const token = state.renderToken;
+  await loadBulletinIndex();
+  const issue = String(id).split("-")[0].padStart(3, "0");
+  const payload = await loadBulletinIssue(issue);
+  const article = payload?.articles.find((item) => item.id === id);
+  if (token !== state.renderToken) return;
+  if (!article) {
+    app.innerHTML = `<div class="empty">找不到雙月刊文章。</div>`;
+    return;
+  }
+  const siblings = payload.articles;
+  const index = siblings.findIndex((item) => item.id === article.id);
+  const previous = siblings[index - 1];
+  const next = siblings[index + 1];
+  const body = document.createElement("div");
+  body.innerHTML = article.html || `<p>${esc(article.bodyText || "")}</p>`;
+  const firstHeading = body.querySelector("h1, h2, h3");
+  if (firstHeading && sameDisplayText(firstHeading.textContent, article.title)) firstHeading.remove();
+  app.innerHTML = `
+    <section class="bulletin-page bulletin-reader">
+      <div class="crumbs"><a href="#/">首頁</a><span>/</span><a href="#/bulletin">雙月刊</a><span>/</span><span>第 ${esc(article.issue)} 期</span><span>/</span><span>#${esc(article.id.split("-").at(-1).padStart(3, "0"))}</span></div>
+      <div class="bulletin-nav"><a class="chip" href="#/bulletin">回雙月刊</a>${previous ? `<a class="chip" href="#/bulletin/article/${encodeURIComponent(previous.id)}">上一篇</a>` : ""}${next ? `<a class="chip" href="#/bulletin/article/${encodeURIComponent(next.id)}">下一篇</a>` : ""}<button type="button" data-bulletin-print-current>列印 / PDF</button></div>
+      <article class="bulletin-article-shell source-${esc(article.issue)} bulletin-article">
+        <header class="bulletin-article-head"><h1>${esc(article.title)}</h1><div class="meta">第 ${esc(article.issue)} 期 · ${esc(article.category)}${article.date ? ` · ${esc(article.date)}` : ""}${article.author ? ` · ${esc(article.author)}` : ""}</div></header>
+        <div class="bulletin-article-content article-content">${body.innerHTML}</div>
+      </article>
+      <details class="bulletin-directory"><summary>本期目錄（${siblings.length} 篇）</summary><ol>${siblings.map((item) => `<li><a href="#/bulletin/article/${encodeURIComponent(item.id)}"${item.id === article.id ? ` aria-current="page"` : ""}>#${esc(item.id.split("-").at(-1).padStart(3, "0"))} ${esc(item.title)}</a></li>`).join("")}</ol></details>
+    </section>
+  `;
+  app.querySelector("[data-bulletin-print-current]")?.addEventListener("click", () => window.print());
 }
 
 function renderHomeDirectory(items) {
