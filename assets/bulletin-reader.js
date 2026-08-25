@@ -1,6 +1,6 @@
 const INITIAL_BATCH_SIZE = 1;
 const BACKGROUND_BATCH_SIZE = 4;
-const DEFAULT_ISSUE = "004";
+const DEFAULT_ISSUE = null;
 const DATA_ROOT = String(window.__PLB_BULLETIN_DATA_ROOT || "./data/bimonthly/").replace(/\/?$/, "/");
 const PREFERRED_ID = window.__PLB_BULLETIN_PREFERRED_ID || null;
 
@@ -89,9 +89,10 @@ function availableValues(key) {
   const values = state.articles.map((article) => article[key]).filter(Boolean);
   if (key === "issue") values.push(...state.batchIndex.map((item) => item.issue));
   if (key === "category") state.batchIndex.forEach((item) => values.push(...(item.categories ?? [])));
-  return [...new Set(values)].sort(
-    (first, second) => String(first).localeCompare(String(second), "zh-TW", { numeric: true }),
-  );
+  return [...new Set(values)].sort((first, second) => {
+    const compare = String(first).localeCompare(String(second), "zh-TW", { numeric: true });
+    return key === "issue" ? -compare : compare;
+  });
 }
 
 function fillSelect(select, values, label, formatValue = (value) => value) {
@@ -152,7 +153,7 @@ function mergeArticles(incoming) {
     byId.set(article.id, hydrateArticle(article));
   }
   state.articles = [...byId.values()].sort((first, second) =>
-    first.issue.localeCompare(second.issue, "zh-TW", { numeric: true }),
+    second.issue.localeCompare(first.issue, "zh-TW", { numeric: true }),
   );
 }
 
@@ -288,9 +289,11 @@ function issueIds() {
   return [...new Set([
     ...state.articles.map((article) => article.issue),
     ...state.batchIndex.map((item) => item.issue),
-  ])].sort((a, b) =>
-    a.localeCompare(b, "zh-TW", { numeric: true }),
-  );
+  ])].sort((a, b) => b.localeCompare(a, "zh-TW", { numeric: true }));
+}
+
+function latestIssue() {
+  return issueIds()[0] || DEFAULT_ISSUE || "001";
 }
 
 function issueJumpTemplate(issue) {
@@ -462,7 +465,7 @@ function applyFilters(preferredId = null) {
     return;
   }
 
-  const defaultArticle = state.filtered.find((article) => article.issue === DEFAULT_ISSUE);
+  const defaultArticle = state.filtered.find((article) => article.issue === latestIssue());
   state.currentId = state.filtered.some((article) => article.id === preferredId)
     ? preferredId
     : defaultArticle?.id ?? state.filtered[0].id;
@@ -601,10 +604,10 @@ function bindEvents() {
 
 async function initialize(articles) {
   state.articles = articles.map(hydrateArticle).sort((first, second) =>
-    first.issue.localeCompare(second.issue, "zh-TW", { numeric: true }),
+    second.issue.localeCompare(first.issue, "zh-TW", { numeric: true }),
   );
   await loadBatchIndex();
-  const initialIssue = PREFERRED_ID?.split("-")[0] || DEFAULT_ISSUE;
+  const initialIssue = PREFERRED_ID?.split("-")[0] || latestIssue();
   await loadBatchIssue(initialIssue);
   populateFilters();
   bindEvents();
